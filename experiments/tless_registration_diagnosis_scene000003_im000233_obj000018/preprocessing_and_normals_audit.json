@@ -1,0 +1,132 @@
+{
+  "case": {
+    "dataset_root": "/home/datasets/bop/tless",
+    "split": "test_primesense",
+    "scene": 3,
+    "image": 233,
+    "model": 18
+  },
+  "production_config_exact": {
+    "voxel_size_m": 0.005,
+    "normal_radius_factor": 2.0,
+    "normal_neighbors": 30,
+    "feature_radius_factor": 5.0,
+    "feature_neighbors": 100,
+    "max_registration_points": 2500,
+    "ransac_iterations": 20000,
+    "ransac_confidence": 0.999,
+    "ransac_inlier_threshold_m": 0.015,
+    "icp_iterations": 35,
+    "icp_max_correspondence_m": 0.02,
+    "random_seed": 7,
+    "outlier_neighbors": 20,
+    "outlier_std_ratio": 2.0,
+    "candidate_mode": "full",
+    "remove_support_plane": false,
+    "remove_statistical_outliers": true
+  },
+  "inputs": {
+    "cad_raw_points": 18095,
+    "oracle_raw_points": 16456,
+    "oracle_after_statistical_filter_points": 16366,
+    "cad_downsampled_points": 947,
+    "oracle_downsampled_points": 810
+  },
+  "physical_scale": {
+    "cad_dimensions_m": [
+      0.098721,
+      0.0987388,
+      0.0637738
+    ],
+    "smallest_model_dimension_m": 0.0637738,
+    "point_spacing_from_geometry_comparison": {
+      "median": 0.0001696756022532409,
+      "p90": 0.0006029218357299777,
+      "p95": 0.0009999999999999998,
+      "max": 0.0028526795491256992
+    },
+    "oracle_spacing_from_geometry_comparison": {
+      "median": 0.0007153807882782914,
+      "p90": 0.0007432708774898766,
+      "p95": 0.0007467106551593133,
+      "max": 0.007550376810084606
+    },
+    "ratios": {
+      "voxel_over_smallest_dimension": 0.07840210243077878,
+      "normal_radius_over_smallest_dimension": 0.15680420486155755,
+      "fpfh_radius_over_smallest_dimension": 0.39201051215389393,
+      "ransac_threshold_over_smallest_dimension": 0.23520630729233633,
+      "icp_threshold_over_smallest_dimension": 0.3136084097231151
+    }
+  },
+  "normal_diagnostics": {
+    "cad_reestimated": {
+      "count": 947,
+      "norm_min": 0.9999999999999999,
+      "norm_max": 1.0000000000000002,
+      "neighbor_signed_dot_mean": 0.620843778007902,
+      "neighbor_abs_dot_mean": 0.9027094857215031,
+      "neighbor_negative_fraction": 0.18585005279831046
+    },
+    "cad_stored_mesh_normals_after_voxel": {
+      "count": 947,
+      "norm_min": 0.9999999999999999,
+      "norm_max": 1.0000000000000002,
+      "neighbor_signed_dot_mean": 0.5147953226019941,
+      "neighbor_abs_dot_mean": 0.6663863309904586,
+      "neighbor_negative_fraction": 0.15417106652587118
+    },
+    "oracle_reestimated": {
+      "count": 810,
+      "norm_min": 0.9999999999999999,
+      "norm_max": 1.0000000000000002,
+      "neighbor_signed_dot_mean": 0.5993978638450257,
+      "neighbor_abs_dot_mean": 0.977403270762209,
+      "neighbor_negative_fraction": 0.1962962962962963
+    },
+    "oracle_reestimated_toward_camera_fraction": 0.4012345679012346,
+    "oracle_reestimated_away_camera_fraction": 0.5987654320987654,
+    "interpretation": "normal signs are locally inconsistent under both re-estimation variants; global sign orientation is not a reliable discriminator here."
+  },
+  "gt_geometry_metrics": {
+    "models_cad": {
+      "median": 0.00840808075550563,
+      "p75": 0.016294265565986375,
+      "p90": 0.020502205215561804,
+      "p95": 0.024461993310818653,
+      "p99": 0.02903464515848419,
+      "max": 0.03221943498288982,
+      "coverage_2mm": 0.09527493782812932,
+      "coverage_5mm": 0.2805747444045316,
+      "coverage_10mm": 0.5586626139817629,
+      "coverage_15mm": 0.7021829234595192,
+      "coverage_20mm": 0.8874274661508704
+    },
+    "models_reconst": {
+      "median": 0.003836832669499019,
+      "p75": 0.00821945922744383,
+      "p90": 0.015690898232094484,
+      "p95": 0.020505129618295738,
+      "p99": 0.02672651467305287,
+      "max": 0.031859523791762975,
+      "coverage_2mm": 0.28415228560137007,
+      "coverage_5mm": 0.6130944539586353,
+      "coverage_10mm": 0.7967000395204847,
+      "coverage_15mm": 0.8910881306810697,
+      "coverage_20mm": 0.9464168093795284
+    },
+    "models_eval": {
+      "median": 0.004799515151661059,
+      "p75": 0.012596884877124528,
+      "p90": 0.01982671437346241,
+      "p95": 0.024101123124704353,
+      "p99": 0.02874145195335484,
+      "max": 0.0321806275825317,
+      "coverage_2mm": 0.28129452473030736,
+      "coverage_5mm": 0.5110251713142004,
+      "coverage_10mm": 0.6933306194450098,
+      "coverage_15mm": 0.7959155980731393,
+      "coverage_20mm": 0.9031820340592984
+    }
+  }
+}

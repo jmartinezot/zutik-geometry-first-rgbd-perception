@@ -1,0 +1,33 @@
+{
+  "case": {
+    "dataset_root": "/home/datasets/bop/tless",
+    "split": "test_primesense",
+    "scene_id": 3,
+    "image_id": 233,
+    "model_id": 18
+  },
+  "baseline": "baseline_snapshot.json",
+  "oracle_cloud": "oracle_cloud.json",
+  "oracle_registration": "oracle_registration.json",
+  "gt_cad_vs_oracle": "gt_cad_vs_oracle_cloud.json",
+  "dbscan_default": "dbscan_default_analysis.json",
+  "dbscan_sensitivity_csv": "dbscan_sensitivity.csv",
+  "dbscan_sensitivity_json": "dbscan_sensitivity.json",
+  "support_plane": "support_plane_analysis.json",
+  "bidirectional_verification": "bidirectional_verification.json",
+  "visualizations": {
+    "full_scene_rgb": "full_scene_rgb.png",
+    "full_scene_depth": "full_scene_depth.png",
+    "oracle_cloud": "oracle_target_cloud.ply",
+    "dbscan": "dbscan_clusters_gt_annotated.png",
+    "dbscan_point_cloud": "dbscan_clusters_gt_annotated.ply",
+    "dominant_plane": "dominant_plane_gt_overlay.png",
+    "dominant_plane_point_cloud": "support_plane_diagnostic.ply",
+    "failed_full_scene": "failed_full_scene_estimate.png",
+    "oracle_registration": "oracle_crop_registration_vs_gt.png"
+  },
+  "production_parameters_unchanged": true,
+  "additional_tless_frames_run": false,
+  "learned_or_yolo_inputs_used": false,
+  "gt_used_for_registration": false
+}

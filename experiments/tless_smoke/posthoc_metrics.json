@@ -1,0 +1,187 @@
+{
+  "selection": {
+    "dataset_root": "/home/datasets/bop/tless",
+    "split": "test_primesense",
+    "scene_id": 3,
+    "image_id": 233,
+    "model_id": 18,
+    "selection_basis": {
+      "ground_truth_visible_fraction": 0.994381683078596,
+      "ground_truth_visible_pixel_count": 16460,
+      "ground_truth_bbox_visib": [
+        139,
+        183,
+        139,
+        145
+      ],
+      "objects_in_frame": 5,
+      "note": "GT used only for case selection and post-hoc evaluation; no GT crop, mask, or pose was passed to registration."
+    }
+  },
+  "rgb": {
+    "path": "/home/datasets/bop/tless/test_primesense/000003/rgb/000233.png",
+    "width": 720,
+    "height": 540
+  },
+  "depth": {
+    "path": "/home/datasets/bop/tless/test_primesense/000003/depth/000233.png",
+    "width": 720,
+    "height": 540,
+    "dtype": "uint16",
+    "positive_pixels": 384259,
+    "min_m": 0.6311,
+    "max_m": 2.6776,
+    "median_m": 0.7627,
+    "scale_to_mm": 0.1,
+    "scale_to_m": 0.0001
+  },
+  "camera_intrinsics": {
+    "fx": 1075.65091572,
+    "fy": 1073.90347929,
+    "cx": 375.06888344,
+    "cy": 300.72159802,
+    "cam_K": [
+      [
+        1075.65091572,
+        0.0,
+        375.06888344
+      ],
+      [
+        0.0,
+        1073.90347929,
+        300.72159802
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "model": {
+    "path": "/home/datasets/bop/tless/models_cad/obj_000018.ply",
+    "source_units": "mm",
+    "internal_units": "m",
+    "point_count": 18095,
+    "bounds_m": [
+      [
+        -0.0493605,
+        -0.0493694,
+        -0.0318869
+      ],
+      [
+        0.0493605,
+        0.0493694,
+        0.0318869
+      ]
+    ],
+    "models_info": {
+      "diameter": 110.982,
+      "min_x": -49.3605,
+      "min_y": -49.3694,
+      "min_z": -31.8869,
+      "size_x": 98.721,
+      "size_y": 98.7388,
+      "size_z": 63.7738
+    },
+    "declared_symmetry": {}
+  },
+  "scene_preprocessing": {
+    "scene_points_before": 384259,
+    "scene_points_after_statistical_filter": 367497,
+    "support_plane_removed": false,
+    "candidate_mode": "full",
+    "dbscan_candidate_count": 0,
+    "dbscan_candidate_sizes": [],
+    "selected_candidate_type": "full",
+    "selected_candidate_size": 367497,
+    "preprocessing_runtime_available": false
+  },
+  "estimate": {
+    "T_camera_object": [
+      [
+        0.25825064878548687,
+        -0.6754207580902892,
+        -0.6907339588746269,
+        0.04560476472582147
+      ],
+      [
+        -0.9660481850387512,
+        -0.1861593563941095,
+        -0.17915244405328398,
+        -0.026869006929222016
+      ],
+      [
+        -0.0075833096474586985,
+        0.7135485222237309,
+        -0.700564772056889,
+        0.7037567153947563
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "accepted": true,
+    "confidence": 0.596341547556732,
+    "runtime_ms_detector": 358.81529841572046,
+    "ransac_inliers": 351,
+    "feature_correspondences": 947,
+    "ransac_inlier_ratio": 0.3706441393875396,
+    "ransac_rmse_m": 0.009784895845246985,
+    "icp_inliers": 2148,
+    "icp_fitness": 0.8592,
+    "icp_rmse_m": 0.008796211657596066,
+    "failure_reason": null,
+    "csv_path": "experiments/tless_smoke/tless_scene000003_im000233_obj000018.csv",
+    "diagnostics_path": "experiments/tless_smoke/tless_scene000003_im000233_obj000018.diagnostics.jsonl"
+  },
+  "ground_truth": {
+    "T_camera_object": [
+      [
+        -0.86910545,
+        0.49441825,
+        -0.01437454,
+        -0.11749746524
+      ],
+      [
+        -0.34426527,
+        -0.58378321,
+        0.73530805,
+        -0.02977498353
+      ],
+      [
+        0.35515853,
+        0.64400958,
+        0.67757994,
+        0.77318804242
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "source": "/home/datasets/bop/tless/test_primesense/000003/scene_gt.json"
+  },
+  "posthoc_error": {
+    "translation_m": 0.17728928702071745,
+    "translation_mm": 177.28928702071744,
+    "rotation_geodesic_deg": 128.93169451300736
+  },
+  "visualization": {
+    "estimated_vs_ground_truth": "experiments/tless_smoke/pose_overlay_estimated_vs_gt.png",
+    "estimated_only": "experiments/tless_smoke/pose_overlay_estimated.png",
+    "ground_truth_only": "experiments/tless_smoke/pose_overlay_ground_truth.png"
+  },
+  "runtime": {
+    "wall_seconds": 10.54,
+    "user_seconds": 16.05,
+    "sys_seconds": 1.2,
+    "detector_runtime_ms": 358.81529841572046,
+    "preprocessing_runtime": "not exposed by current CLI"
+  }
+}

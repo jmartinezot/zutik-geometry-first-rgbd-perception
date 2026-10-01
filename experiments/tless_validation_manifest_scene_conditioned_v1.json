@@ -1,0 +1,138 @@
+{
+  "manifest_id": "tless_test_primesense_scene_conditioned_v1",
+  "dataset_root": "/home/datasets/bop/tless",
+  "split": "test_primesense",
+  "selection_frozen_before_variant_comparison": true,
+  "selection_timestamp_utc": "2026-10-01T00:00:00Z",
+  "selection_policy": {
+    "purpose": "small engineering validation of known-model geometric localization, not a benchmark",
+    "gt_allowed_for_selection": true,
+    "gt_allowed_for_inference": false,
+    "must_have": ["scene_gt.json", "scene_gt_info.json", "scene_camera.json", "depth frame", "models_cad", "models_reconst"],
+    "visibility_bands": {
+      "high": "visib_fract >= 0.85",
+      "moderate": "0.50 <= visib_fract < 0.85",
+      "low": "0.25 <= visib_fract < 0.50"
+    },
+    "diversity_targets": [
+      "previously seen diagnostic case",
+      "multiple scenes and object IDs",
+      "high, moderate, and low visibility",
+      "continuous, discrete, and no declared symmetry",
+      "different depth and image locations"
+    ],
+    "tie_break": "lexicographically smallest scene, image, and GT instance index satisfying each named bucket"
+  },
+  "cases": [
+    {
+      "case_id": "scene000003_im000233_obj000018",
+      "scene_id": 3,
+      "image_id": 233,
+      "gt_instance_index": 4,
+      "model_id": 18,
+      "visibility_fraction": 0.994381683078596,
+      "visibility_band": "high",
+      "declared_symmetry": "none",
+      "selection_status": "previously_seen_diagnostic"
+    },
+    {
+      "case_id": "scene000001_im000001_obj000030",
+      "scene_id": 1,
+      "image_id": 1,
+      "gt_instance_index": 3,
+      "model_id": 30,
+      "visibility_fraction": 0.9900573271228951,
+      "visibility_band": "high",
+      "declared_symmetry": "continuous",
+      "selection_status": "new"
+    },
+    {
+      "case_id": "scene000001_im000001_obj000025",
+      "scene_id": 1,
+      "image_id": 1,
+      "gt_instance_index": 1,
+      "model_id": 25,
+      "visibility_fraction": 0.9736641947138239,
+      "visibility_band": "high",
+      "declared_symmetry": "discrete",
+      "selection_status": "new"
+    },
+    {
+      "case_id": "scene000002_im000003_obj000005",
+      "scene_id": 2,
+      "image_id": 3,
+      "gt_instance_index": 0,
+      "model_id": 5,
+      "visibility_fraction": 0.9499415835355441,
+      "visibility_band": "high",
+      "declared_symmetry": "discrete",
+      "selection_status": "new"
+    },
+    {
+      "case_id": "scene000008_im000001_obj000021",
+      "scene_id": 8,
+      "image_id": 1,
+      "gt_instance_index": 2,
+      "model_id": 21,
+      "visibility_fraction": 0.948277796477056,
+      "visibility_band": "high",
+      "declared_symmetry": "none",
+      "selection_status": "new"
+    },
+    {
+      "case_id": "scene000001_im000246_obj000030",
+      "scene_id": 1,
+      "image_id": 246,
+      "gt_instance_index": 3,
+      "model_id": 30,
+      "visibility_fraction": 0.8025116467490379,
+      "visibility_band": "moderate",
+      "declared_symmetry": "continuous",
+      "selection_status": "new"
+    },
+    {
+      "case_id": "scene000001_im000347_obj000029",
+      "scene_id": 1,
+      "image_id": 347,
+      "gt_instance_index": 2,
+      "model_id": 29,
+      "visibility_fraction": 0.829525687115853,
+      "visibility_band": "moderate",
+      "declared_symmetry": "discrete",
+      "selection_status": "new"
+    },
+    {
+      "case_id": "scene000007_im000285_obj000018",
+      "scene_id": 7,
+      "image_id": 285,
+      "gt_instance_index": 7,
+      "model_id": 18,
+      "visibility_fraction": 0.8204982552949769,
+      "visibility_band": "moderate",
+      "declared_symmetry": "none",
+      "selection_status": "new"
+    },
+    {
+      "case_id": "scene000005_im000341_obj000004",
+      "scene_id": 5,
+      "image_id": 341,
+      "gt_instance_index": 1,
+      "model_id": 4,
+      "visibility_fraction": 0.4465267366316842,
+      "visibility_band": "low",
+      "declared_symmetry": "continuous",
+      "selection_status": "new"
+    },
+    {
+      "case_id": "scene000002_im000387_obj000006",
+      "scene_id": 2,
+      "image_id": 387,
+      "gt_instance_index": 1,
+      "model_id": 6,
+      "visibility_fraction": 0.4449244060475162,
+      "visibility_band": "low",
+      "declared_symmetry": "discrete",
+      "selection_status": "new"
+    }
+  ]
+}

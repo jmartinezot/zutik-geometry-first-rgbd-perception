@@ -1,0 +1,1123 @@
+{
+  "by_case": {
+    "scene000001_im000001_obj000025": {
+      "bidirectional_overlap": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "cad:ransac_generalized_icp",
+          "reconst:ransac_generalized_icp",
+          "cad:ransac_point_to_plane_icp",
+          "cad:fgr_point_to_plane_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "candidate_to_model_overlap": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "cad:ransac_generalized_icp",
+          "reconst:ransac_generalized_icp",
+          "cad:ransac_point_to_plane_icp",
+          "cad:fgr_point_to_plane_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "candidate_to_model_trimmed_rmse_m": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "reconst:ransac_generalized_icp",
+          "cad:ransac_generalized_icp",
+          "cad:fgr_point_to_plane_icp",
+          "cad:ransac_point_to_plane_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "global_inliers": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "reconst:fgr_point_to_plane_icp",
+          "cad:ransac_point_to_plane_icp",
+          "cad:ransac_generalized_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:ransac_generalized_icp",
+          "cad:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "icp_fitness": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "cad:ransac_generalized_icp",
+          "reconst:ransac_generalized_icp",
+          "cad:ransac_point_to_plane_icp",
+          "cad:fgr_point_to_plane_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "icp_rmse_m": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 2,
+        "best_accurate_rank": null,
+        "ranking": [
+          "cad:ransac_generalized_icp",
+          "reconst:ransac_generalized_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "model_to_candidate_overlap": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "cad:ransac_generalized_icp",
+          "reconst:ransac_generalized_icp",
+          "cad:ransac_point_to_plane_icp",
+          "cad:fgr_point_to_plane_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "model_to_candidate_trimmed_rmse_m": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "cad:ransac_generalized_icp",
+          "reconst:ransac_generalized_icp",
+          "cad:fgr_point_to_plane_icp",
+          "cad:ransac_point_to_plane_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      }
+    },
+    "scene000001_im000001_obj000030": {
+      "bidirectional_overlap": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "cad:ransac_generalized_icp",
+          "reconst:ransac_generalized_icp",
+          "cad:ransac_point_to_plane_icp",
+          "cad:fgr_point_to_plane_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "candidate_to_model_overlap": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "reconst:ransac_generalized_icp",
+          "cad:ransac_generalized_icp",
+          "cad:ransac_point_to_plane_icp",
+          "cad:fgr_point_to_plane_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "candidate_to_model_trimmed_rmse_m": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "reconst:ransac_generalized_icp",
+          "cad:ransac_generalized_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp",
+          "cad:ransac_point_to_plane_icp",
+          "cad:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "global_inliers": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:ransac_generalized_icp",
+          "reconst:fgr_point_to_plane_icp",
+          "cad:ransac_point_to_plane_icp",
+          "cad:fgr_point_to_plane_icp",
+          "cad:ransac_generalized_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "icp_fitness": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "cad:ransac_generalized_icp",
+          "reconst:ransac_generalized_icp",
+          "cad:ransac_point_to_plane_icp",
+          "cad:fgr_point_to_plane_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "icp_rmse_m": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 2,
+        "best_accurate_rank": null,
+        "ranking": [
+          "cad:ransac_generalized_icp",
+          "reconst:ransac_generalized_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "model_to_candidate_overlap": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "cad:ransac_generalized_icp",
+          "reconst:ransac_generalized_icp",
+          "cad:ransac_point_to_plane_icp",
+          "cad:fgr_point_to_plane_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "model_to_candidate_trimmed_rmse_m": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "cad:ransac_generalized_icp",
+          "reconst:ransac_generalized_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp",
+          "cad:ransac_point_to_plane_icp",
+          "cad:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      }
+    },
+    "scene000001_im000246_obj000030": {
+      "bidirectional_overlap": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "reconst:ransac_generalized_icp",
+          "cad:ransac_generalized_icp",
+          "cad:ransac_point_to_plane_icp",
+          "cad:fgr_point_to_plane_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "candidate_to_model_overlap": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "reconst:ransac_generalized_icp",
+          "cad:ransac_generalized_icp",
+          "cad:ransac_point_to_plane_icp",
+          "cad:fgr_point_to_plane_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "candidate_to_model_trimmed_rmse_m": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "reconst:ransac_generalized_icp",
+          "cad:ransac_generalized_icp",
+          "cad:fgr_point_to_plane_icp",
+          "cad:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp",
+          "reconst:ransac_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "global_inliers": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:ransac_generalized_icp",
+          "reconst:fgr_point_to_plane_icp",
+          "cad:fgr_point_to_plane_icp",
+          "cad:ransac_point_to_plane_icp",
+          "cad:ransac_generalized_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "icp_fitness": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "reconst:ransac_generalized_icp",
+          "cad:ransac_generalized_icp",
+          "cad:ransac_point_to_plane_icp",
+          "cad:fgr_point_to_plane_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "icp_rmse_m": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 2,
+        "best_accurate_rank": null,
+        "ranking": [
+          "reconst:ransac_generalized_icp",
+          "cad:ransac_generalized_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "model_to_candidate_overlap": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "reconst:ransac_generalized_icp",
+          "cad:ransac_generalized_icp",
+          "cad:ransac_point_to_plane_icp",
+          "cad:fgr_point_to_plane_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "model_to_candidate_trimmed_rmse_m": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "reconst:ransac_generalized_icp",
+          "cad:ransac_generalized_icp",
+          "cad:fgr_point_to_plane_icp",
+          "cad:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp",
+          "reconst:ransac_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      }
+    },
+    "scene000001_im000347_obj000029": {
+      "bidirectional_overlap": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:ransac_generalized_icp",
+          "cad:ransac_generalized_icp",
+          "cad:fgr_point_to_plane_icp",
+          "cad:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "candidate_to_model_overlap": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:ransac_generalized_icp",
+          "cad:ransac_generalized_icp",
+          "cad:fgr_point_to_plane_icp",
+          "cad:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "candidate_to_model_trimmed_rmse_m": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "reconst:ransac_generalized_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "cad:ransac_generalized_icp",
+          "cad:fgr_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp",
+          "cad:ransac_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "global_inliers": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:ransac_generalized_icp",
+          "reconst:fgr_point_to_plane_icp",
+          "cad:fgr_point_to_plane_icp",
+          "cad:ransac_point_to_plane_icp",
+          "cad:ransac_generalized_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "icp_fitness": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:ransac_generalized_icp",
+          "cad:ransac_generalized_icp",
+          "cad:fgr_point_to_plane_icp",
+          "cad:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "icp_rmse_m": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 4,
+        "best_accurate_rank": null,
+        "ranking": [
+          "reconst:ransac_generalized_icp",
+          "cad:fgr_point_to_plane_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "cad:ransac_generalized_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "model_to_candidate_overlap": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:ransac_generalized_icp",
+          "cad:ransac_generalized_icp",
+          "cad:fgr_point_to_plane_icp",
+          "cad:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "model_to_candidate_trimmed_rmse_m": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:ransac_generalized_icp",
+          "cad:ransac_generalized_icp",
+          "cad:fgr_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp",
+          "cad:ransac_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      }
+    },
+    "scene000002_im000003_obj000005": {
+      "bidirectional_overlap": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "cad:ransac_generalized_icp",
+          "reconst:ransac_generalized_icp",
+          "reconst:fgr_point_to_plane_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "cad:ransac_point_to_plane_icp",
+          "cad:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "candidate_to_model_overlap": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "reconst:ransac_generalized_icp",
+          "cad:ransac_generalized_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp",
+          "cad:ransac_point_to_plane_icp",
+          "cad:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "candidate_to_model_trimmed_rmse_m": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "reconst:ransac_generalized_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp",
+          "cad:ransac_generalized_icp",
+          "cad:ransac_point_to_plane_icp",
+          "cad:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "global_inliers": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:ransac_generalized_icp",
+          "reconst:fgr_point_to_plane_icp",
+          "cad:ransac_generalized_icp",
+          "cad:ransac_point_to_plane_icp",
+          "cad:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "icp_fitness": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "cad:ransac_generalized_icp",
+          "reconst:ransac_generalized_icp",
+          "cad:fgr_point_to_plane_icp",
+          "cad:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp",
+          "reconst:ransac_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "icp_rmse_m": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "cad:fgr_point_to_plane_icp",
+          "cad:ransac_point_to_plane_icp",
+          "cad:ransac_generalized_icp",
+          "reconst:ransac_generalized_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "model_to_candidate_overlap": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "cad:ransac_generalized_icp",
+          "reconst:ransac_generalized_icp",
+          "cad:fgr_point_to_plane_icp",
+          "cad:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp",
+          "reconst:ransac_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "model_to_candidate_trimmed_rmse_m": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "cad:fgr_point_to_plane_icp",
+          "cad:ransac_generalized_icp",
+          "cad:ransac_point_to_plane_icp",
+          "reconst:ransac_generalized_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      }
+    },
+    "scene000002_im000387_obj000006": {
+      "bidirectional_overlap": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "cad:ransac_generalized_icp",
+          "reconst:ransac_generalized_icp",
+          "reconst:fgr_point_to_plane_icp",
+          "cad:ransac_point_to_plane_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "cad:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "candidate_to_model_overlap": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "cad:ransac_point_to_plane_icp",
+          "reconst:ransac_generalized_icp",
+          "cad:ransac_generalized_icp",
+          "reconst:fgr_point_to_plane_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "cad:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "candidate_to_model_trimmed_rmse_m": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "reconst:ransac_generalized_icp",
+          "cad:ransac_point_to_plane_icp",
+          "cad:ransac_generalized_icp",
+          "reconst:fgr_point_to_plane_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "cad:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "global_inliers": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:ransac_generalized_icp",
+          "reconst:fgr_point_to_plane_icp",
+          "cad:ransac_point_to_plane_icp",
+          "cad:ransac_generalized_icp",
+          "cad:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "icp_fitness": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "cad:ransac_generalized_icp",
+          "reconst:ransac_generalized_icp",
+          "reconst:fgr_point_to_plane_icp",
+          "cad:ransac_point_to_plane_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "cad:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "icp_rmse_m": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 5,
+        "best_accurate_rank": null,
+        "ranking": [
+          "cad:ransac_generalized_icp",
+          "cad:ransac_point_to_plane_icp",
+          "reconst:ransac_generalized_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "model_to_candidate_overlap": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "cad:ransac_generalized_icp",
+          "reconst:ransac_generalized_icp",
+          "reconst:fgr_point_to_plane_icp",
+          "cad:ransac_point_to_plane_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "cad:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "model_to_candidate_trimmed_rmse_m": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "cad:ransac_generalized_icp",
+          "reconst:ransac_generalized_icp",
+          "reconst:fgr_point_to_plane_icp",
+          "cad:ransac_point_to_plane_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "cad:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      }
+    },
+    "scene000003_im000233_obj000018": {
+      "bidirectional_overlap": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp",
+          "reconst:ransac_generalized_icp",
+          "cad:fgr_point_to_plane_icp",
+          "cad:ransac_point_to_plane_icp",
+          "cad:ransac_generalized_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "candidate_to_model_overlap": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "reconst:ransac_generalized_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp",
+          "cad:ransac_generalized_icp",
+          "cad:fgr_point_to_plane_icp",
+          "cad:ransac_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "candidate_to_model_trimmed_rmse_m": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "reconst:ransac_generalized_icp",
+          "reconst:fgr_point_to_plane_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "cad:ransac_generalized_icp",
+          "cad:fgr_point_to_plane_icp",
+          "cad:ransac_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "global_inliers": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:ransac_generalized_icp",
+          "reconst:fgr_point_to_plane_icp",
+          "cad:ransac_generalized_icp",
+          "cad:fgr_point_to_plane_icp",
+          "cad:ransac_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "icp_fitness": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp",
+          "cad:fgr_point_to_plane_icp",
+          "reconst:ransac_generalized_icp",
+          "cad:ransac_point_to_plane_icp",
+          "cad:ransac_generalized_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "icp_rmse_m": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "reconst:ransac_generalized_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp",
+          "cad:ransac_generalized_icp",
+          "cad:fgr_point_to_plane_icp",
+          "cad:ransac_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "model_to_candidate_overlap": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp",
+          "cad:fgr_point_to_plane_icp",
+          "reconst:ransac_generalized_icp",
+          "cad:ransac_point_to_plane_icp",
+          "cad:ransac_generalized_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "model_to_candidate_trimmed_rmse_m": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp",
+          "reconst:ransac_generalized_icp",
+          "cad:fgr_point_to_plane_icp",
+          "cad:ransac_generalized_icp",
+          "cad:ransac_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      }
+    },
+    "scene000005_im000341_obj000004": {
+      "bidirectional_overlap": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "cad:ransac_generalized_icp",
+          "reconst:ransac_generalized_icp",
+          "cad:ransac_point_to_plane_icp",
+          "cad:fgr_point_to_plane_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "candidate_to_model_overlap": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "cad:ransac_generalized_icp",
+          "reconst:ransac_generalized_icp",
+          "cad:ransac_point_to_plane_icp",
+          "cad:fgr_point_to_plane_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "candidate_to_model_trimmed_rmse_m": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "cad:ransac_generalized_icp",
+          "reconst:ransac_generalized_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "cad:fgr_point_to_plane_icp",
+          "cad:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "global_inliers": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:ransac_generalized_icp",
+          "cad:ransac_generalized_icp",
+          "cad:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp",
+          "cad:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "icp_fitness": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "cad:ransac_generalized_icp",
+          "reconst:ransac_generalized_icp",
+          "cad:ransac_point_to_plane_icp",
+          "cad:fgr_point_to_plane_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "icp_rmse_m": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 2,
+        "best_accurate_rank": null,
+        "ranking": [
+          "cad:ransac_generalized_icp",
+          "reconst:ransac_generalized_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "model_to_candidate_overlap": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "cad:ransac_generalized_icp",
+          "reconst:ransac_generalized_icp",
+          "cad:ransac_point_to_plane_icp",
+          "cad:fgr_point_to_plane_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "model_to_candidate_trimmed_rmse_m": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "cad:ransac_generalized_icp",
+          "reconst:ransac_generalized_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "cad:fgr_point_to_plane_icp",
+          "cad:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      }
+    },
+    "scene000007_im000285_obj000018": {
+      "bidirectional_overlap": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "cad:ransac_generalized_icp",
+          "cad:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:ransac_generalized_icp",
+          "cad:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "candidate_to_model_overlap": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "cad:ransac_point_to_plane_icp",
+          "cad:ransac_generalized_icp",
+          "reconst:fgr_point_to_plane_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:ransac_generalized_icp",
+          "cad:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "candidate_to_model_trimmed_rmse_m": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "reconst:fgr_point_to_plane_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "cad:ransac_point_to_plane_icp",
+          "cad:ransac_generalized_icp",
+          "reconst:ransac_generalized_icp",
+          "cad:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "global_inliers": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "reconst:fgr_point_to_plane_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:ransac_generalized_icp",
+          "cad:ransac_point_to_plane_icp",
+          "cad:ransac_generalized_icp",
+          "cad:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "icp_fitness": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "cad:ransac_generalized_icp",
+          "cad:ransac_point_to_plane_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp",
+          "reconst:ransac_generalized_icp",
+          "cad:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "icp_rmse_m": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 5,
+        "best_accurate_rank": null,
+        "ranking": [
+          "reconst:fgr_point_to_plane_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "cad:ransac_point_to_plane_icp",
+          "cad:ransac_generalized_icp",
+          "reconst:ransac_generalized_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "model_to_candidate_overlap": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "cad:ransac_generalized_icp",
+          "cad:ransac_point_to_plane_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp",
+          "reconst:ransac_generalized_icp",
+          "cad:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "model_to_candidate_trimmed_rmse_m": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp",
+          "cad:ransac_point_to_plane_icp",
+          "cad:ransac_generalized_icp",
+          "reconst:ransac_generalized_icp",
+          "cad:fgr_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      }
+    },
+    "scene000008_im000001_obj000021": {
+      "bidirectional_overlap": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "cad:fgr_point_to_plane_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp",
+          "cad:ransac_generalized_icp",
+          "cad:ransac_point_to_plane_icp",
+          "reconst:ransac_generalized_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "candidate_to_model_overlap": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "cad:fgr_point_to_plane_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp",
+          "cad:ransac_generalized_icp",
+          "cad:ransac_point_to_plane_icp",
+          "reconst:ransac_generalized_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "candidate_to_model_trimmed_rmse_m": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "cad:fgr_point_to_plane_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp",
+          "cad:ransac_generalized_icp",
+          "reconst:ransac_generalized_icp",
+          "cad:ransac_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "global_inliers": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "reconst:fgr_point_to_plane_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "reconst:ransac_generalized_icp",
+          "cad:fgr_point_to_plane_icp",
+          "cad:ransac_point_to_plane_icp",
+          "cad:ransac_generalized_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "icp_fitness": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "reconst:fgr_point_to_plane_icp",
+          "cad:fgr_point_to_plane_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "cad:ransac_generalized_icp",
+          "cad:ransac_point_to_plane_icp",
+          "reconst:ransac_generalized_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "icp_rmse_m": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 4,
+        "best_accurate_rank": null,
+        "ranking": [
+          "cad:ransac_generalized_icp",
+          "cad:fgr_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp",
+          "reconst:ransac_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "model_to_candidate_overlap": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "reconst:fgr_point_to_plane_icp",
+          "cad:fgr_point_to_plane_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "cad:ransac_generalized_icp",
+          "cad:ransac_point_to_plane_icp",
+          "reconst:ransac_generalized_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      },
+      "model_to_candidate_trimmed_rmse_m": {
+        "accurate_hypotheses": 0,
+        "available_hypotheses": 6,
+        "best_accurate_rank": null,
+        "ranking": [
+          "cad:fgr_point_to_plane_icp",
+          "reconst:fgr_point_to_plane_icp",
+          "reconst:ransac_point_to_plane_icp",
+          "cad:ransac_generalized_icp",
+          "reconst:ransac_generalized_icp",
+          "cad:ransac_point_to_plane_icp"
+        ],
+        "top_is_diagnostic_accurate": false
+      }
+    }
+  },
+  "metrics": "Post-hoc descriptive ranking only; no learned score or production threshold is fit."
+}

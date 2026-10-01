@@ -1,0 +1,83 @@
+{
+  "record_id": "geometry_baseline_summary_v1",
+  "status": "frozen_before_learned_comparison",
+  "production_baseline": {
+    "model_representation": "cad",
+    "model_directory": "models_cad",
+    "candidate_mode": "geometry_candidates",
+    "remove_support_plane": true,
+    "remove_statistical_outliers": true,
+    "voxel_size_m": 0.005,
+    "model_normal_source": "auto",
+    "observed_normal_orientation": "towards_camera",
+    "normal_radius_m": 0.01,
+    "normal_neighbors": 30,
+    "feature": "Open3D compute_fpfh_feature",
+    "feature_radius_m": 0.025,
+    "feature_neighbors": 100,
+    "ransac_threshold_m": 0.015,
+    "ransac_iterations": 20000,
+    "ransac_confidence": 0.999,
+    "icp": "Open3D point-to-plane",
+    "icp_threshold_m": 0.02,
+    "icp_iterations": 35,
+    "verification": {
+      "mode": "bidirectional",
+      "distance_m": 0.02,
+      "min_overlap": 0.2
+    },
+    "seed": 7,
+    "pose_convention": "T_camera_object",
+    "world_composition": "T_world_object = T_world_camera @ T_camera_object",
+    "internal_units": "metres"
+  },
+  "frozen_manifest": {
+    "path": "experiments/tless_validation_manifest_scene_conditioned_v1.json",
+    "sha256": "341137b72784e7b2c8553d8dae8afe6f625b1c625632943485889fbddc8b07a0",
+    "case_count": 10,
+    "dataset_split": "test_primesense"
+  },
+  "stages": [
+    {
+      "id": "synthetic",
+      "purpose": "controlled vertical-slice and transform validation",
+      "cases": "deterministic synthetic scene",
+      "result": "accepted within explicit test tolerances",
+      "artifact": "tests/test_registration.py"
+    },
+    {
+      "id": "real_smoke",
+      "purpose": "real BOP data-path validation",
+      "cases": "scene 3/image 233/model 18",
+      "result": "mechanically valid path; false positive, 177.289 mm and 128.932 deg error",
+      "artifact": "experiments/tless_smoke/"
+    },
+    {
+      "id": "candidate_diagnosis",
+      "purpose": "candidate and verification failure localization",
+      "cases": "same real case",
+      "result": "target merged with support/background; one-sided coverage misleading",
+      "artifact": "experiments/tless_diagnosis_scene000003_im000233_obj000018/"
+    },
+    {
+      "id": "registration_diagnosis_v2",
+      "purpose": "oracle registration, scale, normals, FPFH, RANSAC, ICP diagnosis",
+      "cases": "frozen ten-case manifest; CAD and reconstructed representations",
+      "result": "FPFH correspondences poor; no tested variant reached 20 mm/5 deg across the set",
+      "artifact": "experiments/tless_registration_diagnosis_v2/"
+    },
+    {
+      "id": "ppf_spike",
+      "purpose": "controlled published PPF alternative evaluation",
+      "cases": "same ten oracle clouds; CAD and reconstructed representations",
+      "result": "synthetic passed; reconstructed top-1 median 8.56 mm/61.25 deg; not production-integrated",
+      "artifact": "experiments/tless_ppf_spike_v1/"
+    }
+  ],
+  "learned_comparison": {
+    "status": "blocked_before_inference",
+    "reason": "No learned pipeline implementation, dependencies, configuration, or checkpoint is present in this repository/environment.",
+    "protocol": "experiments/learned_comparison_protocol_v1.json"
+  }
+}
+

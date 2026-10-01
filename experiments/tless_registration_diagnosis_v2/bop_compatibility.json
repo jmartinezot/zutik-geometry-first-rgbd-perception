@@ -1,0 +1,240 @@
+{
+  "A_baseline_cad_full": {
+    "all_frozen_manifest_cases_present": {
+      "scene000001_im000001_obj000025": true,
+      "scene000001_im000001_obj000030": true,
+      "scene000001_im000246_obj000030": true,
+      "scene000001_im000347_obj000029": true,
+      "scene000002_im000003_obj000005": true,
+      "scene000002_im000387_obj000006": true,
+      "scene000003_im000233_obj000018": true,
+      "scene000005_im000341_obj000004": true,
+      "scene000007_im000285_obj000018": true,
+      "scene000008_im000001_obj000021": true
+    },
+    "duplicate_keys": 0,
+    "fields": [
+      "scene_id",
+      "im_id",
+      "obj_id",
+      "score",
+      "R",
+      "t",
+      "time"
+    ],
+    "model_conditioned_note": "One hypothesis is emitted for each frozen model-conditioned case; this is not a complete BOP detector result file.",
+    "official_parser": {
+      "available": true,
+      "parsed_count": 10
+    },
+    "path": "experiments/tless_registration_diagnosis_v2/bop_predictions/A_baseline_cad_full.csv",
+    "row_count": 10,
+    "runtime_units": "seconds",
+    "translation_units": "mm"
+  },
+  "B_geometry_cad": {
+    "all_frozen_manifest_cases_present": {
+      "scene000001_im000001_obj000025": true,
+      "scene000001_im000001_obj000030": true,
+      "scene000001_im000246_obj000030": true,
+      "scene000001_im000347_obj000029": true,
+      "scene000002_im000003_obj000005": true,
+      "scene000002_im000387_obj000006": true,
+      "scene000003_im000233_obj000018": true,
+      "scene000005_im000341_obj000004": true,
+      "scene000007_im000285_obj000018": true,
+      "scene000008_im000001_obj000021": true
+    },
+    "duplicate_keys": 0,
+    "fields": [
+      "scene_id",
+      "im_id",
+      "obj_id",
+      "score",
+      "R",
+      "t",
+      "time"
+    ],
+    "model_conditioned_note": "One hypothesis is emitted for each frozen model-conditioned case; this is not a complete BOP detector result file.",
+    "official_parser": {
+      "available": true,
+      "parsed_count": 10
+    },
+    "path": "experiments/tless_registration_diagnosis_v2/bop_predictions/B_geometry_cad.csv",
+    "row_count": 10,
+    "runtime_units": "seconds",
+    "translation_units": "mm"
+  },
+  "C_geometry_reconst": {
+    "all_frozen_manifest_cases_present": {
+      "scene000001_im000001_obj000025": true,
+      "scene000001_im000001_obj000030": true,
+      "scene000001_im000246_obj000030": true,
+      "scene000001_im000347_obj000029": true,
+      "scene000002_im000003_obj000005": true,
+      "scene000002_im000387_obj000006": true,
+      "scene000003_im000233_obj000018": true,
+      "scene000005_im000341_obj000004": true,
+      "scene000007_im000285_obj000018": true,
+      "scene000008_im000001_obj000021": true
+    },
+    "duplicate_keys": 0,
+    "fields": [
+      "scene_id",
+      "im_id",
+      "obj_id",
+      "score",
+      "R",
+      "t",
+      "time"
+    ],
+    "model_conditioned_note": "One hypothesis is emitted for each frozen model-conditioned case; this is not a complete BOP detector result file.",
+    "official_parser": {
+      "available": true,
+      "parsed_count": 10
+    },
+    "path": "experiments/tless_registration_diagnosis_v2/bop_predictions/C_geometry_reconst.csv",
+    "row_count": 10,
+    "runtime_units": "seconds",
+    "translation_units": "mm"
+  },
+  "official_error_evaluator": {
+    "command": "BOP_PATH=/tmp/zutik-tless-bop-eval-root python /tmp/bop_toolkit/scripts/eval_calc_errors.py --error_type=mssd --result_filenames=diag_tless-test-primesense_B.csv,diag_tless-test-primesense_C.csv --results_path=experiments/tless_registration_diagnosis_v2/bop_predictions --eval_path=experiments/tless_registration_diagnosis_v2/bop_official_eval --targets_filename=test_targets_bop19.json --datasets_path=/tmp/zutik-tless-bop-eval-root --num_workers=1 --skip_missing=1 --eval_mode=localization",
+    "commands": [
+      "BOP_PATH=/tmp/zutik-tless-bop-eval-root python /tmp/bop_toolkit/scripts/eval_calc_errors.py --error_type=mssd --result_filenames=diag_tless-test-primesense_A.csv --results_path=experiments/tless_registration_diagnosis_v2/bop_predictions --eval_path=experiments/tless_registration_diagnosis_v2/bop_official_eval --targets_filename=test_targets_bop19.json --datasets_path=/tmp/zutik-tless-bop-eval-root --num_workers=1 --skip_missing=1 --eval_mode=localization",
+      "BOP_PATH=/tmp/zutik-tless-bop-eval-root python /tmp/bop_toolkit/scripts/eval_calc_errors.py --error_type=mssd --result_filenames=diag_tless-test-primesense_B.csv,diag_tless-test-primesense_C.csv --results_path=experiments/tless_registration_diagnosis_v2/bop_predictions --eval_path=experiments/tless_registration_diagnosis_v2/bop_official_eval --targets_filename=test_targets_bop19.json --datasets_path=/tmp/zutik-tless-bop-eval-root --num_workers=1 --skip_missing=1 --eval_mode=localization"
+    ],
+    "dataset_adapter": "temporary symlink-only standard-layout adapter at /tmp/zutik-tless-bop-eval-root; T-LESS source remained read-only and was not copied",
+    "exit_code": 0,
+    "metric": "mssd",
+    "result": "official per-scene MSSD error files were produced for all three 10-row files; no aggregate BOP score is reported",
+    "result_files": [
+      "diag_tless-test-primesense_A.csv",
+      "diag_tless-test-primesense_B.csv",
+      "diag_tless-test-primesense_C.csv"
+    ],
+    "te_attempt": "official eval_calc_errors does not accept te as a BOP error type; official te/mssd/mspd/re functions were called directly for the post-hoc rows",
+    "toolkit_install": "/tmp/zutik-geometry-native-venv/bin/pip install -q /tmp/bop_toolkit",
+    "toolkit_source": "/tmp/bop_toolkit"
+  },
+  "target_definition": {
+    "available": true,
+    "frozen_case_keys_in_targets": [
+      [
+        1,
+        1,
+        25
+      ],
+      [
+        1,
+        1,
+        30
+      ],
+      [
+        1,
+        246,
+        30
+      ],
+      [
+        1,
+        347,
+        29
+      ],
+      [
+        2,
+        3,
+        5
+      ],
+      [
+        2,
+        387,
+        6
+      ],
+      [
+        3,
+        233,
+        18
+      ],
+      [
+        5,
+        341,
+        4
+      ],
+      [
+        7,
+        285,
+        18
+      ],
+      [
+        8,
+        1,
+        21
+      ]
+    ],
+    "frozen_case_keys_missing_from_targets": [],
+    "inst_count_for_frozen_cases": [
+      {
+        "im_id": 1,
+        "inst_count": 1,
+        "obj_id": 25,
+        "scene_id": 1
+      },
+      {
+        "im_id": 1,
+        "inst_count": 1,
+        "obj_id": 30,
+        "scene_id": 1
+      },
+      {
+        "im_id": 246,
+        "inst_count": 1,
+        "obj_id": 30,
+        "scene_id": 1
+      },
+      {
+        "im_id": 347,
+        "inst_count": 1,
+        "obj_id": 29,
+        "scene_id": 1
+      },
+      {
+        "im_id": 3,
+        "inst_count": 1,
+        "obj_id": 5,
+        "scene_id": 2
+      },
+      {
+        "im_id": 387,
+        "inst_count": 1,
+        "obj_id": 6,
+        "scene_id": 2
+      },
+      {
+        "im_id": 233,
+        "inst_count": 1,
+        "obj_id": 18,
+        "scene_id": 3
+      },
+      {
+        "im_id": 341,
+        "inst_count": 1,
+        "obj_id": 4,
+        "scene_id": 5
+      },
+      {
+        "im_id": 285,
+        "inst_count": 1,
+        "obj_id": 18,
+        "scene_id": 7
+      },
+      {
+        "im_id": 1,
+        "inst_count": 1,
+        "obj_id": 21,
+        "scene_id": 8
+      }
+    ],
+    "not_a_valid_aggregate_note": "The frozen file is model-conditioned and contains only selected cases; no BOP aggregate score is reported.",
+    "path": "/home/datasets/bop/tless/tless/test_targets_bop19.json"
+  }
+}

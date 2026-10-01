@@ -1,0 +1,222 @@
+[
+  {
+    "bidirectional_best_rank": 1,
+    "case_id": "scene000003_im000233_obj000018",
+    "hypothesis_count": 1,
+    "note": "One PCL 1.13 hypothesis was exposed; ranking agreement is therefore inconclusive, not evidence of a useful ranker.",
+    "posthoc_mssd_best_rank": 1,
+    "ppf_ranked_pose_rank": 1,
+    "ranking_is_informative": false,
+    "representation": "cad",
+    "trimmed_symmetric_best_rank": 1
+  },
+  {
+    "bidirectional_best_rank": 1,
+    "case_id": "scene000003_im000233_obj000018",
+    "hypothesis_count": 1,
+    "note": "One PCL 1.13 hypothesis was exposed; ranking agreement is therefore inconclusive, not evidence of a useful ranker.",
+    "posthoc_mssd_best_rank": 1,
+    "ppf_ranked_pose_rank": 1,
+    "ranking_is_informative": false,
+    "representation": "reconst",
+    "trimmed_symmetric_best_rank": 1
+  },
+  {
+    "bidirectional_best_rank": 1,
+    "case_id": "scene000001_im000001_obj000030",
+    "hypothesis_count": 1,
+    "note": "One PCL 1.13 hypothesis was exposed; ranking agreement is therefore inconclusive, not evidence of a useful ranker.",
+    "posthoc_mssd_best_rank": 1,
+    "ppf_ranked_pose_rank": 1,
+    "ranking_is_informative": false,
+    "representation": "cad",
+    "trimmed_symmetric_best_rank": 1
+  },
+  {
+    "bidirectional_best_rank": 1,
+    "case_id": "scene000001_im000001_obj000030",
+    "hypothesis_count": 1,
+    "note": "One PCL 1.13 hypothesis was exposed; ranking agreement is therefore inconclusive, not evidence of a useful ranker.",
+    "posthoc_mssd_best_rank": 1,
+    "ppf_ranked_pose_rank": 1,
+    "ranking_is_informative": false,
+    "representation": "reconst",
+    "trimmed_symmetric_best_rank": 1
+  },
+  {
+    "bidirectional_best_rank": 1,
+    "case_id": "scene000001_im000001_obj000025",
+    "hypothesis_count": 1,
+    "note": "One PCL 1.13 hypothesis was exposed; ranking agreement is therefore inconclusive, not evidence of a useful ranker.",
+    "posthoc_mssd_best_rank": 1,
+    "ppf_ranked_pose_rank": 1,
+    "ranking_is_informative": false,
+    "representation": "cad",
+    "trimmed_symmetric_best_rank": 1
+  },
+  {
+    "bidirectional_best_rank": 1,
+    "case_id": "scene000001_im000001_obj000025",
+    "hypothesis_count": 1,
+    "note": "One PCL 1.13 hypothesis was exposed; ranking agreement is therefore inconclusive, not evidence of a useful ranker.",
+    "posthoc_mssd_best_rank": 1,
+    "ppf_ranked_pose_rank": 1,
+    "ranking_is_informative": false,
+    "representation": "reconst",
+    "trimmed_symmetric_best_rank": 1
+  },
+  {
+    "bidirectional_best_rank": 1,
+    "case_id": "scene000002_im000003_obj000005",
+    "hypothesis_count": 1,
+    "note": "One PCL 1.13 hypothesis was exposed; ranking agreement is therefore inconclusive, not evidence of a useful ranker.",
+    "posthoc_mssd_best_rank": 1,
+    "ppf_ranked_pose_rank": 1,
+    "ranking_is_informative": false,
+    "representation": "cad",
+    "trimmed_symmetric_best_rank": 1
+  },
+  {
+    "bidirectional_best_rank": 1,
+    "case_id": "scene000002_im000003_obj000005",
+    "hypothesis_count": 1,
+    "note": "One PCL 1.13 hypothesis was exposed; ranking agreement is therefore inconclusive, not evidence of a useful ranker.",
+    "posthoc_mssd_best_rank": 1,
+    "ppf_ranked_pose_rank": 1,
+    "ranking_is_informative": false,
+    "representation": "reconst",
+    "trimmed_symmetric_best_rank": 1
+  },
+  {
+    "bidirectional_best_rank": 1,
+    "case_id": "scene000008_im000001_obj000021",
+    "hypothesis_count": 1,
+    "note": "One PCL 1.13 hypothesis was exposed; ranking agreement is therefore inconclusive, not evidence of a useful ranker.",
+    "posthoc_mssd_best_rank": 1,
+    "ppf_ranked_pose_rank": 1,
+    "ranking_is_informative": false,
+    "representation": "cad",
+    "trimmed_symmetric_best_rank": 1
+  },
+  {
+    "bidirectional_best_rank": 1,
+    "case_id": "scene000008_im000001_obj000021",
+    "hypothesis_count": 1,
+    "note": "One PCL 1.13 hypothesis was exposed; ranking agreement is therefore inconclusive, not evidence of a useful ranker.",
+    "posthoc_mssd_best_rank": 1,
+    "ppf_ranked_pose_rank": 1,
+    "ranking_is_informative": false,
+    "representation": "reconst",
+    "trimmed_symmetric_best_rank": 1
+  },
+  {
+    "bidirectional_best_rank": 1,
+    "case_id": "scene000001_im000246_obj000030",
+    "hypothesis_count": 1,
+    "note": "One PCL 1.13 hypothesis was exposed; ranking agreement is therefore inconclusive, not evidence of a useful ranker.",
+    "posthoc_mssd_best_rank": 1,
+    "ppf_ranked_pose_rank": 1,
+    "ranking_is_informative": false,
+    "representation": "cad",
+    "trimmed_symmetric_best_rank": 1
+  },
+  {
+    "bidirectional_best_rank": 1,
+    "case_id": "scene000001_im000246_obj000030",
+    "hypothesis_count": 1,
+    "note": "One PCL 1.13 hypothesis was exposed; ranking agreement is therefore inconclusive, not evidence of a useful ranker.",
+    "posthoc_mssd_best_rank": 1,
+    "ppf_ranked_pose_rank": 1,
+    "ranking_is_informative": false,
+    "representation": "reconst",
+    "trimmed_symmetric_best_rank": 1
+  },
+  {
+    "bidirectional_best_rank": 1,
+    "case_id": "scene000001_im000347_obj000029",
+    "hypothesis_count": 1,
+    "note": "One PCL 1.13 hypothesis was exposed; ranking agreement is therefore inconclusive, not evidence of a useful ranker.",
+    "posthoc_mssd_best_rank": 1,
+    "ppf_ranked_pose_rank": 1,
+    "ranking_is_informative": false,
+    "representation": "cad",
+    "trimmed_symmetric_best_rank": 1
+  },
+  {
+    "bidirectional_best_rank": 1,
+    "case_id": "scene000001_im000347_obj000029",
+    "hypothesis_count": 1,
+    "note": "One PCL 1.13 hypothesis was exposed; ranking agreement is therefore inconclusive, not evidence of a useful ranker.",
+    "posthoc_mssd_best_rank": 1,
+    "ppf_ranked_pose_rank": 1,
+    "ranking_is_informative": false,
+    "representation": "reconst",
+    "trimmed_symmetric_best_rank": 1
+  },
+  {
+    "bidirectional_best_rank": 1,
+    "case_id": "scene000007_im000285_obj000018",
+    "hypothesis_count": 1,
+    "note": "One PCL 1.13 hypothesis was exposed; ranking agreement is therefore inconclusive, not evidence of a useful ranker.",
+    "posthoc_mssd_best_rank": 1,
+    "ppf_ranked_pose_rank": 1,
+    "ranking_is_informative": false,
+    "representation": "cad",
+    "trimmed_symmetric_best_rank": 1
+  },
+  {
+    "bidirectional_best_rank": 1,
+    "case_id": "scene000007_im000285_obj000018",
+    "hypothesis_count": 1,
+    "note": "One PCL 1.13 hypothesis was exposed; ranking agreement is therefore inconclusive, not evidence of a useful ranker.",
+    "posthoc_mssd_best_rank": 1,
+    "ppf_ranked_pose_rank": 1,
+    "ranking_is_informative": false,
+    "representation": "reconst",
+    "trimmed_symmetric_best_rank": 1
+  },
+  {
+    "bidirectional_best_rank": 1,
+    "case_id": "scene000005_im000341_obj000004",
+    "hypothesis_count": 1,
+    "note": "One PCL 1.13 hypothesis was exposed; ranking agreement is therefore inconclusive, not evidence of a useful ranker.",
+    "posthoc_mssd_best_rank": 1,
+    "ppf_ranked_pose_rank": 1,
+    "ranking_is_informative": false,
+    "representation": "cad",
+    "trimmed_symmetric_best_rank": 1
+  },
+  {
+    "bidirectional_best_rank": 1,
+    "case_id": "scene000005_im000341_obj000004",
+    "hypothesis_count": 1,
+    "note": "One PCL 1.13 hypothesis was exposed; ranking agreement is therefore inconclusive, not evidence of a useful ranker.",
+    "posthoc_mssd_best_rank": 1,
+    "ppf_ranked_pose_rank": 1,
+    "ranking_is_informative": false,
+    "representation": "reconst",
+    "trimmed_symmetric_best_rank": 1
+  },
+  {
+    "bidirectional_best_rank": 1,
+    "case_id": "scene000002_im000387_obj000006",
+    "hypothesis_count": 1,
+    "note": "One PCL 1.13 hypothesis was exposed; ranking agreement is therefore inconclusive, not evidence of a useful ranker.",
+    "posthoc_mssd_best_rank": 1,
+    "ppf_ranked_pose_rank": 1,
+    "ranking_is_informative": false,
+    "representation": "cad",
+    "trimmed_symmetric_best_rank": 1
+  },
+  {
+    "bidirectional_best_rank": 1,
+    "case_id": "scene000002_im000387_obj000006",
+    "hypothesis_count": 1,
+    "note": "One PCL 1.13 hypothesis was exposed; ranking agreement is therefore inconclusive, not evidence of a useful ranker.",
+    "posthoc_mssd_best_rank": 1,
+    "ppf_ranked_pose_rank": 1,
+    "ranking_is_informative": false,
+    "representation": "reconst",
+    "trimmed_symmetric_best_rank": 1
+  }
+]

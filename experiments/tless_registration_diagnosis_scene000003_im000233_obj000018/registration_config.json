@@ -1,0 +1,19 @@
+{
+  "voxel_size_m": 0.005,
+  "normal_radius_factor": 2.0,
+  "normal_neighbors": 30,
+  "feature_radius_factor": 5.0,
+  "feature_neighbors": 100,
+  "max_registration_points": 2500,
+  "ransac_iterations": 20000,
+  "ransac_confidence": 0.999,
+  "ransac_inlier_threshold_m": 0.015,
+  "icp_iterations": 35,
+  "icp_max_correspondence_m": 0.02,
+  "random_seed": 7,
+  "outlier_neighbors": 20,
+  "outlier_std_ratio": 2.0,
+  "candidate_mode": "full",
+  "remove_support_plane": false,
+  "remove_statistical_outliers": true
+}

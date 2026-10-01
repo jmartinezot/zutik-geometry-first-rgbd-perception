@@ -1,0 +1,26 @@
+.git
+.gitignore
+.venv
+venv
+__pycache__
+*.py[cod]
+.pytest_cache
+*.egg-info
+build
+dist
+
+# Keep datasets, generated predictions, and local experiment outputs outside
+# the image. Mount them at runtime when using the BOP adapter or detect CLI.
+data
+datasets
+results
+outputs
+*.ply
+*.pcd
+*.png
+*.jpg
+*.jpeg
+*.npy
+*.npz
+*.csv
+

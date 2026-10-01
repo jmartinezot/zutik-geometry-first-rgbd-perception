@@ -1,0 +1,58 @@
+{
+  "case_count": 10,
+  "configuration": {
+    "angle_bin_deg": 10.0,
+    "distance_bin_m": 0.005,
+    "executable": "/usr/local/bin/zutik_ppf_bridge",
+    "position_cluster_m": 0.03,
+    "rotation_cluster_deg": 25.0,
+    "scene_reference_sampling_rate": 5,
+    "timeout_s": 180.0,
+    "top_k": 20
+  },
+  "dataset_root": "/datasets/tless",
+  "preprocessing": {
+    "max_model_points": 500,
+    "max_scene_points": 800,
+    "voxel_size_m": 0.008
+  },
+  "ranking_note": "best_of_k values are POST-HOC ORACLE RANKING \u2014 NOT INFERENCE; PCL internally returns its highest-vote pose, but PCL 1.13 exposes neither the vote count nor the remaining ranked candidates.",
+  "refinement_rows": 40,
+  "representation_rows": 20,
+  "results": {
+    "cad": {
+      "best_of_k_median_mssd_mm_posthoc_oracle": 102.76332311893219,
+      "best_of_k_within_20mm_5deg_posthoc_oracle": 0,
+      "empty_hypothesis_runs": 0,
+      "failed_runs": 0,
+      "official_metrics_available_count": 10,
+      "rows": 10,
+      "top1_median_bidirectional_overlap": 0.5692,
+      "top1_median_mssd_mm": 102.76332311893219,
+      "top1_median_rotation_error_deg": 151.7849664352932,
+      "top1_median_translation_error_mm": 25.77346922151263,
+      "top1_within_20mm_5deg": 0
+    },
+    "reconst": {
+      "best_of_k_median_mssd_mm_posthoc_oracle": 46.99618865930879,
+      "best_of_k_within_20mm_5deg_posthoc_oracle": 1,
+      "empty_hypothesis_runs": 0,
+      "failed_runs": 0,
+      "official_metrics_available_count": 10,
+      "rows": 10,
+      "top1_median_bidirectional_overlap": 0.6874,
+      "top1_median_mssd_mm": 46.99618865930879,
+      "top1_median_rotation_error_deg": 61.24516786237586,
+      "top1_median_translation_error_mm": 8.560021585514745,
+      "top1_within_20mm_5deg": 1
+    }
+  },
+  "runtime_s": 21.393276878632605,
+  "split": "test_primesense",
+  "top_k": {
+    "available": false,
+    "best_of_k_note": "best_of_k fields equal the only exposed top-1 hypothesis in this run and are not a genuine top-K result.",
+    "reason": "PCL 1.13.0 public PPFRegistration API exposes getFinalTransformation only; getBestPoseCandidates is absent.",
+    "requested": 20
+  }
+}

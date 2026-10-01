@@ -1,0 +1,4 @@
+[
+  {"errors": {"0": [126.37691183733367]}, "est_id": 0, "gt_visib_fracts": {"0": 0.9499415835355441}, "im_id": 3, "obj_id": 5, "scene_id": 2, "score": 0.0},
+  {"errors": {"1": [Infinity]}, "est_id": 0, "gt_visib_fracts": {"1": 0.4449244060475162}, "im_id": 387, "obj_id": 6, "scene_id": 2, "score": 1.0}
+]

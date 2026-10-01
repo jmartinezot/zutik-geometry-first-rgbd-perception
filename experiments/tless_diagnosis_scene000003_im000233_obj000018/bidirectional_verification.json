@@ -1,0 +1,137 @@
+{
+  "metric_definition": {
+    "threshold_m": 0.02,
+    "source_direction": "model points transformed by T_camera_object to camera; source-to-candidate overlap is the Open3D-style fitness numerator/denominator",
+    "reverse_direction": "candidate points transformed by identity to camera; nearest transformed-model coverage",
+    "sampling": "the 2,500-point linspace cap used by current ICP refinement; full filtered scene and oracle cloud are capped independently",
+    "not_probability": true
+  },
+  "baseline_full_false_positive": {
+    "name": "baseline transform on full filtered scene",
+    "threshold_m": 0.02,
+    "source_model_points": 2500,
+    "candidate_points": 2500,
+    "model_to_candidate_overlap": 0.8592,
+    "candidate_to_model_overlap": 0.0652,
+    "bidirectional_min_overlap": 0.0652,
+    "bidirectional_mean_overlap": 0.4622,
+    "model_to_candidate_mean_nn_m": 0.010711442989296016,
+    "model_to_candidate_median_nn_m": 0.007486319544731335,
+    "model_to_candidate_p90_nn_m": 0.024141972236512498,
+    "candidate_to_model_mean_nn_m": 0.2471547989816111,
+    "candidate_to_model_median_nn_m": 0.16950526941318605,
+    "candidate_to_model_p90_nn_m": 0.3781573199430522,
+    "symmetric_chamfer_mean_m": 0.12893312098545356,
+    "candidate_extent_m": [
+      1.3008430061433982,
+      0.7867981936244761,
+      1.7694999999999999
+    ],
+    "transformed_model_extent_m": [
+      0.09340566376777489,
+      0.09792473943773262,
+      0.10661131305297755
+    ],
+    "candidate_to_model_extent_ratio": [
+      13.926810791447865,
+      8.03472338187611,
+      16.597675699957804
+    ]
+  },
+  "baseline_transform_on_oracle": {
+    "name": "baseline transform on oracle target",
+    "threshold_m": 0.02,
+    "source_model_points": 2500,
+    "candidate_points": 2500,
+    "model_to_candidate_overlap": 0.0,
+    "candidate_to_model_overlap": 0.0,
+    "bidirectional_min_overlap": 0.0,
+    "bidirectional_mean_overlap": 0.0,
+    "model_to_candidate_mean_nn_m": 0.1285193740690537,
+    "model_to_candidate_median_nn_m": 0.1272030351344562,
+    "model_to_candidate_p90_nn_m": 0.1585017800217993,
+    "candidate_to_model_mean_nn_m": 0.1324231669042766,
+    "candidate_to_model_median_nn_m": 0.13142807748704638,
+    "candidate_to_model_p90_nn_m": 0.16771622395329996,
+    "symmetric_chamfer_mean_m": 0.13047127048666515,
+    "candidate_extent_m": [
+      0.11251902333500298,
+      0.1182038957475627,
+      0.16300000000000003
+    ],
+    "transformed_model_extent_m": [
+      0.09340566376777489,
+      0.09792473943773262,
+      0.10661131305297755
+    ],
+    "candidate_to_model_extent_ratio": [
+      1.204627415471804,
+      1.2070892036707943,
+      1.5289184171195949
+    ]
+  },
+  "oracle_ransac_transform_on_oracle": {
+    "name": "oracle RANSAC/ICP output on oracle target",
+    "threshold_m": 0.02,
+    "source_model_points": 2500,
+    "candidate_points": 2500,
+    "model_to_candidate_overlap": 0.0,
+    "candidate_to_model_overlap": 0.0,
+    "bidirectional_min_overlap": 0.0,
+    "bidirectional_mean_overlap": 0.0,
+    "model_to_candidate_mean_nn_m": 0.21830239893799575,
+    "model_to_candidate_median_nn_m": 0.2208515030131875,
+    "model_to_candidate_p90_nn_m": 0.2435566074066289,
+    "candidate_to_model_mean_nn_m": 0.21460612160372156,
+    "candidate_to_model_median_nn_m": 0.2153865742197426,
+    "candidate_to_model_p90_nn_m": 0.25562939314156014,
+    "symmetric_chamfer_mean_m": 0.21645426027085865,
+    "candidate_extent_m": [
+      0.11251902333500298,
+      0.1182038957475627,
+      0.16300000000000003
+    ],
+    "transformed_model_extent_m": [
+      0.10325249276654805,
+      0.10832413019984144,
+      0.0824349575507104
+    ],
+    "candidate_to_model_extent_ratio": [
+      1.0897463133350822,
+      1.091205583922018,
+      1.9773164788703812
+    ]
+  },
+  "gt_pose_on_oracle_reference": {
+    "name": "GT pose reference on oracle target",
+    "threshold_m": 0.02,
+    "source_model_points": 2500,
+    "candidate_points": 2500,
+    "model_to_candidate_overlap": 0.8704,
+    "candidate_to_model_overlap": 0.9928,
+    "bidirectional_min_overlap": 0.8704,
+    "bidirectional_mean_overlap": 0.9316,
+    "model_to_candidate_mean_nn_m": 0.011072680997950885,
+    "model_to_candidate_median_nn_m": 0.009028309827379382,
+    "model_to_candidate_p90_nn_m": 0.02126349582180805,
+    "candidate_to_model_mean_nn_m": 0.006569607353280196,
+    "candidate_to_model_median_nn_m": 0.005456938041195236,
+    "candidate_to_model_p90_nn_m": 0.01108235534544125,
+    "symmetric_chamfer_mean_m": 0.00882114417561554,
+    "candidate_extent_m": [
+      0.11251902333500298,
+      0.1182038957475627,
+      0.16300000000000003
+    ],
+    "transformed_model_extent_m": [
+      0.09868035356281399,
+      0.10642095017536898,
+      0.09008447579606604
+    ],
+    "candidate_to_model_extent_ratio": [
+      1.140237334713035,
+      1.1107201688462358,
+      1.809412760185237
+    ]
+  }
+}

@@ -1,0 +1,2082 @@
+[
+  {
+    "case_id": "scene000003_im000233_obj000018",
+    "final_pose": {
+      "rotation_error_deg": 45.25218119274315,
+      "translation_error_m": 0.03251105613132504,
+      "translation_error_mm": 32.511056131325034
+    },
+    "final_transform": [
+      [
+        -0.7474818136418516,
+        0.6515815717692628,
+        -0.1292774857932056,
+        -0.11275530613740917
+      ],
+      [
+        -0.09860993277479724,
+        0.08361731823501015,
+        0.9916064735154784,
+        -0.059662852996157076
+      ],
+      [
+        0.6569227201219888,
+        0.7539563520288322,
+        0.0017504955303497896,
+        0.7850706329033011
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "icp_fitness": 0.7972,
+    "icp_inliers": 1993,
+    "icp_rmse_m": 0.009317002308873513,
+    "image_id": 233,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_pose": {
+      "rotation_error_deg": 0.0,
+      "translation_error_m": 0.0,
+      "translation_error_mm": 0.0
+    },
+    "initialization": "GT-INITIALIZED DIAGNOSTIC ONLY \u2014 NOT INFERENCE",
+    "model_id": 18,
+    "model_representation": "cad",
+    "perturbation": "exact_gt",
+    "runtime_s": 0.022671607322990894,
+    "scene_id": 3,
+    "status": "ok"
+  },
+  {
+    "case_id": "scene000003_im000233_obj000018",
+    "final_pose": {
+      "rotation_error_deg": 124.08678562613302,
+      "translation_error_m": 0.04432893573910755,
+      "translation_error_mm": 44.32893573910755
+    },
+    "final_transform": [
+      [
+        0.7845019064207119,
+        0.40078596952103906,
+        0.473210285066347,
+        -0.08062930774369972
+      ],
+      [
+        -0.6110004835618073,
+        0.3691245211035361,
+        0.7003036786874048,
+        -0.029395336665236
+      ],
+      [
+        0.10599833062682625,
+        -0.8385214892803979,
+        0.5344584783835814,
+        0.7485780977868238
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "icp_fitness": 0.7432,
+    "icp_inliers": 1858,
+    "icp_rmse_m": 0.009746577666083818,
+    "image_id": 233,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_pose": {
+      "rotation_error_deg": 3.9999373300608303,
+      "translation_error_m": 0.007071066630809742,
+      "translation_error_mm": 7.071066630809742
+    },
+    "initialization": "GT-INITIALIZED DIAGNOSTIC ONLY \u2014 NOT INFERENCE",
+    "model_id": 18,
+    "model_representation": "cad",
+    "perturbation": "deterministic_small",
+    "runtime_s": 0.021084025502204895,
+    "scene_id": 3,
+    "status": "ok"
+  },
+  {
+    "case_id": "scene000003_im000233_obj000018",
+    "final_pose": {
+      "rotation_error_deg": 41.63953479929977,
+      "translation_error_m": 0.009266657679999235,
+      "translation_error_mm": 9.266657679999234
+    },
+    "final_transform": [
+      [
+        -0.9739803016636549,
+        -0.19691801953244756,
+        0.11218774072601598,
+        -0.11926441803406487
+      ],
+      [
+        0.21886308741174648,
+        -0.6887445831328327,
+        0.6911796661594096,
+        -0.03825826758894075
+      ],
+      [
+        -0.05883673783792955,
+        0.6977497933581508,
+        0.7139213617787166,
+        0.7699043381158404
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "icp_fitness": 0.9892,
+    "icp_inliers": 2473,
+    "icp_rmse_m": 0.007762217998300654,
+    "image_id": 233,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_pose": {
+      "rotation_error_deg": 0.0,
+      "translation_error_m": 0.0,
+      "translation_error_mm": 0.0
+    },
+    "initialization": "GT-INITIALIZED DIAGNOSTIC ONLY \u2014 NOT INFERENCE",
+    "model_id": 18,
+    "model_representation": "reconst",
+    "perturbation": "exact_gt",
+    "runtime_s": 0.018235674127936363,
+    "scene_id": 3,
+    "status": "ok"
+  },
+  {
+    "case_id": "scene000003_im000233_obj000018",
+    "final_pose": {
+      "rotation_error_deg": 58.76283977782437,
+      "translation_error_m": 0.0077259584404849434,
+      "translation_error_mm": 7.725958440484943
+    },
+    "final_transform": [
+      [
+        -0.8690512468502126,
+        -0.47461068303330367,
+        0.13962517548497722,
+        -0.11915473398353016
+      ],
+      [
+        0.4355698369607509,
+        -0.6002099442393314,
+        0.6708401595133954,
+        -0.035954541039816275
+      ],
+      [
+        -0.23458330218547807,
+        0.6438115530314209,
+        0.7283387756714659,
+        0.7688571114440214
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "icp_fitness": 0.9868,
+    "icp_inliers": 2467,
+    "icp_rmse_m": 0.007798668564748309,
+    "image_id": 233,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_pose": {
+      "rotation_error_deg": 3.9999373300608303,
+      "translation_error_m": 0.007071066630809742,
+      "translation_error_mm": 7.071066630809742
+    },
+    "initialization": "GT-INITIALIZED DIAGNOSTIC ONLY \u2014 NOT INFERENCE",
+    "model_id": 18,
+    "model_representation": "reconst",
+    "perturbation": "deterministic_small",
+    "runtime_s": 0.018425735644996166,
+    "scene_id": 3,
+    "status": "ok"
+  },
+  {
+    "case_id": "scene000001_im000001_obj000030",
+    "final_pose": {
+      "rotation_error_deg": 33.27892201414558,
+      "translation_error_m": 0.12151978756610084,
+      "translation_error_mm": 121.51978756610083
+    },
+    "final_transform": [
+      [
+        0.00206934238062554,
+        -0.999974015822925,
+        -0.0068725916856973435,
+        -0.07282370567235731
+      ],
+      [
+        -0.847150118538962,
+        0.0018986500070598683,
+        -0.531349728114134,
+        0.10230028091014065
+      ],
+      [
+        0.5313490534587704,
+        0.00692174462549916,
+        -0.8471243722564791,
+        0.7036302771038917
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "icp_fitness": 0.0,
+    "icp_inliers": 0,
+    "icp_rmse_m": null,
+    "image_id": 1,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_pose": {
+      "rotation_error_deg": 0.07160767505942256,
+      "translation_error_m": 0.0,
+      "translation_error_mm": 0.0
+    },
+    "initialization": "GT-INITIALIZED DIAGNOSTIC ONLY \u2014 NOT INFERENCE",
+    "model_id": 30,
+    "model_representation": "cad",
+    "perturbation": "exact_gt",
+    "runtime_s": 0.004571842961013317,
+    "scene_id": 1,
+    "status": "ok"
+  },
+  {
+    "case_id": "scene000001_im000001_obj000030",
+    "final_pose": {
+      "rotation_error_deg": 135.68144629130484,
+      "translation_error_m": 2.437514911169061,
+      "translation_error_mm": 2437.5149111690607
+    },
+    "final_transform": [
+      [
+        -0.5069250186428753,
+        -0.09584580456573598,
+        -0.8566446748514476,
+        2.2368727087433813
+      ],
+      [
+        0.8499662581636283,
+        -0.22098835680721585,
+        -0.4782477113217406,
+        0.5260688457288359
+      ],
+      [
+        -0.14347061907964398,
+        -0.9705551334091758,
+        0.19349029310051105,
+        -0.20850471756341024
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "icp_fitness": 0.0,
+    "icp_inliers": 0,
+    "icp_rmse_m": null,
+    "image_id": 1,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_pose": {
+      "rotation_error_deg": 4.000640420894152,
+      "translation_error_m": 0.007071065817411806,
+      "translation_error_mm": 7.071065817411807
+    },
+    "initialization": "GT-INITIALIZED DIAGNOSTIC ONLY \u2014 NOT INFERENCE",
+    "model_id": 30,
+    "model_representation": "cad",
+    "perturbation": "deterministic_small",
+    "runtime_s": 0.005189100280404091,
+    "scene_id": 1,
+    "status": "ok"
+  },
+  {
+    "case_id": "scene000001_im000001_obj000030",
+    "final_pose": {
+      "rotation_error_deg": 40.19889122867782,
+      "translation_error_m": 0.09735622637667007,
+      "translation_error_mm": 97.35622637667008
+    },
+    "final_transform": [
+      [
+        0.10310967829430606,
+        -0.9354297632289803,
+        -0.3381405832109464,
+        -0.011584636510245994
+      ],
+      [
+        -0.9304746332416619,
+        0.029438899007901642,
+        -0.3651708503465952,
+        0.10014155097907335
+      ],
+      [
+        0.35154626049189613,
+        0.3522840573061943,
+        -0.8673584404369866,
+        0.6645579237677447
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "icp_fitness": 0.0,
+    "icp_inliers": 0,
+    "icp_rmse_m": null,
+    "image_id": 1,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_pose": {
+      "rotation_error_deg": 0.07160767505942256,
+      "translation_error_m": 0.0,
+      "translation_error_mm": 0.0
+    },
+    "initialization": "GT-INITIALIZED DIAGNOSTIC ONLY \u2014 NOT INFERENCE",
+    "model_id": 30,
+    "model_representation": "reconst",
+    "perturbation": "exact_gt",
+    "runtime_s": 0.007543029263615608,
+    "scene_id": 1,
+    "status": "ok"
+  },
+  {
+    "case_id": "scene000001_im000001_obj000030",
+    "final_pose": {
+      "rotation_error_deg": 134.139936203842,
+      "translation_error_m": 0.5119911022302572,
+      "translation_error_mm": 511.99110223025724
+    },
+    "final_transform": [
+      [
+        -0.190767053208173,
+        0.8907598705253968,
+        -0.4124976154301288,
+        0.48569046866406146
+      ],
+      [
+        0.8992882925708597,
+        0.32705827041683455,
+        0.2903669946771344,
+        -0.14940661563204244
+      ],
+      [
+        0.39355804062058236,
+        -0.31556184797537823,
+        -0.8634420603182201,
+        0.6397772304861863
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "icp_fitness": 0.0,
+    "icp_inliers": 0,
+    "icp_rmse_m": null,
+    "image_id": 1,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_pose": {
+      "rotation_error_deg": 4.000640420894152,
+      "translation_error_m": 0.007071065817411806,
+      "translation_error_mm": 7.071065817411807
+    },
+    "initialization": "GT-INITIALIZED DIAGNOSTIC ONLY \u2014 NOT INFERENCE",
+    "model_id": 30,
+    "model_representation": "reconst",
+    "perturbation": "deterministic_small",
+    "runtime_s": 0.0064895786345005035,
+    "scene_id": 1,
+    "status": "ok"
+  },
+  {
+    "case_id": "scene000001_im000001_obj000025",
+    "final_pose": {
+      "rotation_error_deg": 14.21537796156399,
+      "translation_error_m": 0.0024088320346428676,
+      "translation_error_mm": 2.4088320346428675
+    },
+    "final_transform": [
+      [
+        0.12729289335793112,
+        -0.2175457603364845,
+        -0.9677137805517133,
+        -0.0713496828364963
+      ],
+      [
+        0.9586403259135359,
+        -0.2234220845482592,
+        0.1763254775878955,
+        -0.012016531639338229
+      ],
+      [
+        -0.2545675123310018,
+        -0.9501346714928808,
+        0.18010818985823757,
+        0.7670482582376382
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "icp_fitness": 0.8608,
+    "icp_inliers": 2152,
+    "icp_rmse_m": 0.0067909963284794135,
+    "image_id": 1,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_pose": {
+      "rotation_error_deg": 0.0713706576406198,
+      "translation_error_m": 0.0,
+      "translation_error_mm": 0.0
+    },
+    "initialization": "GT-INITIALIZED DIAGNOSTIC ONLY \u2014 NOT INFERENCE",
+    "model_id": 25,
+    "model_representation": "cad",
+    "perturbation": "exact_gt",
+    "runtime_s": 0.009294377639889717,
+    "scene_id": 1,
+    "status": "ok"
+  },
+  {
+    "case_id": "scene000001_im000001_obj000025",
+    "final_pose": {
+      "rotation_error_deg": 14.218297745956093,
+      "translation_error_m": 0.002424514995271976,
+      "translation_error_mm": 2.424514995271976
+    },
+    "final_transform": [
+      [
+        0.1280050960949494,
+        -0.21786784629591804,
+        -0.9675473646366923,
+        -0.07135477710184607
+      ],
+      [
+        0.9585464472085753,
+        -0.22322821781061514,
+        0.17707976658257596,
+        -0.012001186395725243
+      ],
+      [
+        -0.25456387965076666,
+        -0.950106438882317,
+        0.1802621868642161,
+        0.7670522381737195
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "icp_fitness": 0.8608,
+    "icp_inliers": 2152,
+    "icp_rmse_m": 0.0067911659267818,
+    "image_id": 1,
+    "improved_rotation": false,
+    "improved_translation": true,
+    "initial_pose": {
+      "rotation_error_deg": 4.00063615023568,
+      "translation_error_m": 0.007071065939306997,
+      "translation_error_mm": 7.0710659393069974
+    },
+    "initialization": "GT-INITIALIZED DIAGNOSTIC ONLY \u2014 NOT INFERENCE",
+    "model_id": 25,
+    "model_representation": "cad",
+    "perturbation": "deterministic_small",
+    "runtime_s": 0.007137322798371315,
+    "scene_id": 1,
+    "status": "ok"
+  },
+  {
+    "case_id": "scene000001_im000001_obj000025",
+    "final_pose": {
+      "rotation_error_deg": 40.5028470792305,
+      "translation_error_m": 0.7699688235039325,
+      "translation_error_mm": 769.9688235039325
+    },
+    "final_transform": [
+      [
+        0.788521700513102,
+        0.0700439307517185,
+        -0.6110048242229601,
+        0.47779388309445203
+      ],
+      [
+        0.5717301159416195,
+        -0.4495760831397453,
+        0.6862983961127945,
+        -0.1468045303888431
+      ],
+      [
+        -0.2266220992020556,
+        -0.8904912536969272,
+        -0.3945468431499299,
+        0.2420310261411277
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "icp_fitness": 0.0,
+    "icp_inliers": 0,
+    "icp_rmse_m": null,
+    "image_id": 1,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_pose": {
+      "rotation_error_deg": 0.0713706576406198,
+      "translation_error_m": 0.0,
+      "translation_error_mm": 0.0
+    },
+    "initialization": "GT-INITIALIZED DIAGNOSTIC ONLY \u2014 NOT INFERENCE",
+    "model_id": 25,
+    "model_representation": "reconst",
+    "perturbation": "exact_gt",
+    "runtime_s": 0.009903124533593655,
+    "scene_id": 1,
+    "status": "ok"
+  },
+  {
+    "case_id": "scene000001_im000001_obj000025",
+    "final_pose": {
+      "rotation_error_deg": 19.10788820833322,
+      "translation_error_m": 0.2591219111468916,
+      "translation_error_mm": 259.1219111468916
+    },
+    "final_transform": [
+      [
+        0.11738217154270392,
+        -0.2069527879385524,
+        -0.9712834680296563,
+        -0.13534340325539732
+      ],
+      [
+        0.989486037956613,
+        -0.058835046588322226,
+        0.13211804092917426,
+        -0.03024016497549431
+      ],
+      [
+        -0.08448769968553504,
+        -0.9765799822541797,
+        0.19787079257621198,
+        0.5164708755443194
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "icp_fitness": 0.0,
+    "icp_inliers": 0,
+    "icp_rmse_m": null,
+    "image_id": 1,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_pose": {
+      "rotation_error_deg": 4.00063615023568,
+      "translation_error_m": 0.007071065939306997,
+      "translation_error_mm": 7.0710659393069974
+    },
+    "initialization": "GT-INITIALIZED DIAGNOSTIC ONLY \u2014 NOT INFERENCE",
+    "model_id": 25,
+    "model_representation": "reconst",
+    "perturbation": "deterministic_small",
+    "runtime_s": 0.011650871485471725,
+    "scene_id": 1,
+    "status": "ok"
+  },
+  {
+    "case_id": "scene000002_im000003_obj000005",
+    "final_pose": {
+      "rotation_error_deg": 5.038375498464648,
+      "translation_error_m": 0.006112772132536669,
+      "translation_error_mm": 6.112772132536669
+    },
+    "final_transform": [
+      [
+        -0.5247655106384229,
+        -0.8502464612038837,
+        0.04125388127885653,
+        0.007225082631985032
+      ],
+      [
+        -0.8084276601749333,
+        0.48260665679495623,
+        -0.33694889920266025,
+        -0.06272898348024844
+      ],
+      [
+        0.26658056922035844,
+        -0.2101702310254454,
+        -0.9406183716958253,
+        0.7775248604763211
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "icp_fitness": 0.9696,
+    "icp_inliers": 2424,
+    "icp_rmse_m": 0.007002438679749224,
+    "image_id": 3,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_pose": {
+      "rotation_error_deg": 0.07148609707136833,
+      "translation_error_m": 0.0,
+      "translation_error_mm": 0.0
+    },
+    "initialization": "GT-INITIALIZED DIAGNOSTIC ONLY \u2014 NOT INFERENCE",
+    "model_id": 5,
+    "model_representation": "cad",
+    "perturbation": "exact_gt",
+    "runtime_s": 0.006020670756697655,
+    "scene_id": 2,
+    "status": "ok"
+  },
+  {
+    "case_id": "scene000002_im000003_obj000005",
+    "final_pose": {
+      "rotation_error_deg": 5.052620319516259,
+      "translation_error_m": 0.006124684288598497,
+      "translation_error_mm": 6.1246842885984965
+    },
+    "final_transform": [
+      [
+        -0.5272804259477893,
+        -0.8485763725631391,
+        0.043511693400486495,
+        0.00722742016141359
+      ],
+      [
+        -0.8085935402883041,
+        0.4853855425128968,
+        -0.33253025284693405,
+        -0.06275532391761511
+      ],
+      [
+        0.2610577084169041,
+        -0.21052024876716807,
+        -0.9420879781649083,
+        0.7775086364102994
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "icp_fitness": 0.9712,
+    "icp_inliers": 2428,
+    "icp_rmse_m": 0.0070489342872920545,
+    "image_id": 3,
+    "improved_rotation": false,
+    "improved_translation": true,
+    "initial_pose": {
+      "rotation_error_deg": 4.000638457322196,
+      "translation_error_m": 0.00707106393455404,
+      "translation_error_mm": 7.07106393455404
+    },
+    "initialization": "GT-INITIALIZED DIAGNOSTIC ONLY \u2014 NOT INFERENCE",
+    "model_id": 5,
+    "model_representation": "cad",
+    "perturbation": "deterministic_small",
+    "runtime_s": 0.00738977175205946,
+    "scene_id": 2,
+    "status": "ok"
+  },
+  {
+    "case_id": "scene000002_im000003_obj000005",
+    "final_pose": {
+      "rotation_error_deg": 16.45831659292351,
+      "translation_error_m": 0.008946684981406092,
+      "translation_error_mm": 8.946684981406092
+    },
+    "final_transform": [
+      [
+        -0.6907663777449455,
+        -0.7198494167285272,
+        -0.06825181314978758,
+        0.007124533031511507
+      ],
+      [
+        -0.6900472182440124,
+        0.6844715982604384,
+        -0.2352289440157832,
+        -0.06063408902544964
+      ],
+      [
+        0.21604622363790446,
+        -0.11539152651829307,
+        -0.9695403026512854,
+        0.7748794867842349
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "icp_fitness": 0.9464,
+    "icp_inliers": 2366,
+    "icp_rmse_m": 0.010307997163763445,
+    "image_id": 3,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_pose": {
+      "rotation_error_deg": 0.07148609707136833,
+      "translation_error_m": 0.0,
+      "translation_error_mm": 0.0
+    },
+    "initialization": "GT-INITIALIZED DIAGNOSTIC ONLY \u2014 NOT INFERENCE",
+    "model_id": 5,
+    "model_representation": "reconst",
+    "perturbation": "exact_gt",
+    "runtime_s": 0.01546209491789341,
+    "scene_id": 2,
+    "status": "ok"
+  },
+  {
+    "case_id": "scene000002_im000003_obj000005",
+    "final_pose": {
+      "rotation_error_deg": 13.78131736360836,
+      "translation_error_m": 0.009940593522923319,
+      "translation_error_mm": 9.940593522923319
+    },
+    "final_transform": [
+      [
+        -0.6581182189166861,
+        -0.7524897089392568,
+        -0.025285586400296923,
+        0.007784036756602576
+      ],
+      [
+        -0.7315991528032828,
+        0.6470606780188881,
+        -0.21464928079566115,
+        -0.0620153676581132
+      ],
+      [
+        0.17788304487777526,
+        -0.12276594395920397,
+        -0.976363518623145,
+        0.7733650146166006
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "icp_fitness": 0.948,
+    "icp_inliers": 2370,
+    "icp_rmse_m": 0.010296296432440724,
+    "image_id": 3,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_pose": {
+      "rotation_error_deg": 4.000638457322196,
+      "translation_error_m": 0.00707106393455404,
+      "translation_error_mm": 7.07106393455404
+    },
+    "initialization": "GT-INITIALIZED DIAGNOSTIC ONLY \u2014 NOT INFERENCE",
+    "model_id": 5,
+    "model_representation": "reconst",
+    "perturbation": "deterministic_small",
+    "runtime_s": 0.010209803469479084,
+    "scene_id": 2,
+    "status": "ok"
+  },
+  {
+    "case_id": "scene000008_im000001_obj000021",
+    "final_pose": {
+      "rotation_error_deg": 6.691450237622665,
+      "translation_error_m": 0.011116159249614569,
+      "translation_error_mm": 11.116159249614569
+    },
+    "final_transform": [
+      [
+        0.2870745960830966,
+        0.9496164749134303,
+        -0.12576814475376394,
+        -0.10227523126168003
+      ],
+      [
+        0.9180852246244331,
+        -0.31022215942407294,
+        -0.24674154359179268,
+        0.06625467496933003
+      ],
+      [
+        -0.27332621216120406,
+        -0.044632517996998244,
+        -0.9608849610352449,
+        0.7501760956228966
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "icp_fitness": 0.934,
+    "icp_inliers": 2335,
+    "icp_rmse_m": 0.0097585041392481,
+    "image_id": 1,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_pose": {
+      "rotation_error_deg": 0.028941775330878466,
+      "translation_error_m": 0.0,
+      "translation_error_mm": 0.0
+    },
+    "initialization": "GT-INITIALIZED DIAGNOSTIC ONLY \u2014 NOT INFERENCE",
+    "model_id": 21,
+    "model_representation": "cad",
+    "perturbation": "exact_gt",
+    "runtime_s": 0.011767953634262085,
+    "scene_id": 8,
+    "status": "ok"
+  },
+  {
+    "case_id": "scene000008_im000001_obj000021",
+    "final_pose": {
+      "rotation_error_deg": 6.671706181343904,
+      "translation_error_m": 0.011068767136011938,
+      "translation_error_mm": 11.068767136011939
+    },
+    "final_transform": [
+      [
+        0.28754669144204476,
+        0.9495063115908514,
+        -0.12552140692479125,
+        -0.10235172503214225
+      ],
+      [
+        0.9170198742254448,
+        -0.3107593202499129,
+        -0.25000568951403457,
+        0.06619979558542018
+      ],
+      [
+        -0.2763892201014119,
+        -0.04321714195829984,
+        -0.9600731293784753,
+        0.7501269515306705
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "icp_fitness": 0.9336,
+    "icp_inliers": 2334,
+    "icp_rmse_m": 0.009744119321665972,
+    "image_id": 1,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_pose": {
+      "rotation_error_deg": 4.000103463378798,
+      "translation_error_m": 0.007071068282580022,
+      "translation_error_mm": 7.071068282580022
+    },
+    "initialization": "GT-INITIALIZED DIAGNOSTIC ONLY \u2014 NOT INFERENCE",
+    "model_id": 21,
+    "model_representation": "cad",
+    "perturbation": "deterministic_small",
+    "runtime_s": 0.012158184312283993,
+    "scene_id": 8,
+    "status": "ok"
+  },
+  {
+    "case_id": "scene000008_im000001_obj000021",
+    "final_pose": {
+      "rotation_error_deg": 37.76917407623323,
+      "translation_error_m": 0.024530204529798476,
+      "translation_error_mm": 24.530204529798475
+    },
+    "final_transform": [
+      [
+        -0.05772850013030638,
+        0.8699805689553857,
+        0.4896957094173457,
+        -0.08885019222304852
+      ],
+      [
+        0.9982454677815271,
+        0.04384069452658715,
+        0.03979328312821748,
+        0.06380564657966943
+      ],
+      [
+        0.013150208009989513,
+        0.49113450543714104,
+        -0.8709842310333108,
+        0.7377865644401731
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "icp_fitness": 0.9344,
+    "icp_inliers": 2336,
+    "icp_rmse_m": 0.011177492742522216,
+    "image_id": 1,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_pose": {
+      "rotation_error_deg": 0.028941775330878466,
+      "translation_error_m": 0.0,
+      "translation_error_mm": 0.0
+    },
+    "initialization": "GT-INITIALIZED DIAGNOSTIC ONLY \u2014 NOT INFERENCE",
+    "model_id": 21,
+    "model_representation": "reconst",
+    "perturbation": "exact_gt",
+    "runtime_s": 0.019847562536597252,
+    "scene_id": 8,
+    "status": "ok"
+  },
+  {
+    "case_id": "scene000008_im000001_obj000021",
+    "final_pose": {
+      "rotation_error_deg": 37.77082883348022,
+      "translation_error_m": 0.024537908567324063,
+      "translation_error_mm": 24.537908567324063
+    },
+    "final_transform": [
+      [
+        -0.05760779081617572,
+        0.8699091547271586,
+        0.4898367143068714,
+        -0.08884199772448294
+      ],
+      [
+        0.9982535497170116,
+        0.04377033399300096,
+        0.039668187441468536,
+        0.0638040541648035
+      ],
+      [
+        0.013066881290122033,
+        0.4912672720791764,
+        -0.8709106213398148,
+        0.7377825551204458
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "icp_fitness": 0.934,
+    "icp_inliers": 2335,
+    "icp_rmse_m": 0.011173574143407907,
+    "image_id": 1,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_pose": {
+      "rotation_error_deg": 4.000103463378798,
+      "translation_error_m": 0.007071068282580022,
+      "translation_error_mm": 7.071068282580022
+    },
+    "initialization": "GT-INITIALIZED DIAGNOSTIC ONLY \u2014 NOT INFERENCE",
+    "model_id": 21,
+    "model_representation": "reconst",
+    "perturbation": "deterministic_small",
+    "runtime_s": 0.017840132117271423,
+    "scene_id": 8,
+    "status": "ok"
+  },
+  {
+    "case_id": "scene000001_im000246_obj000030",
+    "final_pose": {
+      "rotation_error_deg": 57.00354169771169,
+      "translation_error_m": 0.30610803991837887,
+      "translation_error_mm": 306.1080399183789
+    },
+    "final_transform": [
+      [
+        0.7527900616047923,
+        0.5230524623639354,
+        -0.3996535774590134,
+        -0.13742895811609696
+      ],
+      [
+        0.5844553027179132,
+        -0.810427737733624,
+        0.040226237225921224,
+        0.10657776792929752
+      ],
+      [
+        -0.30284997885082954,
+        -0.26386193745224784,
+        -0.915782695555068,
+        0.5400653335395442
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "icp_fitness": 0.0,
+    "icp_inliers": 0,
+    "icp_rmse_m": null,
+    "image_id": 246,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_pose": {
+      "rotation_error_deg": 0.07722102261995904,
+      "translation_error_m": 0.0,
+      "translation_error_mm": 0.0
+    },
+    "initialization": "GT-INITIALIZED DIAGNOSTIC ONLY \u2014 NOT INFERENCE",
+    "model_id": 30,
+    "model_representation": "cad",
+    "perturbation": "exact_gt",
+    "runtime_s": 0.006542801856994629,
+    "scene_id": 1,
+    "status": "ok"
+  },
+  {
+    "case_id": "scene000001_im000246_obj000030",
+    "final_pose": {
+      "rotation_error_deg": 54.59841862719245,
+      "translation_error_m": 0.3476521372008921,
+      "translation_error_mm": 347.6521372008921
+    },
+    "final_transform": [
+      [
+        0.5909007762382534,
+        0.5261723723299108,
+        -0.6115379509856429,
+        -0.16334595888181525
+      ],
+      [
+        0.5222051599713602,
+        -0.8272654716340182,
+        -0.20720253073364758,
+        0.11015120822332758
+      ],
+      [
+        -0.6149284959302415,
+        -0.19691256808433422,
+        -0.7636016843254954,
+        0.49939991287636504
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "icp_fitness": 0.0,
+    "icp_inliers": 0,
+    "icp_rmse_m": null,
+    "image_id": 246,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_pose": {
+      "rotation_error_deg": 4.000744652591747,
+      "translation_error_m": 0.007071064292560952,
+      "translation_error_mm": 7.071064292560952
+    },
+    "initialization": "GT-INITIALIZED DIAGNOSTIC ONLY \u2014 NOT INFERENCE",
+    "model_id": 30,
+    "model_representation": "cad",
+    "perturbation": "deterministic_small",
+    "runtime_s": 0.0067612361162900925,
+    "scene_id": 1,
+    "status": "ok"
+  },
+  {
+    "case_id": "scene000001_im000246_obj000030",
+    "final_pose": {
+      "rotation_error_deg": 25.206824928455994,
+      "translation_error_m": 0.10806128652238088,
+      "translation_error_mm": 108.06128652238088
+    },
+    "final_transform": [
+      [
+        0.9807533244381532,
+        0.11290574903092612,
+        -0.15929322987806238,
+        -0.10258845777841943
+      ],
+      [
+        -0.06733507833154397,
+        -0.570210278602647,
+        -0.818734162168536,
+        -0.03032094053550497
+      ],
+      [
+        -0.18326999548637962,
+        0.8137030468916328,
+        -0.5516331355424998,
+        0.6947737774304563
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "icp_fitness": 0.0,
+    "icp_inliers": 0,
+    "icp_rmse_m": null,
+    "image_id": 246,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_pose": {
+      "rotation_error_deg": 0.07722102261995904,
+      "translation_error_m": 0.0,
+      "translation_error_mm": 0.0
+    },
+    "initialization": "GT-INITIALIZED DIAGNOSTIC ONLY \u2014 NOT INFERENCE",
+    "model_id": 30,
+    "model_representation": "reconst",
+    "perturbation": "exact_gt",
+    "runtime_s": 0.015508701093494892,
+    "scene_id": 1,
+    "status": "ok"
+  },
+  {
+    "case_id": "scene000001_im000246_obj000030",
+    "final_pose": {
+      "rotation_error_deg": 19.791852268223504,
+      "translation_error_m": 0.09825016078288859,
+      "translation_error_mm": 98.25016078288859
+    },
+    "final_transform": [
+      [
+        0.9837384203221109,
+        0.17959761369038033,
+        -0.0016265889458392524,
+        -0.1070413196420128
+      ],
+      [
+        0.09501752775870123,
+        -0.528098865176002,
+        -0.8438497989582364,
+        0.003473376508781857
+      ],
+      [
+        -0.15241194627553448,
+        0.8299737171665421,
+        -0.5365761432913555,
+        0.7180512420766407
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "icp_fitness": 0.0,
+    "icp_inliers": 0,
+    "icp_rmse_m": null,
+    "image_id": 246,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_pose": {
+      "rotation_error_deg": 4.000744652591747,
+      "translation_error_m": 0.007071064292560952,
+      "translation_error_mm": 7.071064292560952
+    },
+    "initialization": "GT-INITIALIZED DIAGNOSTIC ONLY \u2014 NOT INFERENCE",
+    "model_id": 30,
+    "model_representation": "reconst",
+    "perturbation": "deterministic_small",
+    "runtime_s": 0.016390055418014526,
+    "scene_id": 1,
+    "status": "ok"
+  },
+  {
+    "case_id": "scene000001_im000347_obj000029",
+    "final_pose": {
+      "rotation_error_deg": 6.9484761706655975,
+      "translation_error_m": 0.0076041580444123754,
+      "translation_error_mm": 7.604158044412375
+    },
+    "final_transform": [
+      [
+        -0.8543154009323238,
+        -0.0557372802225779,
+        -0.5167571650115316,
+        -0.03020413416572358
+      ],
+      [
+        0.33349502214269366,
+        -0.8213678229068193,
+        -0.46274946376724707,
+        -0.07484884163374776
+      ],
+      [
+        -0.39865525399099716,
+        -0.5676692021169872,
+        0.7202947961221042,
+        0.8229132717611469
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "icp_fitness": 0.6588,
+    "icp_inliers": 1647,
+    "icp_rmse_m": 0.00636904961122694,
+    "image_id": 347,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_pose": {
+      "rotation_error_deg": 0.042850487993487826,
+      "translation_error_m": 0.0,
+      "translation_error_mm": 0.0
+    },
+    "initialization": "GT-INITIALIZED DIAGNOSTIC ONLY \u2014 NOT INFERENCE",
+    "model_id": 29,
+    "model_representation": "cad",
+    "perturbation": "exact_gt",
+    "runtime_s": 0.008809632621705532,
+    "scene_id": 1,
+    "status": "ok"
+  },
+  {
+    "case_id": "scene000001_im000347_obj000029",
+    "final_pose": {
+      "rotation_error_deg": 6.9288380231059055,
+      "translation_error_m": 0.007599599150203463,
+      "translation_error_mm": 7.5995991502034625
+    },
+    "final_transform": [
+      [
+        -0.8542355651330995,
+        -0.05546510179566959,
+        -0.5169183927181824,
+        -0.030190419869012167
+      ],
+      [
+        0.3335198098211777,
+        -0.8211904928947087,
+        -0.4630462496623465,
+        -0.07484187785506617
+      ],
+      [
+        -0.39880548451539394,
+        -0.5679524202551649,
+        0.71998830062935,
+        0.8229145896887146
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "icp_fitness": 0.6588,
+    "icp_inliers": 1647,
+    "icp_rmse_m": 0.006365953822568661,
+    "image_id": 347,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_pose": {
+      "rotation_error_deg": 4.000229603284665,
+      "translation_error_m": 0.007071064785040436,
+      "translation_error_mm": 7.071064785040436
+    },
+    "initialization": "GT-INITIALIZED DIAGNOSTIC ONLY \u2014 NOT INFERENCE",
+    "model_id": 29,
+    "model_representation": "cad",
+    "perturbation": "deterministic_small",
+    "runtime_s": 0.008903957903385162,
+    "scene_id": 1,
+    "status": "ok"
+  },
+  {
+    "case_id": "scene000001_im000347_obj000029",
+    "final_pose": {
+      "rotation_error_deg": 9.363540103224048,
+      "translation_error_m": 0.006825849449057899,
+      "translation_error_mm": 6.825849449057898
+    },
+    "final_transform": [
+      [
+        -0.9032254623064775,
+        0.0251601406609964,
+        -0.42842758325051505,
+        -0.029563659291718083
+      ],
+      [
+        0.24395086263421156,
+        -0.7912177755784185,
+        -0.5607704531140162,
+        -0.07468895362892498
+      ],
+      [
+        -0.353088496640733,
+        -0.6110167484415574,
+        0.7085096555112267,
+        0.8235708550827813
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "icp_fitness": 0.6748,
+    "icp_inliers": 1687,
+    "icp_rmse_m": 0.007988991453673946,
+    "image_id": 347,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_pose": {
+      "rotation_error_deg": 0.042850487993487826,
+      "translation_error_m": 0.0,
+      "translation_error_mm": 0.0
+    },
+    "initialization": "GT-INITIALIZED DIAGNOSTIC ONLY \u2014 NOT INFERENCE",
+    "model_id": 29,
+    "model_representation": "reconst",
+    "perturbation": "exact_gt",
+    "runtime_s": 0.014419816434383392,
+    "scene_id": 1,
+    "status": "ok"
+  },
+  {
+    "case_id": "scene000001_im000347_obj000029",
+    "final_pose": {
+      "rotation_error_deg": 9.228427656663548,
+      "translation_error_m": 0.006813136143106065,
+      "translation_error_mm": 6.813136143106065
+    },
+    "final_transform": [
+      [
+        -0.9023971547641124,
+        0.025551450915891873,
+        -0.4301464031290326,
+        -0.029487320208970706
+      ],
+      [
+        0.244025930293946,
+        -0.7924395071452204,
+        -0.5590099270569934,
+        -0.07473262749021396
+      ],
+      [
+        -0.3551484185221535,
+        -0.6094152161565136,
+        0.7088593516535867,
+        0.823553892098344
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "icp_fitness": 0.6748,
+    "icp_inliers": 1687,
+    "icp_rmse_m": 0.007972127337840057,
+    "image_id": 347,
+    "improved_rotation": false,
+    "improved_translation": true,
+    "initial_pose": {
+      "rotation_error_deg": 4.000229603284665,
+      "translation_error_m": 0.007071064785040436,
+      "translation_error_mm": 7.071064785040436
+    },
+    "initialization": "GT-INITIALIZED DIAGNOSTIC ONLY \u2014 NOT INFERENCE",
+    "model_id": 29,
+    "model_representation": "reconst",
+    "perturbation": "deterministic_small",
+    "runtime_s": 0.0108050387352705,
+    "scene_id": 1,
+    "status": "ok"
+  },
+  {
+    "case_id": "scene000007_im000285_obj000018",
+    "final_pose": {
+      "rotation_error_deg": 23.14300065084121,
+      "translation_error_m": 0.011352086153791869,
+      "translation_error_mm": 11.35208615379187
+    },
+    "final_transform": [
+      [
+        -0.9937501693465126,
+        -0.012549747246483249,
+        0.11091424757084233,
+        -0.003149092586545121
+      ],
+      [
+        -0.10483654636965956,
+        0.4460989419306203,
+        -0.8888221482043149,
+        -0.07705926065401224
+      ],
+      [
+        -0.03832414676787519,
+        -0.8948961368639994,
+        -0.4446268970401632,
+        0.8402488468753704
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "icp_fitness": 0.9824,
+    "icp_inliers": 2456,
+    "icp_rmse_m": 0.009416588035081297,
+    "image_id": 285,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_pose": {
+      "rotation_error_deg": 0.03810482115552029,
+      "translation_error_m": 0.0,
+      "translation_error_mm": 0.0
+    },
+    "initialization": "GT-INITIALIZED DIAGNOSTIC ONLY \u2014 NOT INFERENCE",
+    "model_id": 18,
+    "model_representation": "cad",
+    "perturbation": "exact_gt",
+    "runtime_s": 0.012104370631277561,
+    "scene_id": 7,
+    "status": "ok"
+  },
+  {
+    "case_id": "scene000007_im000285_obj000018",
+    "final_pose": {
+      "rotation_error_deg": 11.506423118261571,
+      "translation_error_m": 0.0111239661534489,
+      "translation_error_mm": 11.123966153448901
+    },
+    "final_transform": [
+      [
+        -0.9574220547238111,
+        -0.2643325971945952,
+        0.11606155897297128,
+        -0.0032028415624654402
+      ],
+      [
+        -0.2178328101339912,
+        0.3976508258738829,
+        -0.8913037807456334,
+        -0.07862651973152834
+      ],
+      [
+        0.1894484469600181,
+        -0.878636997845081,
+        -0.4383002730111787,
+        0.8409004479854765
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "icp_fitness": 0.9856,
+    "icp_inliers": 2464,
+    "icp_rmse_m": 0.009103762479256709,
+    "image_id": 285,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_pose": {
+      "rotation_error_deg": 4.000181062504954,
+      "translation_error_m": 0.007071065977437428,
+      "translation_error_mm": 7.071065977437429
+    },
+    "initialization": "GT-INITIALIZED DIAGNOSTIC ONLY \u2014 NOT INFERENCE",
+    "model_id": 18,
+    "model_representation": "cad",
+    "perturbation": "deterministic_small",
+    "runtime_s": 0.021485479548573494,
+    "scene_id": 7,
+    "status": "ok"
+  },
+  {
+    "case_id": "scene000007_im000285_obj000018",
+    "final_pose": {
+      "rotation_error_deg": 32.0638160780915,
+      "translation_error_m": 0.007089489764911743,
+      "translation_error_mm": 7.089489764911743
+    },
+    "final_transform": [
+      [
+        -0.9755055004110843,
+        0.15707527542133665,
+        0.15399783791617505,
+        -0.00794880966432136
+      ],
+      [
+        -0.04545083270717977,
+        0.541043334850868,
+        -0.839765550983395,
+        -0.075133216630292
+      ],
+      [
+        -0.21522565188743217,
+        -0.8261962996688147,
+        -0.5206518455964608,
+        0.8425172788993416
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "icp_fitness": 0.9736,
+    "icp_inliers": 2434,
+    "icp_rmse_m": 0.008644556737457372,
+    "image_id": 285,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_pose": {
+      "rotation_error_deg": 0.03810482115552029,
+      "translation_error_m": 0.0,
+      "translation_error_mm": 0.0
+    },
+    "initialization": "GT-INITIALIZED DIAGNOSTIC ONLY \u2014 NOT INFERENCE",
+    "model_id": 18,
+    "model_representation": "reconst",
+    "perturbation": "exact_gt",
+    "runtime_s": 0.020341581664979458,
+    "scene_id": 7,
+    "status": "ok"
+  },
+  {
+    "case_id": "scene000007_im000285_obj000018",
+    "final_pose": {
+      "rotation_error_deg": 21.35829870056978,
+      "translation_error_m": 0.007148951785332022,
+      "translation_error_mm": 7.148951785332022
+    },
+    "final_transform": [
+      [
+        -0.9853316435619196,
+        -0.02806990552203897,
+        0.16832260377312414,
+        -0.008217835566261085
+      ],
+      [
+        -0.15721414933993638,
+        0.532915556522227,
+        -0.8314352424113968,
+        -0.0751919147412416
+      ],
+      [
+        -0.0663634051332945,
+        -0.8457032371113562,
+        -0.5295118347116599,
+        0.842386261664173
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "icp_fitness": 0.9776,
+    "icp_inliers": 2444,
+    "icp_rmse_m": 0.008641022037003215,
+    "image_id": 285,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_pose": {
+      "rotation_error_deg": 4.000181062504954,
+      "translation_error_m": 0.007071065977437428,
+      "translation_error_mm": 7.071065977437429
+    },
+    "initialization": "GT-INITIALIZED DIAGNOSTIC ONLY \u2014 NOT INFERENCE",
+    "model_id": 18,
+    "model_representation": "reconst",
+    "perturbation": "deterministic_small",
+    "runtime_s": 0.01288512535393238,
+    "scene_id": 7,
+    "status": "ok"
+  },
+  {
+    "case_id": "scene000005_im000341_obj000004",
+    "final_pose": {
+      "rotation_error_deg": 75.16157762804961,
+      "translation_error_m": 0.06251769371003128,
+      "translation_error_mm": 62.51769371003128
+    },
+    "final_transform": [
+      [
+        -0.842478853604084,
+        -0.5331007438880744,
+        0.07766855606677876,
+        0.053690660428511505
+      ],
+      [
+        -0.33086123235247716,
+        0.3982267304112812,
+        -0.8555389093276786,
+        -0.07667049934081377
+      ],
+      [
+        0.4251586033080279,
+        -0.7464708236740912,
+        -0.511879459901845,
+        0.7499661978146476
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "icp_fitness": 0.0,
+    "icp_inliers": 0,
+    "icp_rmse_m": null,
+    "image_id": 341,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_pose": {
+      "rotation_error_deg": 0.055968332800065496,
+      "translation_error_m": 0.0,
+      "translation_error_mm": 0.0
+    },
+    "initialization": "GT-INITIALIZED DIAGNOSTIC ONLY \u2014 NOT INFERENCE",
+    "model_id": 4,
+    "model_representation": "cad",
+    "perturbation": "exact_gt",
+    "runtime_s": 0.009235567413270473,
+    "scene_id": 5,
+    "status": "ok"
+  },
+  {
+    "case_id": "scene000005_im000341_obj000004",
+    "final_pose": {
+      "rotation_error_deg": 81.98712547075795,
+      "translation_error_m": 0.11509534493368011,
+      "translation_error_mm": 115.09534493368011
+    },
+    "final_transform": [
+      [
+        -0.9694625018252326,
+        0.24431845892646947,
+        -0.021230465348929944,
+        0.03798218836345246
+      ],
+      [
+        0.1108959992488597,
+        0.3595297662777869,
+        -0.9265205909566975,
+        -0.1001058111618874
+      ],
+      [
+        -0.2187331775720485,
+        -0.9005811677241102,
+        -0.37564429682554745,
+        0.6933253739777968
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "icp_fitness": 0.0,
+    "icp_inliers": 0,
+    "icp_rmse_m": null,
+    "image_id": 341,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_pose": {
+      "rotation_error_deg": 4.000390572765696,
+      "translation_error_m": 0.0070710699113696205,
+      "translation_error_mm": 7.07106991136962
+    },
+    "initialization": "GT-INITIALIZED DIAGNOSTIC ONLY \u2014 NOT INFERENCE",
+    "model_id": 4,
+    "model_representation": "cad",
+    "perturbation": "deterministic_small",
+    "runtime_s": 0.009941757656633854,
+    "scene_id": 5,
+    "status": "ok"
+  },
+  {
+    "case_id": "scene000005_im000341_obj000004",
+    "final_pose": {
+      "rotation_error_deg": 60.174971829405344,
+      "translation_error_m": 0.06245220689945661,
+      "translation_error_mm": 62.45220689945661
+    },
+    "final_transform": [
+      [
+        -0.383524190696227,
+        -0.5958566242219641,
+        -0.7055944807445665,
+        0.08665072752022404
+      ],
+      [
+        -0.3880909410541804,
+        0.7972692344067788,
+        -0.46232842426584,
+        -0.1222269046340763
+      ],
+      [
+        0.8380299686963287,
+        0.09652084637003489,
+        -0.5370183128191893,
+        0.7572527043056815
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "icp_fitness": 0.0,
+    "icp_inliers": 0,
+    "icp_rmse_m": null,
+    "image_id": 341,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_pose": {
+      "rotation_error_deg": 0.055968332800065496,
+      "translation_error_m": 0.0,
+      "translation_error_mm": 0.0
+    },
+    "initialization": "GT-INITIALIZED DIAGNOSTIC ONLY \u2014 NOT INFERENCE",
+    "model_id": 4,
+    "model_representation": "reconst",
+    "perturbation": "exact_gt",
+    "runtime_s": 0.008839857764542103,
+    "scene_id": 5,
+    "status": "ok"
+  },
+  {
+    "case_id": "scene000005_im000341_obj000004",
+    "final_pose": {
+      "rotation_error_deg": 87.9365834520122,
+      "translation_error_m": 0.11382176074805506,
+      "translation_error_mm": 113.82176074805506
+    },
+    "final_transform": [
+      [
+        -0.0383955000061828,
+        -0.9909490004241218,
+        -0.12862861599214068,
+        0.1098286140390439
+      ],
+      [
+        -0.5749021515825902,
+        0.1271927443820223,
+        -0.8082759073399799,
+        -0.08135249753789803
+      ],
+      [
+        0.8173206040168035,
+        0.04291487162150504,
+        -0.5745820329812963,
+        0.7095217262024156
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "icp_fitness": 0.0,
+    "icp_inliers": 0,
+    "icp_rmse_m": null,
+    "image_id": 341,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_pose": {
+      "rotation_error_deg": 4.000390572765696,
+      "translation_error_m": 0.0070710699113696205,
+      "translation_error_mm": 7.07106991136962
+    },
+    "initialization": "GT-INITIALIZED DIAGNOSTIC ONLY \u2014 NOT INFERENCE",
+    "model_id": 4,
+    "model_representation": "reconst",
+    "perturbation": "deterministic_small",
+    "runtime_s": 0.009142464958131313,
+    "scene_id": 5,
+    "status": "ok"
+  },
+  {
+    "case_id": "scene000002_im000387_obj000006",
+    "final_pose": {
+      "rotation_error_deg": 12.407619195572257,
+      "translation_error_m": 0.25409544571459786,
+      "translation_error_mm": 254.09544571459784
+    },
+    "final_transform": [
+      [
+        -0.7874747556690609,
+        0.6047186585783657,
+        -0.11916248639544762,
+        0.2880963510967608
+      ],
+      [
+        0.39851575993357163,
+        0.35206898409742066,
+        -0.8468957017035246,
+        0.02952634023737913
+      ],
+      [
+        -0.4701802613568705,
+        -0.7143972280908164,
+        -0.5182345463438244,
+        0.7712743413469053
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "icp_fitness": 0.0,
+    "icp_inliers": 0,
+    "icp_rmse_m": null,
+    "image_id": 387,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_pose": {
+      "rotation_error_deg": 0.0,
+      "translation_error_m": 0.0,
+      "translation_error_mm": 0.0
+    },
+    "initialization": "GT-INITIALIZED DIAGNOSTIC ONLY \u2014 NOT INFERENCE",
+    "model_id": 6,
+    "model_representation": "cad",
+    "perturbation": "exact_gt",
+    "runtime_s": 0.00712846964597702,
+    "scene_id": 2,
+    "status": "ok"
+  },
+  {
+    "case_id": "scene000002_im000387_obj000006",
+    "final_pose": {
+      "rotation_error_deg": 37.96289499028148,
+      "translation_error_m": 0.03519076591518186,
+      "translation_error_mm": 35.190765915181856
+    },
+    "final_transform": [
+      [
+        -0.9539047936987135,
+        0.09031939981897061,
+        -0.2861966999113849,
+        0.04161718298740973
+      ],
+      [
+        0.28693487324235056,
+        -0.004987456242100445,
+        -0.9579367919955274,
+        -0.08013953572970309
+      ],
+      [
+        -0.08794752461168283,
+        -0.9959006758222292,
+        -0.021157987579750598,
+        0.8164464251331333
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "icp_fitness": 0.6028,
+    "icp_inliers": 1507,
+    "icp_rmse_m": 0.011178320285454004,
+    "image_id": 387,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_pose": {
+      "rotation_error_deg": 3.999803715880033,
+      "translation_error_m": 0.007071067571792187,
+      "translation_error_mm": 7.071067571792187
+    },
+    "initialization": "GT-INITIALIZED DIAGNOSTIC ONLY \u2014 NOT INFERENCE",
+    "model_id": 6,
+    "model_representation": "cad",
+    "perturbation": "deterministic_small",
+    "runtime_s": 0.023021697998046875,
+    "scene_id": 2,
+    "status": "ok"
+  },
+  {
+    "case_id": "scene000002_im000387_obj000006",
+    "final_pose": {
+      "rotation_error_deg": 179.68703899064414,
+      "translation_error_m": 0.026214484812748098,
+      "translation_error_mm": 26.214484812748097
+    },
+    "final_transform": [
+      [
+        0.9700225342827511,
+        0.14353972114081365,
+        0.19609492396572642,
+        0.042012454756928164
+      ],
+      [
+        -0.16645104257409607,
+        -0.1954887703933498,
+        0.9664768388071172,
+        -0.05370098760250295
+      ],
+      [
+        0.17706245596048642,
+        -0.9701448934076623,
+        -0.16573585489059656,
+        0.8136706266940922
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "icp_fitness": 0.7624,
+    "icp_inliers": 1906,
+    "icp_rmse_m": 0.012154325951436127,
+    "image_id": 387,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_pose": {
+      "rotation_error_deg": 0.0,
+      "translation_error_m": 0.0,
+      "translation_error_mm": 0.0
+    },
+    "initialization": "GT-INITIALIZED DIAGNOSTIC ONLY \u2014 NOT INFERENCE",
+    "model_id": 6,
+    "model_representation": "reconst",
+    "perturbation": "exact_gt",
+    "runtime_s": 0.023735852912068367,
+    "scene_id": 2,
+    "status": "ok"
+  },
+  {
+    "case_id": "scene000002_im000387_obj000006",
+    "final_pose": {
+      "rotation_error_deg": 134.2385142507005,
+      "translation_error_m": 0.037592779229413696,
+      "translation_error_mm": 37.59277922941369
+    },
+    "final_transform": [
+      [
+        0.260706754617965,
+        -0.12490465577413029,
+        0.9573034938329015,
+        0.021877665818221717
+      ],
+      [
+        -0.7475174060493763,
+        -0.653624573955002,
+        0.11829290945193949,
+        -0.057605170446954915
+      ],
+      [
+        0.6109422720348396,
+        -0.7464411350499692,
+        -0.2637724724189192,
+        0.8221002510417482
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "icp_fitness": 0.5208,
+    "icp_inliers": 1302,
+    "icp_rmse_m": 0.012807847915550116,
+    "image_id": 387,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_pose": {
+      "rotation_error_deg": 3.999803715880033,
+      "translation_error_m": 0.007071067571792187,
+      "translation_error_mm": 7.071067571792187
+    },
+    "initialization": "GT-INITIALIZED DIAGNOSTIC ONLY \u2014 NOT INFERENCE",
+    "model_id": 6,
+    "model_representation": "reconst",
+    "perturbation": "deterministic_small",
+    "runtime_s": 0.02147977240383625,
+    "scene_id": 2,
+    "status": "ok"
+  }
+]

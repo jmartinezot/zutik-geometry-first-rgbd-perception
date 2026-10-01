@@ -1,0 +1,6 @@
+[
+  {"errors": {"1": [Infinity]}, "est_id": 0, "gt_visib_fracts": {"1": 0.9736641947138239}, "im_id": 1, "obj_id": 25, "scene_id": 1, "score": 0.0},
+  {"errors": {"3": [Infinity]}, "est_id": 0, "gt_visib_fracts": {"3": 0.9900573271228951}, "im_id": 1, "obj_id": 30, "scene_id": 1, "score": 0.0},
+  {"errors": {"3": [Infinity]}, "est_id": 0, "gt_visib_fracts": {"3": 0.8025116467490379}, "im_id": 246, "obj_id": 30, "scene_id": 1, "score": 1.0},
+  {"errors": {"2": [164.2679325236843]}, "est_id": 0, "gt_visib_fracts": {"2": 0.829525687115853}, "im_id": 347, "obj_id": 29, "scene_id": 1, "score": 1.0}
+]

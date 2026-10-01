@@ -1,0 +1,125 @@
+{
+  "source_experiment": "/home/scpmaotj/Github/zutik-geometry-first-rgbd-perception/experiments/tless_smoke",
+  "diagnostics": {
+    "scene_id": 3,
+    "im_id": 233,
+    "obj_id": 18,
+    "accepted": true,
+    "candidate_type": "full",
+    "runtime_ms": 358.81529841572046,
+    "failure_reason": null,
+    "ransac_inliers": 351,
+    "ransac_rmse_m": 0.009784895845246985,
+    "icp_inliers": 2148,
+    "icp_fitness": 0.8592,
+    "icp_rmse_m": 0.008796211657596066,
+    "inlier_ratio": 0.3706441393875396,
+    "feature_correspondences": 947,
+    "T_camera_object": [
+      [
+        0.25825064878548687,
+        -0.6754207580902892,
+        -0.6907339588746269,
+        0.04560476472582147
+      ],
+      [
+        -0.9660481850387512,
+        -0.1861593563941095,
+        -0.17915244405328398,
+        -0.026869006929222016
+      ],
+      [
+        -0.0075833096474586985,
+        0.7135485222237309,
+        -0.700564772056889,
+        0.7037567153947563
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "confidence": 0.596341547556732,
+    "diagnostics": {
+      "method": "open3d-fpfh-ransac-point-to-plane-icp",
+      "accepted": true,
+      "failure_reason": null,
+      "model_points": 18095,
+      "scene_points": 384259,
+      "candidate_points": 367497,
+      "candidate_source": "full",
+      "candidate_index": 0,
+      "feature_correspondences": 947,
+      "ransac_inliers": 351,
+      "icp_inliers": 2148,
+      "inlier_ratio": 0.3706441393875396,
+      "global_fitness": 0.3706441393875396,
+      "fitness": 0.8592,
+      "ransac_rmse_m": 0.009784895845246985,
+      "rmse_m": 0.008796211657596066,
+      "icp_iterations": 35,
+      "downsample_voxel_m": 0.005
+    }
+  },
+  "posthoc_error": {
+    "translation_m": 0.17728928702071745,
+    "translation_mm": 177.28928702071744,
+    "rotation_geodesic_deg": 128.93169451300736
+  },
+  "T_camera_object_estimated": [
+    [
+      0.25825064878548687,
+      -0.6754207580902892,
+      -0.6907339588746269,
+      0.04560476472582147
+    ],
+    [
+      -0.9660481850387512,
+      -0.1861593563941095,
+      -0.17915244405328398,
+      -0.026869006929222016
+    ],
+    [
+      -0.0075833096474586985,
+      0.7135485222237309,
+      -0.700564772056889,
+      0.7037567153947563
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "T_camera_object_ground_truth": [
+    [
+      -0.86910545,
+      0.49441825,
+      -0.01437454,
+      -0.11749746524
+    ],
+    [
+      -0.34426527,
+      -0.58378321,
+      0.73530805,
+      -0.02977498353
+    ],
+    [
+      0.35515853,
+      0.64400958,
+      0.67757994,
+      0.77318804242
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "official_csv": "/home/scpmaotj/Github/zutik-geometry-first-rgbd-perception/experiments/tless_smoke/tless_scene000003_im000233_obj000018.csv",
+  "diagnostics_jsonl": "/home/scpmaotj/Github/zutik-geometry-first-rgbd-perception/experiments/tless_smoke/tless_scene000003_im000233_obj000018.diagnostics.jsonl"
+}

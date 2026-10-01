@@ -1,0 +1,16 @@
+[1;33m[Open3D WARNING] Too few correspondences (50) after mutual filter, fall back to original correspondences.[0;m
+{
+  "dataset_root": "/home/datasets/bop/tless",
+  "split": "test_primesense",
+  "scene_id": 3,
+  "im_id": 233,
+  "model_ids": [
+    18
+  ],
+  "processed": 1,
+  "accepted": 1,
+  "official_bop_csv": "experiments/tless_smoke/tless_scene000003_im000233_obj000018.csv",
+  "diagnostics_jsonl": "experiments/tless_smoke/tless_scene000003_im000233_obj000018.diagnostics.jsonl",
+  "translation_units": "mm",
+  "internal_units": "m"
+}

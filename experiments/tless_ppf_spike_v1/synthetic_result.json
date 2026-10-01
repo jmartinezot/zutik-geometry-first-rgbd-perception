@@ -1,0 +1,37 @@
+{
+  "best_of_k_posthoc": {
+    "rank": 1,
+    "rotation_error_deg": 1.0479952275588367,
+    "translation_error_m": 0.00033814283763079604,
+    "votes": null
+  },
+  "bridge_runtime_s": 1.93501668,
+  "configuration": {
+    "angle_bin_deg": 10.0,
+    "distance_bin_m": 0.005,
+    "executable": "/usr/local/bin/zutik_ppf_bridge",
+    "position_cluster_m": 0.03,
+    "rotation_cluster_deg": 25.0,
+    "scene_reference_sampling_rate": 5,
+    "timeout_s": 180.0,
+    "top_k": 20
+  },
+  "gt_pose_not_provided_to_bridge": true,
+  "hypotheses": [
+    {
+      "rank": 1,
+      "rotation_error_deg": 1.0479952275588367,
+      "translation_error_m": 0.00033814283763079604,
+      "votes": null
+    }
+  ],
+  "label": "deterministic synthetic PPF bridge validation",
+  "model_points": 571,
+  "noise_sigma_m": 0.0007,
+  "outlier_points": 120,
+  "partial_visibility_fraction": 0.8563922942206655,
+  "scene_points": 609,
+  "status": "ok",
+  "success_within_20mm_5deg": true,
+  "wall_runtime_s": 2.0269075138494372
+}

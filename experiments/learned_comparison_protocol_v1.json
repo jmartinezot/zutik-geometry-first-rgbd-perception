@@ -1,0 +1,47 @@
+{
+  "protocol_id": "learned_vs_geometry_model_conditioned_v1",
+  "status": "blocked_before_inference",
+  "dataset": {
+    "root": "/home/datasets/bop/tless",
+    "split": "test_primesense",
+    "manifest": "experiments/tless_validation_manifest_scene_conditioned_v1.json",
+    "manifest_sha256": "341137b72784e7b2c8553d8dae8afe6f625b1c625632943485889fbddc8b07a",
+    "case_count": 10
+  },
+  "experiment_a": {
+    "name": "model_conditioned_pose",
+    "status": "not_run",
+    "geometry_inputs": ["full depth scene", "camera intrinsics", "known CAD model identity"],
+    "geometry_forbidden": ["GT mask", "GT pose", "GT box", "GT object location"],
+    "learned_inputs": "only the actual existing learned interface; no interface is present",
+    "learned_forbidden": ["GT mask", "GT pose", "GT box", "GT object location"],
+    "required_output": "T_camera_object"
+  },
+  "experiment_b": {
+    "name": "end_to_end_detection_and_pose",
+    "status": "not_valid",
+    "reason": "Requires both pipelines to support catalogue-wide instance selection; current geometry branch does not demonstrate that capability."
+  },
+  "geometry_configuration": "experiments/geometry_baseline_summary_v1.json",
+  "metrics": ["MSSD", "MSPD", "RE", "TE", "translation_error", "descriptive_naive_rotation_error"],
+  "runtime": {
+    "record": ["cold_start_model_loading", "steady_state_frame", "preprocessing", "candidate_generation", "registration", "verification"],
+    "hardware": "Linux x86_64, dual Intel Xeon E5-2640 v4, NVIDIA TITAN X/TITAN Xp present but geometry uses CPU"
+  },
+  "failure_taxonomy": {
+    "geometry": ["candidate_isolation", "global_registration", "refinement_divergence", "geometric_false_positive", "verification_rejection"],
+    "learned": ["dependency_or_checkpoint_unavailable", "detector_miss", "wrong_class_or_object", "segmentation_failure", "pose_initialization_failure", "pose_failure", "output_units_or_frame_failure"]
+  },
+  "learned_stack_blockers": [
+    "no Grounding DINO implementation or dependency",
+    "no YOLO-World implementation or dependency",
+    "no SAM 2 implementation or dependency",
+    "no FoundationPose implementation or dependency",
+    "PyTorch absent from the native geometry environment",
+    "no local learned checkpoint/configuration",
+    "no learned RGB-D/CAD preprocessing or pose-output adapter",
+    "no learned evaluation command or environment"
+  ],
+  "no_download_performed": true,
+  "winner_claim": false
+}

@@ -1,0 +1,36 @@
+# Separate experimental image. The production Dockerfile is intentionally
+# unchanged and does not acquire a PCL dependency.
+FROM zutik-geometry:local AS build
+
+USER root
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends build-essential cmake libpcl-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /tmp/zutik-ppf-build
+COPY experimental/ppf_pcl/CMakeLists.txt experimental/ppf_pcl/ppf_bridge.cpp ./
+RUN cmake -S . -B build -DCMAKE_BUILD_TYPE=Release \
+    && cmake --build build --parallel "$(nproc)" \
+    && install -m 0755 build/zutik_ppf_bridge /tmp/zutik_ppf_bridge
+
+FROM zutik-geometry:local
+
+USER root
+# Keep the compiler, headers, VTK/Qt development packages, and CMake out of
+# the runtime image. These are the direct PCL 1.13 libraries used by the
+# bridge; apt resolves their runtime dependency closure.
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends \
+        libpcl-common1.13 \
+        libpcl-features1.13 \
+        libpcl-filters1.13 \
+        libpcl-kdtree1.13 \
+        libpcl-octree1.13 \
+        libpcl-registration1.13 \
+        libpcl-sample-consensus1.13 \
+        libpcl-search1.13 \
+    && rm -rf /var/lib/apt/lists/*
+COPY --from=build /tmp/zutik_ppf_bridge /usr/local/bin/zutik_ppf_bridge
+
+USER zutik
+WORKDIR /workspace

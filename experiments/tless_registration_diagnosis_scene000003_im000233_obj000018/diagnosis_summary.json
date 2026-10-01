@@ -1,0 +1,60 @@
+{
+  "case": {
+    "dataset_root": "/home/datasets/bop/tless",
+    "split": "test_primesense",
+    "scene_id": 3,
+    "image_id": 233,
+    "model_id": 18
+  },
+  "production_defaults_changed": false,
+  "oracle_target": {
+    "raw_points": 16456,
+    "after_statistical_filter_points": 16366,
+    "bbox_dimensions_m": [0.11469009, 0.11820390, 0.163]
+  },
+  "fpfh": {
+    "model_features": 947,
+    "oracle_features": 810,
+    "raw_correspondences": 947,
+    "mutual_correspondences": 53,
+    "mutual_ratio": 0.0559662090813094,
+    "raw_median_gt_error_mm": 55.53148927658597,
+    "raw_fraction_within_10mm": 0.009503695881731784,
+    "mutual_median_gt_error_mm": 51.968005516028856,
+    "mutual_fraction_within_10mm": 0.018867924528301886
+  },
+  "current_cad_oracle_registration": {
+    "ransac_inliers": 729,
+    "ransac_rmse_mm": 7.7079537832551335,
+    "ransac_translation_error_mm": 12.007728923219549,
+    "ransac_rotation_error_deg": 171.70154237298212,
+    "icp_inliers": 0,
+    "icp_fitness": 0.0,
+    "accepted": false
+  },
+  "model_representation_diagnostic": {
+    "models_reconst_post_icp_translation_error_mm": 7.472738848659484,
+    "models_reconst_post_icp_rotation_error_deg": 2.652957984257229,
+    "models_reconst_post_icp_fitness": 0.9852,
+    "models_reconst_post_icp_rmse_mm": 7.327333008131957
+  },
+  "bidirectional_verification": {
+    "baseline_model_to_scene_overlap_20mm": 0.8592,
+    "baseline_scene_to_model_overlap_20mm": 0.0652,
+    "baseline_symmetric_mean_distance_mm": 128.93312098545357,
+    "cad_gt_model_to_oracle_overlap_20mm": 0.878,
+    "cad_gt_oracle_to_model_overlap_20mm": 0.996,
+    "reconst_icp_model_to_oracle_overlap_20mm": 0.9852,
+    "reconst_icp_oracle_to_model_overlap_20mm": 0.9932
+  },
+  "classification": {
+    "data_units_frames": "working",
+    "model_representation": "likely_problematic",
+    "normals": "likely_problematic",
+    "fpfh_features": "likely_problematic",
+    "global_ransac": "inconclusive_downstream_of_bad_correspondences",
+    "icp": "likely_problematic_for_cad_oracle_pair",
+    "candidate_generation": "likely_problematic_from_previous_diagnosis",
+    "hypothesis_verification": "likely_problematic_one_sided_fitness"
+  }
+}

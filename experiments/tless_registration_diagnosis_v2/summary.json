@@ -1,0 +1,27 @@
+{
+  "candidate_any_count": 10,
+  "candidate_usable_oracle_count": 1,
+  "case_count": 10,
+  "dataset_root": "/home/datasets/bop/tless",
+  "manifest": "experiments/tless_validation_manifest_scene_conditioned_v1.json",
+  "production_decision": "No production defaults changed. The bakeoff is diagnostic and uses only frozen oracle clouds.",
+  "registration_accuracy_by_method": {
+    "fgr_point_to_plane_icp": {
+      "accurate_count_non_symmetric": 0
+    },
+    "ransac_generalized_icp": {
+      "accurate_count_non_symmetric": 0
+    },
+    "ransac_point_to_plane_icp": {
+      "accurate_count_non_symmetric": 0
+    }
+  },
+  "registration_methods": [
+    "fgr_point_to_plane_icp",
+    "ransac_generalized_icp",
+    "ransac_point_to_plane_icp"
+  ],
+  "registration_ok_count": 60,
+  "split": "test_primesense",
+  "v1_preserved": true
+}

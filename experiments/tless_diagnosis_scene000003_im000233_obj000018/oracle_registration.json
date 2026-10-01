@@ -1,0 +1,96 @@
+{
+  "case": {
+    "dataset_root": "/home/datasets/bop/tless",
+    "split": "test_primesense",
+    "scene_id": 3,
+    "image_id": 233,
+    "model_id": 18
+  },
+  "input": "oracle_target_cloud.ply, generated from GT visible mask only for diagnosis",
+  "no_gt_pose_initialization": true,
+  "config": {
+    "voxel_size_m": 0.005,
+    "ransac_threshold_m": 0.015,
+    "icp_threshold_m": 0.02,
+    "random_seed": 7,
+    "candidate_mode": "full"
+  },
+  "accepted": false,
+  "failure_reason": "icp_inliers_below_threshold",
+  "runtime_s": 0.053064088337123394,
+  "T_camera_object_estimated": [
+    [
+      0.726653230426382,
+      -0.552121406264862,
+      -0.40882396634127904,
+      -0.027525496958810958
+    ],
+    [
+      -0.45366383617048656,
+      -0.8325166088223485,
+      0.3179704699905551,
+      0.20414074239168942
+    ],
+    [
+      -0.5159110451056286,
+      -0.045585620310013134,
+      -0.8554283983823365,
+      0.6831584178872634
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "T_camera_object_ground_truth": [
+    [
+      -0.86910545,
+      0.49441825,
+      -0.01437454,
+      -0.11749746524
+    ],
+    [
+      -0.34426527,
+      -0.58378321,
+      0.73530805,
+      -0.02977498353
+    ],
+    [
+      0.35515853,
+      0.64400958,
+      0.67757994,
+      0.77318804242
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "translation_error_m": 0.26630218775550407,
+  "translation_error_mm": 266.30218775550406,
+  "rotation_error_geodesic_deg": 155.1521189225496,
+  "diagnostics": {
+    "method": "open3d-fpfh-ransac-point-to-plane-icp",
+    "accepted": false,
+    "failure_reason": "icp_inliers_below_threshold",
+    "model_points": 18095,
+    "scene_points": 16456,
+    "candidate_points": 16366,
+    "candidate_source": "full",
+    "candidate_index": 0,
+    "feature_correspondences": 947,
+    "ransac_inliers": 729,
+    "icp_inliers": 0,
+    "inlier_ratio": 0.7697993664202746,
+    "global_fitness": 0.7697993664202746,
+    "fitness": 0.0,
+    "ransac_rmse_m": 0.0077079537832551335,
+    "rmse_m": null,
+    "icp_iterations": 35,
+    "downsample_voxel_m": 0.005
+  }
+}

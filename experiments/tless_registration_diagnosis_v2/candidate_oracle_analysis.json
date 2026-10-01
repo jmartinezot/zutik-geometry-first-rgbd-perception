@@ -1,0 +1,6890 @@
+[
+  {
+    "best_by_candidate_purity": {
+      "candidate_index": 8,
+      "candidate_purity_at_threshold": 0.2295934088016612,
+      "centroid_m": [
+        -0.008262626802435795,
+        -0.012480528322254618,
+        0.7166625293053558
+      ],
+      "distance_threshold_m": 0.005,
+      "extent_m": [
+        0.30222919154541783,
+        0.2035604971111612,
+        0.15870000000000006
+      ],
+      "metadata": {
+        "accepted": true,
+        "centroid_m": [
+          -0.008262626802435795,
+          -0.012480528322254618,
+          0.7166625293053558
+        ],
+        "cluster_label": 9,
+        "extent_m": [
+          0.30222919154541783,
+          0.2035604971111612,
+          0.15870000000000006
+        ],
+        "label": 9,
+        "points": 74645,
+        "rejection_reason": null
+      },
+      "points": 74645,
+      "source": "geometry_cluster",
+      "target_centroid_distance_m": 0.1257511338980178,
+      "target_recall_at_threshold": 0.9894263490520175
+    },
+    "best_by_target_recall": {
+      "candidate_index": 8,
+      "candidate_purity_at_threshold": 0.2295934088016612,
+      "centroid_m": [
+        -0.008262626802435795,
+        -0.012480528322254618,
+        0.7166625293053558
+      ],
+      "distance_threshold_m": 0.005,
+      "extent_m": [
+        0.30222919154541783,
+        0.2035604971111612,
+        0.15870000000000006
+      ],
+      "metadata": {
+        "accepted": true,
+        "centroid_m": [
+          -0.008262626802435795,
+          -0.012480528322254618,
+          0.7166625293053558
+        ],
+        "cluster_label": 9,
+        "extent_m": [
+          0.30222919154541783,
+          0.2035604971111612,
+          0.15870000000000006
+        ],
+        "label": 9,
+        "points": 74645,
+        "rejection_reason": null
+      },
+      "points": 74645,
+      "source": "geometry_cluster",
+      "target_centroid_distance_m": 0.1257511338980178,
+      "target_recall_at_threshold": 0.9894263490520175
+    },
+    "candidate_records": [
+      {
+        "candidate_index": 0,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          -0.8527635041751833,
+          -0.6651132793541543,
+          2.5801564766839036
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.1721676379416155,
+          0.13063063239983153,
+          0.1492
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.8527635041751833,
+            -0.6651132793541543,
+            2.5801564766839036
+          ],
+          "cluster_label": 0,
+          "extent_m": [
+            0.1721676379416155,
+            0.13063063239983153,
+            0.1492
+          ],
+          "label": 0,
+          "points": 1737,
+          "rejection_reason": null
+        },
+        "points": 1737,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 2.049864784544499,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 1,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          -0.334628471341876,
+          -0.5987560813215929,
+          2.3459271371156833
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.5819602470603659,
+          0.1206076203017048,
+          0.15589999999999993
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.334628471341876,
+            -0.5987560813215929,
+            2.3459271371156833
+          ],
+          "cluster_label": 1,
+          "extent_m": [
+            0.5819602470603659,
+            0.1206076203017048,
+            0.15589999999999993
+          ],
+          "label": 1,
+          "points": 12938,
+          "rejection_reason": null
+        },
+        "points": 12938,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 1.6847993819771006,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 2,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          0.006259940270882349,
+          -0.3234273060020521,
+          1.2638443556443277
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.05969692078154762,
+          0.06140832033336918,
+          0.06410000000000005
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            0.006259940270882349,
+            -0.3234273060020521,
+            1.2638443556443277
+          ],
+          "cluster_label": 2,
+          "extent_m": [
+            0.05969692078154762,
+            0.06140832033336918,
+            0.06410000000000005
+          ],
+          "label": 2,
+          "points": 2002,
+          "rejection_reason": null
+        },
+        "points": 2002,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 0.5830348847770448,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 3,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          0.3916316991339196,
+          -0.5841883524353705,
+          2.2633934687040926
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.6518728170764467,
+          0.11498721537230239,
+          0.1751999999999998
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            0.3916316991339196,
+            -0.5841883524353705,
+            2.2633934687040926
+          ],
+          "cluster_label": 3,
+          "extent_m": [
+            0.6518728170764467,
+            0.11498721537230239,
+            0.1751999999999998
+          ],
+          "label": 3,
+          "points": 14331,
+          "rejection_reason": null
+        },
+        "points": 14331,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 1.6682162894559234,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 4,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          -0.5349837224995524,
+          -0.4522927268322411,
+          1.9347328804348123
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.17524405680021587,
+          0.061969092082878874,
+          0.08570000000000011
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.5349837224995524,
+            -0.4522927268322411,
+            1.9347328804348123
+          ],
+          "cluster_label": 4,
+          "extent_m": [
+            0.17524405680021587,
+            0.061969092082878874,
+            0.08570000000000011
+          ],
+          "label": 4,
+          "points": 1840,
+          "rejection_reason": null
+        },
+        "points": 1840,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 1.302767800108674,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 5,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          -0.6616751309068727,
+          -0.4866057544304664,
+          2.0521
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.013354425483275811,
+          0.013376155564275682,
+          0.0
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.6616751309068727,
+            -0.4866057544304664,
+            2.0521
+          ],
+          "cluster_label": 5,
+          "extent_m": [
+            0.013354425483275811,
+            0.013376155564275682,
+            0.0
+          ],
+          "label": 5,
+          "points": 42,
+          "rejection_reason": null
+        },
+        "points": 42,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 1.4611862964041091,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 6,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          0.3178202709772265,
+          -0.22346024501366543,
+          1.0539232588134075
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.07893503993414697,
+          0.10502383742715402,
+          0.11040000000000005
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            0.3178202709772265,
+            -0.22346024501366543,
+            1.0539232588134075
+          ],
+          "cluster_label": 6,
+          "extent_m": [
+            0.07893503993414697,
+            0.10502383742715402,
+            0.11040000000000005
+          ],
+          "label": 6,
+          "points": 2326,
+          "rejection_reason": null
+        },
+        "points": 2326,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 0.5522217489401604,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 7,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          -0.1143181294961924,
+          -0.24070324477663216,
+          1.0721622016386874
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.5170834645456661,
+          0.03887955407120064,
+          0.052000000000000046
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.1143181294961924,
+            -0.24070324477663216,
+            1.0721622016386874
+          ],
+          "cluster_label": 7,
+          "extent_m": [
+            0.5170834645456661,
+            0.03887955407120064,
+            0.052000000000000046
+          ],
+          "label": 7,
+          "points": 5614,
+          "rejection_reason": null
+        },
+        "points": 5614,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 0.3634208856094559,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 8,
+        "candidate_purity_at_threshold": 0.2295934088016612,
+        "centroid_m": [
+          -0.008262626802435795,
+          -0.012480528322254618,
+          0.7166625293053558
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.30222919154541783,
+          0.2035604971111612,
+          0.15870000000000006
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.008262626802435795,
+            -0.012480528322254618,
+            0.7166625293053558
+          ],
+          "cluster_label": 9,
+          "extent_m": [
+            0.30222919154541783,
+            0.2035604971111612,
+            0.15870000000000006
+          ],
+          "label": 9,
+          "points": 74645,
+          "rejection_reason": null
+        },
+        "points": 74645,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 0.1257511338980178,
+        "target_recall_at_threshold": 0.9894263490520175
+      },
+      {
+        "candidate_index": 9,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          0.09489502968153911,
+          -0.07784134316154624,
+          0.8151834983498271
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.04336267400356264,
+          0.02104454780578198,
+          0.007600000000000051
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            0.09489502968153911,
+            -0.07784134316154624,
+            0.8151834983498271
+          ],
+          "cluster_label": 10,
+          "extent_m": [
+            0.04336267400356264,
+            0.02104454780578198,
+            0.007600000000000051
+          ],
+          "label": 10,
+          "points": 1212,
+          "rejection_reason": null
+        },
+        "points": 1212,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 0.22178195196614783,
+        "target_recall_at_threshold": 0.0
+      }
+    ],
+    "case_id": "scene000003_im000233_obj000018",
+    "config": {
+      "cluster_eps_m": 0.04,
+      "cluster_min_points": 20,
+      "max_candidate_extent_m": 0.75,
+      "min_candidate_points": 30,
+      "outlier_removal": true,
+      "support_plane": 0.008
+    },
+    "depth_valid_scene_points": 384259,
+    "generation": {
+      "after_statistical_outlier_points": 116727,
+      "after_support_plane_points": 119229,
+      "candidate_count": 10,
+      "cluster_eps_m": 0.04,
+      "cluster_min_points": 20,
+      "clusters": [
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.8527635041751833,
+            -0.6651132793541543,
+            2.5801564766839036
+          ],
+          "extent_m": [
+            0.1721676379416155,
+            0.13063063239983153,
+            0.1492
+          ],
+          "label": 0,
+          "points": 1737,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.334628471341876,
+            -0.5987560813215929,
+            2.3459271371156833
+          ],
+          "extent_m": [
+            0.5819602470603659,
+            0.1206076203017048,
+            0.15589999999999993
+          ],
+          "label": 1,
+          "points": 12938,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            0.006259940270882349,
+            -0.3234273060020521,
+            1.2638443556443277
+          ],
+          "extent_m": [
+            0.05969692078154762,
+            0.06140832033336918,
+            0.06410000000000005
+          ],
+          "label": 2,
+          "points": 2002,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            0.3916316991339196,
+            -0.5841883524353705,
+            2.2633934687040926
+          ],
+          "extent_m": [
+            0.6518728170764467,
+            0.11498721537230239,
+            0.1751999999999998
+          ],
+          "label": 3,
+          "points": 14331,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.5349837224995524,
+            -0.4522927268322411,
+            1.9347328804348123
+          ],
+          "extent_m": [
+            0.17524405680021587,
+            0.061969092082878874,
+            0.08570000000000011
+          ],
+          "label": 4,
+          "points": 1840,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.6616751309068727,
+            -0.4866057544304664,
+            2.0521
+          ],
+          "extent_m": [
+            0.013354425483275811,
+            0.013376155564275682,
+            0.0
+          ],
+          "label": 5,
+          "points": 42,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            0.3178202709772265,
+            -0.22346024501366543,
+            1.0539232588134075
+          ],
+          "extent_m": [
+            0.07893503993414697,
+            0.10502383742715402,
+            0.11040000000000005
+          ],
+          "label": 6,
+          "points": 2326,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.1143181294961924,
+            -0.24070324477663216,
+            1.0721622016386874
+          ],
+          "extent_m": [
+            0.5170834645456661,
+            0.03887955407120064,
+            0.052000000000000046
+          ],
+          "label": 7,
+          "points": 5614,
+          "rejection_reason": null
+        },
+        {
+          "accepted": false,
+          "centroid_m": [
+            -0.018272644256505526,
+            -0.22373907682107777,
+            1.0044000000000002
+          ],
+          "extent_m": [
+            0.002801280560415901,
+            0.004676397922949521,
+            0.0
+          ],
+          "label": 8,
+          "points": 24,
+          "rejection_reason": "below_min_candidate_points"
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.008262626802435795,
+            -0.012480528322254618,
+            0.7166625293053558
+          ],
+          "extent_m": [
+            0.30222919154541783,
+            0.2035604971111612,
+            0.15870000000000006
+          ],
+          "label": 9,
+          "points": 74645,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            0.09489502968153911,
+            -0.07784134316154624,
+            0.8151834983498271
+          ],
+          "extent_m": [
+            0.04336267400356264,
+            0.02104454780578198,
+            0.007600000000000051
+          ],
+          "label": 10,
+          "points": 1212,
+          "rejection_reason": null
+        }
+      ],
+      "clusters_before_filtering": 11,
+      "input_points": 384259,
+      "max_candidate_extent_m": 0.75,
+      "min_candidate_points": 30,
+      "mode": "geometry_candidates",
+      "noise_points": 16,
+      "support_plane": {
+        "attempted": true,
+        "distance_threshold_m": 0.008,
+        "enabled": true,
+        "inlier_count": 265030,
+        "inlier_fraction": 0.689717091857315,
+        "input_points": 384259,
+        "iterations": 1000,
+        "minimum_inlier_fraction": 0.45,
+        "plane_equation": [
+          -0.006667677652300274,
+          0.7339517346002167,
+          0.6791688989876216,
+          -0.5370649311103463
+        ],
+        "reason": "removed",
+        "removed": true
+      }
+    },
+    "gt_info": {
+      "bbox_obj": [
+        139,
+        183,
+        139,
+        145
+      ],
+      "bbox_visib": [
+        139,
+        183,
+        139,
+        145
+      ],
+      "px_count_all": 16553,
+      "px_count_valid": 16549,
+      "px_count_visib": 16460,
+      "visib_fract": 0.994381683078596
+    },
+    "gt_only_note": "GT mask labels are used after candidate generation and never select an inference candidate.",
+    "gt_pose": [
+      [
+        -0.86910545,
+        0.49441825,
+        -0.01437454,
+        -0.11749746524
+      ],
+      [
+        -0.34426527,
+        -0.58378321,
+        0.73530805,
+        -0.02977498353
+      ],
+      [
+        0.35515853,
+        0.64400958,
+        0.67757994,
+        0.77318804242
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "image_id": 233,
+    "model_id": 18,
+    "oracle_target_points": 16456,
+    "oracle_target_stats": {
+      "aabb_max_m": [
+        -0.0689348948486237,
+        0.019205822622638438,
+        0.9031
+      ],
+      "aabb_min_m": [
+        -0.18362498518333709,
+        -0.09899807312492426,
+        0.7401
+      ],
+      "centroid_m": [
+        -0.1184081328848674,
+        -0.03364017471325151,
+        0.773527145114224
+      ],
+      "count": 16456,
+      "dimensions_m": [
+        0.11469009033471339,
+        0.1182038957475627,
+        0.16300000000000003
+      ],
+      "normals_available": false,
+      "obb_center_m": [
+        -0.13073035522566132,
+        -0.05815756007783117,
+        0.8098836163558505
+      ],
+      "obb_dimensions_m": [
+        0.19445583340549458,
+        0.10488022156032405,
+        0.06873571564020044
+      ],
+      "point_spacing_m": {
+        "maximum": 0.007550376810084606,
+        "median": 0.0007153807882782914,
+        "p75": 0.0007349038507264011,
+        "p95": 0.0007467106551593133
+      }
+    },
+    "scene_id": 3,
+    "target_separability_classification": "target_merged_with_support_or_background",
+    "usable_candidate_count_diagnostic_only": 0,
+    "usable_candidate_rule_diagnostic_only": "target_recall_at_5mm >= 0.20 AND candidate_purity_at_5mm >= 0.50 AND points >= 30",
+    "visibility_fraction": 0.994381683078596
+  },
+  {
+    "best_by_candidate_purity": {
+      "candidate_index": 0,
+      "candidate_purity_at_threshold": 0.28722012392307883,
+      "centroid_m": [
+        0.006351975982728334,
+        0.007356460732090176,
+        0.7295659631193324
+      ],
+      "distance_threshold_m": 0.005,
+      "extent_m": [
+        0.2054721425918111,
+        0.20801668865172487,
+        0.09539999999999993
+      ],
+      "metadata": {
+        "accepted": true,
+        "centroid_m": [
+          0.006351975982728334,
+          0.007356460732090176,
+          0.7295659631193324
+        ],
+        "cluster_label": 0,
+        "extent_m": [
+          0.2054721425918111,
+          0.20801668865172487,
+          0.09539999999999993
+        ],
+        "label": 0,
+        "points": 40509,
+        "rejection_reason": null
+      },
+      "points": 40509,
+      "source": "geometry_cluster",
+      "target_centroid_distance_m": 0.07222619326748626,
+      "target_recall_at_threshold": 0.975843662354112
+    },
+    "best_by_target_recall": {
+      "candidate_index": 0,
+      "candidate_purity_at_threshold": 0.28722012392307883,
+      "centroid_m": [
+        0.006351975982728334,
+        0.007356460732090176,
+        0.7295659631193324
+      ],
+      "distance_threshold_m": 0.005,
+      "extent_m": [
+        0.2054721425918111,
+        0.20801668865172487,
+        0.09539999999999993
+      ],
+      "metadata": {
+        "accepted": true,
+        "centroid_m": [
+          0.006351975982728334,
+          0.007356460732090176,
+          0.7295659631193324
+        ],
+        "cluster_label": 0,
+        "extent_m": [
+          0.2054721425918111,
+          0.20801668865172487,
+          0.09539999999999993
+        ],
+        "label": 0,
+        "points": 40509,
+        "rejection_reason": null
+      },
+      "points": 40509,
+      "source": "geometry_cluster",
+      "target_centroid_distance_m": 0.07222619326748626,
+      "target_recall_at_threshold": 0.975843662354112
+    },
+    "candidate_records": [
+      {
+        "candidate_index": 0,
+        "candidate_purity_at_threshold": 0.28722012392307883,
+        "centroid_m": [
+          0.006351975982728334,
+          0.007356460732090176,
+          0.7295659631193324
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.2054721425918111,
+          0.20801668865172487,
+          0.09539999999999993
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            0.006351975982728334,
+            0.007356460732090176,
+            0.7295659631193324
+          ],
+          "cluster_label": 0,
+          "extent_m": [
+            0.2054721425918111,
+            0.20801668865172487,
+            0.09539999999999993
+          ],
+          "label": 0,
+          "points": 40509,
+          "rejection_reason": null
+        },
+        "points": 40509,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 0.07222619326748626,
+        "target_recall_at_threshold": 0.975843662354112
+      }
+    ],
+    "case_id": "scene000001_im000001_obj000030",
+    "config": {
+      "cluster_eps_m": 0.04,
+      "cluster_min_points": 20,
+      "max_candidate_extent_m": 0.75,
+      "min_candidate_points": 30,
+      "outlier_removal": true,
+      "support_plane": 0.008
+    },
+    "depth_valid_scene_points": 387636,
+    "generation": {
+      "after_statistical_outlier_points": 40509,
+      "after_support_plane_points": 42008,
+      "candidate_count": 1,
+      "cluster_eps_m": 0.04,
+      "cluster_min_points": 20,
+      "clusters": [
+        {
+          "accepted": true,
+          "centroid_m": [
+            0.006351975982728334,
+            0.007356460732090176,
+            0.7295659631193324
+          ],
+          "extent_m": [
+            0.2054721425918111,
+            0.20801668865172487,
+            0.09539999999999993
+          ],
+          "label": 0,
+          "points": 40509,
+          "rejection_reason": null
+        }
+      ],
+      "clusters_before_filtering": 1,
+      "input_points": 387636,
+      "max_candidate_extent_m": 0.75,
+      "min_candidate_points": 30,
+      "mode": "geometry_candidates",
+      "noise_points": 0,
+      "support_plane": {
+        "attempted": true,
+        "distance_threshold_m": 0.008,
+        "enabled": true,
+        "inlier_count": 345628,
+        "inlier_fraction": 0.8916302923361091,
+        "input_points": 387636,
+        "iterations": 1000,
+        "minimum_inlier_fraction": 0.45,
+        "plane_equation": [
+          0.002910577523398033,
+          0.2996743267712048,
+          0.9540371200392076,
+          -0.7582631163201656
+        ],
+        "reason": "removed",
+        "removed": true
+      }
+    },
+    "gt_info": {
+      "bbox_obj": [
+        372,
+        304,
+        118,
+        120
+      ],
+      "bbox_visib": [
+        372,
+        304,
+        118,
+        117
+      ],
+      "px_count_all": 11164,
+      "px_count_valid": 11164,
+      "px_count_visib": 11053,
+      "visib_fract": 0.9900573271228951
+    },
+    "gt_only_note": "GT mask labels are used after candidate generation and never select an inference candidate.",
+    "gt_pose": [
+      [
+        -0.49124065,
+        -0.87102317,
+        0.00094431,
+        0.03879395789
+      ],
+      [
+        -0.83521488,
+        0.47073722,
+        -0.284292,
+        0.07733759355
+      ],
+      [
+        0.2471804,
+        -0.14044449,
+        -0.958737,
+        0.74468414648
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "image_id": 1,
+    "model_id": 30,
+    "oracle_target_points": 11053,
+    "oracle_target_stats": {
+      "aabb_max_m": [
+        0.07777234462139598,
+        0.11592305586229164,
+        0.7833
+      ],
+      "aabb_min_m": [
+        -0.0014833092089732488,
+        0.03428508658366246,
+        0.7084
+      ],
+      "centroid_m": [
+        0.03810487181128826,
+        0.0716947495545171,
+        0.7212616755632036
+      ],
+      "count": 11053,
+      "dimensions_m": [
+        0.07925565383036923,
+        0.08163796927862918,
+        0.07489999999999997
+      ],
+      "normals_available": false,
+      "obb_center_m": [
+        0.038590034417540504,
+        0.07067373788688139,
+        0.7443114599018575
+      ],
+      "obb_dimensions_m": [
+        0.10299318675650182,
+        0.08299859726077549,
+        0.07523533248801624
+      ],
+      "point_spacing_m": {
+        "maximum": 0.0035753601905950797,
+        "median": 0.0006694551080431068,
+        "p75": 0.0006736386214248498,
+        "p95": 0.000679309606231214
+      }
+    },
+    "scene_id": 1,
+    "target_separability_classification": "target_merged_with_support_or_background",
+    "usable_candidate_count_diagnostic_only": 0,
+    "usable_candidate_rule_diagnostic_only": "target_recall_at_5mm >= 0.20 AND candidate_purity_at_5mm >= 0.50 AND points >= 30",
+    "visibility_fraction": 0.9900573271228951
+  },
+  {
+    "best_by_candidate_purity": {
+      "candidate_index": 0,
+      "candidate_purity_at_threshold": 0.26266791781904386,
+      "centroid_m": [
+        0.006346924457073175,
+        0.007366817557037303,
+        0.7295434363888048
+      ],
+      "distance_threshold_m": 0.005,
+      "extent_m": [
+        0.2054721425918111,
+        0.20801668865172487,
+        0.09539999999999993
+      ],
+      "metadata": {
+        "accepted": true,
+        "centroid_m": [
+          0.006346924457073175,
+          0.007366817557037303,
+          0.7295434363888048
+        ],
+        "cluster_label": 0,
+        "extent_m": [
+          0.2054721425918111,
+          0.20801668865172487,
+          0.09539999999999993
+        ],
+        "label": 0,
+        "points": 40496,
+        "rejection_reason": null
+      },
+      "points": 40496,
+      "source": "geometry_cluster",
+      "target_centroid_distance_m": 0.08135576267153277,
+      "target_recall_at_threshold": 0.975492125984252
+    },
+    "best_by_target_recall": {
+      "candidate_index": 0,
+      "candidate_purity_at_threshold": 0.26266791781904386,
+      "centroid_m": [
+        0.006346924457073175,
+        0.007366817557037303,
+        0.7295434363888048
+      ],
+      "distance_threshold_m": 0.005,
+      "extent_m": [
+        0.2054721425918111,
+        0.20801668865172487,
+        0.09539999999999993
+      ],
+      "metadata": {
+        "accepted": true,
+        "centroid_m": [
+          0.006346924457073175,
+          0.007366817557037303,
+          0.7295434363888048
+        ],
+        "cluster_label": 0,
+        "extent_m": [
+          0.2054721425918111,
+          0.20801668865172487,
+          0.09539999999999993
+        ],
+        "label": 0,
+        "points": 40496,
+        "rejection_reason": null
+      },
+      "points": 40496,
+      "source": "geometry_cluster",
+      "target_centroid_distance_m": 0.08135576267153277,
+      "target_recall_at_threshold": 0.975492125984252
+    },
+    "candidate_records": [
+      {
+        "candidate_index": 0,
+        "candidate_purity_at_threshold": 0.26266791781904386,
+        "centroid_m": [
+          0.006346924457073175,
+          0.007366817557037303,
+          0.7295434363888048
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.2054721425918111,
+          0.20801668865172487,
+          0.09539999999999993
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            0.006346924457073175,
+            0.007366817557037303,
+            0.7295434363888048
+          ],
+          "cluster_label": 0,
+          "extent_m": [
+            0.2054721425918111,
+            0.20801668865172487,
+            0.09539999999999993
+          ],
+          "label": 0,
+          "points": 40496,
+          "rejection_reason": null
+        },
+        "points": 40496,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 0.08135576267153277,
+        "target_recall_at_threshold": 0.975492125984252
+      }
+    ],
+    "case_id": "scene000001_im000001_obj000025",
+    "config": {
+      "cluster_eps_m": 0.04,
+      "cluster_min_points": 20,
+      "max_candidate_extent_m": 0.75,
+      "min_candidate_points": 30,
+      "outlier_removal": true,
+      "support_plane": 0.008
+    },
+    "depth_valid_scene_points": 387636,
+    "generation": {
+      "after_statistical_outlier_points": 40496,
+      "after_support_plane_points": 41989,
+      "candidate_count": 1,
+      "cluster_eps_m": 0.04,
+      "cluster_min_points": 20,
+      "clusters": [
+        {
+          "accepted": true,
+          "centroid_m": [
+            0.006346924457073175,
+            0.007366817557037303,
+            0.7295434363888048
+          ],
+          "extent_m": [
+            0.2054721425918111,
+            0.20801668865172487,
+            0.09539999999999993
+          ],
+          "label": 0,
+          "points": 40496,
+          "rejection_reason": null
+        }
+      ],
+      "clusters_before_filtering": 1,
+      "input_points": 387636,
+      "max_candidate_extent_m": 0.75,
+      "min_candidate_points": 30,
+      "mode": "geometry_candidates",
+      "noise_points": 0,
+      "support_plane": {
+        "attempted": true,
+        "distance_threshold_m": 0.008,
+        "enabled": true,
+        "inlier_count": 345647,
+        "inlier_fraction": 0.8916793073914704,
+        "input_points": 387636,
+        "iterations": 1000,
+        "minimum_inlier_fraction": 0.45,
+        "plane_equation": [
+          0.0029111503042776156,
+          0.29967350598096076,
+          0.954037376111117,
+          -0.7582627009054544
+        ],
+        "reason": "removed",
+        "removed": true
+      }
+    },
+    "gt_info": {
+      "bbox_obj": [
+        225,
+        155,
+        103,
+        142
+      ],
+      "bbox_visib": [
+        225,
+        155,
+        103,
+        142
+      ],
+      "px_count_all": 10518,
+      "px_count_valid": 10437,
+      "px_count_visib": 10241,
+      "visib_fract": 0.9736641947138239
+    },
+    "gt_only_note": "GT mask labels are used after candidate generation and never select an inference candidate.",
+    "gt_pose": [
+      [
+        0.22192475,
+        0.00094439,
+        -0.97506314,
+        -0.06988747390000001
+      ],
+      [
+        0.93488966,
+        -0.28429202,
+        0.21250589,
+        -0.01389007923
+      ],
+      [
+        -0.27700199,
+        -0.958737,
+        -0.06397433,
+        0.76665552904
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "image_id": 1,
+    "model_id": 25,
+    "oracle_target_points": 10160,
+    "oracle_target_stats": {
+      "aabb_max_m": [
+        -0.033332963887831815,
+        0.028874415778852722,
+        0.8202
+      ],
+      "aabb_min_m": [
+        -0.11233685125027895,
+        -0.0769267036462364,
+        0.7292000000000001
+      ],
+      "centroid_m": [
+        -0.06839834935483748,
+        -0.021287468078215657,
+        0.7440636318896445
+      ],
+      "count": 10160,
+      "dimensions_m": [
+        0.07900388736244714,
+        0.10580111942508912,
+        0.09099999999999997
+      ],
+      "normals_available": false,
+      "obb_center_m": [
+        -0.06912634951004734,
+        -0.027336319491556217,
+        0.779002319830671
+      ],
+      "obb_dimensions_m": [
+        0.12852507751474868,
+        0.09961260855000989,
+        0.08811275779636182
+      ],
+      "point_spacing_m": {
+        "maximum": 0.0239607292124947,
+        "median": 0.0006894430053114436,
+        "p75": 0.000696787395470494,
+        "p95": 0.0006999482722478204
+      }
+    },
+    "scene_id": 1,
+    "target_separability_classification": "target_merged_with_support_or_background",
+    "usable_candidate_count_diagnostic_only": 0,
+    "usable_candidate_rule_diagnostic_only": "target_recall_at_5mm >= 0.20 AND candidate_purity_at_5mm >= 0.50 AND points >= 30",
+    "visibility_fraction": 0.9736641947138239
+  },
+  {
+    "best_by_candidate_purity": {
+      "candidate_index": 1,
+      "candidate_purity_at_threshold": 0.1995279941670824,
+      "centroid_m": [
+        -0.00604687380624902,
+        0.024094305763274076,
+        0.7371980352278985
+      ],
+      "distance_threshold_m": 0.005,
+      "extent_m": [
+        0.2392302184614999,
+        0.24349826927734491,
+        0.12450000000000006
+      ],
+      "metadata": {
+        "accepted": true,
+        "centroid_m": [
+          -0.00604687380624902,
+          0.024094305763274076,
+          0.7371980352278985
+        ],
+        "cluster_label": 1,
+        "extent_m": [
+          0.2392302184614999,
+          0.24349826927734491,
+          0.12450000000000006
+        ],
+        "label": 1,
+        "points": 52118,
+        "rejection_reason": null
+      },
+      "points": 52118,
+      "source": "geometry_cluster",
+      "target_centroid_distance_m": 0.0936539731879099,
+      "target_recall_at_threshold": 0.9396368553216148
+    },
+    "best_by_target_recall": {
+      "candidate_index": 1,
+      "candidate_purity_at_threshold": 0.1995279941670824,
+      "centroid_m": [
+        -0.00604687380624902,
+        0.024094305763274076,
+        0.7371980352278985
+      ],
+      "distance_threshold_m": 0.005,
+      "extent_m": [
+        0.2392302184614999,
+        0.24349826927734491,
+        0.12450000000000006
+      ],
+      "metadata": {
+        "accepted": true,
+        "centroid_m": [
+          -0.00604687380624902,
+          0.024094305763274076,
+          0.7371980352278985
+        ],
+        "cluster_label": 1,
+        "extent_m": [
+          0.2392302184614999,
+          0.24349826927734491,
+          0.12450000000000006
+        ],
+        "label": 1,
+        "points": 52118,
+        "rejection_reason": null
+      },
+      "points": 52118,
+      "source": "geometry_cluster",
+      "target_centroid_distance_m": 0.0936539731879099,
+      "target_recall_at_threshold": 0.9396368553216148
+    },
+    "candidate_records": [
+      {
+        "candidate_index": 0,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          -0.29840968122842043,
+          -0.20096430882712568,
+          0.871483414634146
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.015117264391527607,
+          0.020827619395413083,
+          0.0131
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.29840968122842043,
+            -0.20096430882712568,
+            0.871483414634146
+          ],
+          "cluster_label": 0,
+          "extent_m": [
+            0.015117264391527607,
+            0.020827619395413083,
+            0.0131
+          ],
+          "label": 0,
+          "points": 205,
+          "rejection_reason": null
+        },
+        "points": 205,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 0.35347554169396006,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 1,
+        "candidate_purity_at_threshold": 0.1995279941670824,
+        "centroid_m": [
+          -0.00604687380624902,
+          0.024094305763274076,
+          0.7371980352278985
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.2392302184614999,
+          0.24349826927734491,
+          0.12450000000000006
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.00604687380624902,
+            0.024094305763274076,
+            0.7371980352278985
+          ],
+          "cluster_label": 1,
+          "extent_m": [
+            0.2392302184614999,
+            0.24349826927734491,
+            0.12450000000000006
+          ],
+          "label": 1,
+          "points": 52118,
+          "rejection_reason": null
+        },
+        "points": 52118,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 0.0936539731879099,
+        "target_recall_at_threshold": 0.9396368553216148
+      }
+    ],
+    "case_id": "scene000002_im000003_obj000005",
+    "config": {
+      "cluster_eps_m": 0.04,
+      "cluster_min_points": 20,
+      "max_candidate_extent_m": 0.75,
+      "min_candidate_points": 30,
+      "outlier_removal": true,
+      "support_plane": 0.008
+    },
+    "depth_valid_scene_points": 388080,
+    "generation": {
+      "after_statistical_outlier_points": 52323,
+      "after_support_plane_points": 52349,
+      "candidate_count": 2,
+      "cluster_eps_m": 0.04,
+      "cluster_min_points": 20,
+      "clusters": [
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.29840968122842043,
+            -0.20096430882712568,
+            0.871483414634146
+          ],
+          "extent_m": [
+            0.015117264391527607,
+            0.020827619395413083,
+            0.0131
+          ],
+          "label": 0,
+          "points": 205,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.00604687380624902,
+            0.024094305763274076,
+            0.7371980352278985
+          ],
+          "extent_m": [
+            0.2392302184614999,
+            0.24349826927734491,
+            0.12450000000000006
+          ],
+          "label": 1,
+          "points": 52118,
+          "rejection_reason": null
+        }
+      ],
+      "clusters_before_filtering": 2,
+      "input_points": 388080,
+      "max_candidate_extent_m": 0.75,
+      "min_candidate_points": 30,
+      "mode": "geometry_candidates",
+      "noise_points": 0,
+      "support_plane": {
+        "attempted": true,
+        "distance_threshold_m": 0.008,
+        "enabled": true,
+        "inlier_count": 335731,
+        "inlier_fraction": 0.8651077097505669,
+        "input_points": 388080,
+        "iterations": 1000,
+        "minimum_inlier_fraction": 0.45,
+        "plane_equation": [
+          0.0019389221050417752,
+          0.3006401685216174,
+          0.9537356707454976,
+          -0.7578446128028078
+        ],
+        "reason": "removed",
+        "removed": true
+      }
+    },
+    "gt_info": {
+      "bbox_obj": [
+        332,
+        97,
+        113,
+        146
+      ],
+      "bbox_visib": [
+        332,
+        97,
+        113,
+        146
+      ],
+      "px_count_all": 11127,
+      "px_count_valid": 10911,
+      "px_count_visib": 10570,
+      "visib_fract": 0.9499415835355441
+    },
+    "gt_only_note": "GT mask labels are used after candidate generation and never select an inference candidate.",
+    "gt_pose": [
+      [
+        -0.47162949,
+        -0.88175398,
+        0.00867902,
+        0.009873777560000001
+      ],
+      [
+        -0.84637999,
+        0.44990361,
+        -0.285003,
+        -0.06312937739
+      ],
+      [
+        0.24739818,
+        -0.14176183,
+        -0.958487,
+        0.78301941078
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "image_id": 3,
+    "model_id": 5,
+    "oracle_target_points": 10354,
+    "oracle_target_stats": {
+      "aabb_max_m": [
+        0.05345299505932169,
+        -0.008570415258724168,
+        0.8360000000000001
+      ],
+      "aabb_min_m": [
+        -0.03138818419861103,
+        -0.12247286942010258,
+        0.748
+      ],
+      "centroid_m": [
+        0.010048156910094443,
+        -0.06293897224376144,
+        0.7678121692099626
+      ],
+      "count": 10354,
+      "dimensions_m": [
+        0.08484117925793272,
+        0.11390245416137841,
+        0.08800000000000008
+      ],
+      "normals_available": false,
+      "obb_center_m": [
+        0.009063882574893913,
+        -0.07085123723807267,
+        0.7927181803943695
+      ],
+      "obb_dimensions_m": [
+        0.13349626074641052,
+        0.09170034132376681,
+        0.07986988206045031
+      ],
+      "point_spacing_m": {
+        "maximum": 0.004163339061968538,
+        "median": 0.0007122199115009338,
+        "p75": 0.0007185416650555723,
+        "p95": 0.0007432708774898827
+      }
+    },
+    "scene_id": 2,
+    "target_separability_classification": "target_merged_with_support_or_background",
+    "usable_candidate_count_diagnostic_only": 0,
+    "usable_candidate_rule_diagnostic_only": "target_recall_at_5mm >= 0.20 AND candidate_purity_at_5mm >= 0.50 AND points >= 30",
+    "visibility_fraction": 0.9499415835355441
+  },
+  {
+    "best_by_candidate_purity": {
+      "candidate_index": 0,
+      "candidate_purity_at_threshold": 0.20190274841437633,
+      "centroid_m": [
+        -0.0020087635780700673,
+        0.016124065572148263,
+        0.7324709566596899
+      ],
+      "distance_threshold_m": 0.005,
+      "extent_m": [
+        0.25513101969807156,
+        0.2199558190341842,
+        0.09010000000000007
+      ],
+      "metadata": {
+        "accepted": true,
+        "centroid_m": [
+          -0.0020087635780700673,
+          0.016124065572148263,
+          0.7324709566596899
+        ],
+        "cluster_label": 0,
+        "extent_m": [
+          0.25513101969807156,
+          0.2199558190341842,
+          0.09010000000000007
+        ],
+        "label": 0,
+        "points": 41624,
+        "rejection_reason": null
+      },
+      "points": 41624,
+      "source": "geometry_cluster",
+      "target_centroid_distance_m": 0.09828161127884097,
+      "target_recall_at_threshold": 0.9038825757575758
+    },
+    "best_by_target_recall": {
+      "candidate_index": 0,
+      "candidate_purity_at_threshold": 0.20190274841437633,
+      "centroid_m": [
+        -0.0020087635780700673,
+        0.016124065572148263,
+        0.7324709566596899
+      ],
+      "distance_threshold_m": 0.005,
+      "extent_m": [
+        0.25513101969807156,
+        0.2199558190341842,
+        0.09010000000000007
+      ],
+      "metadata": {
+        "accepted": true,
+        "centroid_m": [
+          -0.0020087635780700673,
+          0.016124065572148263,
+          0.7324709566596899
+        ],
+        "cluster_label": 0,
+        "extent_m": [
+          0.25513101969807156,
+          0.2199558190341842,
+          0.09010000000000007
+        ],
+        "label": 0,
+        "points": 41624,
+        "rejection_reason": null
+      },
+      "points": 41624,
+      "source": "geometry_cluster",
+      "target_centroid_distance_m": 0.09828161127884097,
+      "target_recall_at_threshold": 0.9038825757575758
+    },
+    "candidate_records": [
+      {
+        "candidate_index": 0,
+        "candidate_purity_at_threshold": 0.20190274841437633,
+        "centroid_m": [
+          -0.0020087635780700673,
+          0.016124065572148263,
+          0.7324709566596899
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.25513101969807156,
+          0.2199558190341842,
+          0.09010000000000007
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.0020087635780700673,
+            0.016124065572148263,
+            0.7324709566596899
+          ],
+          "cluster_label": 0,
+          "extent_m": [
+            0.25513101969807156,
+            0.2199558190341842,
+            0.09010000000000007
+          ],
+          "label": 0,
+          "points": 41624,
+          "rejection_reason": null
+        },
+        "points": 41624,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 0.09828161127884097,
+        "target_recall_at_threshold": 0.9038825757575758
+      }
+    ],
+    "case_id": "scene000008_im000001_obj000021",
+    "config": {
+      "cluster_eps_m": 0.04,
+      "cluster_min_points": 20,
+      "max_candidate_extent_m": 0.75,
+      "min_candidate_points": 30,
+      "outlier_removal": true,
+      "support_plane": 0.008
+    },
+    "depth_valid_scene_points": 387152,
+    "generation": {
+      "after_statistical_outlier_points": 41652,
+      "after_support_plane_points": 41962,
+      "candidate_count": 1,
+      "cluster_eps_m": 0.04,
+      "cluster_min_points": 20,
+      "clusters": [
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.0020087635780700673,
+            0.016124065572148263,
+            0.7324709566596899
+          ],
+          "extent_m": [
+            0.25513101969807156,
+            0.2199558190341842,
+            0.09010000000000007
+          ],
+          "label": 0,
+          "points": 41624,
+          "rejection_reason": null
+        },
+        {
+          "accepted": false,
+          "centroid_m": [
+            0.004549004318325064,
+            0.029420623988349836,
+            0.7999857142857145
+          ],
+          "extent_m": [
+            0.007448981748756968,
+            0.0032345593074645206,
+            0.007199999999999984
+          ],
+          "label": 1,
+          "points": 28,
+          "rejection_reason": "below_min_candidate_points"
+        }
+      ],
+      "clusters_before_filtering": 2,
+      "input_points": 387152,
+      "max_candidate_extent_m": 0.75,
+      "min_candidate_points": 30,
+      "mode": "geometry_candidates",
+      "noise_points": 0,
+      "support_plane": {
+        "attempted": true,
+        "distance_threshold_m": 0.008,
+        "enabled": true,
+        "inlier_count": 345190,
+        "inlier_fraction": 0.8916136297888168,
+        "input_points": 387152,
+        "iterations": 1000,
+        "minimum_inlier_fraction": 0.45,
+        "plane_equation": [
+          0.004370557090433979,
+          0.2942001058788048,
+          0.9557338520381181,
+          -0.7583081127737538
+        ],
+        "reason": "removed",
+        "removed": true
+      }
+    },
+    "gt_info": {
+      "bbox_obj": [
+        166,
+        270,
+        122,
+        121
+      ],
+      "bbox_visib": [
+        166,
+        270,
+        122,
+        121
+      ],
+      "px_count_all": 8913,
+      "px_count_valid": 8909,
+      "px_count_visib": 8452,
+      "visib_fract": 0.948277796477056
+    },
+    "gt_only_note": "GT mask labels are used after candidate generation and never select an inference candidate.",
+    "gt_pose": [
+      [
+        0.22094017,
+        0.97467908,
+        -0.03445546,
+        -0.10508225959
+      ],
+      [
+        0.93684189,
+        -0.2219203,
+        -0.27032969,
+        0.05647529716
+      ],
+      [
+        -0.2711314,
+        0.0274476,
+        -0.96215051,
+        0.75465419322
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "image_id": 1,
+    "model_id": 21,
+    "oracle_target_points": 8448,
+    "oracle_target_stats": {
+      "aabb_max_m": [
+        -0.05896351621146741,
+        0.09516617993876507,
+        0.7976000000000001
+      ],
+      "aabb_min_m": [
+        -0.15011590930355742,
+        0.00981873996654645,
+        0.7246
+      ],
+      "centroid_m": [
+        -0.09357030969462642,
+        0.050512467365999306,
+        0.7421247750946713
+      ],
+      "count": 8448,
+      "dimensions_m": [
+        0.09115239309209001,
+        0.08534743997221862,
+        0.07300000000000006
+      ],
+      "normals_available": false,
+      "obb_center_m": [
+        -0.10749129617680817,
+        0.05079052117566153,
+        0.7612646850558116
+      ],
+      "obb_dimensions_m": [
+        0.10177836571139777,
+        0.08788036293019139,
+        0.05904691781926624
+      ],
+      "point_spacing_m": {
+        "maximum": 0.0020916526819399184,
+        "median": 0.0006865610294262414,
+        "p75": 0.0006939054195853056,
+        "p95": 0.0007233759471855783
+      }
+    },
+    "scene_id": 8,
+    "target_separability_classification": "target_merged_with_support_or_background",
+    "usable_candidate_count_diagnostic_only": 0,
+    "usable_candidate_rule_diagnostic_only": "target_recall_at_5mm >= 0.20 AND candidate_purity_at_5mm >= 0.50 AND points >= 30",
+    "visibility_fraction": 0.948277796477056
+  },
+  {
+    "best_by_candidate_purity": {
+      "candidate_index": 7,
+      "candidate_purity_at_threshold": 0.6921140939597316,
+      "centroid_m": [
+        -0.06899498230596238,
+        -0.06364559253914871,
+        0.7940183389261659
+      ],
+      "distance_threshold_m": 0.005,
+      "extent_m": [
+        0.13614318650603563,
+        0.11252855221778711,
+        0.09079999999999999
+      ],
+      "metadata": {
+        "accepted": true,
+        "centroid_m": [
+          -0.06899498230596238,
+          -0.06364559253914871,
+          0.7940183389261659
+        ],
+        "cluster_label": 8,
+        "extent_m": [
+          0.13614318650603563,
+          0.11252855221778711,
+          0.09079999999999999
+        ],
+        "label": 8,
+        "points": 11920,
+        "rejection_reason": null
+      },
+      "points": 11920,
+      "source": "geometry_cluster",
+      "target_centroid_distance_m": 0.0264077210945755,
+      "target_recall_at_threshold": 0.9819444444444444
+    },
+    "best_by_target_recall": {
+      "candidate_index": 7,
+      "candidate_purity_at_threshold": 0.6921140939597316,
+      "centroid_m": [
+        -0.06899498230596238,
+        -0.06364559253914871,
+        0.7940183389261659
+      ],
+      "distance_threshold_m": 0.005,
+      "extent_m": [
+        0.13614318650603563,
+        0.11252855221778711,
+        0.09079999999999999
+      ],
+      "metadata": {
+        "accepted": true,
+        "centroid_m": [
+          -0.06899498230596238,
+          -0.06364559253914871,
+          0.7940183389261659
+        ],
+        "cluster_label": 8,
+        "extent_m": [
+          0.13614318650603563,
+          0.11252855221778711,
+          0.09079999999999999
+        ],
+        "label": 8,
+        "points": 11920,
+        "rejection_reason": null
+      },
+      "points": 11920,
+      "source": "geometry_cluster",
+      "target_centroid_distance_m": 0.0264077210945755,
+      "target_recall_at_threshold": 0.9819444444444444
+    },
+    "candidate_records": [
+      {
+        "candidate_index": 0,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          -0.864445261384324,
+          -0.6251099474161617,
+          2.6023844753747425
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.15570798226300975,
+          0.24966903879860886,
+          0.19810000000000016
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.864445261384324,
+            -0.6251099474161617,
+            2.6023844753747425
+          ],
+          "cluster_label": 0,
+          "extent_m": [
+            0.15570798226300975,
+            0.24966903879860886,
+            0.19810000000000016
+          ],
+          "label": 0,
+          "points": 2802,
+          "rejection_reason": null
+        },
+        "points": 2802,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 2.058213235275748,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 1,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          -0.384295328122611,
+          -0.5911033856785762,
+          2.3519056846004345
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.6143954794424985,
+          0.16338724693714085,
+          0.20679999999999987
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.384295328122611,
+            -0.5911033856785762,
+            2.3519056846004345
+          ],
+          "cluster_label": 1,
+          "extent_m": [
+            0.6143954794424985,
+            0.16338724693714085,
+            0.20679999999999987
+          ],
+          "label": 1,
+          "points": 15111,
+          "rejection_reason": null
+        },
+        "points": 15111,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 1.6843688967685062,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 2,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          0.005268055152474174,
+          -0.33734154384444137,
+          1.2484813397129133
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.04525940742169984,
+          0.025515667444029666,
+          0.039999999999999813
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            0.005268055152474174,
+            -0.33734154384444137,
+            1.2484813397129133
+          ],
+          "cluster_label": 2,
+          "extent_m": [
+            0.04525940742169984,
+            0.025515667444029666,
+            0.039999999999999813
+          ],
+          "label": 2,
+          "points": 836,
+          "rejection_reason": null
+        },
+        "points": 836,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 0.553818274511143,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 3,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          0.11761437585662125,
+          -0.6268795298386739,
+          2.2619697802197636
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.15864542477093072,
+          0.03150491267004796,
+          0.043500000000000316
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            0.11761437585662125,
+            -0.6268795298386739,
+            2.2619697802197636
+          ],
+          "cluster_label": 3,
+          "extent_m": [
+            0.15864542477093072,
+            0.03150491267004796,
+            0.043500000000000316
+          ],
+          "label": 3,
+          "points": 364,
+          "rejection_reason": null
+        },
+        "points": 364,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 1.5999136488496597,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 4,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          0.5859059696635531,
+          -0.5330803374076882,
+          2.257108480862052
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.46543152458875314,
+          0.27943621715330486,
+          0.20469999999999988
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            0.5859059696635531,
+            -0.5330803374076882,
+            2.257108480862052
+          ],
+          "cluster_label": 4,
+          "extent_m": [
+            0.46543152458875314,
+            0.27943621715330486,
+            0.20469999999999988
+          ],
+          "label": 4,
+          "points": 14291,
+          "rejection_reason": null
+        },
+        "points": 14291,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 1.6913002441858787,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 5,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          0.05818695693634348,
+          -0.22094130037674894,
+          1.050698288024771
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.6477830380317802,
+          0.22523254012867816,
+          0.2791
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            0.05818695693634348,
+            -0.22094130037674894,
+            1.050698288024771
+          ],
+          "cluster_label": 5,
+          "extent_m": [
+            0.6477830380317802,
+            0.22523254012867816,
+            0.2791
+          ],
+          "label": 5,
+          "points": 11624,
+          "rejection_reason": null
+        },
+        "points": 11624,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 0.3492371071848151,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 6,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          -0.7344434780600094,
+          -0.6043338834274575,
+          2.695994055201731
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.10007513639431043,
+          0.15671356847902818,
+          0.1658000000000004
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.7344434780600094,
+            -0.6043338834274575,
+            2.695994055201731
+          ],
+          "cluster_label": 6,
+          "extent_m": [
+            0.10007513639431043,
+            0.15671356847902818,
+            0.1658000000000004
+          ],
+          "label": 6,
+          "points": 1413,
+          "rejection_reason": null
+        },
+        "points": 1413,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 2.092330684081473,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 7,
+        "candidate_purity_at_threshold": 0.6921140939597316,
+        "centroid_m": [
+          -0.06899498230596238,
+          -0.06364559253914871,
+          0.7940183389261659
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.13614318650603563,
+          0.11252855221778711,
+          0.09079999999999999
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.06899498230596238,
+            -0.06364559253914871,
+            0.7940183389261659
+          ],
+          "cluster_label": 8,
+          "extent_m": [
+            0.13614318650603563,
+            0.11252855221778711,
+            0.09079999999999999
+          ],
+          "label": 8,
+          "points": 11920,
+          "rejection_reason": null
+        },
+        "points": 11920,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 0.0264077210945755,
+        "target_recall_at_threshold": 0.9819444444444444
+      },
+      {
+        "candidate_index": 8,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          0.0015508697629306033,
+          -0.0011553037611851033,
+          0.7146674736606399
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.19266483808556545,
+          0.13942553386456866,
+          0.11870000000000003
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            0.0015508697629306033,
+            -0.0011553037611851033,
+            0.7146674736606399
+          ],
+          "cluster_label": 9,
+          "extent_m": [
+            0.19266483808556545,
+            0.13942553386456866,
+            0.11870000000000003
+          ],
+          "label": 9,
+          "points": 35688,
+          "rejection_reason": null
+        },
+        "points": 35688,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 0.12565429884772045,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 9,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          -0.2791462057491303,
+          -0.042615450695498616,
+          0.8288575757575758
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.023208326339875796,
+          0.016364454332874284,
+          0.017800000000000038
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.2791462057491303,
+            -0.042615450695498616,
+            0.8288575757575758
+          ],
+          "cluster_label": 10,
+          "extent_m": [
+            0.023208326339875796,
+            0.016364454332874284,
+            0.017800000000000038
+          ],
+          "label": 10,
+          "points": 66,
+          "rejection_reason": null
+        },
+        "points": 66,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 0.19444771345545822,
+        "target_recall_at_threshold": 0.0
+      }
+    ],
+    "case_id": "scene000001_im000246_obj000030",
+    "config": {
+      "cluster_eps_m": 0.04,
+      "cluster_min_points": 20,
+      "max_candidate_extent_m": 0.75,
+      "min_candidate_points": 30,
+      "outlier_removal": true,
+      "support_plane": 0.008
+    },
+    "depth_valid_scene_points": 382808,
+    "generation": {
+      "after_statistical_outlier_points": 94138,
+      "after_support_plane_points": 96623,
+      "candidate_count": 10,
+      "cluster_eps_m": 0.04,
+      "cluster_min_points": 20,
+      "clusters": [
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.864445261384324,
+            -0.6251099474161617,
+            2.6023844753747425
+          ],
+          "extent_m": [
+            0.15570798226300975,
+            0.24966903879860886,
+            0.19810000000000016
+          ],
+          "label": 0,
+          "points": 2802,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.384295328122611,
+            -0.5911033856785762,
+            2.3519056846004345
+          ],
+          "extent_m": [
+            0.6143954794424985,
+            0.16338724693714085,
+            0.20679999999999987
+          ],
+          "label": 1,
+          "points": 15111,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            0.005268055152474174,
+            -0.33734154384444137,
+            1.2484813397129133
+          ],
+          "extent_m": [
+            0.04525940742169984,
+            0.025515667444029666,
+            0.039999999999999813
+          ],
+          "label": 2,
+          "points": 836,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            0.11761437585662125,
+            -0.6268795298386739,
+            2.2619697802197636
+          ],
+          "extent_m": [
+            0.15864542477093072,
+            0.03150491267004796,
+            0.043500000000000316
+          ],
+          "label": 3,
+          "points": 364,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            0.5859059696635531,
+            -0.5330803374076882,
+            2.257108480862052
+          ],
+          "extent_m": [
+            0.46543152458875314,
+            0.27943621715330486,
+            0.20469999999999988
+          ],
+          "label": 4,
+          "points": 14291,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            0.05818695693634348,
+            -0.22094130037674894,
+            1.050698288024771
+          ],
+          "extent_m": [
+            0.6477830380317802,
+            0.22523254012867816,
+            0.2791
+          ],
+          "label": 5,
+          "points": 11624,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.7344434780600094,
+            -0.6043338834274575,
+            2.695994055201731
+          ],
+          "extent_m": [
+            0.10007513639431043,
+            0.15671356847902818,
+            0.1658000000000004
+          ],
+          "label": 6,
+          "points": 1413,
+          "rejection_reason": null
+        },
+        {
+          "accepted": false,
+          "centroid_m": [
+            -0.6779500787958777,
+            -0.6075148389761169,
+            2.6178000000000003
+          ],
+          "extent_m": [
+            0.007301067553819984,
+            0.012188246199419717,
+            0.0
+          ],
+          "label": 7,
+          "points": 20,
+          "rejection_reason": "below_min_candidate_points"
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.06899498230596238,
+            -0.06364559253914871,
+            0.7940183389261659
+          ],
+          "extent_m": [
+            0.13614318650603563,
+            0.11252855221778711,
+            0.09079999999999999
+          ],
+          "label": 8,
+          "points": 11920,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            0.0015508697629306033,
+            -0.0011553037611851033,
+            0.7146674736606399
+          ],
+          "extent_m": [
+            0.19266483808556545,
+            0.13942553386456866,
+            0.11870000000000003
+          ],
+          "label": 9,
+          "points": 35688,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.2791462057491303,
+            -0.042615450695498616,
+            0.8288575757575758
+          ],
+          "extent_m": [
+            0.023208326339875796,
+            0.016364454332874284,
+            0.017800000000000038
+          ],
+          "label": 10,
+          "points": 66,
+          "rejection_reason": null
+        }
+      ],
+      "clusters_before_filtering": 11,
+      "input_points": 382808,
+      "max_candidate_extent_m": 0.75,
+      "min_candidate_points": 30,
+      "mode": "geometry_candidates",
+      "noise_points": 3,
+      "support_plane": {
+        "attempted": true,
+        "distance_threshold_m": 0.008,
+        "enabled": true,
+        "inlier_count": 286185,
+        "inlier_fraction": 0.747594094167311,
+        "input_points": 382808,
+        "iterations": 1000,
+        "minimum_inlier_fraction": 0.45,
+        "plane_equation": [
+          -0.005954059998678472,
+          0.736028132527168,
+          0.6769247648728046,
+          -0.5359065310312414
+        ],
+        "reason": "removed",
+        "removed": true
+      }
+    },
+    "gt_info": {
+      "bbox_obj": [
+        197,
+        186,
+        109,
+        110
+      ],
+      "bbox_visib": [
+        197,
+        186,
+        109,
+        106
+      ],
+      "px_count_all": 9874,
+      "px_count_valid": 9870,
+      "px_count_visib": 7924,
+      "visib_fract": 0.8025116467490379
+    },
+    "gt_only_note": "GT mask labels are used after candidate generation and never select an inference candidate.",
+    "gt_pose": [
+      [
+        0.88774702,
+        0.46000218,
+        0.0174025,
+        -0.08864114842
+      ],
+      [
+        0.32292167,
+        -0.59536704,
+        -0.735703,
+        -0.04631132003
+      ],
+      [
+        -0.32806373,
+        0.65873834,
+        -0.67708,
+        0.8007314197700001
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "image_id": 246,
+    "model_id": 30,
+    "oracle_target_points": 7920,
+    "oracle_target_stats": {
+      "aabb_max_m": [
+        -0.04862201532316285,
+        -0.007138865220588154,
+        0.9007000000000001
+      ],
+      "aabb_min_m": [
+        -0.1366035634054729,
+        -0.0962188365428608,
+        0.7594000000000001
+      ],
+      "centroid_m": [
+        -0.09036870043657223,
+        -0.0524451903697626,
+        0.7832906691919628
+      ],
+      "count": 7920,
+      "dimensions_m": [
+        0.08798154808231004,
+        0.08907997132227265,
+        0.14129999999999998
+      ],
+      "normals_available": false,
+      "obb_center_m": [
+        -0.09160448914357927,
+        -0.06386255689868262,
+        0.8301961373511607
+      ],
+      "obb_dimensions_m": [
+        0.15686510477838922,
+        0.08577185422519978,
+        0.06326047058937412
+      ],
+      "point_spacing_m": {
+        "maximum": 0.003150072391521807,
+        "median": 0.0007265368239628978,
+        "p75": 0.0007364842891150469,
+        "p95": 0.0007484770274760466
+      }
+    },
+    "scene_id": 1,
+    "target_separability_classification": "target_has_a_geometrically_useful_cluster",
+    "usable_candidate_count_diagnostic_only": 1,
+    "usable_candidate_rule_diagnostic_only": "target_recall_at_5mm >= 0.20 AND candidate_purity_at_5mm >= 0.50 AND points >= 30",
+    "visibility_fraction": 0.8025116467490379
+  },
+  {
+    "best_by_candidate_purity": {
+      "candidate_index": 15,
+      "candidate_purity_at_threshold": 0.75,
+      "centroid_m": [
+        0.04168751754535129,
+        -0.12763800617695426,
+        1.0018166666666668
+      ],
+      "distance_threshold_m": 0.005,
+      "extent_m": [
+        0.012004266043257099,
+        0.007840641916743621,
+        0.008600000000000052
+      ],
+      "metadata": {
+        "accepted": true,
+        "centroid_m": [
+          0.04168751754535129,
+          -0.12763800617695426,
+          1.0018166666666668
+        ],
+        "cluster_label": 16,
+        "extent_m": [
+          0.012004266043257099,
+          0.007840641916743621,
+          0.008600000000000052
+        ],
+        "label": 16,
+        "points": 60,
+        "rejection_reason": null
+      },
+      "points": 60,
+      "source": "geometry_cluster",
+      "target_centroid_distance_m": 0.20847191398219916,
+      "target_recall_at_threshold": 0.001258213337061373
+    },
+    "best_by_target_recall": {
+      "candidate_index": 14,
+      "candidate_purity_at_threshold": 0.350356008852112,
+      "centroid_m": [
+        -0.0040506070005502685,
+        -0.0392616423997808,
+        0.7577190031752422
+      ],
+      "distance_threshold_m": 0.005,
+      "extent_m": [
+        0.22647087519222997,
+        0.16108597964865434,
+        0.1573
+      ],
+      "metadata": {
+        "accepted": true,
+        "centroid_m": [
+          -0.0040506070005502685,
+          -0.0392616423997808,
+          0.7577190031752422
+        ],
+        "cluster_label": 15,
+        "extent_m": [
+          0.22647087519222997,
+          0.16108597964865434,
+          0.1573
+        ],
+        "label": 15,
+        "points": 41572,
+        "rejection_reason": null
+      },
+      "points": 41572,
+      "source": "geometry_cluster",
+      "target_centroid_distance_m": 0.06896288428279694,
+      "target_recall_at_threshold": 0.9828743184677757
+    },
+    "candidate_records": [
+      {
+        "candidate_index": 0,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          -0.7929834101107963,
+          -0.5498604960041455,
+          2.5612953793179556
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.22633640209323658,
+          0.4299409416802283,
+          0.31610000000000005
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.7929834101107963,
+            -0.5498604960041455,
+            2.5612953793179556
+          ],
+          "cluster_label": 0,
+          "extent_m": [
+            0.22633640209323658,
+            0.4299409416802283,
+            0.31610000000000005
+          ],
+          "label": 0,
+          "points": 9003,
+          "rejection_reason": null
+        },
+        "points": 9003,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 1.9704788239837217,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 1,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          -0.5712272456743352,
+          -0.5268544770837268,
+          2.2955559508948102
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.1231939233905569,
+          0.24270981343652598,
+          0.16590000000000016
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.5712272456743352,
+            -0.5268544770837268,
+            2.2955559508948102
+          ],
+          "cluster_label": 1,
+          "extent_m": [
+            0.1231939233905569,
+            0.24270981343652598,
+            0.16590000000000016
+          ],
+          "label": 1,
+          "points": 4806,
+          "rejection_reason": null
+        },
+        "points": 4806,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 1.6458314993935226,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 2,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          -0.26140944434359087,
+          -0.595332107613489,
+          2.333318441674565
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.493505059662071,
+          0.21213283052209153,
+          0.24659999999999993
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.26140944434359087,
+            -0.595332107613489,
+            2.333318441674565
+          ],
+          "cluster_label": 2,
+          "extent_m": [
+            0.493505059662071,
+            0.21213283052209153,
+            0.24659999999999993
+          ],
+          "label": 2,
+          "points": 13399,
+          "rejection_reason": null
+        },
+        "points": 13399,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 1.6261614035592917,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 3,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          0.00653941520170281,
+          -0.3007563233139201,
+          1.2704415420022839
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.053732896144991715,
+          0.11483455063505757,
+          0.09819999999999984
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            0.00653941520170281,
+            -0.3007563233139201,
+            1.2704415420022839
+          ],
+          "cluster_label": 3,
+          "extent_m": [
+            0.053732896144991715,
+            0.11483455063505757,
+            0.09819999999999984
+          ],
+          "label": 3,
+          "points": 3476,
+          "rejection_reason": null
+        },
+        "points": 3476,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 0.5117529696017112,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 4,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          0.4176007567284211,
+          -0.5076690871098363,
+          2.3564491623861765
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.6766773058083889,
+          0.4695934208429285,
+          0.5562
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            0.4176007567284211,
+            -0.5076690871098363,
+            2.3564491623861765
+          ],
+          "cluster_label": 4,
+          "extent_m": [
+            0.6766773058083889,
+            0.4695934208429285,
+            0.5562
+          ],
+          "label": 4,
+          "points": 38741,
+          "rejection_reason": null
+        },
+        "points": 38741,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 1.6643763323574225,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 5,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          0.7548321204361959,
+          -0.5685549447397809,
+          2.4689604138978467
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.15075908228001034,
+          0.2830547056347064,
+          0.15120000000000022
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            0.7548321204361959,
+            -0.5685549447397809,
+            2.4689604138978467
+          ],
+          "cluster_label": 5,
+          "extent_m": [
+            0.15075908228001034,
+            0.2830547056347064,
+            0.15120000000000022
+          ],
+          "label": 5,
+          "points": 5267,
+          "rejection_reason": null
+        },
+        "points": 5267,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 1.896696875519694,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 6,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          -0.8923336972421031,
+          -0.7159355997521076,
+          2.644223076923077
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.019046957864658265,
+          0.037432909694060545,
+          0.020000000000000018
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.8923336972421031,
+            -0.7159355997521076,
+            2.644223076923077
+          ],
+          "cluster_label": 6,
+          "extent_m": [
+            0.019046957864658265,
+            0.037432909694060545,
+            0.020000000000000018
+          ],
+          "label": 6,
+          "points": 52,
+          "rejection_reason": null
+        },
+        "points": 52,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 2.1275352032761132,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 7,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          -0.5051044300810907,
+          -0.5873207578089237,
+          2.1794000000000007
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.014182854099825004,
+          0.010147094417837677,
+          0.0
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.5051044300810907,
+            -0.5873207578089237,
+            2.1794000000000007
+          ],
+          "cluster_label": 7,
+          "extent_m": [
+            0.014182854099825004,
+            0.010147094417837677,
+            0.0
+          ],
+          "label": 7,
+          "points": 44,
+          "rejection_reason": null
+        },
+        "points": 44,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 1.5382935039439496,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 8,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          0.15426804618694734,
+          -0.6945339976971002,
+          2.7836000000000034
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.01293914205491456,
+          0.018144274951862882,
+          0.0
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            0.15426804618694734,
+            -0.6945339976971002,
+            2.7836000000000034
+          ],
+          "cluster_label": 8,
+          "extent_m": [
+            0.01293914205491456,
+            0.018144274951862882,
+            0.0
+          ],
+          "label": 8,
+          "points": 44,
+          "rejection_reason": null
+        },
+        "points": 44,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 2.0751246772124974,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 9,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          -0.5642965808561848,
+          -0.5698430984578917,
+          2.6369205499276456
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.10468255682911831,
+          0.17948893509032038,
+          0.17969999999999997
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.5642965808561848,
+            -0.5698430984578917,
+            2.6369205499276456
+          ],
+          "cluster_label": 9,
+          "extent_m": [
+            0.10468255682911831,
+            0.17948893509032038,
+            0.17969999999999997
+          ],
+          "label": 9,
+          "points": 1382,
+          "rejection_reason": null
+        },
+        "points": 1382,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 1.9679267573692711,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 10,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          -0.257532053304548,
+          -0.1741595838656989,
+          1.0780200537754787
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.17503491318390677,
+          0.18073678702720575,
+          0.27059999999999995
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.257532053304548,
+            -0.1741595838656989,
+            1.0780200537754787
+          ],
+          "cluster_label": 11,
+          "extent_m": [
+            0.17503491318390677,
+            0.18073678702720575,
+            0.27059999999999995
+          ],
+          "label": 11,
+          "points": 4463,
+          "rejection_reason": null
+        },
+        "points": 4463,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 0.3687818732866529,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 11,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          -0.10699579579606305,
+          -0.454037574965545,
+          2.1800247863247875
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.0168740800946659,
+          0.025944621781293364,
+          0.06799999999999962
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.10699579579606305,
+            -0.454037574965545,
+            2.1800247863247875
+          ],
+          "cluster_label": 12,
+          "extent_m": [
+            0.0168740800946659,
+            0.025944621781293364,
+            0.06799999999999962
+          ],
+          "label": 12,
+          "points": 117,
+          "rejection_reason": null
+        },
+        "points": 117,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 1.4231868399580743,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 12,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          0.2543754352938084,
+          -0.4716627105240204,
+          2.3082
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.015021044247598508,
+          0.010746775871915581,
+          0.0
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            0.2543754352938084,
+            -0.4716627105240204,
+            2.3082
+          ],
+          "cluster_label": 13,
+          "extent_m": [
+            0.015021044247598508,
+            0.010746775871915581,
+            0.0
+          ],
+          "label": 13,
+          "points": 36,
+          "rejection_reason": null
+        },
+        "points": 36,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 1.573717435703204,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 13,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          -0.02831807972770921,
+          -0.2096865995917189,
+          1.0811266666666661
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.011239205342893029,
+          0.005755326630799501,
+          0.00670000000000015
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.02831807972770921,
+            -0.2096865995917189,
+            1.0811266666666661
+          ],
+          "cluster_label": 14,
+          "extent_m": [
+            0.011239205342893029,
+            0.005755326630799501,
+            0.00670000000000015
+          ],
+          "label": 14,
+          "points": 60,
+          "rejection_reason": null
+        },
+        "points": 60,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 0.30087663400313974,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 14,
+        "candidate_purity_at_threshold": 0.350356008852112,
+        "centroid_m": [
+          -0.0040506070005502685,
+          -0.0392616423997808,
+          0.7577190031752422
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.22647087519222997,
+          0.16108597964865434,
+          0.1573
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.0040506070005502685,
+            -0.0392616423997808,
+            0.7577190031752422
+          ],
+          "cluster_label": 15,
+          "extent_m": [
+            0.22647087519222997,
+            0.16108597964865434,
+            0.1573
+          ],
+          "label": 15,
+          "points": 41572,
+          "rejection_reason": null
+        },
+        "points": 41572,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 0.06896288428279694,
+        "target_recall_at_threshold": 0.9828743184677757
+      },
+      {
+        "candidate_index": 15,
+        "candidate_purity_at_threshold": 0.75,
+        "centroid_m": [
+          0.04168751754535129,
+          -0.12763800617695426,
+          1.0018166666666668
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.012004266043257099,
+          0.007840641916743621,
+          0.008600000000000052
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            0.04168751754535129,
+            -0.12763800617695426,
+            1.0018166666666668
+          ],
+          "cluster_label": 16,
+          "extent_m": [
+            0.012004266043257099,
+            0.007840641916743621,
+            0.008600000000000052
+          ],
+          "label": 16,
+          "points": 60,
+          "rejection_reason": null
+        },
+        "points": 60,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 0.20847191398219916,
+        "target_recall_at_threshold": 0.001258213337061373
+      }
+    ],
+    "case_id": "scene000001_im000347_obj000029",
+    "config": {
+      "cluster_eps_m": 0.04,
+      "cluster_min_points": 20,
+      "max_candidate_extent_m": 0.75,
+      "min_candidate_points": 30,
+      "outlier_removal": true,
+      "support_plane": 0.008
+    },
+    "depth_valid_scene_points": 378341,
+    "generation": {
+      "after_statistical_outlier_points": 122571,
+      "after_support_plane_points": 126172,
+      "candidate_count": 16,
+      "cluster_eps_m": 0.04,
+      "cluster_min_points": 20,
+      "clusters": [
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.7929834101107963,
+            -0.5498604960041455,
+            2.5612953793179556
+          ],
+          "extent_m": [
+            0.22633640209323658,
+            0.4299409416802283,
+            0.31610000000000005
+          ],
+          "label": 0,
+          "points": 9003,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.5712272456743352,
+            -0.5268544770837268,
+            2.2955559508948102
+          ],
+          "extent_m": [
+            0.1231939233905569,
+            0.24270981343652598,
+            0.16590000000000016
+          ],
+          "label": 1,
+          "points": 4806,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.26140944434359087,
+            -0.595332107613489,
+            2.333318441674565
+          ],
+          "extent_m": [
+            0.493505059662071,
+            0.21213283052209153,
+            0.24659999999999993
+          ],
+          "label": 2,
+          "points": 13399,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            0.00653941520170281,
+            -0.3007563233139201,
+            1.2704415420022839
+          ],
+          "extent_m": [
+            0.053732896144991715,
+            0.11483455063505757,
+            0.09819999999999984
+          ],
+          "label": 3,
+          "points": 3476,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            0.4176007567284211,
+            -0.5076690871098363,
+            2.3564491623861765
+          ],
+          "extent_m": [
+            0.6766773058083889,
+            0.4695934208429285,
+            0.5562
+          ],
+          "label": 4,
+          "points": 38741,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            0.7548321204361959,
+            -0.5685549447397809,
+            2.4689604138978467
+          ],
+          "extent_m": [
+            0.15075908228001034,
+            0.2830547056347064,
+            0.15120000000000022
+          ],
+          "label": 5,
+          "points": 5267,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.8923336972421031,
+            -0.7159355997521076,
+            2.644223076923077
+          ],
+          "extent_m": [
+            0.019046957864658265,
+            0.037432909694060545,
+            0.020000000000000018
+          ],
+          "label": 6,
+          "points": 52,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.5051044300810907,
+            -0.5873207578089237,
+            2.1794000000000007
+          ],
+          "extent_m": [
+            0.014182854099825004,
+            0.010147094417837677,
+            0.0
+          ],
+          "label": 7,
+          "points": 44,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            0.15426804618694734,
+            -0.6945339976971002,
+            2.7836000000000034
+          ],
+          "extent_m": [
+            0.01293914205491456,
+            0.018144274951862882,
+            0.0
+          ],
+          "label": 8,
+          "points": 44,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.5642965808561848,
+            -0.5698430984578917,
+            2.6369205499276456
+          ],
+          "extent_m": [
+            0.10468255682911831,
+            0.17948893509032038,
+            0.17969999999999997
+          ],
+          "label": 9,
+          "points": 1382,
+          "rejection_reason": null
+        },
+        {
+          "accepted": false,
+          "centroid_m": [
+            -0.04659385189260995,
+            -0.505020156077321,
+            2.2207000000000003
+          ],
+          "extent_m": [
+            0.01032258685204366,
+            0.006203630147845862,
+            0.0
+          ],
+          "label": 10,
+          "points": 24,
+          "rejection_reason": "below_min_candidate_points"
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.257532053304548,
+            -0.1741595838656989,
+            1.0780200537754787
+          ],
+          "extent_m": [
+            0.17503491318390677,
+            0.18073678702720575,
+            0.27059999999999995
+          ],
+          "label": 11,
+          "points": 4463,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.10699579579606305,
+            -0.454037574965545,
+            2.1800247863247875
+          ],
+          "extent_m": [
+            0.0168740800946659,
+            0.025944621781293364,
+            0.06799999999999962
+          ],
+          "label": 12,
+          "points": 117,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            0.2543754352938084,
+            -0.4716627105240204,
+            2.3082
+          ],
+          "extent_m": [
+            0.015021044247598508,
+            0.010746775871915581,
+            0.0
+          ],
+          "label": 13,
+          "points": 36,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.02831807972770921,
+            -0.2096865995917189,
+            1.0811266666666661
+          ],
+          "extent_m": [
+            0.011239205342893029,
+            0.005755326630799501,
+            0.00670000000000015
+          ],
+          "label": 14,
+          "points": 60,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.0040506070005502685,
+            -0.0392616423997808,
+            0.7577190031752422
+          ],
+          "extent_m": [
+            0.22647087519222997,
+            0.16108597964865434,
+            0.1573
+          ],
+          "label": 15,
+          "points": 41572,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            0.04168751754535129,
+            -0.12763800617695426,
+            1.0018166666666668
+          ],
+          "extent_m": [
+            0.012004266043257099,
+            0.007840641916743621,
+            0.008600000000000052
+          ],
+          "label": 16,
+          "points": 60,
+          "rejection_reason": null
+        }
+      ],
+      "clusters_before_filtering": 17,
+      "input_points": 378341,
+      "max_candidate_extent_m": 0.75,
+      "min_candidate_points": 30,
+      "mode": "geometry_candidates",
+      "noise_points": 25,
+      "support_plane": {
+        "attempted": true,
+        "distance_threshold_m": 0.008,
+        "enabled": true,
+        "inlier_count": 252169,
+        "inlier_fraction": 0.6665124847690311,
+        "input_points": 378341,
+        "iterations": 1000,
+        "minimum_inlier_fraction": 0.45,
+        "plane_equation": [
+          -0.01328474776763822,
+          0.84054706098036,
+          0.541575621454686,
+          -0.4259531583090876
+        ],
+        "reason": "removed",
+        "removed": true
+      }
+    },
+    "gt_info": {
+      "bbox_obj": [
+        252,
+        141,
+        157,
+        140
+      ],
+      "bbox_visib": [
+        252,
+        141,
+        157,
+        122
+      ],
+      "px_count_all": 17246,
+      "px_count_valid": 17246,
+      "px_count_visib": 14306,
+      "visib_fract": 0.829525687115853
+    },
+    "gt_only_note": "GT mask labels are used after candidate generation and never select an inference candidate.",
+    "gt_pose": [
+      [
+        -0.82459975,
+        0.05189811,
+        -0.56333047,
+        -0.02773285794
+      ],
+      [
+        0.28901181,
+        -0.81738226,
+        -0.49835681,
+        -0.07606342189
+      ],
+      [
+        -0.48632003,
+        -0.57375334,
+        0.65901358,
+        0.83000134683
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "image_id": 347,
+    "model_id": 29,
+    "oracle_target_points": 14306,
+    "oracle_target_stats": {
+      "aabb_max_m": [
+        0.040902687472162,
+        -0.03387303445249088,
+        1.0403
+      ],
+      "aabb_min_m": [
+        -0.10349791090030866,
+        -0.16053600881727895,
+        0.7729
+      ],
+      "centroid_m": [
+        -0.02290295400647282,
+        -0.08119341874243358,
+        0.8091212847755804
+      ],
+      "count": 14306,
+      "dimensions_m": [
+        0.14440059837247066,
+        0.12666297436478807,
+        0.26739999999999997
+      ],
+      "normals_available": false,
+      "obb_center_m": [
+        -0.033157785802816475,
+        -0.10610691615216766,
+        0.9089635659921584
+      ],
+      "obb_dimensions_m": [
+        0.2844416392217509,
+        0.14343046052872016,
+        0.09019338317225106
+      ],
+      "point_spacing_m": {
+        "maximum": 0.0031303327612184077,
+        "median": 0.0007484770274760605,
+        "p75": 0.0007625150390459037,
+        "p95": 0.0007772038193640304
+      }
+    },
+    "scene_id": 1,
+    "target_separability_classification": "target_merged_with_support_or_background",
+    "usable_candidate_count_diagnostic_only": 0,
+    "usable_candidate_rule_diagnostic_only": "target_recall_at_5mm >= 0.20 AND candidate_purity_at_5mm >= 0.50 AND points >= 30",
+    "visibility_fraction": 0.829525687115853
+  },
+  {
+    "best_by_candidate_purity": {
+      "candidate_index": 10,
+      "candidate_purity_at_threshold": 0.17757968758020087,
+      "centroid_m": [
+        -0.015195095200273158,
+        -0.0038035227406894557,
+        0.7443028316251733
+      ],
+      "distance_threshold_m": 0.005,
+      "extent_m": [
+        0.23961665563033713,
+        0.21984199692933282,
+        0.21829999999999994
+      ],
+      "metadata": {
+        "accepted": true,
+        "centroid_m": [
+          -0.015195095200273158,
+          -0.0038035227406894557,
+          0.7443028316251733
+        ],
+        "cluster_label": 12,
+        "extent_m": [
+          0.23961665563033713,
+          0.21984199692933282,
+          0.21829999999999994
+        ],
+        "label": 12,
+        "points": 58447,
+        "rejection_reason": null
+      },
+      "points": 58447,
+      "source": "geometry_cluster",
+      "target_centroid_distance_m": 0.11589223416199586,
+      "target_recall_at_threshold": 0.9861536939966373
+    },
+    "best_by_target_recall": {
+      "candidate_index": 10,
+      "candidate_purity_at_threshold": 0.17757968758020087,
+      "centroid_m": [
+        -0.015195095200273158,
+        -0.0038035227406894557,
+        0.7443028316251733
+      ],
+      "distance_threshold_m": 0.005,
+      "extent_m": [
+        0.23961665563033713,
+        0.21984199692933282,
+        0.21829999999999994
+      ],
+      "metadata": {
+        "accepted": true,
+        "centroid_m": [
+          -0.015195095200273158,
+          -0.0038035227406894557,
+          0.7443028316251733
+        ],
+        "cluster_label": 12,
+        "extent_m": [
+          0.23961665563033713,
+          0.21984199692933282,
+          0.21829999999999994
+        ],
+        "label": 12,
+        "points": 58447,
+        "rejection_reason": null
+      },
+      "points": 58447,
+      "source": "geometry_cluster",
+      "target_centroid_distance_m": 0.11589223416199586,
+      "target_recall_at_threshold": 0.9861536939966373
+    },
+    "candidate_records": [
+      {
+        "candidate_index": 0,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          -0.8580810715938133,
+          -0.6343354821862245,
+          2.5837977981651306
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.10686448220120703,
+          0.11839675733398469,
+          0.09520000000000017
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.8580810715938133,
+            -0.6343354821862245,
+            2.5837977981651306
+          ],
+          "cluster_label": 0,
+          "extent_m": [
+            0.10686448220120703,
+            0.11839675733398469,
+            0.09520000000000017
+          ],
+          "label": 0,
+          "points": 1090,
+          "rejection_reason": null
+        },
+        "points": 1090,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 2.023054766631206,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 1,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          -0.37691028391267584,
+          -0.560204958602385,
+          2.3557508539178653
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.6337674502493325,
+          0.17224593416327955,
+          0.19490000000000007
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.37691028391267584,
+            -0.560204958602385,
+            2.3557508539178653
+          ],
+          "cluster_label": 1,
+          "extent_m": [
+            0.6337674502493325,
+            0.17224593416327955,
+            0.19490000000000007
+          ],
+          "label": 1,
+          "points": 13643,
+          "rejection_reason": null
+        },
+        "points": 13643,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 1.6387786278312977,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 2,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          0.002898883867268276,
+          -0.3107346918895323,
+          1.2582045112781846
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.04565544094847172,
+          0.040069160837516826,
+          0.049900000000000055
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            0.002898883867268276,
+            -0.3107346918895323,
+            1.2582045112781846
+          ],
+          "cluster_label": 2,
+          "extent_m": [
+            0.04565544094847172,
+            0.040069160837516826,
+            0.049900000000000055
+          ],
+          "label": 2,
+          "points": 1330,
+          "rejection_reason": null
+        },
+        "points": 1330,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 0.4849190801967572,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 3,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          0.49723135170379146,
+          -0.5408733202888892,
+          2.2633099777566437
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.7117547503172705,
+          0.2136305775121724,
+          0.19110000000000005
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            0.49723135170379146,
+            -0.5408733202888892,
+            2.2633099777566437
+          ],
+          "cluster_label": 3,
+          "extent_m": [
+            0.7117547503172705,
+            0.2136305775121724,
+            0.19110000000000005
+          ],
+          "label": 3,
+          "points": 9441,
+          "rejection_reason": null
+        },
+        "points": 9441,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 1.5870887998651513,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 4,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          -0.7308895378364301,
+          -0.5820968672033725,
+          2.378061812297738
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.04916568028762813,
+          0.06645200018786501,
+          0.03249999999999975
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.7308895378364301,
+            -0.5820968672033725,
+            2.378061812297738
+          ],
+          "cluster_label": 4,
+          "extent_m": [
+            0.04916568028762813,
+            0.06645200018786501,
+            0.03249999999999975
+          ],
+          "label": 4,
+          "points": 309,
+          "rejection_reason": null
+        },
+        "points": 309,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 1.7776137298991632,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 5,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          0.03425597661952512,
+          -0.20983235132779154,
+          1.0407537386245789
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.6624093542665386,
+          0.19038509156654507,
+          0.23450000000000004
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            0.03425597661952512,
+            -0.20983235132779154,
+            1.0407537386245789
+          ],
+          "cluster_label": 5,
+          "extent_m": [
+            0.6624093542665386,
+            0.19038509156654507,
+            0.23450000000000004
+          ],
+          "label": 5,
+          "points": 10659,
+          "rejection_reason": null
+        },
+        "points": 10659,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 0.2501276604011067,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 6,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          -0.7517182779294371,
+          -0.5966340101906706,
+          2.6780144685039473
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.08359264992970816,
+          0.11465752926063799,
+          0.10289999999999999
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.7517182779294371,
+            -0.5966340101906706,
+            2.6780144685039473
+          ],
+          "cluster_label": 6,
+          "extent_m": [
+            0.08359264992970816,
+            0.11465752926063799,
+            0.10289999999999999
+          ],
+          "label": 6,
+          "points": 1016,
+          "rejection_reason": null
+        },
+        "points": 1016,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 2.054816917521675,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 7,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          -0.7697282071464336,
+          -0.5897296972675214,
+          2.564857746478875
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.018362248442926443,
+          0.034781818223404204,
+          0.03730000000000011
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.7697282071464336,
+            -0.5897296972675214,
+            2.564857746478875
+          ],
+          "cluster_label": 8,
+          "extent_m": [
+            0.018362248442926443,
+            0.034781818223404204,
+            0.03730000000000011
+          ],
+          "label": 8,
+          "points": 71,
+          "rejection_reason": null
+        },
+        "points": 71,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 1.9589117560819442,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 8,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          -0.7700116550078172,
+          -0.5619262125118034,
+          2.4738736842105298
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.029099670900669672,
+          0.030904557300660107,
+          0.034800000000000164
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.7700116550078172,
+            -0.5619262125118034,
+            2.4738736842105298
+          ],
+          "cluster_label": 9,
+          "extent_m": [
+            0.029099670900669672,
+            0.030904557300660107,
+            0.034800000000000164
+          ],
+          "label": 9,
+          "points": 76,
+          "rejection_reason": null
+        },
+        "points": 76,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 1.8716805733244384,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 9,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          -0.9061155455289217,
+          -0.5133986257523433,
+          2.6373000000000006
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.009807270970376702,
+          0.019646458370680575,
+          0.0
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.9061155455289217,
+            -0.5133986257523433,
+            2.6373000000000006
+          ],
+          "cluster_label": 11,
+          "extent_m": [
+            0.009807270970376702,
+            0.019646458370680575,
+            0.0
+          ],
+          "label": 11,
+          "points": 30,
+          "rejection_reason": null
+        },
+        "points": 30,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 2.060805263731129,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 10,
+        "candidate_purity_at_threshold": 0.17757968758020087,
+        "centroid_m": [
+          -0.015195095200273158,
+          -0.0038035227406894557,
+          0.7443028316251733
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.23961665563033713,
+          0.21984199692933282,
+          0.21829999999999994
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.015195095200273158,
+            -0.0038035227406894557,
+            0.7443028316251733
+          ],
+          "cluster_label": 12,
+          "extent_m": [
+            0.23961665563033713,
+            0.21984199692933282,
+            0.21829999999999994
+          ],
+          "label": 12,
+          "points": 58447,
+          "rejection_reason": null
+        },
+        "points": 58447,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 0.11589223416199586,
+        "target_recall_at_threshold": 0.9861536939966373
+      },
+      {
+        "candidate_index": 11,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          0.18280401172001054,
+          -0.06091475323484027,
+          0.855218367346941
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.06312634310877432,
+          0.12915454603867915,
+          0.14290000000000003
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            0.18280401172001054,
+            -0.06091475323484027,
+            0.855218367346941
+          ],
+          "cluster_label": 13,
+          "extent_m": [
+            0.06312634310877432,
+            0.12915454603867915,
+            0.14290000000000003
+          ],
+          "label": 13,
+          "points": 539,
+          "rejection_reason": null
+        },
+        "points": 539,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 0.19601251047881385,
+        "target_recall_at_threshold": 0.0
+      }
+    ],
+    "case_id": "scene000007_im000285_obj000018",
+    "config": {
+      "cluster_eps_m": 0.04,
+      "cluster_min_points": 20,
+      "max_candidate_extent_m": 0.75,
+      "min_candidate_points": 30,
+      "outlier_removal": true,
+      "support_plane": 0.008
+    },
+    "depth_valid_scene_points": 384152,
+    "generation": {
+      "after_statistical_outlier_points": 96735,
+      "after_support_plane_points": 99325,
+      "candidate_count": 12,
+      "cluster_eps_m": 0.04,
+      "cluster_min_points": 20,
+      "clusters": [
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.8580810715938133,
+            -0.6343354821862245,
+            2.5837977981651306
+          ],
+          "extent_m": [
+            0.10686448220120703,
+            0.11839675733398469,
+            0.09520000000000017
+          ],
+          "label": 0,
+          "points": 1090,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.37691028391267584,
+            -0.560204958602385,
+            2.3557508539178653
+          ],
+          "extent_m": [
+            0.6337674502493325,
+            0.17224593416327955,
+            0.19490000000000007
+          ],
+          "label": 1,
+          "points": 13643,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            0.002898883867268276,
+            -0.3107346918895323,
+            1.2582045112781846
+          ],
+          "extent_m": [
+            0.04565544094847172,
+            0.040069160837516826,
+            0.049900000000000055
+          ],
+          "label": 2,
+          "points": 1330,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            0.49723135170379146,
+            -0.5408733202888892,
+            2.2633099777566437
+          ],
+          "extent_m": [
+            0.7117547503172705,
+            0.2136305775121724,
+            0.19110000000000005
+          ],
+          "label": 3,
+          "points": 9441,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.7308895378364301,
+            -0.5820968672033725,
+            2.378061812297738
+          ],
+          "extent_m": [
+            0.04916568028762813,
+            0.06645200018786501,
+            0.03249999999999975
+          ],
+          "label": 4,
+          "points": 309,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            0.03425597661952512,
+            -0.20983235132779154,
+            1.0407537386245789
+          ],
+          "extent_m": [
+            0.6624093542665386,
+            0.19038509156654507,
+            0.23450000000000004
+          ],
+          "label": 5,
+          "points": 10659,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.7517182779294371,
+            -0.5966340101906706,
+            2.6780144685039473
+          ],
+          "extent_m": [
+            0.08359264992970816,
+            0.11465752926063799,
+            0.10289999999999999
+          ],
+          "label": 6,
+          "points": 1016,
+          "rejection_reason": null
+        },
+        {
+          "accepted": false,
+          "centroid_m": [
+            -0.6861803638796313,
+            -0.5472722492139865,
+            2.3082
+          ],
+          "extent_m": [
+            0.010729317319713272,
+            0.008597420697532665,
+            0.0
+          ],
+          "label": 7,
+          "points": 20,
+          "rejection_reason": "below_min_candidate_points"
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.7697282071464336,
+            -0.5897296972675214,
+            2.564857746478875
+          ],
+          "extent_m": [
+            0.018362248442926443,
+            0.034781818223404204,
+            0.03730000000000011
+          ],
+          "label": 8,
+          "points": 71,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.7700116550078172,
+            -0.5619262125118034,
+            2.4738736842105298
+          ],
+          "extent_m": [
+            0.029099670900669672,
+            0.030904557300660107,
+            0.034800000000000164
+          ],
+          "label": 9,
+          "points": 76,
+          "rejection_reason": null
+        },
+        {
+          "accepted": false,
+          "centroid_m": [
+            -0.1352452618528824,
+            -0.20175976399468434,
+            1.0088652173913049
+          ],
+          "extent_m": [
+            0.013110387202673962,
+            0.0024785884815456405,
+            0.0029999999999998916
+          ],
+          "label": 10,
+          "points": 23,
+          "rejection_reason": "below_min_candidate_points"
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.9061155455289217,
+            -0.5133986257523433,
+            2.6373000000000006
+          ],
+          "extent_m": [
+            0.009807270970376702,
+            0.019646458370680575,
+            0.0
+          ],
+          "label": 11,
+          "points": 30,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.015195095200273158,
+            -0.0038035227406894557,
+            0.7443028316251733
+          ],
+          "extent_m": [
+            0.23961665563033713,
+            0.21984199692933282,
+            0.21829999999999994
+          ],
+          "label": 12,
+          "points": 58447,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            0.18280401172001054,
+            -0.06091475323484027,
+            0.855218367346941
+          ],
+          "extent_m": [
+            0.06312634310877432,
+            0.12915454603867915,
+            0.14290000000000003
+          ],
+          "label": 13,
+          "points": 539,
+          "rejection_reason": null
+        }
+      ],
+      "clusters_before_filtering": 14,
+      "input_points": 384152,
+      "max_candidate_extent_m": 0.75,
+      "min_candidate_points": 30,
+      "mode": "geometry_candidates",
+      "noise_points": 41,
+      "support_plane": {
+        "attempted": true,
+        "distance_threshold_m": 0.008,
+        "enabled": true,
+        "inlier_count": 284827,
+        "inlier_fraction": 0.741443491118099,
+        "input_points": 384152,
+        "iterations": 1000,
+        "minimum_inlier_fraction": 0.45,
+        "plane_equation": [
+          -0.009333341320701329,
+          0.736954142932816,
+          0.6758783026210783,
+          -0.5382353786334692
+        ],
+        "reason": "removed",
+        "removed": true
+      }
+    },
+    "gt_info": {
+      "bbox_obj": [
+        291,
+        131,
+        131,
+        116
+      ],
+      "bbox_visib": [
+        291,
+        131,
+        131,
+        101
+      ],
+      "px_count_all": 12323,
+      "px_count_valid": 12323,
+      "px_count_visib": 10111,
+      "visib_fract": 0.8204982552949769
+    },
+    "gt_only_note": "GT mask labels are used after candidate generation and never select an inference candidate.",
+    "gt_pose": [
+      [
+        -0.89887542,
+        -0.38302408,
+        0.21287242,
+        -0.009773927620000001
+      ],
+      [
+        -0.381876,
+        0.44643335,
+        -0.80923892,
+        -0.07560322688
+      ],
+      [
+        0.2149245,
+        -0.8086969,
+        -0.54755599,
+        0.84935166987
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "image_id": 285,
+    "model_id": 18,
+    "oracle_target_points": 10111,
+    "oracle_target_stats": {
+      "aabb_max_m": [
+        0.040554515127652506,
+        -0.039296240645891496,
+        0.9447000000000001
+      ],
+      "aabb_min_m": [
+        -0.06438853271392442,
+        -0.13346766856948453,
+        0.7941
+      ],
+      "centroid_m": [
+        -0.011082153228800445,
+        -0.07874405126585345,
+        0.8326091781228473
+      ],
+      "count": 10111,
+      "dimensions_m": [
+        0.10494304784157693,
+        0.09417142792359304,
+        0.15060000000000007
+      ],
+      "normals_available": false,
+      "obb_center_m": [
+        -0.016987365944670277,
+        -0.09425452796580983,
+        0.8685493246876353
+      ],
+      "obb_dimensions_m": [
+        0.15916110081709833,
+        0.12033789748320652,
+        0.05917730856502357
+      ],
+      "point_spacing_m": {
+        "maximum": 0.02568380951537347,
+        "median": 0.0007661407506434174,
+        "p75": 0.0007962620469919787,
+        "p95": 0.0008102070915977887
+      }
+    },
+    "scene_id": 7,
+    "target_separability_classification": "target_merged_with_support_or_background",
+    "usable_candidate_count_diagnostic_only": 0,
+    "usable_candidate_rule_diagnostic_only": "target_recall_at_5mm >= 0.20 AND candidate_purity_at_5mm >= 0.50 AND points >= 30",
+    "visibility_fraction": 0.8204982552949769
+  },
+  {
+    "best_by_candidate_purity": {
+      "candidate_index": 14,
+      "candidate_purity_at_threshold": 0.04987690559606098,
+      "centroid_m": [
+        0.010153390188606087,
+        -0.034522456645320714,
+        0.7458499976327094
+      ],
+      "distance_threshold_m": 0.005,
+      "extent_m": [
+        0.25208962314555317,
+        0.16877712005914142,
+        0.16170000000000007
+      ],
+      "metadata": {
+        "accepted": true,
+        "centroid_m": [
+          0.010153390188606087,
+          -0.034522456645320714,
+          0.7458499976327094
+        ],
+        "cluster_label": 17,
+        "extent_m": [
+          0.25208962314555317,
+          0.16877712005914142,
+          0.16170000000000007
+        ],
+        "label": 17,
+        "points": 42244,
+        "rejection_reason": null
+      },
+      "points": 42244,
+      "source": "geometry_cluster",
+      "target_centroid_distance_m": 0.10502052012754112,
+      "target_recall_at_threshold": 0.9146620847651775
+    },
+    "best_by_target_recall": {
+      "candidate_index": 14,
+      "candidate_purity_at_threshold": 0.04987690559606098,
+      "centroid_m": [
+        0.010153390188606087,
+        -0.034522456645320714,
+        0.7458499976327094
+      ],
+      "distance_threshold_m": 0.005,
+      "extent_m": [
+        0.25208962314555317,
+        0.16877712005914142,
+        0.16170000000000007
+      ],
+      "metadata": {
+        "accepted": true,
+        "centroid_m": [
+          0.010153390188606087,
+          -0.034522456645320714,
+          0.7458499976327094
+        ],
+        "cluster_label": 17,
+        "extent_m": [
+          0.25208962314555317,
+          0.16877712005914142,
+          0.16170000000000007
+        ],
+        "label": 17,
+        "points": 42244,
+        "rejection_reason": null
+      },
+      "points": 42244,
+      "source": "geometry_cluster",
+      "target_centroid_distance_m": 0.10502052012754112,
+      "target_recall_at_threshold": 0.9146620847651775
+    },
+    "candidate_records": [
+      {
+        "candidate_index": 0,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          -0.7848417126758813,
+          -0.5826260480023345,
+          2.544148107109842
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.20966268412592093,
+          0.3751687765293915,
+          0.2580999999999998
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.7848417126758813,
+            -0.5826260480023345,
+            2.544148107109842
+          ],
+          "cluster_label": 0,
+          "extent_m": [
+            0.20966268412592093,
+            0.3751687765293915,
+            0.2580999999999998
+          ],
+          "label": 0,
+          "points": 7581,
+          "rejection_reason": null
+        },
+        "points": 7581,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 1.9742492995533354,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 1,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          -0.331415854869034,
+          -0.5414505030457483,
+          2.332464679156863
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.6069030774879207,
+          0.2787885557442647,
+          0.2636999999999996
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.331415854869034,
+            -0.5414505030457483,
+            2.332464679156863
+          ],
+          "cluster_label": 1,
+          "extent_m": [
+            0.6069030774879207,
+            0.2787885557442647,
+            0.2636999999999996
+          ],
+          "label": 1,
+          "points": 26633,
+          "rejection_reason": null
+        },
+        "points": 26633,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 1.6219737761281063,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 2,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          0.0077855019806074705,
+          -0.29352451065136265,
+          1.2734322926829342
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.0659899945843222,
+          0.1305081601772543,
+          0.08809999999999985
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            0.0077855019806074705,
+            -0.29352451065136265,
+            1.2734322926829342
+          ],
+          "cluster_label": 2,
+          "extent_m": [
+            0.0659899945843222,
+            0.1305081601772543,
+            0.08809999999999985
+          ],
+          "label": 2,
+          "points": 4100,
+          "rejection_reason": null
+        },
+        "points": 4100,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 0.4962781605232662,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 3,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          0.37388352913287853,
+          -0.5639906040656472,
+          2.3869746805111425
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.5787153418204465,
+          0.3394785049147841,
+          0.5166999999999997
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            0.37388352913287853,
+            -0.5639906040656472,
+            2.3869746805111425
+          ],
+          "cluster_label": 3,
+          "extent_m": [
+            0.5787153418204465,
+            0.3394785049147841,
+            0.5166999999999997
+          ],
+          "label": 3,
+          "points": 28796,
+          "rejection_reason": null
+        },
+        "points": 28796,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 1.67147973190564,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 4,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          0.7574084759585402,
+          -0.5693724631991145,
+          2.467915388788364
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.1416648557732222,
+          0.3129391018334057,
+          0.16680000000000028
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            0.7574084759585402,
+            -0.5693724631991145,
+            2.467915388788364
+          ],
+          "cluster_label": 4,
+          "extent_m": [
+            0.1416648557732222,
+            0.3129391018334057,
+            0.16680000000000028
+          ],
+          "label": 4,
+          "points": 5530,
+          "rejection_reason": null
+        },
+        "points": 5530,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 1.8611085106501786,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 5,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          -0.8904148728597313,
+          -0.7008803535462607,
+          2.6404874999999977
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.023104076362213788,
+          0.04647425862945964,
+          0.03950000000000031
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.8904148728597313,
+            -0.7008803535462607,
+            2.6404874999999977
+          ],
+          "cluster_label": 6,
+          "extent_m": [
+            0.023104076362213788,
+            0.04647425862945964,
+            0.03950000000000031
+          ],
+          "label": 6,
+          "points": 64,
+          "rejection_reason": null
+        },
+        "points": 64,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 2.133419712993292,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 6,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          -0.5656112499677826,
+          -0.5803261831127651,
+          2.629133104738144
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.09652931588089697,
+          0.17440997086508842,
+          0.19520000000000026
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.5656112499677826,
+            -0.5803261831127651,
+            2.629133104738144
+          ],
+          "cluster_label": 7,
+          "extent_m": [
+            0.09652931588089697,
+            0.17440997086508842,
+            0.19520000000000026
+          ],
+          "label": 7,
+          "points": 1604,
+          "rejection_reason": null
+        },
+        "points": 1604,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 1.9706675050113922,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 7,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          -0.6736475745917343,
+          -0.4720742733803003,
+          2.4440136563876713
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.06831916372170821,
+          0.07538750135489375,
+          0.016999999999999904
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.6736475745917343,
+            -0.4720742733803003,
+            2.4440136563876713
+          ],
+          "cluster_label": 9,
+          "extent_m": [
+            0.06831916372170821,
+            0.07538750135489375,
+            0.016999999999999904
+          ],
+          "label": 9,
+          "points": 227,
+          "rejection_reason": null
+        },
+        "points": 227,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 1.8159735282903617,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 8,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          0.315367084861768,
+          -0.16016266493605216,
+          1.0666362204724347
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.047218756175633814,
+          0.1226556212175786,
+          0.17169999999999996
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            0.315367084861768,
+            -0.16016266493605216,
+            1.0666362204724347
+          ],
+          "cluster_label": 10,
+          "extent_m": [
+            0.047218756175633814,
+            0.1226556212175786,
+            0.17169999999999996
+          ],
+          "label": 10,
+          "points": 2286,
+          "rejection_reason": null
+        },
+        "points": 2286,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 0.37783747899519216,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 9,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          0.08429665354567048,
+          -0.1899430121060137,
+          1.064950920245398
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.041421456221722795,
+          0.007526450402050855,
+          0.00990000000000002
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            0.08429665354567048,
+            -0.1899430121060137,
+            1.064950920245398
+          ],
+          "cluster_label": 11,
+          "extent_m": [
+            0.041421456221722795,
+            0.007526450402050855,
+            0.00990000000000002
+          ],
+          "label": 11,
+          "points": 163,
+          "rejection_reason": null
+        },
+        "points": 163,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 0.267678034171645,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 10,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          -0.00024937887383796615,
+          -0.18647071534565407,
+          1.0507052631578944
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.010779384113589346,
+          0.006285845065702705,
+          0.009500000000000064
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.00024937887383796615,
+            -0.18647071534565407,
+            1.0507052631578944
+          ],
+          "cluster_label": 13,
+          "extent_m": [
+            0.010779384113589346,
+            0.006285845065702705,
+            0.009500000000000064
+          ],
+          "label": 13,
+          "points": 76,
+          "rejection_reason": null
+        },
+        "points": 76,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 0.2523666640920829,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 11,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          0.7160817597058184,
+          -0.366699554627645,
+          2.2409790140845063
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.061239385591958184,
+          0.07753568028642605,
+          0.04290000000000038
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            0.7160817597058184,
+            -0.366699554627645,
+            2.2409790140845063
+          ],
+          "cluster_label": 14,
+          "extent_m": [
+            0.061239385591958184,
+            0.07753568028642605,
+            0.04290000000000038
+          ],
+          "label": 14,
+          "points": 710,
+          "rejection_reason": null
+        },
+        "points": 710,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 1.6004142141316011,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 12,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          -0.1492684756843523,
+          -0.17605190616388255,
+          1.033078947368421
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.009807592492293432,
+          0.005001797572161015,
+          0.01540000000000008
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.1492684756843523,
+            -0.17605190616388255,
+            1.033078947368421
+          ],
+          "cluster_label": 15,
+          "extent_m": [
+            0.009807592492293432,
+            0.005001797572161015,
+            0.01540000000000008
+          ],
+          "label": 15,
+          "points": 38,
+          "rejection_reason": null
+        },
+        "points": 38,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 0.2968827046668659,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 13,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          -0.2630175022091763,
+          -0.16999721156841502,
+          1.0223000000000004
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.013379836377461374,
+          0.0072691113501756055,
+          0.015000000000000124
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.2630175022091763,
+            -0.16999721156841502,
+            1.0223000000000004
+          ],
+          "cluster_label": 16,
+          "extent_m": [
+            0.013379836377461374,
+            0.0072691113501756055,
+            0.015000000000000124
+          ],
+          "label": 16,
+          "points": 41,
+          "rejection_reason": null
+        },
+        "points": 41,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 0.37228065780195757,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 14,
+        "candidate_purity_at_threshold": 0.04987690559606098,
+        "centroid_m": [
+          0.010153390188606087,
+          -0.034522456645320714,
+          0.7458499976327094
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.25208962314555317,
+          0.16877712005914142,
+          0.16170000000000007
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            0.010153390188606087,
+            -0.034522456645320714,
+            0.7458499976327094
+          ],
+          "cluster_label": 17,
+          "extent_m": [
+            0.25208962314555317,
+            0.16877712005914142,
+            0.16170000000000007
+          ],
+          "label": 17,
+          "points": 42244,
+          "rejection_reason": null
+        },
+        "points": 42244,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 0.10502052012754112,
+        "target_recall_at_threshold": 0.9146620847651775
+      },
+      {
+        "candidate_index": 15,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          -0.03934924983394841,
+          -0.07759737593352974,
+          0.9319576271186454
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.007798068943571143,
+          0.013660628061889737,
+          0.0025000000000000577
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.03934924983394841,
+            -0.07759737593352974,
+            0.9319576271186454
+          ],
+          "cluster_label": 18,
+          "extent_m": [
+            0.007798068943571143,
+            0.013660628061889737,
+            0.0025000000000000577
+          ],
+          "label": 18,
+          "points": 118,
+          "rejection_reason": null
+        },
+        "points": 118,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 0.14544131723315643,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 16,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          0.08783942697166064,
+          0.02323321419571771,
+          0.7688000000000007
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.007482198997905212,
+          0.007881993273358437,
+          0.005099999999999993
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            0.08783942697166064,
+            0.02323321419571771,
+            0.7688000000000007
+          ],
+          "cluster_label": 19,
+          "extent_m": [
+            0.007482198997905212,
+            0.007881993273358437,
+            0.005099999999999993
+          ],
+          "label": 19,
+          "points": 68,
+          "rejection_reason": null
+        },
+        "points": 68,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 0.14798642270632165,
+        "target_recall_at_threshold": 0.0
+      }
+    ],
+    "case_id": "scene000005_im000341_obj000004",
+    "config": {
+      "cluster_eps_m": 0.04,
+      "cluster_min_points": 20,
+      "max_candidate_extent_m": 0.75,
+      "min_candidate_points": 30,
+      "outlier_removal": true,
+      "support_plane": 0.008
+    },
+    "depth_valid_scene_points": 377011,
+    "generation": {
+      "after_statistical_outlier_points": 120346,
+      "after_support_plane_points": 124130,
+      "candidate_count": 17,
+      "cluster_eps_m": 0.04,
+      "cluster_min_points": 20,
+      "clusters": [
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.7848417126758813,
+            -0.5826260480023345,
+            2.544148107109842
+          ],
+          "extent_m": [
+            0.20966268412592093,
+            0.3751687765293915,
+            0.2580999999999998
+          ],
+          "label": 0,
+          "points": 7581,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.331415854869034,
+            -0.5414505030457483,
+            2.332464679156863
+          ],
+          "extent_m": [
+            0.6069030774879207,
+            0.2787885557442647,
+            0.2636999999999996
+          ],
+          "label": 1,
+          "points": 26633,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            0.0077855019806074705,
+            -0.29352451065136265,
+            1.2734322926829342
+          ],
+          "extent_m": [
+            0.0659899945843222,
+            0.1305081601772543,
+            0.08809999999999985
+          ],
+          "label": 2,
+          "points": 4100,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            0.37388352913287853,
+            -0.5639906040656472,
+            2.3869746805111425
+          ],
+          "extent_m": [
+            0.5787153418204465,
+            0.3394785049147841,
+            0.5166999999999997
+          ],
+          "label": 3,
+          "points": 28796,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            0.7574084759585402,
+            -0.5693724631991145,
+            2.467915388788364
+          ],
+          "extent_m": [
+            0.1416648557732222,
+            0.3129391018334057,
+            0.16680000000000028
+          ],
+          "label": 4,
+          "points": 5530,
+          "rejection_reason": null
+        },
+        {
+          "accepted": false,
+          "centroid_m": [
+            -0.6724813811913071,
+            -0.6903665652517958,
+            2.4194999999999998
+          ],
+          "extent_m": [
+            0.011246678474588823,
+            0.00675898732053537,
+            0.0
+          ],
+          "label": 5,
+          "points": 20,
+          "rejection_reason": "below_min_candidate_points"
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.8904148728597313,
+            -0.7008803535462607,
+            2.6404874999999977
+          ],
+          "extent_m": [
+            0.023104076362213788,
+            0.04647425862945964,
+            0.03950000000000031
+          ],
+          "label": 6,
+          "points": 64,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.5656112499677826,
+            -0.5803261831127651,
+            2.629133104738144
+          ],
+          "extent_m": [
+            0.09652931588089697,
+            0.17440997086508842,
+            0.19520000000000026
+          ],
+          "label": 7,
+          "points": 1604,
+          "rejection_reason": null
+        },
+        {
+          "accepted": false,
+          "centroid_m": [
+            -0.7231625722236431,
+            -0.5804746865076647,
+            2.5984
+          ],
+          "extent_m": [
+            0.012078267967915779,
+            0.012097921508355203,
+            0.0
+          ],
+          "label": 8,
+          "points": 27,
+          "rejection_reason": "below_min_candidate_points"
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.6736475745917343,
+            -0.4720742733803003,
+            2.4440136563876713
+          ],
+          "extent_m": [
+            0.06831916372170821,
+            0.07538750135489375,
+            0.016999999999999904
+          ],
+          "label": 9,
+          "points": 227,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            0.315367084861768,
+            -0.16016266493605216,
+            1.0666362204724347
+          ],
+          "extent_m": [
+            0.047218756175633814,
+            0.1226556212175786,
+            0.17169999999999996
+          ],
+          "label": 10,
+          "points": 2286,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            0.08429665354567048,
+            -0.1899430121060137,
+            1.064950920245398
+          ],
+          "extent_m": [
+            0.041421456221722795,
+            0.007526450402050855,
+            0.00990000000000002
+          ],
+          "label": 11,
+          "points": 163,
+          "rejection_reason": null
+        },
+        {
+          "accepted": false,
+          "centroid_m": [
+            0.2512777992500751,
+            -0.19625912885264812,
+            1.0801600000000002
+          ],
+          "extent_m": [
+            0.011066973333101998,
+            0.0026287776208104296,
+            0.0034000000000000696
+          ],
+          "label": 12,
+          "points": 20,
+          "rejection_reason": "below_min_candidate_points"
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.00024937887383796615,
+            -0.18647071534565407,
+            1.0507052631578944
+          ],
+          "extent_m": [
+            0.010779384113589346,
+            0.006285845065702705,
+            0.009500000000000064
+          ],
+          "label": 13,
+          "points": 76,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            0.7160817597058184,
+            -0.366699554627645,
+            2.2409790140845063
+          ],
+          "extent_m": [
+            0.061239385591958184,
+            0.07753568028642605,
+            0.04290000000000038
+          ],
+          "label": 14,
+          "points": 710,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.1492684756843523,
+            -0.17605190616388255,
+            1.033078947368421
+          ],
+          "extent_m": [
+            0.009807592492293432,
+            0.005001797572161015,
+            0.01540000000000008
+          ],
+          "label": 15,
+          "points": 38,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.2630175022091763,
+            -0.16999721156841502,
+            1.0223000000000004
+          ],
+          "extent_m": [
+            0.013379836377461374,
+            0.0072691113501756055,
+            0.015000000000000124
+          ],
+          "label": 16,
+          "points": 41,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            0.010153390188606087,
+            -0.034522456645320714,
+            0.7458499976327094
+          ],
+          "extent_m": [
+            0.25208962314555317,
+            0.16877712005914142,
+            0.16170000000000007
+          ],
+          "label": 17,
+          "points": 42244,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.03934924983394841,
+            -0.07759737593352974,
+            0.9319576271186454
+          ],
+          "extent_m": [
+            0.007798068943571143,
+            0.013660628061889737,
+            0.0025000000000000577
+          ],
+          "label": 18,
+          "points": 118,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            0.08783942697166064,
+            0.02323321419571771,
+            0.7688000000000007
+          ],
+          "extent_m": [
+            0.007482198997905212,
+            0.007881993273358437,
+            0.005099999999999993
+          ],
+          "label": 19,
+          "points": 68,
+          "rejection_reason": null
+        }
+      ],
+      "clusters_before_filtering": 20,
+      "input_points": 377011,
+      "max_candidate_extent_m": 0.75,
+      "min_candidate_points": 30,
+      "mode": "geometry_candidates",
+      "noise_points": 0,
+      "support_plane": {
+        "attempted": true,
+        "distance_threshold_m": 0.008,
+        "enabled": true,
+        "inlier_count": 252881,
+        "inlier_fraction": 0.6707523122667508,
+        "input_points": 377011,
+        "iterations": 1000,
+        "minimum_inlier_fraction": 0.45,
+        "plane_equation": [
+          -0.015309731697451309,
+          0.8402523991195818,
+          0.5419792596485028,
+          -0.42578464868295707
+        ],
+        "reason": "removed",
+        "removed": true
+      }
+    },
+    "gt_info": {
+      "bbox_obj": [
+        389,
+        133,
+        98,
+        66
+      ],
+      "bbox_visib": [
+        389,
+        133,
+        98,
+        66
+      ],
+      "px_count_all": 4002,
+      "px_count_valid": 3961,
+      "px_count_visib": 1787,
+      "visib_fract": 0.4465267366316842
+    },
+    "gt_only_note": "GT mask labels are used after candidate generation and never select an inference candidate.",
+    "gt_pose": [
+      [
+        -0.24638198,
+        -0.30227126,
+        -0.92082991,
+        0.05502780379
+      ],
+      [
+        0.60202011,
+        0.6968536,
+        -0.38982864,
+        -0.10193298588000001
+      ],
+      [
+        0.75951782,
+        -0.65040508,
+        0.01028201,
+        0.80713682706
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "image_id": 341,
+    "model_id": 4,
+    "oracle_target_points": 1746,
+    "oracle_target_stats": {
+      "aabb_max_m": [
+        0.09179397458598393,
+        -0.08206360183126435,
+        1.0561
+      ],
+      "aabb_min_m": [
+        0.018405413290653056,
+        -0.17228482272688064,
+        0.7851
+      ],
+      "centroid_m": [
+        0.0393055438883489,
+        -0.10914259167413694,
+        0.8137565292096283
+      ],
+      "count": 1746,
+      "dimensions_m": [
+        0.07338856129533088,
+        0.0902212208956163,
+        0.271
+      ],
+      "normals_available": false,
+      "obb_center_m": [
+        0.05378993953370314,
+        -0.13182291156643267,
+        0.9227984691395443
+      ],
+      "obb_dimensions_m": [
+        0.27844372095741027,
+        0.07547122291839484,
+        0.03999864256155977
+      ],
+      "point_spacing_m": {
+        "maximum": 0.012919217646976401,
+        "median": 0.0007349038507263941,
+        "p75": 0.0007382506614317906,
+        "p95": 0.0009788491643640956
+      }
+    },
+    "scene_id": 5,
+    "target_separability_classification": "target_merged_with_support_or_background",
+    "usable_candidate_count_diagnostic_only": 0,
+    "usable_candidate_rule_diagnostic_only": "target_recall_at_5mm >= 0.20 AND candidate_purity_at_5mm >= 0.50 AND points >= 30",
+    "visibility_fraction": 0.4465267366316842
+  },
+  {
+    "best_by_candidate_purity": {
+      "candidate_index": 13,
+      "candidate_purity_at_threshold": 0.123082207465079,
+      "centroid_m": [
+        -0.011440884275525576,
+        -0.03257370950719807,
+        0.7463100211816748
+      ],
+      "distance_threshold_m": 0.005,
+      "extent_m": [
+        0.2527234836143909,
+        0.1426748359642499,
+        0.1532
+      ],
+      "metadata": {
+        "accepted": true,
+        "centroid_m": [
+          -0.011440884275525576,
+          -0.03257370950719807,
+          0.7463100211816748
+        ],
+        "cluster_label": 14,
+        "extent_m": [
+          0.2527234836143909,
+          0.1426748359642499,
+          0.1532
+        ],
+        "label": 14,
+        "points": 34936,
+        "rejection_reason": null
+      },
+      "points": 34936,
+      "source": "geometry_cluster",
+      "target_centroid_distance_m": 0.11060351815001264,
+      "target_recall_at_threshold": 0.965352449223417
+    },
+    "best_by_target_recall": {
+      "candidate_index": 13,
+      "candidate_purity_at_threshold": 0.123082207465079,
+      "centroid_m": [
+        -0.011440884275525576,
+        -0.03257370950719807,
+        0.7463100211816748
+      ],
+      "distance_threshold_m": 0.005,
+      "extent_m": [
+        0.2527234836143909,
+        0.1426748359642499,
+        0.1532
+      ],
+      "metadata": {
+        "accepted": true,
+        "centroid_m": [
+          -0.011440884275525576,
+          -0.03257370950719807,
+          0.7463100211816748
+        ],
+        "cluster_label": 14,
+        "extent_m": [
+          0.2527234836143909,
+          0.1426748359642499,
+          0.1532
+        ],
+        "label": 14,
+        "points": 34936,
+        "rejection_reason": null
+      },
+      "points": 34936,
+      "source": "geometry_cluster",
+      "target_centroid_distance_m": 0.11060351815001264,
+      "target_recall_at_threshold": 0.965352449223417
+    },
+    "candidate_records": [
+      {
+        "candidate_index": 0,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          -0.6022601764101945,
+          -0.2949959768933683,
+          1.7887942376950496
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.046727863668941216,
+          0.35948545711051494,
+          0.20799999999999996
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.6022601764101945,
+            -0.2949959768933683,
+            1.7887942376950496
+          ],
+          "cluster_label": 0,
+          "extent_m": [
+            0.046727863668941216,
+            0.35948545711051494,
+            0.20799999999999996
+          ],
+          "label": 0,
+          "points": 4165,
+          "rejection_reason": null
+        },
+        "points": 4165,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 1.1908250195115444,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 1,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          -0.8132944186129711,
+          -0.5999599287919128,
+          2.675690755266809
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.17546006166535966,
+          0.43283978544096935,
+          0.20420000000000016
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.8132944186129711,
+            -0.5999599287919128,
+            2.675690755266809
+          ],
+          "cluster_label": 1,
+          "extent_m": [
+            0.17546006166535966,
+            0.43283978544096935,
+            0.20420000000000016
+          ],
+          "label": 1,
+          "points": 8924,
+          "rejection_reason": null
+        },
+        "points": 8924,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 2.11425482674351,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 2,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          -0.39002709885832537,
+          -0.5065715079553675,
+          2.4129635926158737
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.5733809720910337,
+          0.5257052321700575,
+          0.5663999999999998
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.39002709885832537,
+            -0.5065715079553675,
+            2.4129635926158737
+          ],
+          "cluster_label": 2,
+          "extent_m": [
+            0.5733809720910337,
+            0.5257052321700575,
+            0.5663999999999998
+          ],
+          "label": 2,
+          "points": 35534,
+          "rejection_reason": null
+        },
+        "points": 35534,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 1.7079204678153783,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 3,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          0.005987967084254089,
+          -0.29680519354258483,
+          1.2824965537497734
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.05574187668458018,
+          0.16820147484966252,
+          0.0806
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            0.005987967084254089,
+            -0.29680519354258483,
+            1.2824965537497734
+          ],
+          "cluster_label": 3,
+          "extent_m": [
+            0.05574187668458018,
+            0.16820147484966252,
+            0.0806
+          ],
+          "label": 3,
+          "points": 5107,
+          "rejection_reason": null
+        },
+        "points": 5107,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 0.5146439236872045,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 4,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          0.3801803452793013,
+          -0.47571820343941007,
+          2.231410251939548
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.6424482356548818,
+          0.46441315443173103,
+          0.3142999999999998
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            0.3801803452793013,
+            -0.47571820343941007,
+            2.231410251939548
+          ],
+          "cluster_label": 4,
+          "extent_m": [
+            0.6424482356548818,
+            0.46441315443173103,
+            0.3142999999999998
+          ],
+          "label": 4,
+          "points": 33262,
+          "rejection_reason": null
+        },
+        "points": 33262,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 1.4998495302565311,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 5,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          0.38799880932704484,
+          -0.6515224610562369,
+          2.5460616573305335
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.293182369573568,
+          0.1700456002974815,
+          0.24129999999999985
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            0.38799880932704484,
+            -0.6515224610562369,
+            2.5460616573305335
+          ],
+          "cluster_label": 5,
+          "extent_m": [
+            0.293182369573568,
+            0.1700456002974815,
+            0.24129999999999985
+          ],
+          "label": 5,
+          "points": 5177,
+          "rejection_reason": null
+        },
+        "points": 5177,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 1.847503217518144,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 6,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          0.5235794650958333,
+          -0.32906169589531303,
+          1.7582968444568388
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.11092689188952776,
+          0.2709682066280625,
+          0.15660000000000007
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            0.5235794650958333,
+            -0.32906169589531303,
+            1.7582968444568388
+          ],
+          "cluster_label": 6,
+          "extent_m": [
+            0.11092689188952776,
+            0.2709682066280625,
+            0.15660000000000007
+          ],
+          "label": 6,
+          "points": 7162,
+          "rejection_reason": null
+        },
+        "points": 7162,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 1.07555258710936,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 7,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          0.17599680091292294,
+          -0.17842653880815784,
+          0.6645999999999986
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.01006491400458226,
+          0.007724774230230241,
+          0.010199999999999987
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            0.17599680091292294,
+            -0.17842653880815784,
+            0.6645999999999986
+          ],
+          "cluster_label": 7,
+          "extent_m": [
+            0.01006491400458226,
+            0.007724774230230241,
+            0.010199999999999987
+          ],
+          "label": 7,
+          "points": 236,
+          "rejection_reason": null
+        },
+        "points": 236,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 0.22671377416992503,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 8,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          -0.12615130916899125,
+          -0.5367892845764041,
+          2.448388888888892
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.029649860873917563,
+          0.020560227642243745,
+          0.016999999999999904
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.12615130916899125,
+            -0.5367892845764041,
+            2.448388888888892
+          ],
+          "cluster_label": 8,
+          "extent_m": [
+            0.029649860873917563,
+            0.020560227642243745,
+            0.016999999999999904
+          ],
+          "label": 8,
+          "points": 90,
+          "rejection_reason": null
+        },
+        "points": 90,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 1.7003535212679184,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 9,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          -0.3445456482836108,
+          -0.477064443825911,
+          2.4244411764705878
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.013668614070718843,
+          0.016877050122529325,
+          0.016799999999999926
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.3445456482836108,
+            -0.477064443825911,
+            2.4244411764705878
+          ],
+          "cluster_label": 9,
+          "extent_m": [
+            0.013668614070718843,
+            0.016877050122529325,
+            0.016799999999999926
+          ],
+          "label": 9,
+          "points": 34,
+          "rejection_reason": null
+        },
+        "points": 34,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 1.699970166791652,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 10,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          0.3354924016172113,
+          -0.3804180755117847,
+          2.6382374120956005
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.4518654225689056,
+          0.19316554565848282,
+          0.19810000000000016
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            0.3354924016172113,
+            -0.3804180755117847,
+            2.6382374120956005
+          ],
+          "cluster_label": 10,
+          "extent_m": [
+            0.4518654225689056,
+            0.19316554565848282,
+            0.19810000000000016
+          ],
+          "label": 10,
+          "points": 8532,
+          "rejection_reason": null
+        },
+        "points": 8532,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 1.8613772376848965,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 11,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          -0.10797931075194338,
+          -0.43100721821346066,
+          2.6937956970740102
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.07604019969845613,
+          0.061378377879917734,
+          0.08289999999999997
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.10797931075194338,
+            -0.43100721821346066,
+            2.6937956970740102
+          ],
+          "cluster_label": 11,
+          "extent_m": [
+            0.07604019969845613,
+            0.061378377879917734,
+            0.08289999999999997
+          ],
+          "label": 11,
+          "points": 581,
+          "rejection_reason": null
+        },
+        "points": 581,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 1.911632478400434,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 12,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          0.7540760316073316,
+          -0.2617658708515508,
+          2.551530452079468
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.14044472773853378,
+          0.1434318685224585,
+          0.09260000000000002
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            0.7540760316073316,
+            -0.2617658708515508,
+            2.551530452079468
+          ],
+          "cluster_label": 13,
+          "extent_m": [
+            0.14044472773853378,
+            0.1434318685224585,
+            0.09260000000000002
+          ],
+          "label": 13,
+          "points": 2765,
+          "rejection_reason": null
+        },
+        "points": 2765,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 1.8721578042477165,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 13,
+        "candidate_purity_at_threshold": 0.123082207465079,
+        "centroid_m": [
+          -0.011440884275525576,
+          -0.03257370950719807,
+          0.7463100211816748
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.2527234836143909,
+          0.1426748359642499,
+          0.1532
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.011440884275525576,
+            -0.03257370950719807,
+            0.7463100211816748
+          ],
+          "cluster_label": 14,
+          "extent_m": [
+            0.2527234836143909,
+            0.1426748359642499,
+            0.1532
+          ],
+          "label": 14,
+          "points": 34936,
+          "rejection_reason": null
+        },
+        "points": 34936,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 0.11060351815001264,
+        "target_recall_at_threshold": 0.965352449223417
+      },
+      {
+        "candidate_index": 14,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          -0.05722377956930604,
+          -0.12040151393906683,
+          1.0791641025641026
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.036209396758041364,
+          0.010274628971211647,
+          0.01990000000000003
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.05722377956930604,
+            -0.12040151393906683,
+            1.0791641025641026
+          ],
+          "cluster_label": 15,
+          "extent_m": [
+            0.036209396758041364,
+            0.010274628971211647,
+            0.01990000000000003
+          ],
+          "label": 15,
+          "points": 78,
+          "rejection_reason": null
+        },
+        "points": 78,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 0.2846713889283572,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 15,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          -0.15946855617315564,
+          -0.084868217150661,
+          0.9884491978609632
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.05369564843851887,
+          0.056695249753899314,
+          0.13639999999999997
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            -0.15946855617315564,
+            -0.084868217150661,
+            0.9884491978609632
+          ],
+          "cluster_label": 17,
+          "extent_m": [
+            0.05369564843851887,
+            0.056695249753899314,
+            0.13639999999999997
+          ],
+          "label": 17,
+          "points": 187,
+          "rejection_reason": null
+        },
+        "points": 187,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 0.2732676668894294,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 16,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          0.5712332464361117,
+          -0.18887249922288493,
+          2.1527000000000007
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.014009098844036671,
+          0.0060136689418957,
+          0.0
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            0.5712332464361117,
+            -0.18887249922288493,
+            2.1527000000000007
+          ],
+          "cluster_label": 18,
+          "extent_m": [
+            0.014009098844036671,
+            0.0060136689418957,
+            0.0
+          ],
+          "label": 18,
+          "points": 32,
+          "rejection_reason": null
+        },
+        "points": 32,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 1.429121952421272,
+        "target_recall_at_threshold": 0.0
+      },
+      {
+        "candidate_index": 17,
+        "candidate_purity_at_threshold": 0.0,
+        "centroid_m": [
+          0.28992709817217305,
+          -0.06896298442130568,
+          0.9238769230769228
+        ],
+        "distance_threshold_m": 0.005,
+        "extent_m": [
+          0.014177345860858837,
+          0.007728627535025151,
+          0.009800000000000031
+        ],
+        "metadata": {
+          "accepted": true,
+          "centroid_m": [
+            0.28992709817217305,
+            -0.06896298442130568,
+            0.9238769230769228
+          ],
+          "cluster_label": 19,
+          "extent_m": [
+            0.014177345860858837,
+            0.007728627535025151,
+            0.009800000000000031
+          ],
+          "label": 19,
+          "points": 104,
+          "rejection_reason": null
+        },
+        "points": 104,
+        "source": "geometry_cluster",
+        "target_centroid_distance_m": 0.2521210500640339,
+        "target_recall_at_threshold": 0.0
+      }
+    ],
+    "case_id": "scene000002_im000387_obj000006",
+    "config": {
+      "cluster_eps_m": 0.04,
+      "cluster_min_points": 20,
+      "max_candidate_extent_m": 0.75,
+      "min_candidate_points": 30,
+      "outlier_removal": true,
+      "support_plane": 0.008
+    },
+    "depth_valid_scene_points": 365822,
+    "generation": {
+      "after_statistical_outlier_points": 147011,
+      "after_support_plane_points": 151389,
+      "candidate_count": 18,
+      "cluster_eps_m": 0.04,
+      "cluster_min_points": 20,
+      "clusters": [
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.6022601764101945,
+            -0.2949959768933683,
+            1.7887942376950496
+          ],
+          "extent_m": [
+            0.046727863668941216,
+            0.35948545711051494,
+            0.20799999999999996
+          ],
+          "label": 0,
+          "points": 4165,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.8132944186129711,
+            -0.5999599287919128,
+            2.675690755266809
+          ],
+          "extent_m": [
+            0.17546006166535966,
+            0.43283978544096935,
+            0.20420000000000016
+          ],
+          "label": 1,
+          "points": 8924,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.39002709885832537,
+            -0.5065715079553675,
+            2.4129635926158737
+          ],
+          "extent_m": [
+            0.5733809720910337,
+            0.5257052321700575,
+            0.5663999999999998
+          ],
+          "label": 2,
+          "points": 35534,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            0.005987967084254089,
+            -0.29680519354258483,
+            1.2824965537497734
+          ],
+          "extent_m": [
+            0.05574187668458018,
+            0.16820147484966252,
+            0.0806
+          ],
+          "label": 3,
+          "points": 5107,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            0.3801803452793013,
+            -0.47571820343941007,
+            2.231410251939548
+          ],
+          "extent_m": [
+            0.6424482356548818,
+            0.46441315443173103,
+            0.3142999999999998
+          ],
+          "label": 4,
+          "points": 33262,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            0.38799880932704484,
+            -0.6515224610562369,
+            2.5460616573305335
+          ],
+          "extent_m": [
+            0.293182369573568,
+            0.1700456002974815,
+            0.24129999999999985
+          ],
+          "label": 5,
+          "points": 5177,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            0.5235794650958333,
+            -0.32906169589531303,
+            1.7582968444568388
+          ],
+          "extent_m": [
+            0.11092689188952776,
+            0.2709682066280625,
+            0.15660000000000007
+          ],
+          "label": 6,
+          "points": 7162,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            0.17599680091292294,
+            -0.17842653880815784,
+            0.6645999999999986
+          ],
+          "extent_m": [
+            0.01006491400458226,
+            0.007724774230230241,
+            0.010199999999999987
+          ],
+          "label": 7,
+          "points": 236,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.12615130916899125,
+            -0.5367892845764041,
+            2.448388888888892
+          ],
+          "extent_m": [
+            0.029649860873917563,
+            0.020560227642243745,
+            0.016999999999999904
+          ],
+          "label": 8,
+          "points": 90,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.3445456482836108,
+            -0.477064443825911,
+            2.4244411764705878
+          ],
+          "extent_m": [
+            0.013668614070718843,
+            0.016877050122529325,
+            0.016799999999999926
+          ],
+          "label": 9,
+          "points": 34,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            0.3354924016172113,
+            -0.3804180755117847,
+            2.6382374120956005
+          ],
+          "extent_m": [
+            0.4518654225689056,
+            0.19316554565848282,
+            0.19810000000000016
+          ],
+          "label": 10,
+          "points": 8532,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.10797931075194338,
+            -0.43100721821346066,
+            2.6937956970740102
+          ],
+          "extent_m": [
+            0.07604019969845613,
+            0.061378377879917734,
+            0.08289999999999997
+          ],
+          "label": 11,
+          "points": 581,
+          "rejection_reason": null
+        },
+        {
+          "accepted": false,
+          "centroid_m": [
+            -0.6415404628974973,
+            -0.37849167424743035,
+            2.3235000000000015
+          ],
+          "extent_m": [
+            0.010800437047202904,
+            0.010818011324146948,
+            0.0
+          ],
+          "label": 12,
+          "points": 28,
+          "rejection_reason": "below_min_candidate_points"
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            0.7540760316073316,
+            -0.2617658708515508,
+            2.551530452079468
+          ],
+          "extent_m": [
+            0.14044472773853378,
+            0.1434318685224585,
+            0.09260000000000002
+          ],
+          "label": 13,
+          "points": 2765,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.011440884275525576,
+            -0.03257370950719807,
+            0.7463100211816748
+          ],
+          "extent_m": [
+            0.2527234836143909,
+            0.1426748359642499,
+            0.1532
+          ],
+          "label": 14,
+          "points": 34936,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.05722377956930604,
+            -0.12040151393906683,
+            1.0791641025641026
+          ],
+          "extent_m": [
+            0.036209396758041364,
+            0.010274628971211647,
+            0.01990000000000003
+          ],
+          "label": 15,
+          "points": 78,
+          "rejection_reason": null
+        },
+        {
+          "accepted": false,
+          "centroid_m": [
+            -0.12445564055236137,
+            -0.12430359626911935,
+            1.0833333333333335
+          ],
+          "extent_m": [
+            0.01147494416944185,
+            0.0013994306399506273,
+            0.0034000000000000696
+          ],
+          "label": 16,
+          "points": 24,
+          "rejection_reason": "below_min_candidate_points"
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            -0.15946855617315564,
+            -0.084868217150661,
+            0.9884491978609632
+          ],
+          "extent_m": [
+            0.05369564843851887,
+            0.056695249753899314,
+            0.13639999999999997
+          ],
+          "label": 17,
+          "points": 187,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            0.5712332464361117,
+            -0.18887249922288493,
+            2.1527000000000007
+          ],
+          "extent_m": [
+            0.014009098844036671,
+            0.0060136689418957,
+            0.0
+          ],
+          "label": 18,
+          "points": 32,
+          "rejection_reason": null
+        },
+        {
+          "accepted": true,
+          "centroid_m": [
+            0.28992709817217305,
+            -0.06896298442130568,
+            0.9238769230769228
+          ],
+          "extent_m": [
+            0.014177345860858837,
+            0.007728627535025151,
+            0.009800000000000031
+          ],
+          "label": 19,
+          "points": 104,
+          "rejection_reason": null
+        },
+        {
+          "accepted": false,
+          "centroid_m": [
+            -0.021761452697640186,
+            -0.04643881810513951,
+            0.9081615384615389
+          ],
+          "extent_m": [
+            0.013660866678416927,
+            0.00422663683239103,
+            0.009400000000000075
+          ],
+          "label": 20,
+          "points": 26,
+          "rejection_reason": "below_min_candidate_points"
+        }
+      ],
+      "clusters_before_filtering": 21,
+      "input_points": 365822,
+      "max_candidate_extent_m": 0.75,
+      "min_candidate_points": 30,
+      "mode": "geometry_candidates",
+      "noise_points": 27,
+      "support_plane": {
+        "attempted": true,
+        "distance_threshold_m": 0.008,
+        "enabled": true,
+        "inlier_count": 214433,
+        "inlier_fraction": 0.5861675897020956,
+        "input_points": 365822,
+        "iterations": 1000,
+        "minimum_inlier_fraction": 0.45,
+        "plane_equation": [
+          -0.017597752871023793,
+          0.9219614067533931,
+          0.3868817436261305,
+          -0.2995394293597742
+        ],
+        "reason": "removed",
+        "removed": true
+      }
+    },
+    "gt_info": {
+      "bbox_obj": [
+        383,
+        202,
+        125,
+        96
+      ],
+      "bbox_visib": [
+        384,
+        202,
+        124,
+        52
+      ],
+      "px_count_all": 9723,
+      "px_count_valid": 9582,
+      "px_count_visib": 4326,
+      "visib_fract": 0.4449244060475162
+    },
+    "gt_only_note": "GT mask labels are used after candidate generation and never select an inference candidate.",
+    "gt_pose": [
+      [
+        -0.82267268,
+        0.5680198,
+        0.0237498,
+        0.05700311207
+      ],
+      [
+        0.19908811,
+        0.32696926,
+        -0.923826,
+        -0.05461322783
+      ],
+      [
+        -0.53251701,
+        -0.75527825,
+        -0.382074,
+        0.8351566041
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "image_id": 387,
+    "model_id": 6,
+    "oracle_target_points": 4185,
+    "oracle_target_stats": {
+      "aabb_max_m": [
+        0.12342136669832948,
+        -0.047903983633627696,
+        1.0529
+      ],
+      "aabb_min_m": [
+        0.008335140770563762,
+        -0.11247786498942836,
+        0.7941
+      ],
+      "centroid_m": [
+        0.05833629554392535,
+        -0.06853994643116039,
+        0.824224802867396
+      ],
+      "count": 4185,
+      "dimensions_m": [
+        0.11508622592776573,
+        0.06457388135580067,
+        0.2587999999999999
+      ],
+      "normals_available": false,
+      "obb_center_m": [
+        0.062293536155720926,
+        -0.0846984175855595,
+        0.9224680693447491
+      ],
+      "obb_dimensions_m": [
+        0.26911622583883354,
+        0.10971365454495777,
+        0.0376607147168285
+      ],
+      "point_spacing_m": {
+        "maximum": 0.014752117473217244,
+        "median": 0.000757215922095697,
+        "p75": 0.0007772038193640252,
+        "p95": 0.0007827818372063561
+      }
+    },
+    "scene_id": 2,
+    "target_separability_classification": "target_merged_with_support_or_background",
+    "usable_candidate_count_diagnostic_only": 0,
+    "usable_candidate_rule_diagnostic_only": "target_recall_at_5mm >= 0.20 AND candidate_purity_at_5mm >= 0.50 AND points >= 30",
+    "visibility_fraction": 0.4449244060475162
+  }
+]

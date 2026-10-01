@@ -1,0 +1,145 @@
+{
+  "cases": [
+    {
+      "case_id": "scene000003_im000233_obj000018",
+      "declared_symmetry": "none",
+      "gt_instance_index": 4,
+      "image_id": 233,
+      "model_id": 18,
+      "scene_id": 3,
+      "selection_status": "previously_seen_diagnostic",
+      "visibility_band": "high",
+      "visibility_fraction": 0.994381683078596
+    },
+    {
+      "case_id": "scene000001_im000001_obj000030",
+      "declared_symmetry": "continuous",
+      "gt_instance_index": 3,
+      "image_id": 1,
+      "model_id": 30,
+      "scene_id": 1,
+      "selection_status": "new",
+      "visibility_band": "high",
+      "visibility_fraction": 0.9900573271228951
+    },
+    {
+      "case_id": "scene000001_im000001_obj000025",
+      "declared_symmetry": "discrete",
+      "gt_instance_index": 1,
+      "image_id": 1,
+      "model_id": 25,
+      "scene_id": 1,
+      "selection_status": "new",
+      "visibility_band": "high",
+      "visibility_fraction": 0.9736641947138239
+    },
+    {
+      "case_id": "scene000002_im000003_obj000005",
+      "declared_symmetry": "discrete",
+      "gt_instance_index": 0,
+      "image_id": 3,
+      "model_id": 5,
+      "scene_id": 2,
+      "selection_status": "new",
+      "visibility_band": "high",
+      "visibility_fraction": 0.9499415835355441
+    },
+    {
+      "case_id": "scene000008_im000001_obj000021",
+      "declared_symmetry": "none",
+      "gt_instance_index": 2,
+      "image_id": 1,
+      "model_id": 21,
+      "scene_id": 8,
+      "selection_status": "new",
+      "visibility_band": "high",
+      "visibility_fraction": 0.948277796477056
+    },
+    {
+      "case_id": "scene000001_im000246_obj000030",
+      "declared_symmetry": "continuous",
+      "gt_instance_index": 3,
+      "image_id": 246,
+      "model_id": 30,
+      "scene_id": 1,
+      "selection_status": "new",
+      "visibility_band": "moderate",
+      "visibility_fraction": 0.8025116467490379
+    },
+    {
+      "case_id": "scene000001_im000347_obj000029",
+      "declared_symmetry": "discrete",
+      "gt_instance_index": 2,
+      "image_id": 347,
+      "model_id": 29,
+      "scene_id": 1,
+      "selection_status": "new",
+      "visibility_band": "moderate",
+      "visibility_fraction": 0.829525687115853
+    },
+    {
+      "case_id": "scene000007_im000285_obj000018",
+      "declared_symmetry": "none",
+      "gt_instance_index": 7,
+      "image_id": 285,
+      "model_id": 18,
+      "scene_id": 7,
+      "selection_status": "new",
+      "visibility_band": "moderate",
+      "visibility_fraction": 0.8204982552949769
+    },
+    {
+      "case_id": "scene000005_im000341_obj000004",
+      "declared_symmetry": "continuous",
+      "gt_instance_index": 1,
+      "image_id": 341,
+      "model_id": 4,
+      "scene_id": 5,
+      "selection_status": "new",
+      "visibility_band": "low",
+      "visibility_fraction": 0.4465267366316842
+    },
+    {
+      "case_id": "scene000002_im000387_obj000006",
+      "declared_symmetry": "discrete",
+      "gt_instance_index": 1,
+      "image_id": 387,
+      "model_id": 6,
+      "scene_id": 2,
+      "selection_status": "new",
+      "visibility_band": "low",
+      "visibility_fraction": 0.4449244060475162
+    }
+  ],
+  "dataset_root": "/home/datasets/bop/tless",
+  "manifest_id": "tless_test_primesense_scene_conditioned_v1",
+  "selection_frozen_before_variant_comparison": true,
+  "selection_policy": {
+    "diversity_targets": [
+      "previously seen diagnostic case",
+      "multiple scenes and object IDs",
+      "high, moderate, and low visibility",
+      "continuous, discrete, and no declared symmetry",
+      "different depth and image locations"
+    ],
+    "gt_allowed_for_inference": false,
+    "gt_allowed_for_selection": true,
+    "must_have": [
+      "scene_gt.json",
+      "scene_gt_info.json",
+      "scene_camera.json",
+      "depth frame",
+      "models_cad",
+      "models_reconst"
+    ],
+    "purpose": "small engineering validation of known-model geometric localization, not a benchmark",
+    "tie_break": "lexicographically smallest scene, image, and GT instance index satisfying each named bucket",
+    "visibility_bands": {
+      "high": "visib_fract >= 0.85",
+      "low": "0.25 <= visib_fract < 0.50",
+      "moderate": "0.50 <= visib_fract < 0.85"
+    }
+  },
+  "selection_timestamp_utc": "2026-10-01T00:00:00Z",
+  "split": "test_primesense"
+}

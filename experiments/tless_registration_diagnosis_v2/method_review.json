@@ -1,0 +1,43 @@
+{
+  "available_api": {
+    "fast_global_registration": true,
+    "feature_ransac": true,
+    "generalized_icp": true,
+    "point_to_plane_icp": true
+  },
+  "installed_toolkit": {
+    "core_import": "bop_toolkit_lib available in /tmp/zutik-geometry-native-venv",
+    "source": "/tmp/bop_toolkit"
+  },
+  "not_selected": [
+    "learned features and learned segmentation are outside this geometry-only decision",
+    "large new C++/PCL subsystem was not justified in a Python/Open3D repository",
+    "Open3D tensor multi-scale ICP was not added to the bakeoff because it would introduce a separate wrapper and a larger comparison surface"
+  ],
+  "official_references": {
+    "bop_toolkit": "https://github.com/thodan/bop_toolkit",
+    "open3d_global_registration": "https://www.open3d.org/docs/release/tutorial/pipelines/global_registration.html",
+    "open3d_icp": "https://www.open3d.org/docs/latest/tutorial/pipelines/icp_registration.html"
+  },
+  "open3d_version": "0.20.0",
+  "variants": [
+    {
+      "global_initialization": "Open3D feature-based RANSAC using FPFH correspondences",
+      "name": "ransac_point_to_plane_icp",
+      "refinement": "Open3D point-to-plane ICP",
+      "tradeoff": "current reference; robust correspondence sampling but expensive and descriptor-dependent"
+    },
+    {
+      "global_initialization": "Open3D Fast Global Registration using the same FPFH features",
+      "name": "fgr_point_to_plane_icp",
+      "refinement": "Open3D point-to-plane ICP",
+      "tradeoff": "faster global optimizer, but still requires useful FPFH correspondences and is sensitive to outliers/partial overlap"
+    },
+    {
+      "global_initialization": "Open3D feature-based RANSAC using FPFH correspondences",
+      "name": "ransac_generalized_icp",
+      "refinement": "Open3D Generalized ICP",
+      "tradeoff": "tests a local refinement that models local surface covariance; does not solve a bad global initializer"
+    }
+  ]
+}

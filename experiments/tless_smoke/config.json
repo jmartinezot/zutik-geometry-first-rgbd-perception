@@ -1,0 +1,28 @@
+{
+  "command": "python -m zutik_geometry tless --dataset /home/datasets/bop/tless --split test_primesense --scene-id 3 --image-id 233 --model-id 18 --output experiments/tless_smoke/tless_scene000003_im000233_obj000018.csv",
+  "dataset_root": "/home/datasets/bop/tless",
+  "split": "test_primesense",
+  "scene_id": 3,
+  "image_id": 233,
+  "model_id": 18,
+  "registration_config": {
+    "voxel_size_m": 0.005,
+    "ransac_inlier_threshold_m": 0.015,
+    "icp_max_correspondence_m": 0.02,
+    "random_seed": 7,
+    "candidate_mode": "full",
+    "remove_support_plane": false,
+    "remove_statistical_outliers": true,
+    "normal_radius_factor": 2.0,
+    "feature_radius_factor": 5.0,
+    "ransac_iterations": 20000,
+    "icp_iterations": 35
+  },
+  "forbidden_inputs_used": {
+    "train_pbr": false,
+    "yolo_detection": false,
+    "yolo_segmentation": false,
+    "scene_gt_for_registration": false,
+    "bop_masks_for_registration": false
+  }
+}

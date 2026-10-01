@@ -1,0 +1,32 @@
+{
+  "config": {
+    "enabled_in_production": false,
+    "distance_threshold_m": 0.008,
+    "min_ratio": 0.45,
+    "ransac_n": 3,
+    "iterations": 1000,
+    "random_seed": 7
+  },
+  "input_points": 384259,
+  "plane_equation_normalized": [
+    -0.006503341942778474,
+    0.7340649721397577,
+    0.6790481008154224,
+    -0.536981871330713
+  ],
+  "plane_inliers": 265138,
+  "plane_fraction": 0.68999815228791,
+  "would_meet_current_min_ratio": true,
+  "runtime_s": 0.04315266665071249,
+  "target_points": 16456,
+  "target_points_in_plane_inliers": 170,
+  "target_fraction_in_plane_inliers": 0.010330578512396695,
+  "target_distance_to_plane_m": {
+    "min": 4.886642034385158e-05,
+    "median": 0.033592525767824566,
+    "p90": 0.052133850496530354,
+    "max": 0.06420783931566709,
+    "within_threshold_fraction": 0.010330578512396695
+  },
+  "visualization": "experiments/tless_diagnosis_scene000003_im000233_obj000018/support_plane_diagnostic.ply"
+}

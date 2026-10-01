@@ -1,0 +1,1299 @@
+{
+  "case": {
+    "scene": 3,
+    "image": 233,
+    "model": 18
+  },
+  "distance_threshold_m": 0.02,
+  "sampling": "same 2500-point linear cap used by production refinement; oracle is statistically filtered as production candidate; GT used only for GT reference and posthoc labels.",
+  "rows": [
+    {
+      "name": "baseline_false_positive_full_filtered_scene",
+      "model_sample_points": 2500,
+      "candidate_sample_points": 2500,
+      "model_to_candidate": {
+        "count": 2500,
+        "median_mm": 7.486319544731335,
+        "p90_mm": 24.141972236512498,
+        "trimmed_mean90_mm": 8.442583855435366,
+        "max_mm": 49.534420053524386,
+        "overlap_at_20mm": 0.8592
+      },
+      "candidate_to_model": {
+        "count": 2500,
+        "median_mm": 169.50526941318606,
+        "p90_mm": 378.1573199430522,
+        "trimmed_mean90_mm": 163.78771599374642,
+        "max_mm": 1819.7708905303166,
+        "overlap_at_20mm": 0.0652
+      },
+      "bidirectional_min_overlap_20mm": 0.0652,
+      "bidirectional_mean_overlap_20mm": 0.4622,
+      "symmetric_chamfer_mean_mm": 128.93312098545357,
+      "extent_candidate_over_model_axis_aligned_ratio": [
+        13.191983317311047,
+        7.978589117176175,
+        27.75063789612683
+      ],
+      "extent_ratio_mean": 16.307070110204684,
+      "T": [
+        [
+          0.25825064878548687,
+          -0.6754207580902892,
+          -0.6907339588746269,
+          0.04560476472582147
+        ],
+        [
+          -0.9660481850387512,
+          -0.1861593563941095,
+          -0.17915244405328398,
+          -0.026869006929222016
+        ],
+        [
+          -0.0075833096474586985,
+          0.7135485222237309,
+          -0.700564772056889,
+          0.7037567153947563
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "CAD_ground_truth_on_oracle",
+      "model_sample_points": 2500,
+      "candidate_sample_points": 2500,
+      "model_to_candidate": {
+        "count": 2500,
+        "median_mm": 9.027311332452665,
+        "p90_mm": 20.977815172168555,
+        "trimmed_mean90_mm": 9.411273699669554,
+        "max_mm": 32.65870004338934,
+        "overlap_at_20mm": 0.878
+      },
+      "candidate_to_model": {
+        "count": 2500,
+        "median_mm": 5.459294542291245,
+        "p90_mm": 11.05849970721881,
+        "trimmed_mean90_mm": 5.279298477944693,
+        "max_mm": 96.8833810576792,
+        "overlap_at_20mm": 0.996
+      },
+      "bidirectional_min_overlap_20mm": 0.878,
+      "bidirectional_mean_overlap_20mm": 0.937,
+      "symmetric_chamfer_mean_mm": 8.708266362494879,
+      "extent_candidate_over_model_axis_aligned_ratio": [
+        1.0676241917127223,
+        1.1570281174993258,
+        2.446510037748396
+      ],
+      "extent_ratio_mean": 1.5570541156534812,
+      "T": [
+        [
+          -0.86910545,
+          0.49441825,
+          -0.01437454,
+          -0.11749746524
+        ],
+        [
+          -0.34426527,
+          -0.58378321,
+          0.73530805,
+          -0.02977498353
+        ],
+        [
+          0.35515853,
+          0.64400958,
+          0.67757994,
+          0.77318804242
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "CAD_current_production_mutual_filter_fallback_RANSAC",
+      "model_sample_points": 2500,
+      "candidate_sample_points": 2500,
+      "model_to_candidate": {
+        "count": 2500,
+        "median_mm": 6.6613936425771785,
+        "p90_mm": 21.033730501078562,
+        "trimmed_mean90_mm": 7.248381363169606,
+        "max_mm": 39.43354517770952,
+        "overlap_at_20mm": 0.882
+      },
+      "candidate_to_model": {
+        "count": 2500,
+        "median_mm": 5.911789445523795,
+        "p90_mm": 11.363335256291672,
+        "trimmed_mean90_mm": 5.621301139802274,
+        "max_mm": 88.04344982383299,
+        "overlap_at_20mm": 0.9908
+      },
+      "bidirectional_min_overlap_20mm": 0.882,
+      "bidirectional_mean_overlap_20mm": 0.9364,
+      "symmetric_chamfer_mean_mm": 8.034988302965376,
+      "extent_candidate_over_model_axis_aligned_ratio": [
+        1.0676241917127223,
+        1.1570281174993258,
+        2.446510037748396
+      ],
+      "extent_ratio_mean": 1.5570541156534812,
+      "T": [
+        [
+          0.5926898975559061,
+          -0.7927932651577005,
+          0.14211799342715786,
+          -0.12348162051951196
+        ],
+        [
+          -0.4164306405766206,
+          -0.4526647621782605,
+          -0.788466952174309,
+          -0.02472084149857008
+        ],
+        [
+          0.6894230971791669,
+          0.4081341100700733,
+          -0.598433238777053,
+          0.7822892010171428
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "CAD_current_production_mutual_filter_fallback_ICP",
+      "model_sample_points": 2500,
+      "candidate_sample_points": 2500,
+      "model_to_candidate": {
+        "count": 2500,
+        "median_mm": 220.7349782302352,
+        "p90_mm": 243.38163417957512,
+        "trimmed_mean90_mm": 214.3741489897468,
+        "max_mm": 265.00211931689154,
+        "overlap_at_20mm": 0.0
+      },
+      "candidate_to_model": {
+        "count": 2500,
+        "median_mm": 215.6147801039971,
+        "p90_mm": 255.42319451759937,
+        "trimmed_mean90_mm": 208.95824166370488,
+        "max_mm": 331.8340528169862,
+        "overlap_at_20mm": 0.0
+      },
+      "bidirectional_min_overlap_20mm": 0.0,
+      "bidirectional_mean_overlap_20mm": 0.0,
+      "symmetric_chamfer_mean_mm": 216.29085650300777,
+      "extent_candidate_over_model_axis_aligned_ratio": [
+        1.0676241917127223,
+        1.1570281174993258,
+        2.446510037748396
+      ],
+      "extent_ratio_mean": 1.5570541156534812,
+      "T": [
+        [
+          0.7266532304263618,
+          -0.5521214062647176,
+          -0.4088239663415088,
+          -0.02752549695880438
+        ],
+        [
+          -0.4536638361703831,
+          -0.8325166088224519,
+          0.3179704699904311,
+          0.2041407423918383
+        ],
+        [
+          -0.5159110451057476,
+          -0.045585620309854816,
+          -0.8554283983822728,
+          0.6831584178872049
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "CAD_observed_normals_toward_camera_RANSAC",
+      "model_sample_points": 2500,
+      "candidate_sample_points": 2500,
+      "model_to_candidate": {
+        "count": 2500,
+        "median_mm": 10.139631928122265,
+        "p90_mm": 19.99705460609244,
+        "trimmed_mean90_mm": 9.345783934806573,
+        "max_mm": 34.4598424885728,
+        "overlap_at_20mm": 0.9
+      },
+      "candidate_to_model": {
+        "count": 2500,
+        "median_mm": 6.826717999697641,
+        "p90_mm": 14.395268086131173,
+        "trimmed_mean90_mm": 6.672264138206752,
+        "max_mm": 87.79844855252878,
+        "overlap_at_20mm": 0.9724
+      },
+      "bidirectional_min_overlap_20mm": 0.9,
+      "bidirectional_mean_overlap_20mm": 0.9362,
+      "symmetric_chamfer_mean_mm": 9.517083773928277,
+      "extent_candidate_over_model_axis_aligned_ratio": [
+        1.0676241917127223,
+        1.1570281174993258,
+        2.446510037748396
+      ],
+      "extent_ratio_mean": 1.5570541156534812,
+      "T": [
+        [
+          -0.5076698736613297,
+          -0.8615374260150308,
+          0.004956102509603683,
+          -0.13294905206251956
+        ],
+        [
+          -0.43470635624756016,
+          0.2511801639977209,
+          -0.8648346136990861,
+          -0.03492400883184506
+        ],
+        [
+          0.7438425123738627,
+          -0.4412049283376993,
+          -0.5020323973568507,
+          0.7753422588343295
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "CAD_observed_normals_toward_camera_ICP",
+      "model_sample_points": 2500,
+      "candidate_sample_points": 2500,
+      "model_to_candidate": {
+        "count": 2500,
+        "median_mm": 9.106764506787865,
+        "p90_mm": 24.019358646194767,
+        "trimmed_mean90_mm": 8.897793744512068,
+        "max_mm": 45.72736934784111,
+        "overlap_at_20mm": 0.866
+      },
+      "candidate_to_model": {
+        "count": 2500,
+        "median_mm": 7.72005743928043,
+        "p90_mm": 31.999747100715986,
+        "trimmed_mean90_mm": 9.742222532435221,
+        "max_mm": 71.20762034796842,
+        "overlap_at_20mm": 0.782
+      },
+      "bidirectional_min_overlap_20mm": 0.782,
+      "bidirectional_mean_overlap_20mm": 0.8240000000000001,
+      "symmetric_chamfer_mean_mm": 11.85058835312432,
+      "extent_candidate_over_model_axis_aligned_ratio": [
+        1.0676241917127223,
+        1.1570281174993258,
+        2.446510037748396
+      ],
+      "extent_ratio_mean": 1.5570541156534812,
+      "T": [
+        [
+          -0.07264638507939207,
+          -0.9870337016581859,
+          -0.14313271647613166,
+          -0.13540016702779345
+        ],
+        [
+          -0.36372169915843205,
+          0.15984719182199666,
+          -0.9176902532052554,
+          -0.04763690195650066
+        ],
+        [
+          0.9286705703833843,
+          -0.014606404676093358,
+          -0.3706178957447123,
+          0.7924636763769186
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "CAD_observed_normals_away_camera_RANSAC",
+      "model_sample_points": 2500,
+      "candidate_sample_points": 2500,
+      "model_to_candidate": {
+        "count": 2500,
+        "median_mm": 7.042750015221894,
+        "p90_mm": 17.917606058216883,
+        "trimmed_mean90_mm": 7.051048995601792,
+        "max_mm": 37.74276428103527,
+        "overlap_at_20mm": 0.9332
+      },
+      "candidate_to_model": {
+        "count": 2500,
+        "median_mm": 6.76914863538287,
+        "p90_mm": 11.702822320371514,
+        "trimmed_mean90_mm": 6.303043043963126,
+        "max_mm": 87.72669783777411,
+        "overlap_at_20mm": 0.9936
+      },
+      "bidirectional_min_overlap_20mm": 0.9332,
+      "bidirectional_mean_overlap_20mm": 0.9634,
+      "symmetric_chamfer_mean_mm": 7.958990852471502,
+      "extent_candidate_over_model_axis_aligned_ratio": [
+        1.0676241917127223,
+        1.1570281174993258,
+        2.446510037748396
+      ],
+      "extent_ratio_mean": 1.5570541156534812,
+      "T": [
+        [
+          -0.8608480628101838,
+          -0.5088042297269342,
+          0.007672585479192251,
+          -0.1256418526751364
+        ],
+        [
+          -0.3944306797125916,
+          0.657660855054513,
+          -0.641799531497516,
+          -0.023815727414352013
+        ],
+        [
+          0.321504357135976,
+          -0.5555181865078311,
+          -0.7668340712316024,
+          0.7797374926348404
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "CAD_observed_normals_away_camera_ICP",
+      "model_sample_points": 2500,
+      "candidate_sample_points": 2500,
+      "model_to_candidate": {
+        "count": 2500,
+        "median_mm": 6.644322645393035,
+        "p90_mm": 16.42667680995036,
+        "trimmed_mean90_mm": 6.8769993856730816,
+        "max_mm": 29.799360603852616,
+        "overlap_at_20mm": 0.9732
+      },
+      "candidate_to_model": {
+        "count": 2500,
+        "median_mm": 5.884559834218583,
+        "p90_mm": 11.199080433237615,
+        "trimmed_mean90_mm": 5.64898839741563,
+        "max_mm": 89.6915745652411,
+        "overlap_at_20mm": 0.9948
+      },
+      "bidirectional_min_overlap_20mm": 0.9732,
+      "bidirectional_mean_overlap_20mm": 0.984,
+      "symmetric_chamfer_mean_mm": 7.441363093746381,
+      "extent_candidate_over_model_axis_aligned_ratio": [
+        1.0676241917127223,
+        1.1570281174993258,
+        2.446510037748396
+      ],
+      "extent_ratio_mean": 1.5570541156534812,
+      "T": [
+        [
+          -0.9994463474765171,
+          -0.03207575751124779,
+          -0.008839926239925846,
+          -0.12033222034024128
+        ],
+        [
+          -0.016543386640180017,
+          0.7096050440412898,
+          -0.7044054214936408,
+          -0.027968194980915163
+        ],
+        [
+          0.028867193738243008,
+          -0.7038691833368185,
+          -0.7097428110762652,
+          0.7780569042086904
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "CAD_cad_stored_mesh_normals_RANSAC",
+      "model_sample_points": 2500,
+      "candidate_sample_points": 2500,
+      "model_to_candidate": {
+        "count": 2500,
+        "median_mm": 11.141759023149522,
+        "p90_mm": 21.54533094744176,
+        "trimmed_mean90_mm": 10.226628869821148,
+        "max_mm": 34.40970917206957,
+        "overlap_at_20mm": 0.8748
+      },
+      "candidate_to_model": {
+        "count": 2500,
+        "median_mm": 6.070643237157362,
+        "p90_mm": 10.28140269116174,
+        "trimmed_mean90_mm": 5.682047641212989,
+        "max_mm": 95.06173240536586,
+        "overlap_at_20mm": 0.9916
+      },
+      "bidirectional_min_overlap_20mm": 0.8748,
+      "bidirectional_mean_overlap_20mm": 0.9332,
+      "symmetric_chamfer_mean_mm": 9.274249301549295,
+      "extent_candidate_over_model_axis_aligned_ratio": [
+        1.0676241917127223,
+        1.1570281174993258,
+        2.446510037748396
+      ],
+      "extent_ratio_mean": 1.5570541156534812,
+      "T": [
+        [
+          0.6111487136700166,
+          0.7666779151852767,
+          0.19672880863422737,
+          -0.11401648183676485
+        ],
+        [
+          -0.7565447929318376,
+          0.4927532607113531,
+          0.42992348196632857,
+          -0.03421003085901531
+        ],
+        [
+          0.23267407691276398,
+          -0.41158133877216496,
+          0.8811717060297074,
+          0.7687366949534993
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "CAD_cad_stored_mesh_normals_ICP",
+      "model_sample_points": 2500,
+      "candidate_sample_points": 2500,
+      "model_to_candidate": {
+        "count": 2500,
+        "median_mm": 7.36251097419979,
+        "p90_mm": 31.692667894633203,
+        "trimmed_mean90_mm": 10.024139796526303,
+        "max_mm": 59.081802927659425,
+        "overlap_at_20mm": 0.732
+      },
+      "candidate_to_model": {
+        "count": 2500,
+        "median_mm": 9.572302005599433,
+        "p90_mm": 21.377634881995863,
+        "trimmed_mean90_mm": 9.494145508206298,
+        "max_mm": 117.88030324016317,
+        "overlap_at_20mm": 0.8748
+      },
+      "bidirectional_min_overlap_20mm": 0.732,
+      "bidirectional_mean_overlap_20mm": 0.8034,
+      "symmetric_chamfer_mean_mm": 12.39987119790434,
+      "extent_candidate_over_model_axis_aligned_ratio": [
+        1.0676241917127223,
+        1.1570281174993258,
+        2.446510037748396
+      ],
+      "extent_ratio_mean": 1.5570541156534812,
+      "T": [
+        [
+          0.15191390090391732,
+          -0.9308198948647929,
+          0.33241012324544467,
+          -0.09830622821886614
+        ],
+        [
+          0.2958837197328581,
+          0.363718060203793,
+          0.8832677946572248,
+          -0.032261231946450857
+        ],
+        [
+          -0.943066800979232,
+          -0.03582591248645946,
+          0.33066828224870637,
+          0.7501699970080976
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "CAD_non_mutual_feature_matching_RANSAC",
+      "model_sample_points": 2500,
+      "candidate_sample_points": 2500,
+      "model_to_candidate": {
+        "count": 2500,
+        "median_mm": 8.037673116065447,
+        "p90_mm": 20.12793185116632,
+        "trimmed_mean90_mm": 7.761458515796333,
+        "max_mm": 44.099338390849425,
+        "overlap_at_20mm": 0.8988
+      },
+      "candidate_to_model": {
+        "count": 2500,
+        "median_mm": 7.400149935415819,
+        "p90_mm": 16.319871586554523,
+        "trimmed_mean90_mm": 7.217989925087996,
+        "max_mm": 93.54812611309629,
+        "overlap_at_20mm": 0.9748
+      },
+      "bidirectional_min_overlap_20mm": 0.8988,
+      "bidirectional_mean_overlap_20mm": 0.9368000000000001,
+      "symmetric_chamfer_mean_mm": 9.174238473764161,
+      "extent_candidate_over_model_axis_aligned_ratio": [
+        1.0676241917127223,
+        1.1570281174993258,
+        2.446510037748396
+      ],
+      "extent_ratio_mean": 1.5570541156534812,
+      "T": [
+        [
+          0.7324615766742445,
+          0.6749102287666418,
+          0.08942159583702072,
+          -0.10956144656843447
+        ],
+        [
+          0.6052933083475168,
+          -0.5854514818784813,
+          -0.539320473592473,
+          -0.01888407394876744
+        ],
+        [
+          -0.31164089841610715,
+          0.4491578180021478,
+          -0.8373393606907246,
+          0.7794473496737786
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "CAD_non_mutual_feature_matching_ICP",
+      "model_sample_points": 2500,
+      "candidate_sample_points": 2500,
+      "model_to_candidate": {
+        "count": 2500,
+        "median_mm": 6.463056813153574,
+        "p90_mm": 20.039269377523784,
+        "trimmed_mean90_mm": 7.173955568401737,
+        "max_mm": 48.6036034931371,
+        "overlap_at_20mm": 0.8996
+      },
+      "candidate_to_model": {
+        "count": 2500,
+        "median_mm": 7.362390231947379,
+        "p90_mm": 22.46573816177934,
+        "trimmed_mean90_mm": 7.977354561697322,
+        "max_mm": 100.83704860803343,
+        "overlap_at_20mm": 0.8688
+      },
+      "bidirectional_min_overlap_20mm": 0.8688,
+      "bidirectional_mean_overlap_20mm": 0.8842,
+      "symmetric_chamfer_mean_mm": 9.805114224661574,
+      "extent_candidate_over_model_axis_aligned_ratio": [
+        1.0676241917127223,
+        1.1570281174993258,
+        2.446510037748396
+      ],
+      "extent_ratio_mean": 1.5570541156534812,
+      "T": [
+        [
+          0.725136755948245,
+          0.6209523318126298,
+          0.2976489321151909,
+          -0.10280519308034418
+        ],
+        [
+          0.6659170536844743,
+          -0.5223101007024493,
+          -0.5326787364973252,
+          -0.015209743848715563
+        ],
+        [
+          -0.17530305982795757,
+          0.5844744308527587,
+          -0.792248999301545,
+          0.7751839192812929
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "CAD_strict_mutual_correspondence_RANSAC",
+      "model_sample_points": 2500,
+      "candidate_sample_points": 2500,
+      "model_to_candidate": {
+        "count": 2500,
+        "median_mm": 8.179675240669807,
+        "p90_mm": 21.253328522894282,
+        "trimmed_mean90_mm": 8.317674182415347,
+        "max_mm": 42.05639019563638,
+        "overlap_at_20mm": 0.8732
+      },
+      "candidate_to_model": {
+        "count": 2500,
+        "median_mm": 8.456529512709778,
+        "p90_mm": 24.91483536716453,
+        "trimmed_mean90_mm": 8.873216603218639,
+        "max_mm": 85.99996733164825,
+        "overlap_at_20mm": 0.8328
+      },
+      "bidirectional_min_overlap_20mm": 0.8328,
+      "bidirectional_mean_overlap_20mm": 0.853,
+      "symmetric_chamfer_mean_mm": 10.78095164776251,
+      "extent_candidate_over_model_axis_aligned_ratio": [
+        1.0676241917127223,
+        1.1570281174993258,
+        2.446510037748396
+      ],
+      "extent_ratio_mean": 1.5570541156534812,
+      "T": [
+        [
+          0.5012828873003798,
+          0.8365752404575458,
+          0.22103695155605582,
+          -0.11130507259022585
+        ],
+        [
+          -0.8572957209275698,
+          0.5148071947568779,
+          -0.004195128821895805,
+          -0.057858199581934465
+        ],
+        [
+          -0.11730095387111288,
+          -0.18739108644744423,
+          0.9752564108689437,
+          0.7782003514167819
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "CAD_strict_mutual_correspondence_ICP",
+      "model_sample_points": 2500,
+      "candidate_sample_points": 2500,
+      "model_to_candidate": {
+        "count": 2500,
+        "median_mm": 7.62430766709179,
+        "p90_mm": 22.535669931008627,
+        "trimmed_mean90_mm": 7.974078502441457,
+        "max_mm": 49.80136845209959,
+        "overlap_at_20mm": 0.8656
+      },
+      "candidate_to_model": {
+        "count": 2500,
+        "median_mm": 8.806397537782594,
+        "p90_mm": 20.363185914079086,
+        "trimmed_mean90_mm": 8.775118666828291,
+        "max_mm": 105.96291900403337,
+        "overlap_at_20mm": 0.8928
+      },
+      "bidirectional_min_overlap_20mm": 0.8656,
+      "bidirectional_mean_overlap_20mm": 0.8792,
+      "symmetric_chamfer_mean_mm": 10.726538169521247,
+      "extent_candidate_over_model_axis_aligned_ratio": [
+        1.0676241917127223,
+        1.1570281174993258,
+        2.446510037748396
+      ],
+      "extent_ratio_mean": 1.5570541156534812,
+      "T": [
+        [
+          0.9499971502871267,
+          0.09317533902245113,
+          0.29803317037603333,
+          -0.09578303706493572
+        ],
+        [
+          -0.3008364804057966,
+          0.5288856232492382,
+          0.7935851621453852,
+          -0.04049893218544254
+        ],
+        [
+          -0.0836828925371917,
+          -0.8435628925683698,
+          0.5304703759667385,
+          0.7648359102372863
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "models_cad_ground_truth",
+      "model_sample_points": 2500,
+      "candidate_sample_points": 2500,
+      "model_to_candidate": {
+        "count": 2500,
+        "median_mm": 9.027311332452665,
+        "p90_mm": 20.977815172168555,
+        "trimmed_mean90_mm": 9.411273699669554,
+        "max_mm": 32.65870004338934,
+        "overlap_at_20mm": 0.878
+      },
+      "candidate_to_model": {
+        "count": 2500,
+        "median_mm": 5.459294542291245,
+        "p90_mm": 11.05849970721881,
+        "trimmed_mean90_mm": 5.279298477944693,
+        "max_mm": 96.8833810576792,
+        "overlap_at_20mm": 0.996
+      },
+      "bidirectional_min_overlap_20mm": 0.878,
+      "bidirectional_mean_overlap_20mm": 0.937,
+      "symmetric_chamfer_mean_mm": 8.708266362494879,
+      "extent_candidate_over_model_axis_aligned_ratio": [
+        1.0676241917127223,
+        1.1570281174993258,
+        2.446510037748396
+      ],
+      "extent_ratio_mean": 1.5570541156534812,
+      "T": [
+        [
+          -0.86910545,
+          0.49441825,
+          -0.01437454,
+          -0.11749746524
+        ],
+        [
+          -0.34426527,
+          -0.58378321,
+          0.73530805,
+          -0.02977498353
+        ],
+        [
+          0.35515853,
+          0.64400958,
+          0.67757994,
+          0.77318804242
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "models_cad_RANSAC",
+      "model_sample_points": 2500,
+      "candidate_sample_points": 2500,
+      "model_to_candidate": {
+        "count": 2500,
+        "median_mm": 8.037673116065447,
+        "p90_mm": 20.12793185116632,
+        "trimmed_mean90_mm": 7.761458515796333,
+        "max_mm": 44.099338390849425,
+        "overlap_at_20mm": 0.8988
+      },
+      "candidate_to_model": {
+        "count": 2500,
+        "median_mm": 7.400149935415819,
+        "p90_mm": 16.319871586554523,
+        "trimmed_mean90_mm": 7.217989925087996,
+        "max_mm": 93.54812611309629,
+        "overlap_at_20mm": 0.9748
+      },
+      "bidirectional_min_overlap_20mm": 0.8988,
+      "bidirectional_mean_overlap_20mm": 0.9368000000000001,
+      "symmetric_chamfer_mean_mm": 9.174238473764161,
+      "extent_candidate_over_model_axis_aligned_ratio": [
+        1.0676241917127223,
+        1.1570281174993258,
+        2.446510037748396
+      ],
+      "extent_ratio_mean": 1.5570541156534812,
+      "T": [
+        [
+          0.7324615766742445,
+          0.6749102287666418,
+          0.08942159583702072,
+          -0.10956144656843447
+        ],
+        [
+          0.6052933083475168,
+          -0.5854514818784813,
+          -0.539320473592473,
+          -0.01888407394876744
+        ],
+        [
+          -0.31164089841610715,
+          0.4491578180021478,
+          -0.8373393606907246,
+          0.7794473496737786
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "models_cad_ICP",
+      "model_sample_points": 2500,
+      "candidate_sample_points": 2500,
+      "model_to_candidate": {
+        "count": 2500,
+        "median_mm": 6.4630568131537425,
+        "p90_mm": 20.03926937752361,
+        "trimmed_mean90_mm": 7.173955568401731,
+        "max_mm": 48.60360349313717,
+        "overlap_at_20mm": 0.8996
+      },
+      "candidate_to_model": {
+        "count": 2500,
+        "median_mm": 7.362390231947614,
+        "p90_mm": 22.46573816177961,
+        "trimmed_mean90_mm": 7.977354561697322,
+        "max_mm": 100.83704860803373,
+        "overlap_at_20mm": 0.8688
+      },
+      "bidirectional_min_overlap_20mm": 0.8688,
+      "bidirectional_mean_overlap_20mm": 0.8842,
+      "symmetric_chamfer_mean_mm": 9.805114224661576,
+      "extent_candidate_over_model_axis_aligned_ratio": [
+        1.0676241917127223,
+        1.1570281174993258,
+        2.446510037748396
+      ],
+      "extent_ratio_mean": 1.5570541156534812,
+      "T": [
+        [
+          0.7251367559482451,
+          0.6209523318126294,
+          0.297648932115191,
+          -0.1028051930803441
+        ],
+        [
+          0.6659170536844745,
+          -0.5223101007024495,
+          -0.5326787364973249,
+          -0.015209743848715552
+        ],
+        [
+          -0.17530305982795677,
+          0.5844744308527585,
+          -0.792248999301546,
+          0.7751839192812927
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "models_reconst_ground_truth",
+      "model_sample_points": 2500,
+      "candidate_sample_points": 2500,
+      "model_to_candidate": {
+        "count": 2500,
+        "median_mm": 4.2839356756053935,
+        "p90_mm": 16.631663621787688,
+        "trimmed_mean90_mm": 4.981987233447831,
+        "max_mm": 31.05327387341742,
+        "overlap_at_20mm": 0.9436
+      },
+      "candidate_to_model": {
+        "count": 2500,
+        "median_mm": 2.359074896933549,
+        "p90_mm": 3.9852842908325825,
+        "trimmed_mean90_mm": 2.253277833858181,
+        "max_mm": 97.24541299222685,
+        "overlap_at_20mm": 0.9944
+      },
+      "bidirectional_min_overlap_20mm": 0.9436,
+      "bidirectional_mean_overlap_20mm": 0.969,
+      "symmetric_chamfer_mean_mm": 4.798966952058312,
+      "extent_candidate_over_model_axis_aligned_ratio": [
+        1.0850696211929018,
+        1.1705444849514568,
+        2.60916250901081
+      ],
+      "extent_ratio_mean": 1.6215922050517229,
+      "T": [
+        [
+          -0.86910545,
+          0.49441825,
+          -0.01437454,
+          -0.11749746524
+        ],
+        [
+          -0.34426527,
+          -0.58378321,
+          0.73530805,
+          -0.02977498353
+        ],
+        [
+          0.35515853,
+          0.64400958,
+          0.67757994,
+          0.77318804242
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "models_reconst_RANSAC",
+      "model_sample_points": 2500,
+      "candidate_sample_points": 2500,
+      "model_to_candidate": {
+        "count": 2500,
+        "median_mm": 6.353435836170258,
+        "p90_mm": 14.099504552167494,
+        "trimmed_mean90_mm": 6.157371318648858,
+        "max_mm": 25.828389781591387,
+        "overlap_at_20mm": 0.9832
+      },
+      "candidate_to_model": {
+        "count": 2500,
+        "median_mm": 3.344726705233418,
+        "p90_mm": 7.5125208229855245,
+        "trimmed_mean90_mm": 3.4556575004692043,
+        "max_mm": 98.24914538638188,
+        "overlap_at_20mm": 0.994
+      },
+      "bidirectional_min_overlap_20mm": 0.9832,
+      "bidirectional_mean_overlap_20mm": 0.9885999999999999,
+      "symmetric_chamfer_mean_mm": 5.8593815352869,
+      "extent_candidate_over_model_axis_aligned_ratio": [
+        1.0850696211929018,
+        1.1705444849514568,
+        2.60916250901081
+      ],
+      "extent_ratio_mean": 1.6215922050517229,
+      "T": [
+        [
+          0.011389706179512012,
+          0.9767431577077978,
+          -0.21410996815689098,
+          -0.11179150628654544
+        ],
+        [
+          -0.82615373156833,
+          0.12982214265886,
+          0.5482848010762176,
+          -0.03508507274314958
+        ],
+        [
+          0.5633296427571245,
+          0.17064294637184144,
+          0.8084186405846098,
+          0.7687976355796421
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "models_reconst_ICP",
+      "model_sample_points": 2500,
+      "candidate_sample_points": 2500,
+      "model_to_candidate": {
+        "count": 2500,
+        "median_mm": 5.343930805711474,
+        "p90_mm": 12.070671745284114,
+        "trimmed_mean90_mm": 5.216248842990796,
+        "max_mm": 25.85436372170167,
+        "overlap_at_20mm": 0.9852
+      },
+      "candidate_to_model": {
+        "count": 2500,
+        "median_mm": 2.6851774059376807,
+        "p90_mm": 6.358046471254265,
+        "trimmed_mean90_mm": 2.757416458139079,
+        "max_mm": 97.80332188504556,
+        "overlap_at_20mm": 0.9932
+      },
+      "bidirectional_min_overlap_20mm": 0.9852,
+      "bidirectional_mean_overlap_20mm": 0.9892,
+      "symmetric_chamfer_mean_mm": 4.969714091170383,
+      "extent_candidate_over_model_axis_aligned_ratio": [
+        1.0850696211929018,
+        1.1705444849514568,
+        2.60916250901081
+      ],
+      "extent_ratio_mean": 1.6215922050517229,
+      "T": [
+        [
+          -0.881722205379853,
+          0.47119041530295136,
+          0.0233569061890263,
+          -0.11737115155851063
+        ],
+        [
+          -0.30261692280184216,
+          -0.6028701258417564,
+          0.7382212469182191,
+          -0.03595794367238217
+        ],
+        [
+          0.36192395689431045,
+          0.6438378708139022,
+          0.6741541704475235,
+          0.7689931795340589
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "models_eval_ground_truth",
+      "model_sample_points": 2500,
+      "candidate_sample_points": 2500,
+      "model_to_candidate": {
+        "count": 2500,
+        "median_mm": 5.3030264375968486,
+        "p90_mm": 20.264896106975122,
+        "trimmed_mean90_mm": 6.602997870722419,
+        "max_mm": 31.95622425750298,
+        "overlap_at_20mm": 0.8948
+      },
+      "candidate_to_model": {
+        "count": 2500,
+        "median_mm": 2.474764546232907,
+        "p90_mm": 4.061033427643357,
+        "trimmed_mean90_mm": 2.337377121246783,
+        "max_mm": 96.90524219768294,
+        "overlap_at_20mm": 0.9952
+      },
+      "bidirectional_min_overlap_20mm": 0.8948,
+      "bidirectional_mean_overlap_20mm": 0.9450000000000001,
+      "symmetric_chamfer_mean_mm": 5.7173666292234175,
+      "extent_candidate_over_model_axis_aligned_ratio": [
+        1.0688067104641814,
+        1.1592051322709005,
+        2.4476961711742247
+      ],
+      "extent_ratio_mean": 1.558569337969769,
+      "T": [
+        [
+          -0.86910545,
+          0.49441825,
+          -0.01437454,
+          -0.11749746524
+        ],
+        [
+          -0.34426527,
+          -0.58378321,
+          0.73530805,
+          -0.02977498353
+        ],
+        [
+          0.35515853,
+          0.64400958,
+          0.67757994,
+          0.77318804242
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "models_eval_RANSAC",
+      "model_sample_points": 2500,
+      "candidate_sample_points": 2500,
+      "model_to_candidate": {
+        "count": 2500,
+        "median_mm": 7.365148549250779,
+        "p90_mm": 17.527521355061143,
+        "trimmed_mean90_mm": 7.286211135136966,
+        "max_mm": 27.879056265085538,
+        "overlap_at_20mm": 0.9528
+      },
+      "candidate_to_model": {
+        "count": 2500,
+        "median_mm": 3.86615572336516,
+        "p90_mm": 9.262144429045662,
+        "trimmed_mean90_mm": 4.009805905398468,
+        "max_mm": 89.35665512047268,
+        "overlap_at_20mm": 0.9956
+      },
+      "bidirectional_min_overlap_20mm": 0.9528,
+      "bidirectional_mean_overlap_20mm": 0.9742,
+      "symmetric_chamfer_mean_mm": 6.842229885954585,
+      "extent_candidate_over_model_axis_aligned_ratio": [
+        1.0688067104641814,
+        1.1592051322709005,
+        2.4476961711742247
+      ],
+      "extent_ratio_mean": 1.558569337969769,
+      "T": [
+        [
+          0.527102350774273,
+          -0.8498009564129057,
+          -0.0012026171237721206,
+          -0.10864571089705305
+        ],
+        [
+          -0.6132389566628257,
+          -0.37939060314448964,
+          -0.6928208659363181,
+          -0.029104523771652333
+        ],
+        [
+          0.5883035728595607,
+          0.36592499877074786,
+          -0.7211087306608516,
+          0.7771394502729405
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "models_eval_ICP",
+      "model_sample_points": 2500,
+      "candidate_sample_points": 2500,
+      "model_to_candidate": {
+        "count": 2500,
+        "median_mm": 6.064001238716084,
+        "p90_mm": 15.727104607614963,
+        "trimmed_mean90_mm": 6.249040239046906,
+        "max_mm": 25.95870749153542,
+        "overlap_at_20mm": 0.9676
+      },
+      "candidate_to_model": {
+        "count": 2500,
+        "median_mm": 3.107424831603751,
+        "p90_mm": 6.3892565824435525,
+        "trimmed_mean90_mm": 3.059429895958493,
+        "max_mm": 91.5626945931522,
+        "overlap_at_20mm": 0.9956
+      },
+      "bidirectional_min_overlap_20mm": 0.9676,
+      "bidirectional_mean_overlap_20mm": 0.9816,
+      "symmetric_chamfer_mean_mm": 5.734841299152108,
+      "extent_candidate_over_model_axis_aligned_ratio": [
+        1.0688067104641814,
+        1.1592051322709005,
+        2.4476961711742247
+      ],
+      "extent_ratio_mean": 1.558569337969769,
+      "T": [
+        [
+          -0.9503801753133115,
+          -0.29294218427559116,
+          0.1047014758410122,
+          -0.1199406880792083
+        ],
+        [
+          -0.2699427194760683,
+          0.6092786276652857,
+          -0.7455940464302084,
+          -0.02727150198485603
+        ],
+        [
+          0.15462357702919946,
+          -0.7368612016805824,
+          -0.6581239388478001,
+          0.7757293359600321
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

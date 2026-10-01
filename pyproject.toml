@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zutik-geometry-first-perception"
+version = "0.1.0"
+description = "CAD-model-based RGB-D registration for metric 6-DoF object poses"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.23", "open3d>=0.18,<0.21"]
+
+[project.optional-dependencies]
+test = ["pytest>=7", "Pillow>=9"]
+bop = ["Pillow>=9"]
+
+[project.scripts]
+zutik-geometry = "zutik_geometry.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["zutik_geometry*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-ra"

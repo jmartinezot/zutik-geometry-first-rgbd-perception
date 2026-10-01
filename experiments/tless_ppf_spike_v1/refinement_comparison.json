@@ -1,0 +1,4242 @@
+[
+  {
+    "case_id": "scene000003_im000233_obj000018",
+    "final_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 177.78081386163979,
+        "translation_error_m": 0.007059554401769097,
+        "translation_error_mm": 7.059554401769097
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 153.18321911500237,
+        "mssd_mm": 110.15233204549891,
+        "re_deg": 177.7816156707485,
+        "symmetry_status": "identity_only",
+        "te_mm": 7.059554401769097,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.9428,
+        "candidate_to_model_overlap": 0.9936,
+        "candidate_to_model_rmse_m": 0.009044754859269444,
+        "candidate_to_model_trimmed_rmse_m": 0.005882615864218941,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.1396363413463726,
+          1.2852702423119229,
+          1.557750341637658
+        ],
+        "model_to_candidate_overlap": 0.9428,
+        "model_to_candidate_rmse_m": 0.010195842449295608,
+        "model_to_candidate_trimmed_rmse_m": 0.007887710171311117
+      }
+    },
+    "fitness": 0.9302325581395349,
+    "improved_rotation": false,
+    "improved_translation": true,
+    "initial_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 174.4037919766344,
+        "translation_error_m": 0.030274645125449837,
+        "translation_error_mm": 30.274645125449837
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 171.00651447691706,
+        "mssd_mm": 126.85956818892998,
+        "re_deg": 174.40403735529478,
+        "symmetry_status": "identity_only",
+        "te_mm": 30.27464512544983,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.5908,
+        "candidate_to_model_overlap": 0.9336,
+        "candidate_to_model_rmse_m": 0.012676105829810016,
+        "candidate_to_model_trimmed_rmse_m": 0.009739182177557445,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.1316997768677157,
+          1.2250501952743578,
+          1.6783038212138968
+        ],
+        "model_to_candidate_overlap": 0.5908,
+        "model_to_candidate_rmse_m": 0.02126267599350117,
+        "model_to_candidate_trimmed_rmse_m": 0.01848360308512933
+      }
+    },
+    "initial_rank": 1,
+    "initialization": "raw PPF top-1; no GT initialization",
+    "inliers": 360,
+    "method": "gicp",
+    "representation": "cad",
+    "rmse_m": 0.009625110975438068,
+    "runtime_s": 0.017718245275318623,
+    "status": "ok",
+    "transform": [
+      [
+        0.9591452523354387,
+        -0.2801440916016755,
+        -0.039493067249622406,
+        -0.11622694666518905
+      ],
+      [
+        -0.23887066549455446,
+        -0.7270988929317149,
+        -0.6436365820795492,
+        -0.02883106494415169
+      ],
+      [
+        0.1515956161007422,
+        0.6267747265294195,
+        -0.7643116366961074,
+        0.7800678758922498
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "case_id": "scene000003_im000233_obj000018",
+    "final_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 177.034785685705,
+        "translation_error_m": 0.00571763367647966,
+        "translation_error_mm": 5.71763367647966
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 157.26737071354896,
+        "mssd_mm": 114.06009881301739,
+        "re_deg": 177.03541977470286,
+        "symmetry_status": "identity_only",
+        "te_mm": 5.717633676479634,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.9272,
+        "candidate_to_model_overlap": 0.9936,
+        "candidate_to_model_rmse_m": 0.009032804380803299,
+        "candidate_to_model_trimmed_rmse_m": 0.0054659560750938445,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.1683659221750622,
+          1.2672206877854006,
+          1.5497380278726598
+        ],
+        "model_to_candidate_overlap": 0.9272,
+        "model_to_candidate_rmse_m": 0.010511008318565765,
+        "model_to_candidate_trimmed_rmse_m": 0.007845969336696356
+      }
+    },
+    "fitness": 0.9147286821705426,
+    "improved_rotation": false,
+    "improved_translation": true,
+    "initial_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 174.4037919766344,
+        "translation_error_m": 0.030274645125449837,
+        "translation_error_mm": 30.274645125449837
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 171.00651447691706,
+        "mssd_mm": 126.85956818892998,
+        "re_deg": 174.40403735529478,
+        "symmetry_status": "identity_only",
+        "te_mm": 30.27464512544983,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.5908,
+        "candidate_to_model_overlap": 0.9336,
+        "candidate_to_model_rmse_m": 0.012676105829810016,
+        "candidate_to_model_trimmed_rmse_m": 0.009739182177557445,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.1316997768677157,
+          1.2250501952743578,
+          1.6783038212138968
+        ],
+        "model_to_candidate_overlap": 0.5908,
+        "model_to_candidate_rmse_m": 0.02126267599350117,
+        "model_to_candidate_trimmed_rmse_m": 0.01848360308512933
+      }
+    },
+    "initial_rank": 1,
+    "initialization": "raw PPF top-1; no GT initialization",
+    "inliers": 354,
+    "method": "point_to_plane_icp",
+    "representation": "cad",
+    "rmse_m": 0.00916300622487582,
+    "runtime_s": 0.0072352029383182526,
+    "status": "ok",
+    "transform": [
+      [
+        -0.16309180718897975,
+        -0.982841980575774,
+        -0.08615553620954543,
+        -0.12009554372089311
+      ],
+      [
+        -0.6176790792022797,
+        0.16980897976963616,
+        -0.7678785829945355,
+        -0.029705532999498168
+      ],
+      [
+        0.7693332556675581,
+        -0.07201820315287505,
+        -0.6347753425422736,
+        0.7782808314092816
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "case_id": "scene000003_im000233_obj000018",
+    "final_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 61.230074928987435,
+        "translation_error_m": 0.002371596222232801,
+        "translation_error_mm": 2.371596222232801
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 78.29286851438287,
+        "mssd_mm": 57.168232915831446,
+        "re_deg": 61.23006666689272,
+        "symmetry_status": "identity_only",
+        "te_mm": 2.3715962222327946,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.9504,
+        "candidate_to_model_overlap": 0.9908,
+        "candidate_to_model_rmse_m": 0.008054247979689589,
+        "candidate_to_model_trimmed_rmse_m": 0.0028536050230712883,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.1354290000567284,
+          1.1705939899276945,
+          1.9071940552306463
+        ],
+        "model_to_candidate_overlap": 0.9504,
+        "model_to_candidate_rmse_m": 0.009017741891690578,
+        "model_to_candidate_trimmed_rmse_m": 0.006421305449134445
+      }
+    },
+    "fitness": 0.954,
+    "improved_rotation": false,
+    "improved_translation": true,
+    "initial_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 37.24638696353139,
+        "translation_error_m": 0.0032321472590902418,
+        "translation_error_mm": 3.2321472590902416
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 47.42079586852316,
+        "mssd_mm": 34.843905130271565,
+        "re_deg": 37.246385652481024,
+        "symmetry_status": "identity_only",
+        "te_mm": 3.232147259090216,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.916,
+        "candidate_to_model_overlap": 0.9928,
+        "candidate_to_model_rmse_m": 0.007860352887900032,
+        "candidate_to_model_trimmed_rmse_m": 0.002519672093146562,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.1539819742731627,
+          1.1741255900950345,
+          1.8279458823126506
+        ],
+        "model_to_candidate_overlap": 0.916,
+        "model_to_candidate_rmse_m": 0.010495749854284942,
+        "model_to_candidate_trimmed_rmse_m": 0.007444738751376428
+      }
+    },
+    "initial_rank": 1,
+    "initialization": "raw PPF top-1; no GT initialization",
+    "inliers": 477,
+    "method": "gicp",
+    "representation": "reconst",
+    "rmse_m": 0.008179415257697052,
+    "runtime_s": 0.022117972373962402,
+    "status": "ok",
+    "transform": [
+      [
+        -0.8514114425842144,
+        -0.5130499633409641,
+        0.10898870551724744,
+        -0.11921210282905743
+      ],
+      [
+        0.4614612388072214,
+        -0.6339637133665436,
+        0.6205995583766053,
+        -0.03023197237916921
+      ],
+      [
+        -0.2493037079993745,
+        0.5786794842255766,
+        0.7765163798003114,
+        0.7716146232860007
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "case_id": "scene000003_im000233_obj000018",
+    "final_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 37.890046292486325,
+        "translation_error_m": 0.0054603777838563485,
+        "translation_error_mm": 5.460377783856348
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 52.78625677169408,
+        "mssd_mm": 38.014582397847256,
+        "re_deg": 37.8900459916636,
+        "symmetry_status": "identity_only",
+        "te_mm": 5.460377783856415,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.9684,
+        "candidate_to_model_overlap": 0.9904,
+        "candidate_to_model_rmse_m": 0.008128942673652459,
+        "candidate_to_model_trimmed_rmse_m": 0.002845245969411066,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.1459579664553958,
+          1.1667184643230832,
+          1.8600592023512077
+        ],
+        "model_to_candidate_overlap": 0.9684,
+        "model_to_candidate_rmse_m": 0.008207308770551206,
+        "model_to_candidate_trimmed_rmse_m": 0.006106394896902965
+      }
+    },
+    "fitness": 0.97,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 37.24638696353139,
+        "translation_error_m": 0.0032321472590902418,
+        "translation_error_mm": 3.2321472590902416
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 47.42079586852316,
+        "mssd_mm": 34.843905130271565,
+        "re_deg": 37.246385652481024,
+        "symmetry_status": "identity_only",
+        "te_mm": 3.232147259090216,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.916,
+        "candidate_to_model_overlap": 0.9928,
+        "candidate_to_model_rmse_m": 0.007860352887900032,
+        "candidate_to_model_trimmed_rmse_m": 0.002519672093146562,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.1539819742731627,
+          1.1741255900950345,
+          1.8279458823126506
+        ],
+        "model_to_candidate_overlap": 0.916,
+        "model_to_candidate_rmse_m": 0.010495749854284942,
+        "model_to_candidate_trimmed_rmse_m": 0.007444738751376428
+      }
+    },
+    "initial_rank": 1,
+    "initialization": "raw PPF top-1; no GT initialization",
+    "inliers": 485,
+    "method": "point_to_plane_icp",
+    "representation": "reconst",
+    "rmse_m": 0.008212817553402573,
+    "runtime_s": 0.0053484439849853516,
+    "status": "ok",
+    "transform": [
+      [
+        -0.9851453631958499,
+        -0.13228579862256068,
+        0.10949583260393637,
+        -0.11985333103908091
+      ],
+      [
+        0.17082453611410178,
+        -0.6897791079968653,
+        0.7035794433118574,
+        -0.03320622867209602
+      ],
+      [
+        -0.017545641686346463,
+        0.7118324591272033,
+        0.7021300929864009,
+        0.7696536147925057
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "case_id": "scene000001_im000001_obj000030",
+    "final_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 178.89335176673143,
+        "translation_error_m": 0.01385486667660415,
+        "translation_error_mm": 13.85486667660415
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 137.17724684601882,
+        "mssd_mm": 101.72977825703236,
+        "re_deg": 178.89454481583422,
+        "symmetry_status": "continuous_symmetry_not_discretized",
+        "te_mm": 13.854866676604162,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.7412,
+        "candidate_to_model_overlap": 0.9988,
+        "candidate_to_model_rmse_m": 0.007013432007819192,
+        "candidate_to_model_trimmed_rmse_m": 0.005330877085650022,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          0.9867304093885189,
+          0.8850513711292716,
+          1.111125877285507
+        ],
+        "model_to_candidate_overlap": 0.7412,
+        "model_to_candidate_rmse_m": 0.01651210447941909,
+        "model_to_candidate_trimmed_rmse_m": 0.013922484143014374
+      }
+    },
+    "fitness": 0.7448275862068966,
+    "improved_rotation": false,
+    "improved_translation": true,
+    "initial_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 177.93373538304303,
+        "translation_error_m": 0.015474406557818171,
+        "translation_error_mm": 15.474406557818172
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 140.3047583659463,
+        "mssd_mm": 99.67139052781361,
+        "re_deg": 177.93439028755077,
+        "symmetry_status": "continuous_symmetry_not_discretized",
+        "te_mm": 15.474406557818158,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.5952,
+        "candidate_to_model_overlap": 0.9816,
+        "candidate_to_model_rmse_m": 0.007366712688435407,
+        "candidate_to_model_trimmed_rmse_m": 0.005280669310600762,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          0.9853831712561072,
+          0.8820323084125021,
+          1.1508589270106901
+        ],
+        "model_to_candidate_overlap": 0.5952,
+        "model_to_candidate_rmse_m": 0.019953037729390083,
+        "model_to_candidate_trimmed_rmse_m": 0.016772421771902933
+      }
+    },
+    "initial_rank": 1,
+    "initialization": "raw PPF top-1; no GT initialization",
+    "inliers": 216,
+    "method": "gicp",
+    "representation": "cad",
+    "rmse_m": 0.010354286311864833,
+    "runtime_s": 0.010065385140478611,
+    "status": "ok",
+    "transform": [
+      [
+        -0.23457010364148448,
+        -0.9720551344473319,
+        0.009258616728253862,
+        0.03660838027332725
+      ],
+      [
+        0.9274951439110481,
+        -0.22094493168528506,
+        0.3015561590183288,
+        0.06396759851659464
+      ],
+      [
+        -0.29108356365635646,
+        0.0793233896634186,
+        0.9534034641354473,
+        0.7475865272122079
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "case_id": "scene000001_im000001_obj000030",
+    "final_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 149.7784035998723,
+        "translation_error_m": 0.541493388483019,
+        "translation_error_mm": 541.493388483019
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 1073.4429070135677,
+        "mssd_mm": 623.6898581284288,
+        "re_deg": 149.7784242121669,
+        "symmetry_status": "continuous_symmetry_not_discretized",
+        "te_mm": 541.493388483019,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.0,
+        "candidate_to_model_overlap": 0.0,
+        "candidate_to_model_rmse_m": 0.49601371660902055,
+        "candidate_to_model_trimmed_rmse_m": 0.49225061896414235,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          0.9093770281662941,
+          0.856061458816968,
+          0.8780513931512625
+        ],
+        "model_to_candidate_overlap": 0.0,
+        "model_to_candidate_rmse_m": 0.49722762561634265,
+        "model_to_candidate_trimmed_rmse_m": 0.49302690161708884
+      }
+    },
+    "fitness": 0.0,
+    "improved_rotation": true,
+    "improved_translation": false,
+    "initial_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 177.93373538304303,
+        "translation_error_m": 0.015474406557818171,
+        "translation_error_mm": 15.474406557818172
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 140.3047583659463,
+        "mssd_mm": 99.67139052781361,
+        "re_deg": 177.93439028755077,
+        "symmetry_status": "continuous_symmetry_not_discretized",
+        "te_mm": 15.474406557818158,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.5952,
+        "candidate_to_model_overlap": 0.9816,
+        "candidate_to_model_rmse_m": 0.007366712688435407,
+        "candidate_to_model_trimmed_rmse_m": 0.005280669310600762,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          0.9853831712561072,
+          0.8820323084125021,
+          1.1508589270106901
+        ],
+        "model_to_candidate_overlap": 0.5952,
+        "model_to_candidate_rmse_m": 0.019953037729390083,
+        "model_to_candidate_trimmed_rmse_m": 0.016772421771902933
+      }
+    },
+    "initial_rank": 1,
+    "initialization": "raw PPF top-1; no GT initialization",
+    "inliers": 0,
+    "method": "point_to_plane_icp",
+    "representation": "cad",
+    "rmse_m": null,
+    "runtime_s": 0.0006352914497256279,
+    "status": "ok",
+    "transform": [
+      [
+        -0.7698031088982084,
+        0.5506171592116218,
+        -0.32283734559371596,
+        -0.4246214722468793
+      ],
+      [
+        -0.6099508440922055,
+        -0.48558293171798034,
+        0.6262341361726592,
+        0.326648986347245
+      ],
+      [
+        0.18805094483595666,
+        0.678991905545586,
+        0.7096526329361189,
+        0.6169928848237273
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "case_id": "scene000001_im000001_obj000030",
+    "final_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 95.55315208062487,
+        "translation_error_m": 0.012877035881613262,
+        "translation_error_mm": 12.877035881613262
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 105.4098582937027,
+        "mssd_mm": 72.41660831925473,
+        "re_deg": 95.55313965277014,
+        "symmetry_status": "continuous_symmetry_not_discretized",
+        "te_mm": 12.877035881613278,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.7168,
+        "candidate_to_model_overlap": 1.0,
+        "candidate_to_model_rmse_m": 0.004621283113716281,
+        "candidate_to_model_trimmed_rmse_m": 0.002902174009463426,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.0091211930352246,
+          0.8948730398530802,
+          1.1177771231253886
+        ],
+        "model_to_candidate_overlap": 0.7168,
+        "model_to_candidate_rmse_m": 0.018187942569873064,
+        "model_to_candidate_trimmed_rmse_m": 0.014561232317749431
+      }
+    },
+    "fitness": 0.7243243243243244,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 56.894836174281835,
+        "translation_error_m": 0.004366251334763893,
+        "translation_error_mm": 4.366251334763892
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 63.11782993214092,
+        "mssd_mm": 42.037073118358165,
+        "re_deg": 56.89479871764749,
+        "symmetry_status": "continuous_symmetry_not_discretized",
+        "te_mm": 4.366251334763887,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.634,
+        "candidate_to_model_overlap": 1.0,
+        "candidate_to_model_rmse_m": 0.003082909071161321,
+        "candidate_to_model_trimmed_rmse_m": 0.0016788021436484706,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.011201587785167,
+          0.9226224034434654,
+          1.127274475305765
+        ],
+        "model_to_candidate_overlap": 0.634,
+        "model_to_candidate_rmse_m": 0.0209263739608262,
+        "model_to_candidate_trimmed_rmse_m": 0.01693944974379656
+      }
+    },
+    "initial_rank": 1,
+    "initialization": "raw PPF top-1; no GT initialization",
+    "inliers": 268,
+    "method": "gicp",
+    "representation": "reconst",
+    "rmse_m": 0.011688167939142171,
+    "runtime_s": 0.01421950850635767,
+    "status": "ok",
+    "transform": [
+      [
+        -0.819434457861553,
+        0.5731489517733918,
+        -0.0052301843522948,
+        0.03593520016508329
+      ],
+      [
+        0.548478717723451,
+        0.781448605177695,
+        -0.2975048468513023,
+        0.06531565992132675
+      ],
+      [
+        -0.1664274490029733,
+        -0.24665440229442198,
+        -0.9547059809236915,
+        0.7483061168269741
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "case_id": "scene000001_im000001_obj000030",
+    "final_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 166.31770218548564,
+        "translation_error_m": 1.6929877435124507,
+        "translation_error_mm": 1692.9877435124508
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 1349.9991445025769,
+        "mssd_mm": 1765.2389757120814,
+        "re_deg": 166.31779689720537,
+        "symmetry_status": "continuous_symmetry_not_discretized",
+        "te_mm": 1692.9877435124508,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.0,
+        "candidate_to_model_overlap": 0.0,
+        "candidate_to_model_rmse_m": 1.6365394223112586,
+        "candidate_to_model_trimmed_rmse_m": 1.63329307825547,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.0131959249926938,
+          0.9613282802446478,
+          1.3280636525058356
+        ],
+        "model_to_candidate_overlap": 0.0,
+        "model_to_candidate_rmse_m": 1.645839457910062,
+        "model_to_candidate_trimmed_rmse_m": 1.6422741344715908
+      }
+    },
+    "fitness": 0.0,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 56.894836174281835,
+        "translation_error_m": 0.004366251334763893,
+        "translation_error_mm": 4.366251334763892
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 63.11782993214092,
+        "mssd_mm": 42.037073118358165,
+        "re_deg": 56.89479871764749,
+        "symmetry_status": "continuous_symmetry_not_discretized",
+        "te_mm": 4.366251334763887,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.634,
+        "candidate_to_model_overlap": 1.0,
+        "candidate_to_model_rmse_m": 0.003082909071161321,
+        "candidate_to_model_trimmed_rmse_m": 0.0016788021436484706,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.011201587785167,
+          0.9226224034434654,
+          1.127274475305765
+        ],
+        "model_to_candidate_overlap": 0.634,
+        "model_to_candidate_rmse_m": 0.0209263739608262,
+        "model_to_candidate_trimmed_rmse_m": 0.01693944974379656
+      }
+    },
+    "initial_rank": 1,
+    "initialization": "raw PPF top-1; no GT initialization",
+    "inliers": 0,
+    "method": "point_to_plane_icp",
+    "representation": "reconst",
+    "rmse_m": null,
+    "runtime_s": 0.0007676072418689728,
+    "status": "ok",
+    "transform": [
+      [
+        -0.3640207714270767,
+        -0.9268157630482616,
+        0.09220315415217038,
+        -0.575893941154825
+      ],
+      [
+        0.9313743810389639,
+        -0.36163964619242317,
+        0.041933181028496525,
+        0.590752409488333
+      ],
+      [
+        -0.005520020106829393,
+        0.10114022588173677,
+        0.9948568668070128,
+        -0.7468826516307138
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "case_id": "scene000001_im000001_obj000025",
+    "final_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 80.46638831438597,
+        "translation_error_m": 0.005851697029489538,
+        "translation_error_mm": 5.851697029489538
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 99.19601006493575,
+        "mssd_mm": 74.72164369201691,
+        "re_deg": 80.46636833161773,
+        "symmetry_status": "identity_plus_discrete",
+        "te_mm": 5.851697029489517,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.6596,
+        "candidate_to_model_overlap": 0.8756,
+        "candidate_to_model_rmse_m": 0.013400024454752909,
+        "candidate_to_model_trimmed_rmse_m": 0.011719850060558664,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          0.7790086754263813,
+          1.1324782052675726,
+          1.213425982087703
+        ],
+        "model_to_candidate_overlap": 0.6596,
+        "model_to_candidate_rmse_m": 0.020487775683734697,
+        "model_to_candidate_trimmed_rmse_m": 0.016929759337488113
+      }
+    },
+    "fitness": 0.6431535269709544,
+    "improved_rotation": false,
+    "improved_translation": true,
+    "initial_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 60.15026944335416,
+        "translation_error_m": 0.02252036813504795,
+        "translation_error_mm": 22.52036813504795
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 89.71935404300721,
+        "mssd_mm": 75.05002524633053,
+        "re_deg": 60.150235501024525,
+        "symmetry_status": "identity_plus_discrete",
+        "te_mm": 22.5203681350479,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.2588,
+        "candidate_to_model_overlap": 0.5936,
+        "candidate_to_model_rmse_m": 0.019767581930582274,
+        "candidate_to_model_trimmed_rmse_m": 0.017057722382739157,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          0.7579117556026035,
+          1.0211911230408548,
+          1.0336496286481613
+        ],
+        "model_to_candidate_overlap": 0.2588,
+        "model_to_candidate_rmse_m": 0.028561500490047718,
+        "model_to_candidate_trimmed_rmse_m": 0.02664207135521714
+      }
+    },
+    "initial_rank": 1,
+    "initialization": "raw PPF top-1; no GT initialization",
+    "inliers": 155,
+    "method": "gicp",
+    "representation": "cad",
+    "rmse_m": 0.011331882046569307,
+    "runtime_s": 0.014668986201286316,
+    "status": "ok",
+    "transform": [
+      [
+        0.8886948195866763,
+        0.4315230991160319,
+        -0.15494937609417342,
+        -0.06661941649258046
+      ],
+      [
+        0.4529021140427902,
+        -0.8788415855560215,
+        0.1500577736725689,
+        -0.016272793933543854
+      ],
+      [
+        -0.07142257194354168,
+        -0.20353250165466596,
+        -0.9764597457525787,
+        0.7708845749783013
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "case_id": "scene000001_im000001_obj000025",
+    "final_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 169.33595675236583,
+        "translation_error_m": 2.374640964181714,
+        "translation_error_mm": 2374.640964181714
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 282591562.83048064,
+        "mssd_mm": 2445.949485863678,
+        "re_deg": 169.3360088296449,
+        "symmetry_status": "identity_plus_discrete",
+        "te_mm": 2374.6409641817145,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.0,
+        "candidate_to_model_overlap": 0.0,
+        "candidate_to_model_rmse_m": 2.336368227481186,
+        "candidate_to_model_trimmed_rmse_m": 2.33321144391946,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          0.8853849385089616,
+          1.375126345090356,
+          0.9139727924662101
+        ],
+        "model_to_candidate_overlap": 0.0,
+        "model_to_candidate_rmse_m": 2.345708413868207,
+        "model_to_candidate_trimmed_rmse_m": 2.343140368510559
+      }
+    },
+    "fitness": 0.0,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 60.15026944335416,
+        "translation_error_m": 0.02252036813504795,
+        "translation_error_mm": 22.52036813504795
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 89.71935404300721,
+        "mssd_mm": 75.05002524633053,
+        "re_deg": 60.150235501024525,
+        "symmetry_status": "identity_plus_discrete",
+        "te_mm": 22.5203681350479,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.2588,
+        "candidate_to_model_overlap": 0.5936,
+        "candidate_to_model_rmse_m": 0.019767581930582274,
+        "candidate_to_model_trimmed_rmse_m": 0.017057722382739157,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          0.7579117556026035,
+          1.0211911230408548,
+          1.0336496286481613
+        ],
+        "model_to_candidate_overlap": 0.2588,
+        "model_to_candidate_rmse_m": 0.028561500490047718,
+        "model_to_candidate_trimmed_rmse_m": 0.02664207135521714
+      }
+    },
+    "initial_rank": 1,
+    "initialization": "raw PPF top-1; no GT initialization",
+    "inliers": 0,
+    "method": "point_to_plane_icp",
+    "representation": "cad",
+    "rmse_m": null,
+    "runtime_s": 0.0008538942784070969,
+    "status": "ok",
+    "transform": [
+      [
+        0.16457318052101205,
+        0.48731142567038105,
+        0.8575800475835291,
+        -2.1093683326599137
+      ],
+      [
+        -0.0017871868038808886,
+        0.869580726310548,
+        -0.49378775028818606,
+        0.9342195714425472
+      ],
+      [
+        -0.9863632521866268,
+        0.07973162260642154,
+        0.1439805518766193,
+        0.0047332063434100125
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "case_id": "scene000001_im000001_obj000025",
+    "final_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 91.61400547327838,
+        "translation_error_m": 0.004316058372076632,
+        "translation_error_mm": 4.316058372076632
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 86.09822392899525,
+        "mssd_mm": 62.46929331915518,
+        "re_deg": 91.61398811821957,
+        "symmetry_status": "identity_plus_discrete",
+        "te_mm": 4.316058372076638,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.6368,
+        "candidate_to_model_overlap": 0.9836,
+        "candidate_to_model_rmse_m": 0.004557503273006182,
+        "candidate_to_model_trimmed_rmse_m": 0.001834132144860034,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.1081026753855838,
+          1.1228477126872125,
+          1.2065168024219053
+        ],
+        "model_to_candidate_overlap": 0.6368,
+        "model_to_candidate_rmse_m": 0.01995653146774809,
+        "model_to_candidate_trimmed_rmse_m": 0.016653891803416983
+      }
+    },
+    "fitness": 0.6747572815533981,
+    "improved_rotation": false,
+    "improved_translation": true,
+    "initial_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 91.49557627406365,
+        "translation_error_m": 0.009949566049178748,
+        "translation_error_mm": 9.949566049178747
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 86.6395885594545,
+        "mssd_mm": 64.8495312061904,
+        "re_deg": 91.49555909114666,
+        "symmetry_status": "identity_plus_discrete",
+        "te_mm": 9.949566049178763,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.5908,
+        "candidate_to_model_overlap": 0.9836,
+        "candidate_to_model_rmse_m": 0.004870699281944046,
+        "candidate_to_model_trimmed_rmse_m": 0.0028746402838302756,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.0642141717024387,
+          1.11323608050053,
+          1.2453302693943673
+        ],
+        "model_to_candidate_overlap": 0.5908,
+        "model_to_candidate_rmse_m": 0.02079083715924206,
+        "model_to_candidate_trimmed_rmse_m": 0.017775693952295134
+      }
+    },
+    "initial_rank": 1,
+    "initialization": "raw PPF top-1; no GT initialization",
+    "inliers": 278,
+    "method": "gicp",
+    "representation": "reconst",
+    "rmse_m": 0.010193176888540104,
+    "runtime_s": 0.004653753712773323,
+    "status": "ok",
+    "transform": [
+      [
+        0.15694620624295294,
+        -0.9871038661601895,
+        0.03152682151889476,
+        -0.06565234607601925
+      ],
+      [
+        0.9375199957300939,
+        0.15894766180235748,
+        0.3095028670874287,
+        -0.013743320677676139
+      ],
+      [
+        -0.31052257854468834,
+        -0.01901828471211343,
+        0.9503757092425947,
+        0.7674743783014862
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "case_id": "scene000001_im000001_obj000025",
+    "final_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 155.34847888190538,
+        "translation_error_m": 0.28829965046569234,
+        "translation_error_mm": 288.2996504656923
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 490.86439280196345,
+        "mssd_mm": 343.7512662238703,
+        "re_deg": 155.3485196524568,
+        "symmetry_status": "identity_plus_discrete",
+        "te_mm": 288.2996504656923,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.0,
+        "candidate_to_model_overlap": 0.0,
+        "candidate_to_model_rmse_m": 0.2275794145577214,
+        "candidate_to_model_trimmed_rmse_m": 0.2234248521993945,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.0453064846016265,
+          1.1180793398808577,
+          0.911483773481474
+        ],
+        "model_to_candidate_overlap": 0.0,
+        "model_to_candidate_rmse_m": 0.24339439200128396,
+        "model_to_candidate_trimmed_rmse_m": 0.23928925951177968
+      }
+    },
+    "fitness": 0.0,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 91.49557627406365,
+        "translation_error_m": 0.009949566049178748,
+        "translation_error_mm": 9.949566049178747
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 86.6395885594545,
+        "mssd_mm": 64.8495312061904,
+        "re_deg": 91.49555909114666,
+        "symmetry_status": "identity_plus_discrete",
+        "te_mm": 9.949566049178763,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.5908,
+        "candidate_to_model_overlap": 0.9836,
+        "candidate_to_model_rmse_m": 0.004870699281944046,
+        "candidate_to_model_trimmed_rmse_m": 0.0028746402838302756,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.0642141717024387,
+          1.11323608050053,
+          1.2453302693943673
+        ],
+        "model_to_candidate_overlap": 0.5908,
+        "model_to_candidate_rmse_m": 0.02079083715924206,
+        "model_to_candidate_trimmed_rmse_m": 0.017775693952295134
+      }
+    },
+    "initial_rank": 1,
+    "initialization": "raw PPF top-1; no GT initialization",
+    "inliers": 0,
+    "method": "point_to_plane_icp",
+    "representation": "reconst",
+    "rmse_m": null,
+    "runtime_s": 0.004553737118840218,
+    "status": "ok",
+    "transform": [
+      [
+        0.05929400061959639,
+        -0.9175654814872055,
+        -0.3931384956162294,
+        -0.006159809709781305
+      ],
+      [
+        -0.5466863659068524,
+        0.29967373801700314,
+        -0.7818757622469336,
+        -0.20837512407220893
+      ],
+      [
+        0.8352355144843489,
+        0.261284011872694,
+        -0.4838515987409485,
+        0.5636012490845579
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "case_id": "scene000002_im000003_obj000005",
+    "final_metrics": {
+      "diagnostic_accuracy_20mm_5deg": true,
+      "naive_pose": {
+        "rotation_error_deg": 4.368625954934088,
+        "translation_error_m": 0.003715033449052808,
+        "translation_error_mm": 3.715033449052808
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 7.355006399424365,
+        "mssd_mm": 5.722736342455851,
+        "re_deg": 4.368041759490418,
+        "symmetry_status": "identity_plus_discrete",
+        "te_mm": 3.7150334490527928,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.9808,
+        "candidate_to_model_overlap": 0.992,
+        "candidate_to_model_rmse_m": 0.00546217179785802,
+        "candidate_to_model_trimmed_rmse_m": 0.004084596138041905,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.0149480689301025,
+          1.0822866360368852,
+          1.1768824805664047
+        ],
+        "model_to_candidate_overlap": 0.9808,
+        "model_to_candidate_rmse_m": 0.008676032328278061,
+        "model_to_candidate_trimmed_rmse_m": 0.006941052364227508
+      }
+    },
+    "fitness": 0.9101449275362319,
+    "improved_rotation": true,
+    "improved_translation": true,
+    "initial_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 35.75825022484121,
+        "translation_error_m": 0.0037597312714195146,
+        "translation_error_mm": 3.7597312714195144
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 49.08638755922606,
+        "mssd_mm": 35.36514740089249,
+        "re_deg": 35.75818508153025,
+        "symmetry_status": "identity_plus_discrete",
+        "te_mm": 3.75973127141951,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.9408,
+        "candidate_to_model_overlap": 0.9812,
+        "candidate_to_model_rmse_m": 0.008071719245858741,
+        "candidate_to_model_trimmed_rmse_m": 0.006130643577050881,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          0.8166735957680152,
+          1.3629055163402721,
+          1.247593000296628
+        ],
+        "model_to_candidate_overlap": 0.9408,
+        "model_to_candidate_rmse_m": 0.011386330697660289,
+        "model_to_candidate_trimmed_rmse_m": 0.009766528505105825
+      }
+    },
+    "initial_rank": 1,
+    "initialization": "raw PPF top-1; no GT initialization",
+    "inliers": 314,
+    "method": "gicp",
+    "representation": "cad",
+    "rmse_m": 0.009434503045782966,
+    "runtime_s": 0.01565677486360073,
+    "status": "ok",
+    "transform": [
+      [
+        -0.4921343831882933,
+        -0.86968692901506,
+        -0.03805753094025534,
+        0.012762214429877593
+      ],
+      [
+        -0.8423993502175348,
+        0.48680394413915457,
+        -0.23105251239865768,
+        -0.0611732658277694
+      ],
+      [
+        0.21946991601704338,
+        -0.08164925412137983,
+        -0.9721966578151899,
+        0.7817419001019935
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "case_id": "scene000002_im000003_obj000005",
+    "final_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 27.304165921600806,
+        "translation_error_m": 0.04186561856246081,
+        "translation_error_mm": 41.86561856246081
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 86.53479208281948,
+        "mssd_mm": 60.579483524862454,
+        "re_deg": 27.304073843156736,
+        "symmetry_status": "identity_plus_discrete",
+        "te_mm": 41.8656185624608,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.766,
+        "candidate_to_model_overlap": 0.7712,
+        "candidate_to_model_rmse_m": 0.0172783090589723,
+        "candidate_to_model_trimmed_rmse_m": 0.013099532865927488,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          0.8347886807004326,
+          1.1963890880568118,
+          1.186449972572846
+        ],
+        "model_to_candidate_overlap": 0.766,
+        "model_to_candidate_rmse_m": 0.01767298585485878,
+        "model_to_candidate_trimmed_rmse_m": 0.014242353830633927
+      }
+    },
+    "fitness": 0.7101449275362319,
+    "improved_rotation": true,
+    "improved_translation": false,
+    "initial_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 35.75825022484121,
+        "translation_error_m": 0.0037597312714195146,
+        "translation_error_mm": 3.7597312714195144
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 49.08638755922606,
+        "mssd_mm": 35.36514740089249,
+        "re_deg": 35.75818508153025,
+        "symmetry_status": "identity_plus_discrete",
+        "te_mm": 3.75973127141951,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.9408,
+        "candidate_to_model_overlap": 0.9812,
+        "candidate_to_model_rmse_m": 0.008071719245858741,
+        "candidate_to_model_trimmed_rmse_m": 0.006130643577050881,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          0.8166735957680152,
+          1.3629055163402721,
+          1.247593000296628
+        ],
+        "model_to_candidate_overlap": 0.9408,
+        "model_to_candidate_rmse_m": 0.011386330697660289,
+        "model_to_candidate_trimmed_rmse_m": 0.009766528505105825
+      }
+    },
+    "initial_rank": 1,
+    "initialization": "raw PPF top-1; no GT initialization",
+    "inliers": 245,
+    "method": "point_to_plane_icp",
+    "representation": "cad",
+    "rmse_m": 0.011269852942899061,
+    "runtime_s": 0.005857218988239765,
+    "status": "ok",
+    "transform": [
+      [
+        -0.7117452802498038,
+        -0.6560922276037069,
+        0.2509215157226091,
+        0.04301936842628016
+      ],
+      [
+        -0.6918774920986576,
+        0.7164991851643547,
+        -0.08907576583813218,
+        -0.038711367938458044
+      ],
+      [
+        -0.12134311834205663,
+        -0.23700620617292426,
+        -0.9639003483254087,
+        0.7754127927294446
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "case_id": "scene000002_im000003_obj000005",
+    "final_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 177.37021208794496,
+        "translation_error_m": 0.004487476140840974,
+        "translation_error_mm": 4.4874761408409745
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 86.84421467083318,
+        "mssd_mm": 61.5321180053928,
+        "re_deg": 177.3709444507598,
+        "symmetry_status": "identity_plus_discrete",
+        "te_mm": 4.487476140840979,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.9288,
+        "candidate_to_model_overlap": 0.992,
+        "candidate_to_model_rmse_m": 0.004310892257648625,
+        "candidate_to_model_trimmed_rmse_m": 0.002908284683116276,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          0.9301860730411894,
+          1.067526723312494,
+          1.1936729261817671
+        ],
+        "model_to_candidate_overlap": 0.9288,
+        "model_to_candidate_rmse_m": 0.011533706658102893,
+        "model_to_candidate_trimmed_rmse_m": 0.00979761842713386
+      }
+    },
+    "fitness": 0.918,
+    "improved_rotation": true,
+    "improved_translation": true,
+    "initial_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 177.82099910021773,
+        "translation_error_m": 0.00633605612598169,
+        "translation_error_mm": 6.33605612598169
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 88.24161212650745,
+        "mssd_mm": 68.80778222810325,
+        "re_deg": 177.82192815648588,
+        "symmetry_status": "identity_plus_discrete",
+        "te_mm": 6.336056125981663,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.9012,
+        "candidate_to_model_overlap": 0.9924,
+        "candidate_to_model_rmse_m": 0.006190247321114154,
+        "candidate_to_model_trimmed_rmse_m": 0.005032316551009864,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          0.923308462106519,
+          1.0773896613615197,
+          1.2682764667463635
+        ],
+        "model_to_candidate_overlap": 0.9012,
+        "model_to_candidate_rmse_m": 0.012809047593248312,
+        "model_to_candidate_trimmed_rmse_m": 0.011254190336755863
+      }
+    },
+    "initial_rank": 1,
+    "initialization": "raw PPF top-1; no GT initialization",
+    "inliers": 459,
+    "method": "gicp",
+    "representation": "reconst",
+    "rmse_m": 0.01057920261951321,
+    "runtime_s": 0.00828887615352869,
+    "status": "ok",
+    "transform": [
+      [
+        0.5212751318734506,
+        -0.04546258383672721,
+        -0.8521768640288421,
+        0.008388866588857805
+      ],
+      [
+        0.8166534731819235,
+        -0.26325382895781874,
+        0.5135897709558652,
+        -0.058919938179322964
+      ],
+      [
+        -0.24768793691636054,
+        -0.9636547504190947,
+        -0.10010045504462317,
+        0.7834810416433673
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "case_id": "scene000002_im000003_obj000005",
+    "final_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 156.23430631484882,
+        "translation_error_m": 0.008744684139266018,
+        "translation_error_mm": 8.744684139266019
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 98.08891057575066,
+        "mssd_mm": 76.56029273658865,
+        "re_deg": 156.23438146154658,
+        "symmetry_status": "identity_plus_discrete",
+        "te_mm": 8.744684139266022,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.9356,
+        "candidate_to_model_overlap": 0.9856,
+        "candidate_to_model_rmse_m": 0.006526110509865522,
+        "candidate_to_model_trimmed_rmse_m": 0.004050628225743111,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.224619979871178,
+          1.1337507345592888,
+          1.4521890760865799
+        ],
+        "model_to_candidate_overlap": 0.9356,
+        "model_to_candidate_rmse_m": 0.011178979608206173,
+        "model_to_candidate_trimmed_rmse_m": 0.00936337501065151
+      }
+    },
+    "fitness": 0.926,
+    "improved_rotation": true,
+    "improved_translation": false,
+    "initial_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 177.82099910021773,
+        "translation_error_m": 0.00633605612598169,
+        "translation_error_mm": 6.33605612598169
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 88.24161212650745,
+        "mssd_mm": 68.80778222810325,
+        "re_deg": 177.82192815648588,
+        "symmetry_status": "identity_plus_discrete",
+        "te_mm": 6.336056125981663,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.9012,
+        "candidate_to_model_overlap": 0.9924,
+        "candidate_to_model_rmse_m": 0.006190247321114154,
+        "candidate_to_model_trimmed_rmse_m": 0.005032316551009864,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          0.923308462106519,
+          1.0773896613615197,
+          1.2682764667463635
+        ],
+        "model_to_candidate_overlap": 0.9012,
+        "model_to_candidate_rmse_m": 0.012809047593248312,
+        "model_to_candidate_trimmed_rmse_m": 0.011254190336755863
+      }
+    },
+    "initial_rank": 1,
+    "initialization": "raw PPF top-1; no GT initialization",
+    "inliers": 463,
+    "method": "point_to_plane_icp",
+    "representation": "reconst",
+    "rmse_m": 0.010547120482795646,
+    "runtime_s": 0.00799185037612915,
+    "status": "ok",
+    "transform": [
+      [
+        0.118941523654235,
+        -0.11476342205010552,
+        -0.986246540792893,
+        0.011969544454482062
+      ],
+      [
+        0.9916905234719997,
+        -0.03530690076036563,
+        0.12370645309603454,
+        -0.05849756972871405
+      ],
+      [
+        -0.04901828302077433,
+        -0.9927651699739458,
+        0.10961038159372019,
+        0.7759043830493179
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "case_id": "scene000008_im000001_obj000021",
+    "final_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 163.82754720310348,
+        "translation_error_m": 0.08412964280882174,
+        "translation_error_mm": 84.12964280882174
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 173.66601768612543,
+        "mssd_mm": 150.5778612778291,
+        "re_deg": 163.8278157169094,
+        "symmetry_status": "identity_only",
+        "te_mm": 84.1296428088217,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.0,
+        "candidate_to_model_overlap": 0.0,
+        "candidate_to_model_rmse_m": 0.05036074937825168,
+        "candidate_to_model_trimmed_rmse_m": 0.04583082359041633,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.1168605256070865,
+          1.0888635583189687,
+          1.6510115427234417
+        ],
+        "model_to_candidate_overlap": 0.0,
+        "model_to_candidate_rmse_m": 0.05749081822845808,
+        "model_to_candidate_trimmed_rmse_m": 0.05434196110425379
+      }
+    },
+    "fitness": 0.0,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 131.12416376630915,
+        "translation_error_m": 0.029026570307977312,
+        "translation_error_mm": 29.026570307977313
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 133.84025904656,
+        "mssd_mm": 108.58512001247482,
+        "re_deg": 131.1242526843478,
+        "symmetry_status": "identity_only",
+        "te_mm": 29.026570307977316,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.5172,
+        "candidate_to_model_overlap": 0.752,
+        "candidate_to_model_rmse_m": 0.016531502895759057,
+        "candidate_to_model_trimmed_rmse_m": 0.014667202589342164,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.0738283618828703,
+          0.9831661923637892,
+          0.9472608736561683
+        ],
+        "model_to_candidate_overlap": 0.5172,
+        "model_to_candidate_rmse_m": 0.024344862229717008,
+        "model_to_candidate_trimmed_rmse_m": 0.02114639860451238
+      }
+    },
+    "initial_rank": 1,
+    "initialization": "raw PPF top-1; no GT initialization",
+    "inliers": 0,
+    "method": "gicp",
+    "representation": "cad",
+    "rmse_m": null,
+    "runtime_s": 0.0040160007774829865,
+    "status": "ok",
+    "transform": [
+      [
+        -0.04650399197177807,
+        0.9972112938613301,
+        0.05836859968989111,
+        -0.16123667585188686
+      ],
+      [
+        -0.9988485796403161,
+        -0.04573216474348904,
+        -0.014490369943602088,
+        0.0711147109019716
+      ],
+      [
+        -0.01178066473983147,
+        -0.05897531200138673,
+        0.9981899297919018,
+        0.6937430620638801
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "case_id": "scene000008_im000001_obj000021",
+    "final_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 121.02417534224125,
+        "translation_error_m": 0.032236172974579466,
+        "translation_error_mm": 32.23617297457947
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 137.34502494621157,
+        "mssd_mm": 99.38037909987516,
+        "re_deg": 121.02424777809878,
+        "symmetry_status": "identity_only",
+        "te_mm": 32.23617297457947,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.7272,
+        "candidate_to_model_overlap": 0.8792,
+        "candidate_to_model_rmse_m": 0.01440979876077343,
+        "candidate_to_model_trimmed_rmse_m": 0.008525932334134461,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.1959678394476123,
+          1.0307352631179758,
+          0.8616380868131905
+        ],
+        "model_to_candidate_overlap": 0.7272,
+        "model_to_candidate_rmse_m": 0.015886106179711746,
+        "model_to_candidate_trimmed_rmse_m": 0.014083233092213281
+      }
+    },
+    "fitness": 0.8580441640378549,
+    "improved_rotation": true,
+    "improved_translation": false,
+    "initial_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 131.12416376630915,
+        "translation_error_m": 0.029026570307977312,
+        "translation_error_mm": 29.026570307977313
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 133.84025904656,
+        "mssd_mm": 108.58512001247482,
+        "re_deg": 131.1242526843478,
+        "symmetry_status": "identity_only",
+        "te_mm": 29.026570307977316,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.5172,
+        "candidate_to_model_overlap": 0.752,
+        "candidate_to_model_rmse_m": 0.016531502895759057,
+        "candidate_to_model_trimmed_rmse_m": 0.014667202589342164,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.0738283618828703,
+          0.9831661923637892,
+          0.9472608736561683
+        ],
+        "model_to_candidate_overlap": 0.5172,
+        "model_to_candidate_rmse_m": 0.024344862229717008,
+        "model_to_candidate_trimmed_rmse_m": 0.02114639860451238
+      }
+    },
+    "initial_rank": 1,
+    "initialization": "raw PPF top-1; no GT initialization",
+    "inliers": 272,
+    "method": "point_to_plane_icp",
+    "representation": "cad",
+    "rmse_m": 0.011784190510704147,
+    "runtime_s": 0.0038430560380220413,
+    "status": "ok",
+    "transform": [
+      [
+        -0.25226684573828845,
+        0.7381603646127445,
+        -0.6256841865512943,
+        -0.08935535167414005
+      ],
+      [
+        -0.6300625850519439,
+        -0.6160496996086974,
+        -0.47276182562668245,
+        0.0841550745751817
+      ],
+      [
+        -0.7344266252250238,
+        0.2749580452527064,
+        0.6204962168447072,
+        0.7495881160690808
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "case_id": "scene000008_im000001_obj000021",
+    "final_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 179.03257785571586,
+        "translation_error_m": 0.017254088469857393,
+        "translation_error_mm": 17.254088469857393
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 140.85240897379188,
+        "mssd_mm": 101.14698923577846,
+        "re_deg": 179.03712799588664,
+        "symmetry_status": "identity_only",
+        "te_mm": 17.254088469857397,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.9196,
+        "candidate_to_model_overlap": 0.9588,
+        "candidate_to_model_rmse_m": 0.007851339085173811,
+        "candidate_to_model_trimmed_rmse_m": 0.004785756759676779,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.2662134512989638,
+          0.974161665738341,
+          1.2121988828878305
+        ],
+        "model_to_candidate_overlap": 0.9196,
+        "model_to_candidate_rmse_m": 0.012730820207548073,
+        "model_to_candidate_trimmed_rmse_m": 0.011132145556484651
+      }
+    },
+    "fitness": 0.8975741239892183,
+    "improved_rotation": false,
+    "improved_translation": true,
+    "initial_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 171.1159520988824,
+        "translation_error_m": 0.02247476377594812,
+        "translation_error_mm": 22.47476377594812
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 150.10778193860912,
+        "mssd_mm": 108.33250397797482,
+        "re_deg": 171.11642109715433,
+        "symmetry_status": "identity_only",
+        "te_mm": 22.474763775948123,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.8708,
+        "candidate_to_model_overlap": 0.9068,
+        "candidate_to_model_rmse_m": 0.011877492657092013,
+        "candidate_to_model_trimmed_rmse_m": 0.007315771485880952,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.417016583522195,
+          1.0048667530672448,
+          1.3167968903341856
+        ],
+        "model_to_candidate_overlap": 0.8708,
+        "model_to_candidate_rmse_m": 0.013430070226019015,
+        "model_to_candidate_trimmed_rmse_m": 0.011689841900719382
+      }
+    },
+    "initial_rank": 1,
+    "initialization": "raw PPF top-1; no GT initialization",
+    "inliers": 333,
+    "method": "gicp",
+    "representation": "reconst",
+    "rmse_m": 0.011952951704027109,
+    "runtime_s": 0.015347161330282688,
+    "status": "ok",
+    "transform": [
+      [
+        -0.2654726495556444,
+        0.8959846374781087,
+        0.3559996100093627,
+        -0.1029042574463848
+      ],
+      [
+        -0.9281799912970647,
+        -0.3373917619152613,
+        0.15699864373084657,
+        0.07354417320518898
+      ],
+      [
+        0.2607797054046613,
+        -0.28875282152386145,
+        0.9212034233506255,
+        0.7559243688543307
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "case_id": "scene000008_im000001_obj000021",
+    "final_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 130.80410430734133,
+        "translation_error_m": 3.736488614643947,
+        "translation_error_mm": 3736.4886146439467
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 12936.479164287557,
+        "mssd_mm": 3805.340884681702,
+        "re_deg": 130.80415490825453,
+        "symmetry_status": "identity_only",
+        "te_mm": 3736.4886146439467,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.0,
+        "candidate_to_model_overlap": 0.0,
+        "candidate_to_model_rmse_m": 3.7066092397961135,
+        "candidate_to_model_trimmed_rmse_m": 3.7033351291230945,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.2252680450630549,
+          1.288585972032338,
+          0.8298795878411488
+        ],
+        "model_to_candidate_overlap": 0.0,
+        "model_to_candidate_rmse_m": 3.7051936169729682,
+        "model_to_candidate_trimmed_rmse_m": 3.702434856238415
+      }
+    },
+    "fitness": 0.0,
+    "improved_rotation": true,
+    "improved_translation": false,
+    "initial_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 171.1159520988824,
+        "translation_error_m": 0.02247476377594812,
+        "translation_error_mm": 22.47476377594812
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 150.10778193860912,
+        "mssd_mm": 108.33250397797482,
+        "re_deg": 171.11642109715433,
+        "symmetry_status": "identity_only",
+        "te_mm": 22.474763775948123,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.8708,
+        "candidate_to_model_overlap": 0.9068,
+        "candidate_to_model_rmse_m": 0.011877492657092013,
+        "candidate_to_model_trimmed_rmse_m": 0.007315771485880952,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.417016583522195,
+          1.0048667530672448,
+          1.3167968903341856
+        ],
+        "model_to_candidate_overlap": 0.8708,
+        "model_to_candidate_rmse_m": 0.013430070226019015,
+        "model_to_candidate_trimmed_rmse_m": 0.011689841900719382
+      }
+    },
+    "initial_rank": 1,
+    "initialization": "raw PPF top-1; no GT initialization",
+    "inliers": 0,
+    "method": "point_to_plane_icp",
+    "representation": "reconst",
+    "rmse_m": null,
+    "runtime_s": 0.005532914772629738,
+    "status": "ok",
+    "transform": [
+      [
+        -0.49039156929013317,
+        -0.24743754713110824,
+        -0.835637945910356,
+        -0.13941524343450282
+      ],
+      [
+        0.11539185169644507,
+        -0.9688407661516786,
+        0.2191623727459863,
+        -3.6580785559330646
+      ],
+      [
+        -0.863829096516482,
+        0.011049599785638062,
+        0.5036636986920199,
+        0.3518414748810178
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "case_id": "scene000001_im000246_obj000030",
+    "final_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 175.36417522652044,
+        "translation_error_m": 0.0029224908760273807,
+        "translation_error_mm": 2.9224908760273807
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 121.89438398839876,
+        "mssd_mm": 91.18586792181199,
+        "re_deg": 175.36397183653565,
+        "symmetry_status": "continuous_symmetry_not_discretized",
+        "te_mm": 2.9224908760273816,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.8228,
+        "candidate_to_model_overlap": 0.9828,
+        "candidate_to_model_rmse_m": 0.009298868252007136,
+        "candidate_to_model_trimmed_rmse_m": 0.003833647209489929,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.0759502871161708,
+          1.0351595351073155,
+          1.6578158230102067
+        ],
+        "model_to_candidate_overlap": 0.8228,
+        "model_to_candidate_rmse_m": 0.01386914715893279,
+        "model_to_candidate_trimmed_rmse_m": 0.010801225176093767
+      }
+    },
+    "fitness": 0.7379310344827587,
+    "improved_rotation": false,
+    "improved_translation": true,
+    "initial_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 173.08576879771613,
+        "translation_error_m": 0.011706535632297031,
+        "translation_error_mm": 11.706535632297031
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 128.2761516393718,
+        "mssd_mm": 99.81825954642916,
+        "re_deg": 173.08563171847265,
+        "symmetry_status": "continuous_symmetry_not_discretized",
+        "te_mm": 11.706535632297019,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.7696,
+        "candidate_to_model_overlap": 0.9828,
+        "candidate_to_model_rmse_m": 0.010190750153360274,
+        "candidate_to_model_trimmed_rmse_m": 0.005738627562139274,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.074788327555911,
+          1.0277699991824507,
+          1.6753514190163368
+        ],
+        "model_to_candidate_overlap": 0.7696,
+        "model_to_candidate_rmse_m": 0.015525371173144642,
+        "model_to_candidate_trimmed_rmse_m": 0.012892540659223349
+      }
+    },
+    "initial_rank": 1,
+    "initialization": "raw PPF top-1; no GT initialization",
+    "inliers": 214,
+    "method": "gicp",
+    "representation": "cad",
+    "rmse_m": 0.009656945487473128,
+    "runtime_s": 0.015401101671159267,
+    "status": "ok",
+    "transform": [
+      [
+        0.3864422492497053,
+        -0.9218387438922864,
+        0.029593138325101513,
+        -0.08779324978693889
+      ],
+      [
+        0.6615805685007702,
+        0.2994104785051598,
+        0.6875059766485117,
+        -0.04351476947516596
+      ],
+      [
+        -0.642630153533881,
+        -0.24610314108485823,
+        0.7255754526701567,
+        0.80076783161936
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "case_id": "scene000001_im000246_obj000030",
+    "final_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 177.14263609975342,
+        "translation_error_m": 0.3273759714372593,
+        "translation_error_mm": 327.37597143725935
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 563.2514274316677,
+        "mssd_mm": 399.0430823542983,
+        "re_deg": 177.142975405169,
+        "symmetry_status": "continuous_symmetry_not_discretized",
+        "te_mm": 327.37597143725935,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.0,
+        "candidate_to_model_overlap": 0.0,
+        "candidate_to_model_rmse_m": 0.28659620636813493,
+        "candidate_to_model_trimmed_rmse_m": 0.2817856696585097,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.0740017199925473,
+          1.082305201845909,
+          1.6348408337009583
+        ],
+        "model_to_candidate_overlap": 0.0,
+        "model_to_candidate_rmse_m": 0.2916726196135754,
+        "model_to_candidate_trimmed_rmse_m": 0.28749078465736655
+      }
+    },
+    "fitness": 0.0,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 173.08576879771613,
+        "translation_error_m": 0.011706535632297031,
+        "translation_error_mm": 11.706535632297031
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 128.2761516393718,
+        "mssd_mm": 99.81825954642916,
+        "re_deg": 173.08563171847265,
+        "symmetry_status": "continuous_symmetry_not_discretized",
+        "te_mm": 11.706535632297019,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.7696,
+        "candidate_to_model_overlap": 0.9828,
+        "candidate_to_model_rmse_m": 0.010190750153360274,
+        "candidate_to_model_trimmed_rmse_m": 0.005738627562139274,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.074788327555911,
+          1.0277699991824507,
+          1.6753514190163368
+        ],
+        "model_to_candidate_overlap": 0.7696,
+        "model_to_candidate_rmse_m": 0.015525371173144642,
+        "model_to_candidate_trimmed_rmse_m": 0.012892540659223349
+      }
+    },
+    "initial_rank": 1,
+    "initialization": "raw PPF top-1; no GT initialization",
+    "inliers": 0,
+    "method": "point_to_plane_icp",
+    "representation": "cad",
+    "rmse_m": null,
+    "runtime_s": 0.0008308934047818184,
+    "status": "ok",
+    "transform": [
+      [
+        0.9850168902606742,
+        0.15489802098305824,
+        -0.07581764647624234,
+        0.08422967191627684
+      ],
+      [
+        -0.04326948377926415,
+        0.6475432895880873,
+        0.7607992092474387,
+        0.20528299841519254
+      ],
+      [
+        0.16694146437784663,
+        -0.7461195290544275,
+        0.644543409687921,
+        0.682447840703204
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "case_id": "scene000001_im000246_obj000030",
+    "final_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 28.1075121069737,
+        "translation_error_m": 0.004053852616595146,
+        "translation_error_mm": 4.053852616595146
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 29.98058861864609,
+        "mssd_mm": 22.165291644609674,
+        "re_deg": 28.10740812132012,
+        "symmetry_status": "continuous_symmetry_not_discretized",
+        "te_mm": 4.053852616595147,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.7228,
+        "candidate_to_model_overlap": 0.9828,
+        "candidate_to_model_rmse_m": 0.008836998642240815,
+        "candidate_to_model_trimmed_rmse_m": 0.0016624978619430696,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.1008085122961726,
+          1.061875286247414,
+          1.6782262627550835
+        ],
+        "model_to_candidate_overlap": 0.7228,
+        "model_to_candidate_rmse_m": 0.017107813541746064,
+        "model_to_candidate_trimmed_rmse_m": 0.013640425754802578
+      }
+    },
+    "fitness": 0.727027027027027,
+    "improved_rotation": true,
+    "improved_translation": true,
+    "initial_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 65.59549955046988,
+        "translation_error_m": 0.009651415249082024,
+        "translation_error_mm": 9.651415249082024
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 59.47414358556545,
+        "mssd_mm": 51.95530420025942,
+        "re_deg": 65.59545903137915,
+        "symmetry_status": "continuous_symmetry_not_discretized",
+        "te_mm": 9.651415249082017,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.6808,
+        "candidate_to_model_overlap": 0.9828,
+        "candidate_to_model_rmse_m": 0.00882177060312174,
+        "candidate_to_model_trimmed_rmse_m": 0.004107164191037301,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.101516089636381,
+          1.0840406121593573,
+          1.7210608101477103
+        ],
+        "model_to_candidate_overlap": 0.6808,
+        "model_to_candidate_rmse_m": 0.019342560773457505,
+        "model_to_candidate_trimmed_rmse_m": 0.01579712864098239
+      }
+    },
+    "initial_rank": 1,
+    "initialization": "raw PPF top-1; no GT initialization",
+    "inliers": 269,
+    "method": "gicp",
+    "representation": "reconst",
+    "rmse_m": 0.00981477694415377,
+    "runtime_s": 0.015247426927089691,
+    "status": "ok",
+    "transform": [
+      [
+        0.5679875109790025,
+        0.8229952231453361,
+        -0.00831104583064302,
+        -0.0885612304959269
+      ],
+      [
+        0.5765555277874774,
+        -0.40507376341335066,
+        -0.7095768094989073,
+        -0.042434900566568554
+      ],
+      [
+        -0.5873449022275977,
+        0.3982389411513062,
+        -0.7045793345252499,
+        0.8019149341577525
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "case_id": "scene000001_im000246_obj000030",
+    "final_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 160.1889811173923,
+        "translation_error_m": 11.016126879634157,
+        "translation_error_mm": 11016.126879634157
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 14920.52764230351,
+        "mssd_mm": 11096.62922693816,
+        "re_deg": 160.1891125450244,
+        "symmetry_status": "continuous_symmetry_not_discretized",
+        "te_mm": 11016.126879634157,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.0,
+        "candidate_to_model_overlap": 0.0,
+        "candidate_to_model_rmse_m": 10.96605247641072,
+        "candidate_to_model_trimmed_rmse_m": 10.962927978235518,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.0265933127414508,
+          1.1099005023545578,
+          1.7083325351499197
+        ],
+        "model_to_candidate_overlap": 0.0,
+        "model_to_candidate_rmse_m": 10.970510854194556,
+        "model_to_candidate_trimmed_rmse_m": 10.966676420146305
+      }
+    },
+    "fitness": 0.0,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 65.59549955046988,
+        "translation_error_m": 0.009651415249082024,
+        "translation_error_mm": 9.651415249082024
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 59.47414358556545,
+        "mssd_mm": 51.95530420025942,
+        "re_deg": 65.59545903137915,
+        "symmetry_status": "continuous_symmetry_not_discretized",
+        "te_mm": 9.651415249082017,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.6808,
+        "candidate_to_model_overlap": 0.9828,
+        "candidate_to_model_rmse_m": 0.00882177060312174,
+        "candidate_to_model_trimmed_rmse_m": 0.004107164191037301,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.101516089636381,
+          1.0840406121593573,
+          1.7210608101477103
+        ],
+        "model_to_candidate_overlap": 0.6808,
+        "model_to_candidate_rmse_m": 0.019342560773457505,
+        "model_to_candidate_trimmed_rmse_m": 0.01579712864098239
+      }
+    },
+    "initial_rank": 1,
+    "initialization": "raw PPF top-1; no GT initialization",
+    "inliers": 0,
+    "method": "point_to_plane_icp",
+    "representation": "reconst",
+    "rmse_m": null,
+    "runtime_s": 0.0021351538598537445,
+    "status": "ok",
+    "transform": [
+      [
+        -0.8840353771965465,
+        0.0753987586935548,
+        -0.46129895749288197,
+        -8.450646724065294
+      ],
+      [
+        -0.45549138357931807,
+        -0.3604990802917785,
+        0.813982897574121,
+        -7.02670923923777
+      ],
+      [
+        -0.10492461471515901,
+        0.9297072580503308,
+        0.35303749797197453,
+        -0.8442485407751252
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "case_id": "scene000001_im000347_obj000029",
+    "final_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 65.50700663530522,
+        "translation_error_m": 0.168873014455579,
+        "translation_error_mm": 168.873014455579
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 205.78979653910628,
+        "mssd_mm": 217.87572229012335,
+        "re_deg": 65.50699351916188,
+        "symmetry_status": "identity_plus_discrete",
+        "te_mm": 168.873014455579,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.0,
+        "candidate_to_model_overlap": 0.0,
+        "candidate_to_model_rmse_m": 0.11604956188592624,
+        "candidate_to_model_trimmed_rmse_m": 0.10641795352131056,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.0853613799234605,
+          1.4977658453550649,
+          2.230391081644099
+        ],
+        "model_to_candidate_overlap": 0.0,
+        "model_to_candidate_rmse_m": 0.1360192527336883,
+        "model_to_candidate_trimmed_rmse_m": 0.1320274031942801
+      }
+    },
+    "fitness": 0.0,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 47.619301447865624,
+        "translation_error_m": 0.02077475227972181,
+        "translation_error_mm": 20.77475227972181
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 58.872579415705374,
+        "mssd_mm": 65.37731214444008,
+        "re_deg": 47.61928009093926,
+        "symmetry_status": "identity_plus_discrete",
+        "te_mm": 20.774752279721834,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.4652,
+        "candidate_to_model_overlap": 0.704,
+        "candidate_to_model_rmse_m": 0.025120962946186966,
+        "candidate_to_model_trimmed_rmse_m": 0.01510926521176,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.098952151712462,
+          1.4851747845998737,
+          2.5834560455263182
+        ],
+        "model_to_candidate_overlap": 0.4652,
+        "model_to_candidate_rmse_m": 0.032336553008513874,
+        "model_to_candidate_trimmed_rmse_m": 0.02863444511148279
+      }
+    },
+    "initial_rank": 1,
+    "initialization": "raw PPF top-1; no GT initialization",
+    "inliers": 0,
+    "method": "gicp",
+    "representation": "cad",
+    "rmse_m": null,
+    "runtime_s": 0.0025874432176351547,
+    "status": "ok",
+    "transform": [
+      [
+        -0.8464597158279659,
+        0.5175759202836375,
+        -0.12498537862209544,
+        0.06534370299464656
+      ],
+      [
+        0.21488485743290903,
+        0.11729523997972852,
+        -0.9695702536578319,
+        -0.03200735439014457
+      ],
+      [
+        -0.4871659730548418,
+        -0.847559554549742,
+        -0.21050503868186088,
+        0.6961584847403787
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "case_id": "scene000001_im000347_obj000029",
+    "final_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 48.372148978657705,
+        "translation_error_m": 0.15665205685087297,
+        "translation_error_mm": 156.65205685087298
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 231.26698866897434,
+        "mssd_mm": 202.52909445173668,
+        "re_deg": 48.37212373368305,
+        "symmetry_status": "identity_plus_discrete",
+        "te_mm": 156.65205685087295,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.0,
+        "candidate_to_model_overlap": 0.0,
+        "candidate_to_model_rmse_m": 0.09231362077436946,
+        "candidate_to_model_trimmed_rmse_m": 0.08118556246499656,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.1656035259973438,
+          0.9605165948273341,
+          2.7384357284652294
+        ],
+        "model_to_candidate_overlap": 0.0,
+        "model_to_candidate_rmse_m": 0.12263204684106731,
+        "model_to_candidate_trimmed_rmse_m": 0.11610598896526551
+      }
+    },
+    "fitness": 0.0,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 47.619301447865624,
+        "translation_error_m": 0.02077475227972181,
+        "translation_error_mm": 20.77475227972181
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 58.872579415705374,
+        "mssd_mm": 65.37731214444008,
+        "re_deg": 47.61928009093926,
+        "symmetry_status": "identity_plus_discrete",
+        "te_mm": 20.774752279721834,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.4652,
+        "candidate_to_model_overlap": 0.704,
+        "candidate_to_model_rmse_m": 0.025120962946186966,
+        "candidate_to_model_trimmed_rmse_m": 0.01510926521176,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.098952151712462,
+          1.4851747845998737,
+          2.5834560455263182
+        ],
+        "model_to_candidate_overlap": 0.4652,
+        "model_to_candidate_rmse_m": 0.032336553008513874,
+        "model_to_candidate_trimmed_rmse_m": 0.02863444511148279
+      }
+    },
+    "initial_rank": 1,
+    "initialization": "raw PPF top-1; no GT initialization",
+    "inliers": 0,
+    "method": "point_to_plane_icp",
+    "representation": "cad",
+    "rmse_m": null,
+    "runtime_s": 0.002430083230137825,
+    "status": "ok",
+    "transform": [
+      [
+        -0.45107139569867005,
+        -0.5366983699475899,
+        -0.7130846949841306,
+        -0.022499616686203316
+      ],
+      [
+        0.8892184635584038,
+        -0.33858629339225166,
+        -0.30765258538628243,
+        -0.16805102462315236
+      ],
+      [
+        -0.07632403176771044,
+        -0.7728611691050404,
+        0.6299684892456112,
+        0.7033097486673893
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "case_id": "scene000001_im000347_obj000029",
+    "final_metrics": {
+      "diagnostic_accuracy_20mm_5deg": true,
+      "naive_pose": {
+        "rotation_error_deg": 2.4784896669258316,
+        "translation_error_m": 0.0036617327537166954,
+        "translation_error_mm": 3.6617327537166955
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 6.096916303956007,
+        "mssd_mm": 5.465386284007384,
+        "re_deg": 2.4781200089259108,
+        "symmetry_status": "identity_plus_discrete",
+        "te_mm": 3.661732753716686,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.626,
+        "candidate_to_model_overlap": 0.9828,
+        "candidate_to_model_rmse_m": 0.020795413705638147,
+        "candidate_to_model_trimmed_rmse_m": 0.002152056968466286,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.1923910463081784,
+          1.1608636227419915,
+          2.274939096545985
+        ],
+        "model_to_candidate_overlap": 0.626,
+        "model_to_candidate_rmse_m": 0.024008312695888035,
+        "model_to_candidate_trimmed_rmse_m": 0.018744002686284615
+      }
+    },
+    "fitness": 0.652,
+    "improved_rotation": false,
+    "improved_translation": true,
+    "initial_metrics": {
+      "diagnostic_accuracy_20mm_5deg": true,
+      "naive_pose": {
+        "rotation_error_deg": 0.8054202006341742,
+        "translation_error_m": 0.0074686279219474665,
+        "translation_error_mm": 7.4686279219474665
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 8.622359077619945,
+        "mssd_mm": 8.164536657494883,
+        "re_deg": 0.8042798100926617,
+        "symmetry_status": "identity_plus_discrete",
+        "te_mm": 7.468627921947505,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.592,
+        "candidate_to_model_overlap": 0.9828,
+        "candidate_to_model_rmse_m": 0.020390208329334285,
+        "candidate_to_model_trimmed_rmse_m": 0.003108759433687448,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.1903580805940397,
+          1.1527352628993714,
+          2.247273999316074
+        ],
+        "model_to_candidate_overlap": 0.592,
+        "model_to_candidate_rmse_m": 0.025894559774745047,
+        "model_to_candidate_trimmed_rmse_m": 0.02054792421512334
+      }
+    },
+    "initial_rank": 1,
+    "initialization": "raw PPF top-1; no GT initialization",
+    "inliers": 326,
+    "method": "gicp",
+    "representation": "reconst",
+    "rmse_m": 0.00755783844121383,
+    "runtime_s": 0.01872407551854849,
+    "status": "ok",
+    "transform": [
+      [
+        -0.8440708099928284,
+        0.03018158076063931,
+        -0.5353816106695712,
+        -0.027761794020158718
+      ],
+      [
+        0.2804754449492693,
+        -0.826102398280317,
+        -0.48876201661910856,
+        -0.07246287027526406
+      ],
+      [
+        -0.4570316525840619,
+        -0.5627111522132806,
+        0.6888238069570559,
+        0.8293354057421183
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "case_id": "scene000001_im000347_obj000029",
+    "final_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 8.715398741923602,
+        "translation_error_m": 0.005252400536808049,
+        "translation_error_mm": 5.252400536808049
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 15.049297812397594,
+        "mssd_mm": 15.25384898325914,
+        "re_deg": 8.71529532089273,
+        "symmetry_status": "identity_plus_discrete",
+        "te_mm": 5.2524005368080315,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.6592,
+        "candidate_to_model_overlap": 0.9828,
+        "candidate_to_model_rmse_m": 0.02166167878847999,
+        "candidate_to_model_trimmed_rmse_m": 0.0036115145288311994,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.191876108158186,
+          1.1768509778649925,
+          2.387135873771442
+        ],
+        "model_to_candidate_overlap": 0.6592,
+        "model_to_candidate_rmse_m": 0.022188545801356076,
+        "model_to_candidate_trimmed_rmse_m": 0.017073193093990933
+      }
+    },
+    "fitness": 0.69,
+    "improved_rotation": false,
+    "improved_translation": true,
+    "initial_metrics": {
+      "diagnostic_accuracy_20mm_5deg": true,
+      "naive_pose": {
+        "rotation_error_deg": 0.8054202006341742,
+        "translation_error_m": 0.0074686279219474665,
+        "translation_error_mm": 7.4686279219474665
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 8.622359077619945,
+        "mssd_mm": 8.164536657494883,
+        "re_deg": 0.8042798100926617,
+        "symmetry_status": "identity_plus_discrete",
+        "te_mm": 7.468627921947505,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.592,
+        "candidate_to_model_overlap": 0.9828,
+        "candidate_to_model_rmse_m": 0.020390208329334285,
+        "candidate_to_model_trimmed_rmse_m": 0.003108759433687448,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.1903580805940397,
+          1.1527352628993714,
+          2.247273999316074
+        ],
+        "model_to_candidate_overlap": 0.592,
+        "model_to_candidate_rmse_m": 0.025894559774745047,
+        "model_to_candidate_trimmed_rmse_m": 0.02054792421512334
+      }
+    },
+    "initial_rank": 1,
+    "initialization": "raw PPF top-1; no GT initialization",
+    "inliers": 345,
+    "method": "point_to_plane_icp",
+    "representation": "reconst",
+    "rmse_m": 0.008011550744326069,
+    "runtime_s": 0.009884459897875786,
+    "status": "ok",
+    "transform": [
+      [
+        -0.8978077800044644,
+        0.015333235338927347,
+        -0.44012044640282666,
+        -0.029576658631744364
+      ],
+      [
+        0.2560829675293289,
+        -0.7948797134525408,
+        -0.55007973370135,
+        -0.0739371236105412
+      ],
+      [
+        -0.3582773267595713,
+        -0.606573222391617,
+        0.7097226882330598,
+        0.8255666015120641
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "case_id": "scene000007_im000285_obj000018",
+    "final_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 151.0680213232556,
+        "translation_error_m": 0.029915437110551675,
+        "translation_error_mm": 29.915437110551675
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 151.52394122814613,
+        "mssd_mm": 124.68326456164245,
+        "re_deg": 151.06805344725385,
+        "symmetry_status": "identity_only",
+        "te_mm": 29.915437110551725,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.9004,
+        "candidate_to_model_overlap": 0.9604,
+        "candidate_to_model_rmse_m": 0.009680340107323084,
+        "candidate_to_model_trimmed_rmse_m": 0.006488923815239896,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.0696947953965645,
+          0.9135425793341625,
+          1.528916707079567
+        ],
+        "model_to_candidate_overlap": 0.9004,
+        "model_to_candidate_rmse_m": 0.014283747862190888,
+        "model_to_candidate_trimmed_rmse_m": 0.010037002067022613
+      }
+    },
+    "fitness": 0.8837209302325582,
+    "improved_rotation": false,
+    "improved_translation": true,
+    "initial_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 129.590922771919,
+        "translation_error_m": 0.045675777485729055,
+        "translation_error_mm": 45.67577748572906
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 157.73416925885192,
+        "mssd_mm": 135.28631400724902,
+        "re_deg": 129.59094498695234,
+        "symmetry_status": "identity_only",
+        "te_mm": 45.67577748572904,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.554,
+        "candidate_to_model_overlap": 0.554,
+        "candidate_to_model_rmse_m": 0.026605648627618935,
+        "candidate_to_model_trimmed_rmse_m": 0.022320133744129885,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.169797678268829,
+          0.943922053346615,
+          1.4172835482267903
+        ],
+        "model_to_candidate_overlap": 0.6868,
+        "model_to_candidate_rmse_m": 0.019007582274519274,
+        "model_to_candidate_trimmed_rmse_m": 0.016000647641715198
+      }
+    },
+    "initial_rank": 1,
+    "initialization": "raw PPF top-1; no GT initialization",
+    "inliers": 342,
+    "method": "gicp",
+    "representation": "cad",
+    "rmse_m": 0.01094386783562329,
+    "runtime_s": 0.016424866393208504,
+    "status": "ok",
+    "transform": [
+      [
+        0.6193098912017214,
+        0.7531987514260745,
+        0.2216910174839372,
+        -0.015530443439395664
+      ],
+      [
+        -0.7105111197903058,
+        0.4174810080339135,
+        0.5664659213556281,
+        -0.09198453621898994
+      ],
+      [
+        0.334109579852914,
+        -0.5083318673406809,
+        0.7937061816288726,
+        0.8249908692370828
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "case_id": "scene000007_im000285_obj000018",
+    "final_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 157.99411994258733,
+        "translation_error_m": 0.2162570900520213,
+        "translation_error_mm": 216.25709005202128
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 328.3497470763918,
+        "mssd_mm": 245.95245138583516,
+        "re_deg": 157.9942451107206,
+        "symmetry_status": "identity_only",
+        "te_mm": 216.25709005202125,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.0,
+        "candidate_to_model_overlap": 0.0,
+        "candidate_to_model_rmse_m": 0.16500770055857736,
+        "candidate_to_model_trimmed_rmse_m": 0.1586487941675589,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.002826103273991,
+          1.029354088783448,
+          1.3938942094342788
+        ],
+        "model_to_candidate_overlap": 0.0,
+        "model_to_candidate_rmse_m": 0.1656799188989898,
+        "model_to_candidate_trimmed_rmse_m": 0.16066772894730696
+      }
+    },
+    "fitness": 0.0,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 129.590922771919,
+        "translation_error_m": 0.045675777485729055,
+        "translation_error_mm": 45.67577748572906
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 157.73416925885192,
+        "mssd_mm": 135.28631400724902,
+        "re_deg": 129.59094498695234,
+        "symmetry_status": "identity_only",
+        "te_mm": 45.67577748572904,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.554,
+        "candidate_to_model_overlap": 0.554,
+        "candidate_to_model_rmse_m": 0.026605648627618935,
+        "candidate_to_model_trimmed_rmse_m": 0.022320133744129885,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.169797678268829,
+          0.943922053346615,
+          1.4172835482267903
+        ],
+        "model_to_candidate_overlap": 0.6868,
+        "model_to_candidate_rmse_m": 0.019007582274519274,
+        "model_to_candidate_trimmed_rmse_m": 0.016000647641715198
+      }
+    },
+    "initial_rank": 1,
+    "initialization": "raw PPF top-1; no GT initialization",
+    "inliers": 0,
+    "method": "point_to_plane_icp",
+    "representation": "cad",
+    "rmse_m": null,
+    "runtime_s": 0.0046725161373615265,
+    "status": "ok",
+    "transform": [
+      [
+        0.7708975481339919,
+        -0.5394436713011187,
+        0.3386996992743666,
+        -0.1125916230594633
+      ],
+      [
+        0.2178126667422934,
+        0.7229446998164851,
+        0.6556741883447555,
+        0.06884513316430685
+      ],
+      [
+        -0.5985604535241728,
+        -0.43168452030770915,
+        0.6748139910346627,
+        0.7255359932260624
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "case_id": "scene000007_im000285_obj000018",
+    "final_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 35.720759554421086,
+        "translation_error_m": 0.004914216461544281,
+        "translation_error_mm": 4.914216461544281
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 41.914736230193405,
+        "mssd_mm": 33.97958723510837,
+        "re_deg": 35.72074058677055,
+        "symmetry_status": "identity_only",
+        "te_mm": 4.914216461544329,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.9556,
+        "candidate_to_model_overlap": 0.992,
+        "candidate_to_model_rmse_m": 0.005211333372950581,
+        "candidate_to_model_trimmed_rmse_m": 0.0023606793448896,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.0411232437420799,
+          0.9582611670598379,
+          1.6618313441977541
+        ],
+        "model_to_candidate_overlap": 0.9556,
+        "model_to_candidate_rmse_m": 0.010204955211987372,
+        "model_to_candidate_trimmed_rmse_m": 0.008269280712890738
+      }
+    },
+    "fitness": 0.928,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 24.987871359521524,
+        "translation_error_m": 0.002532381232103526,
+        "translation_error_mm": 2.5323812321035257
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 29.804870819696045,
+        "mssd_mm": 23.549544157818797,
+        "re_deg": 24.98784336681024,
+        "symmetry_status": "identity_only",
+        "te_mm": 2.532381232103589,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.9612,
+        "candidate_to_model_overlap": 0.992,
+        "candidate_to_model_rmse_m": 0.004897958443283056,
+        "candidate_to_model_trimmed_rmse_m": 0.0022626497489367245,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.0416318859091422,
+          0.9836002539510118,
+          1.6319015677904667
+        ],
+        "model_to_candidate_overlap": 0.9612,
+        "model_to_candidate_rmse_m": 0.010136519405380351,
+        "model_to_candidate_trimmed_rmse_m": 0.008308492572072796
+      }
+    },
+    "initial_rank": 1,
+    "initialization": "raw PPF top-1; no GT initialization",
+    "inliers": 464,
+    "method": "gicp",
+    "representation": "reconst",
+    "rmse_m": 0.009839323702919652,
+    "runtime_s": 0.011653030291199684,
+    "status": "ok",
+    "transform": [
+      [
+        -0.9542475983220715,
+        0.20503309192171862,
+        0.21765431535922006,
+        -0.007963052534870986
+      ],
+      [
+        -0.04764776909522316,
+        0.614332071998118,
+        -0.7876077298312438,
+        -0.07370313907095215
+      ],
+      [
+        -0.29519768839647265,
+        -0.7619433151880827,
+        -0.5764555918227193,
+        0.8451971637411226
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "case_id": "scene000007_im000285_obj000018",
+    "final_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 43.663810511527785,
+        "translation_error_m": 0.010666440339581536,
+        "translation_error_mm": 10.666440339581536
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 50.16938607279725,
+        "mssd_mm": 45.03144626467691,
+        "re_deg": 43.6637951293073,
+        "symmetry_status": "identity_only",
+        "te_mm": 10.666440339581573,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.9876,
+        "candidate_to_model_overlap": 0.9876,
+        "candidate_to_model_rmse_m": 0.005991171027397681,
+        "candidate_to_model_trimmed_rmse_m": 0.0024508908335743877,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.0452458307585313,
+          1.014451290419129,
+          1.6161425346449685
+        ],
+        "model_to_candidate_overlap": 0.9964,
+        "model_to_candidate_rmse_m": 0.00840768691392202,
+        "model_to_candidate_trimmed_rmse_m": 0.006947918031551269
+      }
+    },
+    "fitness": 0.984,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 24.987871359521524,
+        "translation_error_m": 0.002532381232103526,
+        "translation_error_mm": 2.5323812321035257
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 29.804870819696045,
+        "mssd_mm": 23.549544157818797,
+        "re_deg": 24.98784336681024,
+        "symmetry_status": "identity_only",
+        "te_mm": 2.532381232103589,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.9612,
+        "candidate_to_model_overlap": 0.992,
+        "candidate_to_model_rmse_m": 0.004897958443283056,
+        "candidate_to_model_trimmed_rmse_m": 0.0022626497489367245,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.0416318859091422,
+          0.9836002539510118,
+          1.6319015677904667
+        ],
+        "model_to_candidate_overlap": 0.9612,
+        "model_to_candidate_rmse_m": 0.010136519405380351,
+        "model_to_candidate_trimmed_rmse_m": 0.008308492572072796
+      }
+    },
+    "initial_rank": 1,
+    "initialization": "raw PPF top-1; no GT initialization",
+    "inliers": 492,
+    "method": "point_to_plane_icp",
+    "representation": "reconst",
+    "rmse_m": 0.009427794195491399,
+    "runtime_s": 0.003740414045751095,
+    "status": "ok",
+    "transform": [
+      [
+        -0.9063637866095785,
+        0.35656028630789743,
+        0.22664922118271347,
+        -0.007475792124528319
+      ],
+      [
+        -0.010248836678995892,
+        0.5177366586210147,
+        -0.8554787545152605,
+        -0.08099153232109152
+      ],
+      [
+        -0.42237437387617144,
+        -0.7776976234863163,
+        -0.4656034982024787,
+        0.8404377657177327
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "case_id": "scene000005_im000341_obj000004",
+    "final_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 169.5766758659442,
+        "translation_error_m": 0.17637725789717368,
+        "translation_error_mm": 176.37725789717368
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 247.28362580143465,
+        "mssd_mm": 227.60699703575344,
+        "re_deg": 169.57660763139654,
+        "symmetry_status": "continuous_symmetry_not_discretized",
+        "te_mm": 176.37725789717368,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.0,
+        "candidate_to_model_overlap": 0.0,
+        "candidate_to_model_rmse_m": 0.17105886773834655,
+        "candidate_to_model_trimmed_rmse_m": 0.1696632911520342,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.0029829371010026,
+          2.256168988419873,
+          4.726188460602908
+        ],
+        "model_to_candidate_overlap": 0.0,
+        "model_to_candidate_rmse_m": 0.16767996077957453,
+        "model_to_candidate_trimmed_rmse_m": 0.16540607966059892
+      }
+    },
+    "fitness": 0.0,
+    "improved_rotation": true,
+    "improved_translation": true,
+    "initial_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 173.9695130074918,
+        "translation_error_m": 0.26428808560709516,
+        "translation_error_mm": 264.2880856070952
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 113.98418854652512,
+        "mssd_mm": 292.1008354199994,
+        "re_deg": 173.96971384568837,
+        "symmetry_status": "continuous_symmetry_not_discretized",
+        "te_mm": 264.28808560709524,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.08533791523482245,
+        "candidate_to_model_overlap": 0.08533791523482245,
+        "candidate_to_model_rmse_m": 0.24999949439899807,
+        "candidate_to_model_trimmed_rmse_m": 0.24824850162171097,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          0.985404567981432,
+          1.8741614242691254,
+          6.024569766421493
+        ],
+        "model_to_candidate_overlap": 0.6288,
+        "model_to_candidate_rmse_m": 0.026521802430183598,
+        "model_to_candidate_trimmed_rmse_m": 0.02214468574617092
+      }
+    },
+    "initial_rank": 1,
+    "initialization": "raw PPF top-1; no GT initialization",
+    "inliers": 0,
+    "method": "gicp",
+    "representation": "cad",
+    "rmse_m": null,
+    "runtime_s": 0.0015119211748242378,
+    "status": "ok",
+    "transform": [
+      [
+        0.5082854114405038,
+        0.003181141571227175,
+        0.861182775679186,
+        0.13052938768554811
+      ],
+      [
+        0.0053884114523767845,
+        -0.999985399271458,
+        0.0005135413522034463,
+        -0.23642563742131992
+      ],
+      [
+        0.861171810647287,
+        0.0043793762149967885,
+        -0.5082951456447071,
+        0.892694846052814
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "case_id": "scene000005_im000341_obj000004",
+    "final_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 131.0399685380574,
+        "translation_error_m": 6.994283361678635,
+        "translation_error_mm": 6994.283361678635
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 17333.14955905554,
+        "mssd_mm": 7046.320080415801,
+        "re_deg": 131.03997607009248,
+        "symmetry_status": "continuous_symmetry_not_discretized",
+        "te_mm": 6994.283361678635,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.0,
+        "candidate_to_model_overlap": 0.0,
+        "candidate_to_model_rmse_m": 6.9531215377503255,
+        "candidate_to_model_trimmed_rmse_m": 6.948481483630532,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.4704845027746294,
+          1.2643282055601155,
+          4.969051324860483
+        ],
+        "model_to_candidate_overlap": 0.0,
+        "model_to_candidate_rmse_m": 6.958461668489056,
+        "model_to_candidate_trimmed_rmse_m": 6.9568085086076366
+      }
+    },
+    "fitness": 0.0,
+    "improved_rotation": true,
+    "improved_translation": false,
+    "initial_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 173.9695130074918,
+        "translation_error_m": 0.26428808560709516,
+        "translation_error_mm": 264.2880856070952
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 113.98418854652512,
+        "mssd_mm": 292.1008354199994,
+        "re_deg": 173.96971384568837,
+        "symmetry_status": "continuous_symmetry_not_discretized",
+        "te_mm": 264.28808560709524,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.08533791523482245,
+        "candidate_to_model_overlap": 0.08533791523482245,
+        "candidate_to_model_rmse_m": 0.24999949439899807,
+        "candidate_to_model_trimmed_rmse_m": 0.24824850162171097,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          0.985404567981432,
+          1.8741614242691254,
+          6.024569766421493
+        ],
+        "model_to_candidate_overlap": 0.6288,
+        "model_to_candidate_rmse_m": 0.026521802430183598,
+        "model_to_candidate_trimmed_rmse_m": 0.02214468574617092
+      }
+    },
+    "initial_rank": 1,
+    "initialization": "raw PPF top-1; no GT initialization",
+    "inliers": 0,
+    "method": "point_to_plane_icp",
+    "representation": "cad",
+    "rmse_m": null,
+    "runtime_s": 0.0003942549228668213,
+    "status": "ok",
+    "transform": [
+      [
+        0.9259143214841203,
+        0.0364788509280852,
+        0.3759679719886687,
+        -6.8586804666496075
+      ],
+      [
+        -0.34606908324109503,
+        0.48083364725886346,
+        0.805627228398987,
+        0.8968250017136851
+      ],
+      [
+        -0.151389698493718,
+        -0.8760527349723487,
+        0.4578349537094084,
+        0.45625197853078203
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "case_id": "scene000005_im000341_obj000004",
+    "final_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 33.589741982924465,
+        "translation_error_m": 0.002044741854371019,
+        "translation_error_mm": 2.044741854371019
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 17.77649051114266,
+        "mssd_mm": 13.594363398893444,
+        "re_deg": 33.58969914534975,
+        "symmetry_status": "continuous_symmetry_not_discretized",
+        "te_mm": 2.0447418543710194,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.7516,
+        "candidate_to_model_overlap": 0.9146620847651775,
+        "candidate_to_model_rmse_m": 0.0678643504626908,
+        "candidate_to_model_trimmed_rmse_m": 0.0015160083600183091,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.006574084697788,
+          1.8671704145917476,
+          6.580615458906574
+        ],
+        "model_to_candidate_overlap": 0.7516,
+        "model_to_candidate_rmse_m": 0.01590855099959553,
+        "model_to_candidate_trimmed_rmse_m": 0.013446435849373493
+      }
+    },
+    "fitness": 0.7111111111111111,
+    "improved_rotation": true,
+    "improved_translation": true,
+    "initial_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 36.76542218542467,
+        "translation_error_m": 0.012880576296577576,
+        "translation_error_mm": 12.880576296577576
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 37.005906840152555,
+        "mssd_mm": 27.977348319792164,
+        "re_deg": 36.76539078582815,
+        "symmetry_status": "continuous_symmetry_not_discretized",
+        "te_mm": 12.880576296577573,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.694,
+        "candidate_to_model_overlap": 0.8963344788087056,
+        "candidate_to_model_rmse_m": 0.06757975657671247,
+        "candidate_to_model_trimmed_rmse_m": 0.005537828484608303,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.1204262188861904,
+          1.4151617556357707,
+          6.746811273938266
+        ],
+        "model_to_candidate_overlap": 0.694,
+        "model_to_candidate_rmse_m": 0.01807596945986767,
+        "model_to_candidate_trimmed_rmse_m": 0.01548455273553616
+      }
+    },
+    "initial_rank": 1,
+    "initialization": "raw PPF top-1; no GT initialization",
+    "inliers": 128,
+    "method": "gicp",
+    "representation": "reconst",
+    "rmse_m": 0.010969089020855733,
+    "runtime_s": 0.00589723140001297,
+    "status": "ok",
+    "transform": [
+      [
+        -0.3451392138869664,
+        -0.16144027043057282,
+        -0.9245627729467867,
+        0.05461716903011416
+      ],
+      [
+        0.8975626089925661,
+        0.23116688962420792,
+        -0.3754245989966654,
+        -0.10044438367371132
+      ],
+      [
+        0.27433702821799527,
+        -0.9594264445781749,
+        0.06511774818364227,
+        0.8057965241776549
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "case_id": "scene000005_im000341_obj000004",
+    "final_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 29.026978624621847,
+        "translation_error_m": 0.06854765790892377,
+        "translation_error_mm": 68.54765790892377
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 88.18329033067323,
+        "mssd_mm": 80.28838612564046,
+        "re_deg": 29.026927615554193,
+        "symmetry_status": "continuous_symmetry_not_discretized",
+        "te_mm": 68.54765790892374,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.0,
+        "candidate_to_model_overlap": 0.0,
+        "candidate_to_model_rmse_m": 0.09090121117763968,
+        "candidate_to_model_trimmed_rmse_m": 0.039473904179555444,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.0194132220804193,
+          1.7823385125627982,
+          6.231148644423695
+        ],
+        "model_to_candidate_overlap": 0.0,
+        "model_to_candidate_rmse_m": 0.04698875148477848,
+        "model_to_candidate_trimmed_rmse_m": 0.04491579914343688
+      }
+    },
+    "fitness": 0.0,
+    "improved_rotation": true,
+    "improved_translation": false,
+    "initial_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 36.76542218542467,
+        "translation_error_m": 0.012880576296577576,
+        "translation_error_mm": 12.880576296577576
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 37.005906840152555,
+        "mssd_mm": 27.977348319792164,
+        "re_deg": 36.76539078582815,
+        "symmetry_status": "continuous_symmetry_not_discretized",
+        "te_mm": 12.880576296577573,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.694,
+        "candidate_to_model_overlap": 0.8963344788087056,
+        "candidate_to_model_rmse_m": 0.06757975657671247,
+        "candidate_to_model_trimmed_rmse_m": 0.005537828484608303,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.1204262188861904,
+          1.4151617556357707,
+          6.746811273938266
+        ],
+        "model_to_candidate_overlap": 0.694,
+        "model_to_candidate_rmse_m": 0.01807596945986767,
+        "model_to_candidate_trimmed_rmse_m": 0.01548455273553616
+      }
+    },
+    "initial_rank": 1,
+    "initialization": "raw PPF top-1; no GT initialization",
+    "inliers": 0,
+    "method": "point_to_plane_icp",
+    "representation": "reconst",
+    "rmse_m": null,
+    "runtime_s": 0.0005722520872950554,
+    "status": "ok",
+    "transform": [
+      [
+        -0.4720169695223352,
+        -0.0012331412791121155,
+        -0.8815887836728112,
+        0.017451163775242126
+      ],
+      [
+        0.794538973593306,
+        0.43268933021898365,
+        -0.4260141313862174,
+        -0.05513060118427868
+      ],
+      [
+        0.3819794745791758,
+        -0.901542354639192,
+        -0.2032570986236561,
+        0.7740261895428237
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "case_id": "scene000002_im000387_obj000006",
+    "final_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 166.67068678031714,
+        "translation_error_m": 0.1662578806947645,
+        "translation_error_mm": 166.25788069476448
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 160.24311378464188,
+        "mssd_mm": 206.0507364367486,
+        "re_deg": 166.6705083154876,
+        "symmetry_status": "identity_plus_discrete",
+        "te_mm": 166.2578806947644,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.0,
+        "candidate_to_model_overlap": 0.0,
+        "candidate_to_model_rmse_m": 0.12344767114554185,
+        "candidate_to_model_trimmed_rmse_m": 0.10817480808622852,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.1121564310718794,
+          1.0827726010764775,
+          3.1606367995844797
+        ],
+        "model_to_candidate_overlap": 0.0,
+        "model_to_candidate_rmse_m": 0.13147545853662765,
+        "model_to_candidate_trimmed_rmse_m": 0.1281321188846515
+      }
+    },
+    "fitness": 0.0,
+    "improved_rotation": true,
+    "improved_translation": false,
+    "initial_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 172.44576910427722,
+        "translation_error_m": 0.029760920794659227,
+        "translation_error_mm": 29.760920794659228
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 127.00344283479342,
+        "mssd_mm": 105.70838669143524,
+        "re_deg": 172.44588498712454,
+        "symmetry_status": "identity_plus_discrete",
+        "te_mm": 29.760920794659206,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.5844,
+        "candidate_to_model_overlap": 0.9624,
+        "candidate_to_model_rmse_m": 0.03107811042637078,
+        "candidate_to_model_trimmed_rmse_m": 0.0074393496678625305,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.134390453785982,
+          0.768290763259839,
+          2.6188894848334408
+        ],
+        "model_to_candidate_overlap": 0.5844,
+        "model_to_candidate_rmse_m": 0.019848987356703877,
+        "model_to_candidate_trimmed_rmse_m": 0.017391141616326676
+      }
+    },
+    "initial_rank": 1,
+    "initialization": "raw PPF top-1; no GT initialization",
+    "inliers": 0,
+    "method": "gicp",
+    "representation": "cad",
+    "rmse_m": null,
+    "runtime_s": 0.0060819098725914955,
+    "status": "ok",
+    "transform": [
+      [
+        0.9283421990419412,
+        0.015742119784145248,
+        0.37139318685256406,
+        0.07740980024883787
+      ],
+      [
+        -0.04515195461525301,
+        -0.9869298935237045,
+        0.15469546160564066,
+        -0.09616407777083882
+      ],
+      [
+        0.3689742932547926,
+        -0.16037943330568044,
+        -0.9154979148896982,
+        0.6754732397821096
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "case_id": "scene000002_im000387_obj000006",
+    "final_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 179.10830159663644,
+        "translation_error_m": 0.10805078643060476,
+        "translation_error_mm": 108.05078643060476
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 129.24812983894333,
+        "mssd_mm": 163.08012336694486,
+        "re_deg": 179.1074232692082,
+        "symmetry_status": "identity_plus_discrete",
+        "te_mm": 108.05078643060475,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.0028,
+        "candidate_to_model_overlap": 0.0044,
+        "candidate_to_model_rmse_m": 0.06859794789415123,
+        "candidate_to_model_trimmed_rmse_m": 0.04819874286260604,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.1447965950127317,
+          0.92428411453843,
+          2.415099609404215
+        ],
+        "model_to_candidate_overlap": 0.0028,
+        "model_to_candidate_rmse_m": 0.07773746853649856,
+        "model_to_candidate_trimmed_rmse_m": 0.07367452799518583
+      }
+    },
+    "fitness": 0.0,
+    "improved_rotation": false,
+    "improved_translation": false,
+    "initial_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 172.44576910427722,
+        "translation_error_m": 0.029760920794659227,
+        "translation_error_mm": 29.760920794659228
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 127.00344283479342,
+        "mssd_mm": 105.70838669143524,
+        "re_deg": 172.44588498712454,
+        "symmetry_status": "identity_plus_discrete",
+        "te_mm": 29.760920794659206,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.5844,
+        "candidate_to_model_overlap": 0.9624,
+        "candidate_to_model_rmse_m": 0.03107811042637078,
+        "candidate_to_model_trimmed_rmse_m": 0.0074393496678625305,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.134390453785982,
+          0.768290763259839,
+          2.6188894848334408
+        ],
+        "model_to_candidate_overlap": 0.5844,
+        "model_to_candidate_rmse_m": 0.019848987356703877,
+        "model_to_candidate_trimmed_rmse_m": 0.017391141616326676
+      }
+    },
+    "initial_rank": 1,
+    "initialization": "raw PPF top-1; no GT initialization",
+    "inliers": 0,
+    "method": "point_to_plane_icp",
+    "representation": "cad",
+    "rmse_m": null,
+    "runtime_s": 0.0012810425832867622,
+    "status": "ok",
+    "transform": [
+      [
+        0.5216103464135827,
+        0.3936157068474098,
+        0.7569605560823747,
+        0.08727425489284704
+      ],
+      [
+        -0.0052866577719659635,
+        -0.8857104563583365,
+        0.4642079864762312,
+        -0.05758912902780691
+      ],
+      [
+        0.8531674304463233,
+        -0.24613747076376252,
+        -0.45991486068229775,
+        0.7314754854113408
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "case_id": "scene000002_im000387_obj000006",
+    "final_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 66.22212103838024,
+        "translation_error_m": 0.037626026590081935,
+        "translation_error_mm": 37.626026590081935
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 88.66558995106426,
+        "mssd_mm": 87.20957419139032,
+        "re_deg": 66.22213843297806,
+        "symmetry_status": "identity_plus_discrete",
+        "te_mm": 37.62602659008189,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.4968,
+        "candidate_to_model_overlap": 0.7988,
+        "candidate_to_model_rmse_m": 0.03862655149183826,
+        "candidate_to_model_trimmed_rmse_m": 0.010578452572623204,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.3133004911759003,
+          0.6262826150105408,
+          3.4984046707301113
+        ],
+        "model_to_candidate_overlap": 0.4968,
+        "model_to_candidate_rmse_m": 0.02881814331590345,
+        "model_to_candidate_trimmed_rmse_m": 0.024613811272840652
+      }
+    },
+    "fitness": 0.462,
+    "improved_rotation": true,
+    "improved_translation": false,
+    "initial_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 160.12437316269282,
+        "translation_error_m": 0.03423184645810625,
+        "translation_error_mm": 34.23184645810625
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 119.22204003497521,
+        "mssd_mm": 96.47987807758264,
+        "re_deg": 160.12443336898448,
+        "symmetry_status": "identity_plus_discrete",
+        "te_mm": 34.23184645810625,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.4636,
+        "candidate_to_model_overlap": 0.6972,
+        "candidate_to_model_rmse_m": 0.033430660103983975,
+        "candidate_to_model_trimmed_rmse_m": 0.01459984363494584,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.0839197882734484,
+          0.9032126603969262,
+          2.8315497050887837
+        ],
+        "model_to_candidate_overlap": 0.4636,
+        "model_to_candidate_rmse_m": 0.028539877119747828,
+        "model_to_candidate_trimmed_rmse_m": 0.024507890034860463
+      }
+    },
+    "initial_rank": 1,
+    "initialization": "raw PPF top-1; no GT initialization",
+    "inliers": 231,
+    "method": "gicp",
+    "representation": "reconst",
+    "rmse_m": 0.012382788289971292,
+    "runtime_s": 0.018735745921730995,
+    "status": "ok",
+    "transform": [
+      [
+        -0.3542718438335914,
+        0.4659216447941445,
+        -0.8108073711133366,
+        0.025847492468850652
+      ],
+      [
+        0.9269377546277912,
+        0.2895644769978798,
+        -0.23861845636520013,
+        -0.043458495724257
+      ],
+      [
+        0.12360354785794442,
+        -0.8361037791476065,
+        -0.5344649061381971,
+        0.8172508174410694
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "case_id": "scene000002_im000387_obj000006",
+    "final_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 146.09552973029645,
+        "translation_error_m": 0.0191711142962259,
+        "translation_error_mm": 19.171114296225902
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 133.95300052018152,
+        "mssd_mm": 106.85674726039231,
+        "re_deg": 146.09556117973202,
+        "symmetry_status": "identity_plus_discrete",
+        "te_mm": 19.171114296225895,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.7844,
+        "candidate_to_model_overlap": 0.9592,
+        "candidate_to_model_rmse_m": 0.03346966326456026,
+        "candidate_to_model_trimmed_rmse_m": 0.004318422570915395,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.074975890572496,
+          0.7662131973101922,
+          3.3343195916164428
+        ],
+        "model_to_candidate_overlap": 0.7844,
+        "model_to_candidate_rmse_m": 0.016159582907050347,
+        "model_to_candidate_trimmed_rmse_m": 0.013392388141406641
+      }
+    },
+    "fitness": 0.748,
+    "improved_rotation": true,
+    "improved_translation": true,
+    "initial_metrics": {
+      "diagnostic_accuracy_20mm_5deg": false,
+      "naive_pose": {
+        "rotation_error_deg": 160.12437316269282,
+        "translation_error_m": 0.03423184645810625,
+        "translation_error_mm": 34.23184645810625
+      },
+      "official_bop": {
+        "available": true,
+        "model_source": "models_eval",
+        "mspd_px": 119.22204003497521,
+        "mssd_mm": 96.47987807758264,
+        "re_deg": 160.12443336898448,
+        "symmetry_status": "identity_plus_discrete",
+        "te_mm": 34.23184645810625,
+        "translation_units": "mm"
+      },
+      "verification": {
+        "bidirectional_overlap": 0.4636,
+        "candidate_to_model_overlap": 0.6972,
+        "candidate_to_model_rmse_m": 0.033430660103983975,
+        "candidate_to_model_trimmed_rmse_m": 0.01459984363494584,
+        "distance_threshold_m": 0.02,
+        "extent_ratio": [
+          1.0839197882734484,
+          0.9032126603969262,
+          2.8315497050887837
+        ],
+        "model_to_candidate_overlap": 0.4636,
+        "model_to_candidate_rmse_m": 0.028539877119747828,
+        "model_to_candidate_trimmed_rmse_m": 0.024507890034860463
+      }
+    },
+    "initial_rank": 1,
+    "initialization": "raw PPF top-1; no GT initialization",
+    "inliers": 374,
+    "method": "point_to_plane_icp",
+    "representation": "reconst",
+    "rmse_m": 0.012261729274092293,
+    "runtime_s": 0.003402888774871826,
+    "status": "ok",
+    "transform": [
+      [
+        0.8081465662519283,
+        0.3563857443309691,
+        -0.46892249262439667,
+        0.06538367753322079
+      ],
+      [
+        0.434019938056024,
+        0.17786135797071126,
+        0.8831716134374281,
+        -0.06961532677667044
+      ],
+      [
+        0.398152983356647,
+        -0.9172538544536746,
+        -0.010940465821683957,
+        0.8266574998489664
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "immutable_files": {
+    "experiments/tless_validation_manifest_scene_conditioned_v1.json": {
+      "bytes": 4273,
+      "sha256": "341137b72784e7b2c8553d8dae8afe6f625b1c625632943485889fbddc8b07a0"
+    },
+    "experiments/tless_validation_v1/aggregate_summary.json": {
+      "bytes": 1780,
+      "sha256": "0e2e19d8c7781f11dc2e1a56097cbb55fa18e186a4ba75b7df84434709f3e11a"
+    },
+    "experiments/tless_validation_v1/experiment_config.json": {
+      "bytes": 4735,
+      "sha256": "3c3b63242f7516d2b6535225a83f856eff816146596122aa42ac74379caac004"
+    },
+    "experiments/tless_validation_v1/per_case_results.json": {
+      "bytes": 202259,
+      "sha256": "3f4d5aa424a0ca27b4037a0339c232dd7821163cc92a1222b1dd13f8cd7a34a5"
+    }
+  }
+}

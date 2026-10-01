@@ -1,0 +1,57 @@
+{
+  "A_baseline_cad_full": {
+    "accepted": 4,
+    "accepted_median_rotation_error_deg_non_symmetric": 128.9316945130073,
+    "accepted_median_translation_error_m": 0.16137653952392575,
+    "all_pose_median_translation_error_m": 0.5491395472399548,
+    "candidate_generation_with_candidates": 10,
+    "cases": 10,
+    "failure_stage_counts": {
+      "accepted": 4,
+      "global_registration": 2,
+      "icp": 4
+    },
+    "median_bidirectional_overlap": null,
+    "median_icp_fitness": 0.0,
+    "median_runtime_s": 0.343405001796782,
+    "pose_available": 10,
+    "rejected": 6
+  },
+  "B_geometry_cad": {
+    "accepted": 6,
+    "accepted_median_rotation_error_deg_non_symmetric": 116.20769969704969,
+    "accepted_median_translation_error_m": 0.48416662323407705,
+    "all_pose_median_translation_error_m": 0.48416662323407705,
+    "candidate_generation_with_candidates": 10,
+    "cases": 10,
+    "failure_stage_counts": {
+      "accepted": 6,
+      "global_registration": 1,
+      "icp": 3
+    },
+    "median_bidirectional_overlap": 0.3024,
+    "median_icp_fitness": 0.5412,
+    "median_runtime_s": 3.267460629809648,
+    "pose_available": 10,
+    "rejected": 4
+  },
+  "C_geometry_reconst": {
+    "accepted": 4,
+    "accepted_median_rotation_error_deg_non_symmetric": 44.104321123216536,
+    "accepted_median_translation_error_m": 0.28180762921864,
+    "all_pose_median_translation_error_m": 0.27421166224592963,
+    "candidate_generation_with_candidates": 10,
+    "cases": 10,
+    "failure_stage_counts": {
+      "accepted": 4,
+      "global_registration": 1,
+      "icp": 4,
+      "verification": 1
+    },
+    "median_bidirectional_overlap": 0.192,
+    "median_icp_fitness": 0.269,
+    "median_runtime_s": 3.2857990749180317,
+    "pose_available": 10,
+    "rejected": 6
+  }
+}

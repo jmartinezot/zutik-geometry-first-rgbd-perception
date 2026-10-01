@@ -1,0 +1,214 @@
+{
+  "config": {
+    "voxel_size_m": 0.005,
+    "eps_m": 0.04,
+    "min_points": 20,
+    "outlier_neighbors": 20,
+    "outlier_std_ratio": 2.0,
+    "support_plane_enabled": false,
+    "minimum_cluster_points_in_candidate_code": 3,
+    "maximum_cluster_points": null
+  },
+  "input": {
+    "raw_points": 384259,
+    "valid_depth_pixels": 384259,
+    "after_statistical_filter": 367497,
+    "statistical_filter_removed": 16762,
+    "target_points_before_filter": 16460,
+    "target_points_after_filter": 16439
+  },
+  "dbscan": {
+    "runtime_s": 27.06914416793734,
+    "label_counts": {
+      "-1": 2,
+      "0": 1941,
+      "1": 6946,
+      "2": 8560,
+      "3": 1377,
+      "4": 20,
+      "5": 347439,
+      "6": 1212
+    },
+    "cluster_count_before_candidate_filter": 7,
+    "noise_points": 2,
+    "noise_fraction": 5.442221297044602e-06,
+    "clusters": [
+      {
+        "label": 5,
+        "point_count": 347439,
+        "target_points": 16439,
+        "target_recall_all_oracle": 0.9987241798298906,
+        "target_recall_after_filter": 1.0,
+        "target_purity": 0.04731478043627802,
+        "bbox_m": [
+          [
+            0.7101809008683655,
+            0.4037664413163669,
+            0.46120000000000005
+          ]
+        ],
+        "dimensions_m": [
+          0.7101809008683655,
+          0.4037664413163669,
+          0.46120000000000005
+        ],
+        "centroid_m": [
+          -0.01071187437727374,
+          -0.017207494820698888,
+          0.7909372194822177
+        ]
+      },
+      {
+        "label": 2,
+        "point_count": 8560,
+        "target_points": 0,
+        "target_recall_all_oracle": 0.0,
+        "target_recall_after_filter": 0.0,
+        "target_purity": 0.0,
+        "bbox_m": [
+          [
+            0.6451731702677195,
+            0.10867705795994331,
+            0.1751999999999998
+          ]
+        ],
+        "dimensions_m": [
+          0.6451731702677195,
+          0.10867705795994331,
+          0.1751999999999998
+        ],
+        "centroid_m": [
+          0.3951149238321414,
+          -0.5842931688257126,
+          2.2629959696260906
+        ]
+      },
+      {
+        "label": 1,
+        "point_count": 6946,
+        "target_points": 0,
+        "target_recall_all_oracle": 0.0,
+        "target_recall_after_filter": 0.0,
+        "target_purity": 0.0,
+        "bbox_m": [
+          [
+            0.5560243313923741,
+            0.11261372366753641,
+            0.12469999999999981
+          ]
+        ],
+        "dimensions_m": [
+          0.5560243313923741,
+          0.11261372366753641,
+          0.12469999999999981
+        ],
+        "centroid_m": [
+          -0.33571696037919685,
+          -0.6015981773812076,
+          2.3429586956524746
+        ]
+      },
+      {
+        "label": 0,
+        "point_count": 1941,
+        "target_points": 0,
+        "target_recall_all_oracle": 0.0,
+        "target_recall_after_filter": 0.0,
+        "target_purity": 0.0,
+        "bbox_m": [
+          [
+            0.05850666474095939,
+            0.052959322202452586,
+            0.06410000000000005
+          ]
+        ],
+        "dimensions_m": [
+          0.05850666474095939,
+          0.052959322202452586,
+          0.06410000000000005
+        ],
+        "centroid_m": [
+          0.006598555156156888,
+          -0.3234676543044889,
+          1.2635788768675666
+        ]
+      },
+      {
+        "label": 3,
+        "point_count": 1377,
+        "target_points": 0,
+        "target_recall_all_oracle": 0.0,
+        "target_recall_after_filter": 0.0,
+        "target_purity": 0.0,
+        "bbox_m": [
+          [
+            0.16294193564834897,
+            0.06072904080613617,
+            0.08570000000000011
+          ]
+        ],
+        "dimensions_m": [
+          0.16294193564834897,
+          0.06072904080613617,
+          0.08570000000000011
+        ],
+        "centroid_m": [
+          -0.5380397838594426,
+          -0.452150031150096,
+          1.9331236020334153
+        ]
+      },
+      {
+        "label": 6,
+        "point_count": 1212,
+        "target_points": 0,
+        "target_recall_all_oracle": 0.0,
+        "target_recall_after_filter": 0.0,
+        "target_purity": 0.0,
+        "bbox_m": [
+          [
+            0.04336267400356264,
+            0.02104454780578198,
+            0.007600000000000051
+          ]
+        ],
+        "dimensions_m": [
+          0.04336267400356264,
+          0.02104454780578198,
+          0.007600000000000051
+        ],
+        "centroid_m": [
+          0.09489502968153911,
+          -0.07784134316154624,
+          0.8151834983498271
+        ]
+      },
+      {
+        "label": 4,
+        "point_count": 20,
+        "target_points": 0,
+        "target_recall_all_oracle": 0.0,
+        "target_recall_after_filter": 0.0,
+        "target_purity": 0.0,
+        "bbox_m": [
+          [
+            0.007631100276157654,
+            0.007643517465300398,
+            0.0
+          ]
+        ],
+        "dimensions_m": [
+          0.007631100276157654,
+          0.007643517465300398,
+          0.0
+        ],
+        "centroid_m": [
+          -0.661652419298908,
+          -0.48664670184545955,
+          2.0521000000000003
+        ]
+      }
+    ]
+  },
+  "candidate_behavior": "DBSCAN was not executed by the production BOP run because its candidate_mode was full; this is a diagnostic reproduction with candidate_mode=dbscan."
+}
