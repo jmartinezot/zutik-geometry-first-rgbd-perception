@@ -1,5 +1,8 @@
 # Geometry-first RGB-D branch
 
+This page describes the implementation in detail. For the project entry point
+and experiment index, see the [root README](../README.md).
+
 This repository had no source tree, dependency manifest, tests, coordinate-frame contract, learned pipeline, or World Semantic Model interface when this branch was added. The implementation therefore adds one Python/Open3D backend and does not replace or invoke Grounding DINO/YOLO-World, SAM 2, or FoundationPose. The later learned-stack audit confirms that those components remain documentation references only in this repository; no learned comparison has been run.
 
 ## What is implemented
@@ -89,15 +92,18 @@ No benchmark result is claimed. The canonical adapter commands are `python3 -m z
 python3 -m pip install -e '.[bop]'
 ```
 
-The official BOP dataset page provides the current Hugging Face download form. For a local copy, run these commands outside the source tree (the archive is large and is intentionally not downloaded by this project):
+The official BOP dataset page provides the current Hugging Face download form.
+For a local copy, use the current
+[`hf` CLI](https://huggingface.co/docs/huggingface_hub/guides/cli) outside the
+source tree (the archive is large and is intentionally not downloaded by this
+project):
 
 ```bash
 mkdir -p /data/bop
 cd /data/bop
-python3 -m pip install -U 'huggingface_hub[cli]'
-export DATASET_NAME=tless
-huggingface-cli download bop-benchmark/$DATASET_NAME \
-  --local-dir ./${DATASET_NAME}/ --repo-type=dataset
+python3 -m pip install --upgrade huggingface_hub
+hf download bop-benchmark/tless \
+  --local-dir /data/bop/tless --repo-type dataset
 ```
 
 The BOP toolkit describes T-LESS as 30 textureless industrial objects and the BOP directory is normally `/data/bop/tless`; use the split directory actually present in the downloaded archive (`test` for a BOP scenewise archive or `test_primesense` for the classic Primesense layout). Inspect a local directory before loading image data:

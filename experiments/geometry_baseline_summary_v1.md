@@ -6,6 +6,15 @@ All real-data results below are model-conditioned: the manifest supplies the
 object ID for each case, while GT masks and poses are used only for selection
 or post-hoc evaluation.
 
+Project overview: [root README](../README.md). Experiment READMEs:
+[one-case smoke test](tless_smoke/README.md),
+[candidate-generation diagnosis](tless_diagnosis_scene000003_im000233_obj000018/README.md),
+[single-case registration diagnosis](tless_registration_diagnosis_scene000003_im000233_obj000018/README.md),
+[frozen ten-case validation](tless_validation_v1/README.md),
+[registration diagnosis v2](tless_registration_diagnosis_v2/README.md), and
+[experimental PPF results](tless_ppf_spike_v1/README.md). The PPF report links
+to its [experimental PCL bridge](../experimental/ppf_pcl/README.md).
+
 ## Current comparison baseline
 
 The comparison baseline is the current production CLI/BOP Open3D path, not the
@@ -45,8 +54,8 @@ for this comparison.
   tolerances; the test suite covers transform direction and world composition.
 - **Conclusion:** the implementation is mechanically valid on a controlled
   scene. This does not establish real T-LESS accuracy.
-- **Artifacts:** `tests/test_registration.py`, `zutik_geometry/synthetic.py`,
-  `scripts`/CLI synthetic output.
+- **Artifacts:** [registration tests](../tests/test_registration.py),
+  `zutik_geometry/synthetic.py`, `scripts`/CLI synthetic output.
 
 ### 2. First real T-LESS smoke test
 
@@ -60,7 +69,8 @@ for this comparison.
   `8.796 mm`.
 - **Conclusion:** production acceptance was not equivalent to pose correctness;
   one-sided ICP fitness can accept a small model inside a much larger scene.
-- **Artifacts:** `experiments/tless_smoke/`.
+- **Artifacts:** [T-LESS smoke-test record](tless_smoke/README.md) and its
+  local result files.
 
 ### 3. Single-case candidate-generation diagnosis
 
@@ -73,7 +83,8 @@ for this comparison.
   alone explained the high one-sided ICP fitness.
 - **Conclusion:** candidate isolation and one-sided verification are separate
   ceilings; an exact object crop is not the production input.
-- **Artifacts:** `experiments/tless_diagnosis_scene000003_im000233_obj000018/`.
+- **Artifacts:** [candidate-generation diagnosis](tless_diagnosis_scene000003_im000233_obj000018/README.md)
+  and its diagnostic files.
 
 ### 4. Registration diagnosis v1/v2
 
@@ -94,8 +105,8 @@ for this comparison.
 - **Conclusion:** real-data failure is not explained by candidate generation
   alone. The FPFH correspondence front end is inadequate on this frozen set;
   refinement and candidate isolation remain independent weaknesses.
-- **Artifacts:** `experiments/tless_registration_diagnosis_scene000003_im000233_obj000018/`,
-  `experiments/tless_registration_diagnosis_v2/`.
+- **Artifacts:** [single-case registration diagnosis](tless_registration_diagnosis_scene000003_im000233_obj000018/README.md)
+  and [frozen ten-case registration diagnosis v2](tless_registration_diagnosis_v2/README.md).
 
 ### 5. Experimental Drost-style PPF spike
 
@@ -114,7 +125,8 @@ for this comparison.
 - **Conclusion:** PPF is a useful negative/limited architecture result, not a
   justified production replacement. The baseline remains Open3D; no further
   geometry algorithm search is part of this comparison.
-- **Artifacts:** `experimental/ppf_pcl/`, `experiments/tless_ppf_spike_v1/`.
+- **Artifacts:** [experimental PCL bridge](../experimental/ppf_pcl/README.md)
+  and [T-LESS PPF results](tless_ppf_spike_v1/README.md).
 
 ## Scope conclusion
 
@@ -124,7 +136,7 @@ shows poor model-conditioned pose accuracy, weak geometry-only candidate
 isolation, and false positives under the existing acceptance evidence. PPF
 remains experimental and is not production-integrated. A learned comparison
 is not reported in this repository because the learned stack is absent and
-the required assets are not locally available; see
-`experiments/learned_stack_audit_v1.md` and
-`experiments/learned_comparison_protocol_v1.md`.
+the required assets are not locally available; see the
+[learned-stack audit](learned_stack_audit_v1.md) and
+[comparison protocol](learned_comparison_protocol_v1.md).
 

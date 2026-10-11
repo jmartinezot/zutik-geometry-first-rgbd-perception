@@ -4,10 +4,24 @@ This directory is a new diagnostic record. `experiments/tless_validation_v1/`
 and the frozen manifest are preserved unchanged. The ten cases are the frozen
 `test_primesense` model-conditioned cases.
 
+## Table of Contents
+
+- [Scope and data use](#scope-and-data-use)
+- [Method and units](#method-and-units)
+- [Reproduction](#reproduction)
+- [Outputs](#outputs)
+
+Project context and the experiment index are in the [root README](../../README.md#small-local-bop-t-less-evaluation).
+The preceding frozen run is [T-LESS validation v1](../tless_validation_v1/README.md).
+
+## Scope and data use
+
 Ground truth is used only after candidate generation for labeling, to construct
 explicitly marked oracle clouds, or to calculate post-hoc errors. It is never
 passed as an inference initialization, crop, mask, candidate choice, or
 threshold.
+
+## Method and units
 
 The bakeoff uses the unchanged frozen geometry settings and compares Open3D
 feature-RANSAC + point-to-plane ICP, FGR + point-to-plane ICP, and
@@ -18,6 +32,8 @@ separately.
 
 Units: internal geometry and `T_camera_object` translations are metres; BOP
 CSV and official pose-error translations are millimetres.
+
+## Reproduction
 
 Run the experiment with:
 
@@ -32,6 +48,8 @@ three files using the temporary symlink-only standard-layout adapter at
 `/tmp/zutik-tless-bop-eval-root`; the dataset itself was not copied or changed.
 No aggregate BOP score is reported because these files are selected,
 model-conditioned cases rather than complete detector outputs.
+
+## Outputs
 
 Important outputs:
 

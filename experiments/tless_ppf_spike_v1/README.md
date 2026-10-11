@@ -8,6 +8,20 @@ masks only to construct the already-established oracle target clouds. GT poses
 are not supplied to PPF, used as initializations, or used to choose a
 hypothesis.
 
+## Table of Contents
+
+- [Method and backend decision](#method-and-backend-decision)
+- [Fixed configuration](#fixed-configuration)
+- [Synthetic validation](#synthetic-validation)
+- [Frozen oracle result](#frozen-oracle-result)
+- [Refinement comparison](#refinement-comparison)
+- [Reproduction](#reproduction)
+- [Decision](#decision)
+
+Project context and other experiment records are in the [root README](../../README.md#small-local-bop-t-less-evaluation).
+The bridge's build instructions are in
+[experimental/ppf_pcl](../../experimental/ppf_pcl/README.md).
+
 ## Method and backend decision
 
 Drost et al. define an oriented point-pair feature for points `p1`, `p2` with

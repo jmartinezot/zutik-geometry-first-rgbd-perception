@@ -4,13 +4,28 @@ This directory is an architecture spike only. It does not replace the
 production Open3D path in `zutik_geometry.registration` and is not imported by
 the normal `zutik` CLI.
 
+## Table of Contents
+
+- [Method](#method)
+  - [PCL 1.13 hypothesis access](#pcl-113-hypothesis-access)
+- [Bridge input and pose convention](#bridge-input-and-pose-convention)
+- [Fixed configuration](#fixed-configuration)
+- [Build and run](#build-and-run)
+
+Related documentation: the [project overview](../../README.md) and the
+[T-LESS PPF experiment results](../../experiments/tless_ppf_spike_v1/README.md).
+
+## Method
+
 The executable is PCL's published Drost-style implementation:
 
 1. `PPFEstimation` computes oriented point-pair signatures for every sampled
    model pair;
 2. `PPFHashMapSearch` quantizes angle and distance signatures;
 3. `PPFRegistration` samples scene reference points, votes in pose space, and
-   clusters pose hypotheses.
+clusters pose hypotheses.
+
+### PCL 1.13 hypothesis access
 
 The image uses Debian bookworm's PCL 1.13.0. That release does not expose the
 newer `getBestPoseCandidates()` accessor in its public header, so this spike
@@ -20,12 +35,16 @@ clustering merely to manufacture a top-K interface. If a later experiment
 needs top-K evidence, it must use a PCL release that publicly exposes the
 candidate list or a separately reviewed upstream-compatible build.
 
+## Bridge input and pose convention
+
 The bridge input is an explicit text format whose first line is
 `ZUTIK_PPF_XYZ_NORMALS_V1 m N`, followed by `N` rows of six floating-point
 values: `x y z nx ny nz`. There are no implicit millimetre conversions. The
 JSON output declares `transform_convention=T_target_source`; when the source
 is a CAD object and the target is the camera scene, this is the repository's
 `T_camera_object`.
+
+## Fixed configuration
 
 The initial global spike configuration is intentionally fixed before the real
 oracle experiment:

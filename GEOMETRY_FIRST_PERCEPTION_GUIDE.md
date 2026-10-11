@@ -1,5 +1,12 @@
 # Geometry-First 3D Object Detection and Pose Estimation
 
+> This is the original design and evaluation brief, not a description of the
+> current API or a claim that every recommended component is implemented. See
+> the [project README](README.md) and
+> [implementation guide](docs/GEOMETRY_FIRST_PERCEPTION.md) for current behavior,
+> and the [experiment records](experiments/geometry_baseline_summary_v1.md) for
+> measured results.
+
 ## Purpose
 
 This guide describes a geometry-first alternative branch for industrial RGB-D perception. It is intended for implementation and evaluation in an existing repository, not for proposing a new recognition algorithm.

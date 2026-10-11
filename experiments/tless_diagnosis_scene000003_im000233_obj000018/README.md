@@ -2,6 +2,19 @@
 
 This is a diagnostic-only follow-up to the preserved baseline in `experiments/tless_smoke`. Production thresholds and parameters were not changed. No additional T-LESS frames were run, and no YOLO, SAM, masks, or GT pose was passed to production registration.
 
+## Table of Contents
+
+- [Baseline](#baseline)
+- [Why baseline reported zero DBSCAN candidates](#why-baseline-reported-zero-dbscan-candidates)
+- [GT-only oracle cloud and registration](#gt-only-oracle-cloud-and-registration)
+- [Support plane](#support-plane)
+- [Verification metrics](#verification-metrics)
+- [Visual artifacts](#visual-artifacts)
+- [Failure decomposition](#failure-decomposition)
+
+Project context and the experiment index are in the [root README](../../README.md#small-local-bop-t-less-evaluation).
+The preserved input run is the [one-case smoke test](../tless_smoke/README.md).
+
 ## Baseline
 
 The original BOP adapter used `candidate_mode=full`, voxel size `0.005 m`, statistical outlier filtering (`nb_neighbors=20`, `std_ratio=2.0`), RANSAC threshold `0.015 m`, and ICP threshold `0.02 m`. It processed `384,259` scene points, retained `367,497`, and used one full-scene candidate. The accepted false positive had:
@@ -14,7 +27,7 @@ The frozen baseline is [baseline_snapshot.json](baseline_snapshot.json); the ori
 
 ## Why baseline reported zero DBSCAN candidates
 
-It did not run DBSCAN. The BOP adapter defaults `--candidate-mode` to `full` and passes that value into `DetectionConfig`; `_scene_candidates` only calls `cluster_dbscan` for `dbscan` or `full_and_dbscan`. Therefore “DBSCAN candidates: 0” means “DBSCAN was not executed,” not “all points were noise” and not “clusters were rejected.”
+It did not run DBSCAN. The preserved BOP run explicitly used `--candidate-mode=full`; the current adapter default is `geometry_candidates`. `_scene_candidates` only calls `cluster_dbscan` for `dbscan`, `full_and_dbscan`, or `geometry_candidates`. Therefore “DBSCAN candidates: 0” means “DBSCAN was not executed,” not “all points were noise” and not “clusters were rejected.”
 
 The configured diagnostic values were `eps=0.04 m`, `min_points=20`, statistical outlier filtering before clustering, no pre-clustering voxel downsampling, no support-plane removal, and only a minimum cluster check of 3 points in the candidate code. There is no maximum cluster-size filter; the 2,500-point cap applies later during registration.
 

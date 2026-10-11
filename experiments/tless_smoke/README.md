@@ -2,6 +2,19 @@
 
 This is one smoke experiment only. The dataset was not copied into the repository.
 
+## Table of Contents
+
+- [Selection](#selection)
+- [Preflight](#preflight)
+- [Native inference](#native-inference)
+  - [Estimated pose](#estimated-pose)
+  - [Ground-truth pose, read after inference](#ground-truth-pose-read-after-inference)
+- [Artifacts](#artifacts)
+- [Docker](#docker)
+- [Conclusion](#conclusion)
+
+Project context and the experiment index are in the [root README](../../README.md#small-local-bop-t-less-evaluation).
+
 ## Selection
 
 - Dataset: `/home/datasets/bop/tless`

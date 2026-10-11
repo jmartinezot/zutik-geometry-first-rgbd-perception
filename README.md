@@ -4,6 +4,40 @@ This repository contains a runnable geometry-first branch for detecting known CA
 
 The branch was added to a repository that did not contain an existing learned perception implementation, so there is no Grounding DINO/YOLO-World, SAM 2, FoundationPose, ROS, or World Semantic Model interface here to modify or compare against. If those components are added elsewhere, this package can provide a geometry-first pose hypothesis and diagnostics at their integration boundary.
 
+## Table of Contents
+
+- [Documentation map](#documentation-map)
+- [Geometry-first branch versus the learned pipeline](#geometry-first-branch-versus-the-learned-pipeline)
+- [Scope and EHU relationship](#scope-and-ehu-relationship)
+- [Architecture](#architecture)
+- [Frames, units, and rotation convention](#frames-units-and-rotation-convention)
+- [Open3D pipeline and diagnostics](#open3d-pipeline-and-diagnostics)
+- [Native installation](#native-installation)
+- [CLI examples](#cli-examples)
+- [Synthetic scene demonstration](#synthetic-scene-demonstration)
+- [Small local BOP T-LESS evaluation](#small-local-bop-t-less-evaluation)
+  - [Experiment progression](#experiment-progression)
+  - [Learned comparison status](#learned-comparison-status)
+- [Tests](#tests)
+- [Docker](#docker)
+- [Limitations and future integration boundary](#limitations-and-future-integration-boundary)
+
+## Documentation map
+
+This README is the main project entry point. For implementation and data-flow
+details, see the [geometry-first branch guide](docs/GEOMETRY_FIRST_PERCEPTION.md).
+The [original design brief](GEOMETRY_FIRST_PERCEPTION_GUIDE.md) records the
+intended scope and evaluation criteria; it is a proposal, so consult the
+implementation guide and experiment records for current behavior and results.
+
+The [geometry baseline summary](experiments/geometry_baseline_summary_v1.md)
+links the frozen smoke test, candidate and registration diagnoses, validation
+set, and experimental PPF report. The PPF report links to the separate
+[experimental PCL bridge instructions](experimental/ppf_pcl/README.md). The
+[learned-stack audit](experiments/learned_stack_audit_v1.md) and
+[comparison protocol](experiments/learned_comparison_protocol_v1.md) document
+why no learned comparison is reported.
+
 ## Geometry-first branch versus the learned pipeline
 
 The learned perception path in the wider project is conceptually:
@@ -129,7 +163,15 @@ python -m zutik_geometry detect \
   --model-id part-01
 ~~~
 
-Use --remove-support-plane when a dominant tabletop or similar support plane should be removed. --candidate-mode accepts full, dbscan, full_and_dbscan, or geometry_candidates; geometry_candidates is the default for the core CLI and BOP adapter. full remains an explicit diagnostic/backward-compatible mode. Add --world-camera /data/T_world_camera.npy to emit T_world_object using the composition above. The CLI exits with status 0 when at least one model is accepted and status 2 when all requested models are rejected.
+The `detect` and BOP CLI commands enable support-plane removal by default; use
+`--no-remove-support-plane` to disable it. `--candidate-mode` accepts `full`,
+`dbscan`, `full_and_dbscan`, or
+`geometry_candidates`; `geometry_candidates` is the default for the core CLI
+and BOP adapter. `full` remains an explicit diagnostic/backward-compatible
+mode. Add `--world-camera /data/T_world_camera.npy` to emit `T_world_object`
+using the composition above. For the `detect` command, the CLI exits with
+status 0 when at least one model is accepted and status 2 when all requested
+models are rejected.
 
 For BOP T-LESS, model geometry is an explicit inference choice: `--model-representation cad` resolves only `models_cad`, while `--model-representation reconst` resolves only `models_reconst`. There is no fallback and `models_eval` is not an inference source. Both representations use the same BOP model-to-camera pose convention; representation changes the sampled geometry used by registration, not the frame or units. Observed normals are estimated at the configured physical scale and oriented towards the camera by default in the BOP path. Reliable PLY mesh normals are preserved for model representations when present.
 
@@ -164,17 +206,19 @@ Obtain T-LESS using the official BOP distribution instructions or an approved lo
   test/000001/depth/000000.png
 ~~~
 
-For a local installation that supports filtered Hugging Face downloads, the required-file smoke setup can be obtained with:
+For a local installation with Hugging Face Hub access, the required-file smoke
+setup can be obtained with the current
+[`hf` CLI](https://huggingface.co/docs/huggingface_hub/guides/cli):
 
 ~~~bash
 mkdir -p /data/bop
-python -m pip install 'huggingface_hub[cli]'
-huggingface-cli download bop-benchmark/tless \
+python -m pip install --upgrade huggingface_hub
+hf download bop-benchmark/tless \
   --repo-type dataset \
   --local-dir /data/bop/tless \
-  --include 'models_cad/obj_000001.ply' \
-  --include 'test/000001/scene_camera.json' \
-  --include 'test/000001/depth/000000.png'
+  models_cad/obj_000001.ply \
+  test/000001/scene_camera.json \
+  test/000001/depth/000000.png
 ~~~
 
 If the chosen BOP distribution does not expose those paths as individually downloadable files, obtain the official archive and keep only the same model, scene metadata, and depth files in the local root. Verify that the split directory and frame naming match the archive before invoking the adapter.

@@ -14,6 +14,19 @@ The earlier smoke-test and candidate-generation diagnosis directories are
 unchanged. No production registration defaults, candidate-generation defaults,
 learned methods, or T-LESS dataset files were changed.
 
+## Table of Contents
+
+- [Exact production configuration reproduced](#exact-production-configuration-reproduced)
+- [Main evidence](#main-evidence)
+- [Verification evidence](#verification-evidence)
+- [Visual artifacts](#visual-artifacts)
+- [Updated failure decomposition](#updated-failure-decomposition)
+- [Reproduction and test status](#reproduction-and-test-status)
+
+Project context and the experiment index are in the [root README](../../README.md#small-local-bop-t-less-evaluation).
+Earlier records: the [smoke test](../tless_smoke/README.md) and
+[candidate-generation diagnosis](../tless_diagnosis_scene000003_im000233_obj000018/README.md).
+
 All registration experiments here use Open3D 0.20.0 in the existing
 `zutik-geometry:local` image. The standard production model is
 `models_cad/obj_000018.ply`; the `models_reconst` and `models_eval` runs are

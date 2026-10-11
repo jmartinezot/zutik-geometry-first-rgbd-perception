@@ -6,11 +6,24 @@ geometric localization, not a complete detector benchmark: each model ID is
 supplied by the manifest. Ground truth is read only after inference for error
 reporting and the labelled diagnostic overlays.
 
+## Table of Contents
+
+- [Variants](#variants)
+- [Observed results](#observed-results)
+- [Reproduction](#reproduction)
+
+Project context and the experiment index are in the [root README](../../README.md#small-local-bop-t-less-evaluation).
+The frozen evidence timeline is in the [geometry baseline summary](../geometry_baseline_summary_v1.md).
+
+## Variants
+
 Variants:
 
 - `A_baseline_cad_full`: CAD, full filtered scene, historical acceptance without bidirectional verification.
 - `B_geometry_cad`: CAD, support-plane removal, geometry candidates, explicit normal handling, bidirectional verification.
 - `C_geometry_reconst`: reconstructed model with exactly Variant B logic and thresholds.
+
+## Observed results
 
 All geometry is metres internally. The T-LESS model files are millimetres at
 the adapter boundary. `models_eval` and `train_pbr` are not used.
@@ -21,6 +34,8 @@ Observed descriptive result (not a benchmark): A accepted 4/10, B accepted
 161.4 mm, 484.2 mm, and 281.8 mm; these are not accurate-pose
 rates and include false positives. The full per-case evidence is in the CSV
 and JSON files.
+
+## Reproduction
 
 Reproduction command (dataset is mounted read-only and the repository/output
 mount is writable):
